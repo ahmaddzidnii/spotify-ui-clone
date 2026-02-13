@@ -1,4 +1,5 @@
 import { FaPlus } from "react-icons/fa6";
+import { ScrollArea } from "./scroll-area";
 
 const RANDOM_IMAGES = [
   "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8483eb4d87830db91d9d310055",
@@ -52,59 +53,57 @@ export const LeftSidebar = () => {
             </div>
           </div>
         </div>
-        <div className="right-sidebar-container flex-1 relative px-4">
-          <div className="right-sidebar-viewport px-4">
-            <div className="flex flex-col gap-4">
-              <div className="flex">
+        <ScrollArea className="flex-1">
+          <div className="flex flex-col gap-4 px-4 py-4">
+            <div className="flex">
+              <div className="size-12 rounded-md overflow-hidden relative aspect-square">
+                <img
+                  src="https://i.scdn.co/image/ab6761610000e5eb07189aefe72bf176ecd0b2ab"
+                  alt="Playlist cover"
+                  className="object-cover w-full h-full absolute top-0 left-0"
+                />
+              </div>
+              <div className="flex flex-col ms-4">
+                <h2 className="text-base font-medium">Liked Songs</h2>
+                <div className="flex text-text-subdued text-sm">
+                  <svg
+                    role="img"
+                    viewBox="0 0 16 16"
+                    className="size-3 fill-[#1ed760]  mt-1 me-2"
+                  >
+                    <title>Pinned</title>
+                    <path d="M8.822.797a2.72 2.72 0 0 1 3.847 0l2.534 2.533a2.72 2.72 0 0 1 0 3.848l-3.678 3.678-1.337 4.988-4.486-4.486L1.28 15.78a.75.75 0 0 1-1.06-1.06l4.422-4.422L.156 5.812l4.987-1.337z"></path>
+                  </svg>
+                  <p>
+                    Playlist <span>• 3 songs</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            {Array.from({ length: 20 }).map((_, index) => (
+              <div
+                className="flex"
+                key={index}
+              >
                 <div className="size-12 rounded-md overflow-hidden relative aspect-square">
                   <img
-                    src="https://i.scdn.co/image/ab6761610000e5eb07189aefe72bf176ecd0b2ab"
+                    src={RANDOM_IMAGES[index % RANDOM_IMAGES.length]}
                     alt="Playlist cover"
                     className="object-cover w-full h-full absolute top-0 left-0"
                   />
                 </div>
                 <div className="flex flex-col ms-4">
-                  <h2 className="text-base font-medium">Liked Songs</h2>
+                  <h2 className="text-base font-medium">Playlist #{index + 1}</h2>
                   <div className="flex text-text-subdued text-sm">
-                    <svg
-                      role="img"
-                      viewBox="0 0 16 16"
-                      className="size-3 fill-[#1ed760]  mt-1 me-2"
-                    >
-                      <title>Pinned</title>
-                      <path d="M8.822.797a2.72 2.72 0 0 1 3.847 0l2.534 2.533a2.72 2.72 0 0 1 0 3.848l-3.678 3.678-1.337 4.988-4.486-4.486L1.28 15.78a.75.75 0 0 1-1.06-1.06l4.422-4.422L.156 5.812l4.987-1.337z"></path>
-                    </svg>
                     <p>
-                      Playlist <span>• 3 songs</span>
+                      Playlist <span>• ahmaddzidnii</span>
                     </p>
                   </div>
                 </div>
               </div>
-              {Array.from({ length: 20 }).map((_, index) => (
-                <div
-                  className="flex"
-                  key={index}
-                >
-                  <div className="size-12 rounded-md overflow-hidden relative aspect-square">
-                    <img
-                      src={RANDOM_IMAGES[index % RANDOM_IMAGES.length]}
-                      alt="Playlist cover"
-                      className="object-cover w-full h-full absolute top-0 left-0"
-                    />
-                  </div>
-                  <div className="flex flex-col ms-4">
-                    <h2 className="text-base font-medium">Playlist #{index + 1}</h2>
-                    <div className="flex text-text-subdued text-sm">
-                      <p>
-                        Playlist <span>• ahmaddzidnii</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
+            ))}
           </div>
-        </div>
+        </ScrollArea>
       </div>
     </aside>
   );

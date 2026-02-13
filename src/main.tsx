@@ -1,6 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
+import "overlayscrollbars/overlayscrollbars.css";
 import "./styles/main.css";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router";
 import { GlobalNav } from "./components/global-nav.tsx";
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
         {/* Area 2: Sidebar Menu (Kiri) */}
         <LeftSidebar />
 
-        {/* Area 3: Konten Utama (Tengah) */}
+        {/* Area 3: Konten Utama (Teopengah) */}
         <main className="main-view">
           <Outlet />
         </main>

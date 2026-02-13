@@ -215,15 +215,7 @@ body {
   width: var(--left-sidebar-width);
   background-color: var(--background-elevated-base);
   border-radius: 8px;
-  overflow-y: auto;
-}
-
-.left-sidebar::-webkit-scrollbar {
-  width: 8px;
-}
-
-.left-sidebar::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.3);
+  overflow: hidden;
 }
 
 .main-view {
@@ -231,15 +223,7 @@ body {
   background-color: var(--background-elevated-base);
   border-radius: 8px;
   position: relative;
-  overflow-y: auto;
-}
-
-.main-view::-webkit-scrollbar {
-  width: 8px;
-}
-
-.main-view::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.3);
+  overflow: hidden;
 }
 
 .right-sidebar {
@@ -247,76 +231,53 @@ body {
   background-color: var(--background-elevated-base);
   width: 420px;
   border-radius: 8px;
-  overflow-y: auto;
   transition: width 0.3s ease;
-}
-
-.right-sidebar::-webkit-scrollbar {
-  width: 8px;
-}
-
-.right-sidebar::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-/* Overlay Scrollbar Container */
-.right-sidebar-container {
   overflow: hidden;
-  position: relative;
 }
 
-/* Viewport with scroll */
-.right-sidebar-viewport {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  scrollbar-width: thin;
-  scrollbar-color: transparent transparent;
-  transition: scrollbar-color 0.3s ease;
+/* OverlayScrollbars Custom Theme - Spotify Style */
+.os-theme-spotify {
+  --os-size: 12px;
+  --os-padding-perpendicular: 2px;
+  --os-padding-axis: 2px;
+  --os-track-border-radius: 10px;
+  --os-track-bg: transparent;
+  --os-track-bg-hover: transparent;
+  --os-track-bg-active: transparent;
+  --os-handle-border-radius: 10px;
+  --os-handle-bg: rgba(255, 255, 255, 0.3);
+  --os-handle-bg-hover: rgba(255, 255, 255, 0.5);
+  --os-handle-bg-active: rgba(255, 255, 255, 0.5);
 }
 
-/* Show scrollbar on hover or active scroll */
-.right-sidebar-container:hover .right-sidebar-viewport,
-.right-sidebar-viewport:focus-within,
-.right-sidebar-viewport:active {
-  scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+.os-theme-spotify > .os-scrollbar-vertical {
+  width: 12px;
+  padding: 2px;
 }
 
-/* WebKit browsers (Chrome, Safari, Edge) */
-.right-sidebar-viewport::-webkit-scrollbar {
-  width: 20px;
+.os-theme-spotify > .os-scrollbar-horizontal {
+  height: 12px;
+  padding: 2px;
 }
 
-.right-sidebar-viewport::-webkit-scrollbar-track {
+.os-theme-spotify > .os-scrollbar > .os-scrollbar-track > .os-scrollbar-handle {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  transition: background 0.2s;
+}
+
+.os-theme-spotify > .os-scrollbar:hover > .os-scrollbar-track > .os-scrollbar-handle {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.os-theme-spotify > .os-scrollbar > .os-scrollbar-track {
   background: transparent;
 }
 
-.right-sidebar-viewport::-webkit-scrollbar-thumb {
-  background-color: transparent;
-  border-radius: 6px;
-  border: 3px solid transparent;
-  background-clip: padding-box;
-  transition: background-color 0.3s ease;
-}
-
-.right-sidebar-container:hover .right-sidebar-viewport::-webkit-scrollbar-thumb,
-.right-sidebar-viewport:focus-within::-webkit-scrollbar-thumb,
-.right-sidebar-viewport:active::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-.right-sidebar-viewport::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(255, 255, 255, 0.5) !important;
-}
-
-/* Content wrapper */
-.right-sidebar-content {
-  width: 100%;
-  box-sizing: border-box;
+/* Ensure OverlayScrollbars takes full height */
+.os-host,
+.os-viewport {
+  display: block;
 }
 
 .now-playing-bar {
