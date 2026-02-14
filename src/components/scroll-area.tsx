@@ -1,14 +1,34 @@
-import { type ComponentPropsWithoutRef } from "react";
-import { OverlayScrollbarsComponent } from "overlayscrollbars-react";
+import { forwardRef, type ComponentPropsWithoutRef, useImperativeHandle, useRef } from "react";
+import { OverlayScrollbarsComponent, type OverlayScrollbarsComponentRef } from "overlayscrollbars-react";
+import type { OverlayScrollbars } from "overlayscrollbars";
 import "overlayscrollbars/overlayscrollbars.css";
 
-interface ScrollAreaProps extends ComponentPropsWithoutRef<"div"> {
+interface ScrollAreaProps extends Omit<ComponentPropsWithoutRef<"div">, "onScroll"> {
   children: React.ReactNode;
+  onScrollChange?: (scrollTop: number) => void;
 }
 
-export const ScrollArea = ({ children, className = "", ...props }: ScrollAreaProps) => {
+export interface ScrollAreaRef {
+  getScrollElement: () => HTMLElement | null;
+  getOsInstance: () => OverlayScrollbars | null;
+}
+
+export const ScrollArea = forwardRef<ScrollAreaRef, ScrollAreaProps>(({ children, className = "", onScrollChange, ...props }, ref) => {
+  const osRef = useRef<OverlayScrollbarsComponentRef>(null);
+
+  useImperativeHandle(ref, () => ({
+    getScrollElement: () => {
+      const instance = osRef.current?.osInstance();
+      return instance?.elements().viewport || null;
+    },
+    getOsInstance: () => {
+      return osRef.current?.osInstance() || null;
+    },
+  }));
+
   return (
     <OverlayScrollbarsComponent
+      ref={osRef}
       options={{
         scrollbars: {
           autoHide: "move",
@@ -20,7 +40,14 @@ export const ScrollArea = ({ children, className = "", ...props }: ScrollAreaPro
           y: "scroll",
         },
       }}
-      defer
+      events={{
+        scroll: (instance) => {
+          const viewport = instance.elements().viewport;
+          if (onScrollChange && viewport) {
+            onScrollChange(viewport.scrollTop);
+          }
+        },
+      }}
       className={className}
       style={{ height: "100%", width: "100%" }}
       {...props}
@@ -28,4 +55,6 @@ export const ScrollArea = ({ children, className = "", ...props }: ScrollAreaPro
       {children}
     </OverlayScrollbarsComponent>
   );
-};
+});
+
+ScrollArea.displayName = "ScrollArea";

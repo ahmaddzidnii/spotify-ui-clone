@@ -4,91 +4,8 @@
   --font-ui: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --panel-gap: 8px;
   --left-sidebar-width: 420px;
+  --right-sidebar-width: 420px;
 
-  --background-base: #121212;
-  --background-highlight: #1f1f1f;
-  --background-press: #000;
-  --background-elevated-base: #1f1f1f;
-  --background-elevated-highlight: #2a2a2a;
-  --background-elevated-press: #191919;
-  --background-tinted-base: #ffffff1a;
-  --background-tinted-highlight: #ffffff24;
-  --background-tinted-press: #ffffff36;
-  --text-base: #fff;
-  --text-subdued: #b3b3b3;
-  --text-bright-accent: #1ed760;
-  --text-negative: #f3727f;
-  --text-warning: #ffa42b;
-  --text-positive: #1ed760;
-  --text-announcement: #4cb3ff;
-  --essential-base: #fff;
-  --essential-subdued: #7c7c7c;
-  --essential-bright-accent: #1ed760;
-  --essential-negative: #ed2c3f;
-  --essential-warning: #ffa42b;
-  --essential-positive: #1ed760;
-  --essential-announcement: #4cb3ff;
-  --decorative-base: #fff;
-  --decorative-subdued: #292929;
-}
-
-.encore-layout-themes {
-  --encore-text-size-smaller-2: 0.75rem;
-  --encore-text-size-smaller: 0.875rem;
-  --encore-text-size-base: 1rem;
-  --encore-text-size-large: 1.25rem;
-  --encore-text-size-larger: 1.5rem;
-  --encore-text-size-larger-2: 2rem;
-  --encore-text-size-larger-3: 3rem;
-  --encore-text-size-larger-4: 4rem;
-  --encore-text-size-larger-5: 6rem;
-  --encore-border-width-hairline: 1px;
-  --encore-border-width-thin: 2px;
-  --encore-border-width-thick: 4px;
-  --encore-border-width-thicker: 8px;
-  --encore-border-width-focus: 3px;
-  --encore-graphic-size-decorative-smaller-2: 12px;
-  --encore-graphic-size-decorative-smaller: 16px;
-  --encore-graphic-size-decorative-base: 24px;
-  --encore-graphic-size-decorative-larger: 32px;
-  --encore-graphic-size-decorative-larger-2: 40px;
-  --encore-graphic-size-decorative-larger-3: 48px;
-  --encore-graphic-size-decorative-larger-4: 64px;
-  --encore-graphic-size-decorative-larger-5: 88px;
-  --encore-graphic-size-informative-smaller-2: 0.75rem;
-  --encore-graphic-size-informative-smaller: 1rem;
-  --encore-graphic-size-informative-base: 1.5rem;
-  --encore-graphic-size-informative-larger: 2rem;
-  --encore-graphic-size-informative-larger-2: 2.5rem;
-  --encore-graphic-size-informative-larger-3: 3rem;
-  --encore-graphic-size-informative-larger-4: 4rem;
-  --encore-graphic-size-informative-larger-5: 5.5rem;
-  --encore-spacing-tighter-5: 2px;
-  --encore-spacing-tighter-4: 4px;
-  --encore-spacing-tighter-3: 6px;
-  --encore-spacing-tighter-2: 8px;
-  --encore-spacing-tighter: 12px;
-  --encore-spacing-base: 16px;
-  --encore-spacing-looser: 24px;
-  --encore-spacing-looser-2: 32px;
-  --encore-spacing-looser-3: 48px;
-  --encore-spacing-looser-4: 64px;
-  --encore-spacing-looser-5: 96px;
-  --encore-spacing-looser-6: 128px;
-  --encore-control-size-smaller: 32px;
-  --encore-control-size-base: 48px;
-  --encore-control-size-larger: 56px;
-  --encore-layout-margin-tighter: 24px;
-  --encore-layout-margin-base: 32px;
-  --encore-layout-margin-looser: 64px;
-  --encore-corner-radius-smaller: 2px;
-  --encore-corner-radius-base: 4px;
-  --encore-corner-radius-larger: 6px;
-  --encore-corner-radius-larger-2: 8px;
-  --encore-corner-radius-larger-3: 16px;
-}
-
-.encore-dark-theme {
   --background-base: #121212;
   --background-highlight: #1f1f1f;
   --background-press: #000;
@@ -117,9 +34,6 @@
 }
 
 @theme {
-  /* =========================
-     BACKGROUND
-  ========================= */
   --color-background-base: var(--background-base);
   --color-background-highlight: var(--background-highlight);
   --color-background-press: var(--background-press);
@@ -132,9 +46,6 @@
   --color-background-tinted-highlight: var(--background-tinted-highlight);
   --color-background-tinted-press: var(--background-tinted-press);
 
-  /* =========================
-     TEXT
-  ========================= */
   --color-text-base: var(--text-base);
   --color-text-subdued: var(--text-subdued);
   --color-text-bright-accent: var(--text-bright-accent);
@@ -143,9 +54,6 @@
   --color-text-positive: var(--text-positive);
   --color-text-announcement: var(--text-announcement);
 
-  /* =========================
-     ESSENTIAL
-  ========================= */
   --color-essential-base: var(--essential-base);
   --color-essential-subdued: var(--essential-subdued);
   --color-essential-bright-accent: var(--essential-bright-accent);
@@ -154,9 +62,6 @@
   --color-essential-positive: var(--essential-positive);
   --color-essential-announcement: var(--essential-announcement);
 
-  /* =========================
-     DECORATIVE
-  ========================= */
   --color-decorative-base: var(--decorative-base);
   --color-decorative-subdued: var(--decorative-subdued);
 }
@@ -173,6 +78,7 @@ body {
   overflow: hidden;
   font-family: var(--font-ui);
   color: var(--color-text-base);
+  background-color: #000;
 }
 
 .Root {
@@ -218,6 +124,27 @@ body {
   overflow: hidden;
 }
 
+.left-sidebar.full {
+  grid-column: 1 / 3;
+  width: auto;
+  max-width: none;
+}
+
+.right-sidebar.full {
+  grid-column: 2 / 4;
+  width: auto;
+  max-width: none;
+}
+
+.app-shell:has(.left-sidebar.full) .main-view {
+  display: none;
+}
+
+.app-shell:has(.right-sidebar.full) .left-sidebar,
+.app-shell:has(.right-sidebar.full) .main-view {
+  display: none;
+}
+
 .main-view {
   grid-area: main-view;
   background-color: var(--background-elevated-base);
@@ -229,13 +156,13 @@ body {
 .right-sidebar {
   grid-area: right-sidebar;
   background-color: var(--background-elevated-base);
-  width: 420px;
+  width: var(--right-sidebar-width);
   border-radius: 8px;
   transition: width 0.3s ease;
   overflow: hidden;
+  position: relative;
 }
 
-/* OverlayScrollbars Custom Theme - Spotify Style */
 .os-theme-spotify {
   --os-size: 12px;
   --os-padding-perpendicular: 2px;
@@ -244,7 +171,7 @@ body {
   --os-track-bg: transparent;
   --os-track-bg-hover: transparent;
   --os-track-bg-active: transparent;
-  --os-handle-border-radius: 10px;
+  /* --os-handle-border-radius: 10px; */
   --os-handle-bg: rgba(255, 255, 255, 0.3);
   --os-handle-bg-hover: rgba(255, 255, 255, 0.5);
   --os-handle-bg-active: rgba(255, 255, 255, 0.5);
@@ -292,4 +219,54 @@ body {
   [role="button"]:not(:disabled) {
     cursor: pointer;
   }
+}
+
+/* Layout Resizer */
+.layout-resizer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 16px;
+  cursor: grab;
+  user-select: none;
+  z-index: 100;
+}
+
+.layout-resizer-left {
+  left: -8px;
+}
+
+.layout-resizer-right {
+  right: -8px;
+}
+
+.layout-resizer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  background-color: transparent;
+  transition: background-color 0.2s;
+}
+
+.layout-resizer:hover::after {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.layout-resizer:active::after {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.layout-resizer-input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.left-sidebar {
+  position: relative;
 }
