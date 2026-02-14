@@ -5,6 +5,7 @@ import { useNavigate } from "react-router";
 import { useThemeStore } from "./stores/use-theme-store";
 import { useExtractColor } from "./hooks/use-extract-color";
 import { RECENTS } from "./data/recents";
+import { getDateName } from "./utils/get-day-name";
 
 function App() {
   const scrollRef = useRef<ScrollAreaRef | null>(null);
@@ -70,7 +71,7 @@ function App() {
                 return (
                   <div
                     key={r.id}
-                    className="h-12 bg-background-tinted-base rounded-sm overflow-hidden cursor-pointer hover:bg-background-tinted-highlight transition-colors"
+                    className="h-12 bg-background-tinted-base rounded-sm overflow-hidden cursor-pointer hover:bg-[#fff3] transition-colors relative group"
                     onMouseEnter={() => handleCardHover(r.imageUrl)}
                     onClick={() => handleCardClick(r.href)}
                   >
@@ -85,6 +86,15 @@ function App() {
                       </div>
                       <span className="line-clamp-2  ms-2">{r.title}</span>
                     </div>
+                    <button className="flex items-center justify-center bg-[#1ed760] p-2 rounded-full w-8 h-8 absolute right-2 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity">
+                      <svg
+                        role="img"
+                        viewBox="0 0 16 16"
+                        className="w-4 h-4 fill-background-base"
+                      >
+                        <path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288z"></path>
+                      </svg>
+                    </button>
                   </div>
                 );
               })}
@@ -92,7 +102,7 @@ function App() {
           </section>
           <section>
             <div className="flex justify-between">
-              <h2 className="text-2xl hover:underline font-semibold mb-4">It's New Music Friday</h2>
+              <h2 className="text-2xl hover:underline font-semibold mb-4">It's New Music {getDateName(new Date())}</h2>
               <span className="text-base font-medium text-text-subdued hover:underline">Show all</span>
             </div>
             <div className="grid grid-cols-4 gap-4">
@@ -103,13 +113,22 @@ function App() {
                     key={index}
                     className="flex flex-col cursor-pointer group"
                   >
-                    <div className="relative w-full rounded-md overflow-hidden pb-[100%] mb-2">
+                    <div className="relative w-full rounded-md overflow-hidden pb-[100%] mb-2 group">
                       <img
                         src={imageSrc}
                         alt="Playlist cover"
                         className="object-cover w-full h-full absolute top-0 left-0"
                         crossOrigin="anonymous"
                       />
+                      <button className="flex items-center justify-center bg-[#1ed760] p-2 rounded-full w-12 h-12 absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                        <svg
+                          role="img"
+                          viewBox="0 0 16 16"
+                          className="w-6 h-6 fill-background-base"
+                        >
+                          <path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288z"></path>
+                        </svg>
+                      </button>
                     </div>
                     <span className="font-medium text-sm line-clamp-2 group-hover:underline">New Music Friday Indonesia {index + 1}</span>
                     <span className="text-text-subdued text-xs line-clamp-1">Various Artists</span>

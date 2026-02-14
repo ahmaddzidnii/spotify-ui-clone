@@ -23,6 +23,7 @@ export const RightSidebar = () => {
       className={cn("right-sidebar @container/right-sidebar", "transition-[width] duration-300", isFull && "full")}
     >
       {/* Button Collapse */}
+
       <Button
         variant="tertiary"
         className={cn(
@@ -48,27 +49,30 @@ export const RightSidebar = () => {
       >
         <div className="px-4">
           <div className="flex items-center h-16 py-2">
-            <Button
-              className="p-2"
-              aria-label="Collapse"
-              variant="tertiary"
-              onClick={handleCollapse}
-            >
-              <svg
-                role="img"
-                viewBox="0 0 16 16"
-                className="fill-current size-4"
+            {!isFull && (
+              <Button
+                className="p-2 mr-3"
+                aria-label="Collapse"
+                variant="tertiary"
+                onClick={handleCollapse}
               >
-                <path d="M5.03 10.53a.75.75 0 1 1-1.06-1.06L5.44 8 3.97 6.53a.75.75 0 0 1 1.06-1.06l2 2a.75.75 0 0 1 0 1.06z"></path>
-                <path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1zm.5 1.5h8v13h-8zm13 13H11v-13h3.5z"></path>
-              </svg>
-            </Button>
-            <div className="ms-3">
+                <svg
+                  role="img"
+                  viewBox="0 0 16 16"
+                  className="fill-current size-4"
+                >
+                  <path d="M5.03 10.53a.75.75 0 1 1-1.06-1.06L5.44 8 3.97 6.53a.75.75 0 0 1 1.06-1.06l2 2a.75.75 0 0 1 0 1.06z"></path>
+                  <path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1zm.5 1.5h8v13h-8zm13 13H11v-13h3.5z"></path>
+                </svg>
+              </Button>
+            )}
+
+            <div>
               <Link
                 to="/"
                 className="text-base font-bold"
               >
-                Cerito Loro
+                Banyu Moto
               </Link>
             </div>
             <div className="flex gap-2 ms-auto">
