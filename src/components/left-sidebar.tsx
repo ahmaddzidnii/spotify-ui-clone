@@ -11,11 +11,32 @@ const RANDOM_IMAGES = [
   "https://mosaic.scdn.co/300/ab6761610000e5eb07189aefe72bf176ecd0b2abab67616d00001e025630e188f3ff752d38f97087ab67616d00001e02be7982704b25a460843a308bab67616d00001e02d67195a1fc32eae4835450ae",
 ];
 
-export const LeftSidebar = () => {
-  const [isFull, setIsFull] = useState(false);
-  const [isCollapsed, setIsCollapsed] = useState(false);
+interface LeftSidebarProps {
+  width?: number;
+  onWidthChange?: (width: number) => void;
+  isCollapsed?: boolean;
+  onCollapse?: () => void;
+  onExpand?: () => void;
+}
 
-  const sidebarWidth = isCollapsed ? 72 : 420;
+export const LeftSidebar = ({
+  width: externalWidth,
+  onWidthChange: _onWidthChange,
+  isCollapsed: externalCollapsed,
+  onCollapse,
+  onExpand,
+}: LeftSidebarProps) => {
+  const [isFull, setIsFull] = useState(false);
+  const isCollapsed = externalCollapsed ?? false;
+  const sidebarWidth = externalWidth ?? (isCollapsed ? 72 : 420);
+
+  const handleCollapse = () => {
+    if (isCollapsed && onExpand) {
+      onExpand();
+    } else if (!isCollapsed && onCollapse) {
+      onCollapse();
+    }
+  };
 
   return (
     <aside
@@ -29,7 +50,7 @@ export const LeftSidebar = () => {
               <Button
                 variant="tertiary"
                 className="p-2"
-                onClick={() => setIsCollapsed((prev) => !prev)}
+                onClick={handleCollapse}
               >
                 <svg
                   role="img"
@@ -76,7 +97,7 @@ export const LeftSidebar = () => {
             <Button
               variant="tertiary"
               className="p-2"
-              onClick={() => setIsCollapsed((prev) => !prev)}
+              onClick={handleCollapse}
             >
               <svg
                 role="img"

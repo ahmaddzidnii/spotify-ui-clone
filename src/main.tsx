@@ -1,4 +1,4 @@
-import { StrictMode } from "react";
+import { StrictMode, useState } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
 import "overlayscrollbars/overlayscrollbars.css";
@@ -11,17 +11,44 @@ import { NowPlayingBar } from "./components/now-playing-bar.tsx";
 import { MainView } from "./components/main-view.tsx";
 
 const Layout = () => {
+  const [leftSidebarWidth, setLeftSidebarWidth] = useState(420);
+  const [rightSidebarWidth, setRightSidebarWidth] = useState(420);
+  const [isLeftCollapsed, setIsLeftCollapsed] = useState(false);
+
+  const handleLeftCollapse = () => {
+    setIsLeftCollapsed(true);
+    setLeftSidebarWidth(72);
+  };
+
+  const handleLeftExpand = () => {
+    setIsLeftCollapsed(false);
+    setLeftSidebarWidth(420);
+  };
+
   return (
     <div
       className="app-shell"
-      // onContextMenu={(e) => {
-      //   e.preventDefault();
-      // }}
+      onContextMenu={(e) => {
+        e.preventDefault();
+      }}
     >
       <GlobalNav />
-      <LeftSidebar />
-      <MainView />
-      <RightSidebar />
+      <LeftSidebar
+        width={leftSidebarWidth}
+        onWidthChange={setLeftSidebarWidth}
+        isCollapsed={isLeftCollapsed}
+        onCollapse={handleLeftCollapse}
+        onExpand={handleLeftExpand}
+      />
+      <MainView
+        onLeftResize={setLeftSidebarWidth}
+        onRightResize={setRightSidebarWidth}
+        onLeftCollapse={handleLeftCollapse}
+      />
+      <RightSidebar
+        width={rightSidebarWidth}
+        onWidthChange={setRightSidebarWidth}
+      />
       <NowPlayingBar />
     </div>
   );

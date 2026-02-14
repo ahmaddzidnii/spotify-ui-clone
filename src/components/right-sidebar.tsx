@@ -4,15 +4,24 @@ import { useState, type CSSProperties } from "react";
 import { cn } from "@/utils/cn";
 import { Button } from "./ui/button";
 
-export const RightSidebar = () => {
+interface RightSidebarProps {
+  width?: number;
+  onWidthChange?: (width: number) => void;
+}
+
+export const RightSidebar = ({ width: externalWidth, onWidthChange }: RightSidebarProps) => {
   const [isFull, setIsFull] = useState(false);
 
   const [isCollapsed, setIsCollapsed] = useState(false);
 
-  const sidebarWidth = isCollapsed ? 40 : 420;
+  const internalWidth = isCollapsed ? 40 : 420;
+  const sidebarWidth = externalWidth ?? internalWidth;
 
   const handleCollapse = () => {
     setIsCollapsed((prev) => !prev);
+    if (onWidthChange) {
+      onWidthChange(!isCollapsed ? 40 : 420);
+    }
   };
 
   return (
@@ -30,7 +39,6 @@ export const RightSidebar = () => {
         onClick={handleCollapse}
       >
         <svg
-          data-encore-id="icon"
           role="img"
           viewBox="0 0 16 16"
           className="size-6 fill-current"
