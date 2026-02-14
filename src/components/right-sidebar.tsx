@@ -3,25 +3,18 @@ import { ScrollArea } from "./scroll-area";
 import { useState, type CSSProperties } from "react";
 import { cn } from "@/utils/cn";
 import { Button } from "./ui/button";
+import { useSidebarStore } from "@/stores/use-sidebar-store";
 
-interface RightSidebarProps {
-  width?: number;
-  onWidthChange?: (width: number) => void;
-}
-
-export const RightSidebar = ({ width: externalWidth, onWidthChange }: RightSidebarProps) => {
+export const RightSidebar = () => {
   const [isFull, setIsFull] = useState(false);
-
   const [isCollapsed, setIsCollapsed] = useState(false);
 
-  const internalWidth = isCollapsed ? 40 : 420;
-  const sidebarWidth = externalWidth ?? internalWidth;
+  const sidebarWidth = useSidebarStore((state) => state.rightSidebarWidth);
+  const setRightSidebarWidth = useSidebarStore((state) => state.setRightSidebarWidth);
 
   const handleCollapse = () => {
     setIsCollapsed((prev) => !prev);
-    if (onWidthChange) {
-      onWidthChange(!isCollapsed ? 40 : 420);
-    }
+    setRightSidebarWidth(!isCollapsed ? 40 : 420);
   };
 
   return (

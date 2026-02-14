@@ -3,6 +3,7 @@ import { ScrollArea } from "./scroll-area";
 import { useState, type CSSProperties } from "react";
 import { cn } from "@/utils/cn";
 import { Button } from "./ui/button";
+import { useSidebarStore } from "@/stores/use-sidebar-store";
 
 const RANDOM_IMAGES = [
   "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8483eb4d87830db91d9d310055",
@@ -11,31 +12,14 @@ const RANDOM_IMAGES = [
   "https://mosaic.scdn.co/300/ab6761610000e5eb07189aefe72bf176ecd0b2abab67616d00001e025630e188f3ff752d38f97087ab67616d00001e02be7982704b25a460843a308bab67616d00001e02d67195a1fc32eae4835450ae",
 ];
 
-interface LeftSidebarProps {
-  width?: number;
-  onWidthChange?: (width: number) => void;
-  isCollapsed?: boolean;
-  onCollapse?: () => void;
-  onExpand?: () => void;
-}
-
-export const LeftSidebar = ({
-  width: externalWidth,
-  onWidthChange: _onWidthChange,
-  isCollapsed: externalCollapsed,
-  onCollapse,
-  onExpand,
-}: LeftSidebarProps) => {
+export const LeftSidebar = () => {
   const [isFull, setIsFull] = useState(false);
-  const isCollapsed = externalCollapsed ?? false;
-  const sidebarWidth = externalWidth ?? (isCollapsed ? 72 : 420);
+
+  const sidebarWidth = useSidebarStore((state) => state.leftSidebarWidth);
+  const toggleLeftCollapse = useSidebarStore((state) => state.toggleLeftCollapse);
 
   const handleCollapse = () => {
-    if (isCollapsed && onExpand) {
-      onExpand();
-    } else if (!isCollapsed && onCollapse) {
-      onCollapse();
-    }
+    toggleLeftCollapse();
   };
 
   return (

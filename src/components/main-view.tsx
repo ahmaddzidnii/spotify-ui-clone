@@ -1,82 +1,21 @@
 import { Outlet } from "react-router";
-import { useRef, useState, useEffect } from "react";
+import { useSidebarResize } from "@/hooks/use-sidebar-resize";
 
-interface MainViewProps {
-  onLeftResize?: (width: number) => void;
-  onRightResize?: (width: number) => void;
-  onLeftCollapse?: () => void;
-}
+export const MainView = () => {
+  // Left sidebar resize hook
+  const { handleMouseDown: handleLeftMouseDown } = useSidebarResize({
+    side: "left",
+    minWidth: 72,
+    maxWidth: 420,
+    collapseThreshold: 280,
+  });
 
-export const MainView = ({ onLeftResize, onRightResize, onLeftCollapse }: MainViewProps) => {
-  const [isDraggingLeft, setIsDraggingLeft] = useState(false);
-  const [isDraggingRight, setIsDraggingRight] = useState(false);
-  const startXRef = useRef(0);
-  const startWidthRef = useRef(0);
-
-  const handleLeftMouseDown = (e: React.MouseEvent) => {
-    setIsDraggingLeft(true);
-    startXRef.current = e.clientX;
-    const leftSidebar = document.querySelector(".left-sidebar") as HTMLElement;
-    if (leftSidebar) {
-      const computed = getComputedStyle(leftSidebar);
-      const width = computed.getPropertyValue("--left-sidebar-width");
-      startWidthRef.current = parseInt(width) || 420;
-    }
-    document.body.style.cursor = "grab";
-    document.body.style.userSelect = "none";
-  };
-
-  const handleRightMouseDown = (e: React.MouseEvent) => {
-    setIsDraggingRight(true);
-    startXRef.current = e.clientX;
-    const rightSidebar = document.querySelector(".right-sidebar") as HTMLElement;
-    if (rightSidebar) {
-      const computed = getComputedStyle(rightSidebar);
-      const width = computed.getPropertyValue("--right-sidebar-width");
-      startWidthRef.current = parseInt(width) || 420;
-    }
-    document.body.style.cursor = "grab";
-    document.body.style.userSelect = "none";
-  };
-
-  useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
-      if (isDraggingLeft) {
-        const diff = e.clientX - startXRef.current;
-        const newWidth = Math.max(72, Math.min(420, startWidthRef.current + diff));
-
-        // If user tries to go below 280px, trigger collapse
-        if (newWidth < 280 && onLeftCollapse) {
-          onLeftCollapse();
-        } else if (onLeftResize) {
-          onLeftResize(Math.max(280, newWidth));
-        }
-      } else if (isDraggingRight) {
-        const diff = startXRef.current - e.clientX;
-        // Right sidebar min width 280px (no auto-collapse)
-        const newWidth = Math.max(280, Math.min(420, startWidthRef.current + diff));
-        if (onRightResize) {
-          onRightResize(newWidth);
-        }
-      }
-    };
-
-    const handleMouseUp = () => {
-      setIsDraggingLeft(false);
-      setIsDraggingRight(false);
-      document.body.style.cursor = "";
-      document.body.style.userSelect = "";
-    };
-
-    if (isDraggingLeft || isDraggingRight) {
-      window.addEventListener("mousemove", handleMouseMove);
-      window.addEventListener("mouseup", handleMouseUp);
-      return () => {
-        window.removeEventListener("mousemove", handleMouseMove);
-        window.removeEventListener("mouseup", handleMouseUp);
-      };
-    }
-  }, [isDraggingLeft, isDraggingRight, onLeftResize, onRightResize, onLeftCollapse]);
+  // Right sidebar resize hook
+  const { handleMouseDown: handleRightMouseDown } = useSidebarResize({
+    side: "right",
+    minWidth: 280,
+    maxWidth: 420,
+  });
 
   return (
     <main className="main-view @container/main-view">
