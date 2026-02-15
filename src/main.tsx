@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { createBrowserRouter, RouterProvider, useParams } from "react-router";
+import { createBrowserRouter, Link, RouterProvider, useParams } from "react-router";
 
 import { MainView } from "./components/main-view.tsx";
 import { GlobalNav } from "./components/global-nav.tsx";
@@ -60,12 +60,12 @@ const router = createBrowserRouter([
         <h1 className="text-3xl font-bold">Page Not Found</h1>
         <p className="text-text-subdued">The page you are looking for does not exist.</p>
         <button>
-          <a
-            href="/"
+          <Link
+            to="/"
             className="px-4 py-2 bg-[#1ed760] text-black font-bold rounded-full hover:bg-green-600 transition-colors"
           >
             Go to Home
-          </a>
+          </Link>
         </button>
       </div>
     ),

@@ -1,16 +1,39 @@
 import { Link } from "react-router";
 import { ScrollArea } from "./scroll-area";
-import { useState, type CSSProperties } from "react";
+import { useState, useEffect, type CSSProperties } from "react";
 import { cn } from "@/utils/cn";
 import { Button } from "./ui/button";
 import { useSidebarStore } from "@/stores/use-sidebar-store";
+import { FastAverageColor } from "fast-average-color";
 
 export const RightSidebar = () => {
   const [isFull, setIsFull] = useState(false);
   const [isCollapsed, setIsCollapsed] = useState(false);
+  const [bgColor, setBgColor] = useState("rgb(83, 83, 83)");
 
   const sidebarWidth = useSidebarStore((state) => state.rightSidebarWidth);
   const setRightSidebarWidth = useSidebarStore((state) => state.setRightSidebarWidth);
+
+  const imageUrl = "https://i.scdn.co/image/ab67616d0000b2730f94886d67ae4e92a92b2281";
+  // const imageUrl = " https://i.scdn.co/image/ab6761610000e5eb07189aefe72bf176ecd0b2ab";
+
+  useEffect(() => {
+    const fac = new FastAverageColor();
+    const img = new Image();
+    img.crossOrigin = "Anonymous";
+    img.src = imageUrl;
+
+    img.onload = () => {
+      try {
+        const color = fac.getColor(img);
+        setBgColor(color.rgb);
+      } catch (error) {
+        console.error("Error extracting color:", error);
+      } finally {
+        fac.destroy();
+      }
+    };
+  }, [imageUrl]);
 
   const handleCollapse = () => {
     setIsCollapsed((prev) => !prev);
@@ -20,7 +43,7 @@ export const RightSidebar = () => {
   return (
     <aside
       style={{ "--right-sidebar-width": `${sidebarWidth}px` } as CSSProperties}
-      className={cn("right-sidebar @container/right-sidebar", "transition-[width] duration-300", isFull && "full")}
+      className={cn("right-sidebar @container/right-sidebar", isFull && "full")}
     >
       {/* Button Collapse */}
 
@@ -41,10 +64,12 @@ export const RightSidebar = () => {
         </svg>
       </Button>
 
+      {/* Ui saat display tidak full */}
       <div
         className={cn(
           "h-full flex flex-col",
           "@max-[60px]/right-sidebar:hidden", // sembunyikan saat <= 60px
+          "@min-[421px]/right-sidebar:hidden",
         )}
       >
         <div className="px-4">
@@ -112,7 +137,7 @@ export const RightSidebar = () => {
           <div className="px-4 py-4">
             <div className="w-full aspect-square overflow-hidden rounded-lg relative xl:max-w-96 mx-auto">
               <img
-                src="https://i.scdn.co/image/ab67616d0000b2730f94886d67ae4e92a92b2281"
+                src={imageUrl}
                 className="absolute top-0 left-0 w-full h-full object-cover"
               />
             </div>
@@ -219,6 +244,77 @@ export const RightSidebar = () => {
               </div>
             </div>
           </div>
+        </ScrollArea>
+      </div>
+
+      {/* Ui saat full screen mode */}
+      <div className="flex flex-col h-full @max-[421px]/right-sidebar:hidden relative z-0">
+        <div
+          style={
+            {
+              "--cinema-mode-bg-color-from": bgColor,
+              backgroundColor: bgColor,
+              backgroundImage: `
+    linear-gradient(
+      to bottom,
+      var(--cinema-mode-bg-color-from),
+      var(--cinema-mode-bg-color-from)
+    )
+  `,
+            } as CSSProperties
+          }
+          className="h-[calc(100vh-var(--panel-gap)*2)] absolute  inset-0 -z-1  transition-[background] duration-300"
+        ></div>
+        <ScrollArea className="flex-1 px-6 ">
+          <div className="flex items-center h-16 py-2 sticky top-0 w-full bg-transparent">
+            <div>
+              <Link
+                to="/"
+                className="text-base font-bold"
+              >
+                Banyu Moto
+              </Link>
+            </div>
+            <div className="flex gap-2 ms-auto">
+              <Button
+                aria-label="More option"
+                className="p-2"
+                variant="tertiary"
+              >
+                <svg
+                  role="img"
+                  viewBox="0 0 16 16"
+                  className="size-4 fill-current"
+                >
+                  <path d="M3 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m6.5 0a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0M16 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"></path>
+                </svg>
+              </Button>
+              <Button
+                aria-label="Full screen"
+                className="p-2"
+                variant="tertiary"
+                onClick={() => {
+                  setIsFull((prev) => !prev);
+                }}
+              >
+                <svg
+                  role="img"
+                  viewBox="0 0 16 16"
+                  className="size-4 fill-current"
+                >
+                  <path d="M14.53 1.47a.75.75 0 0 1 0 1.06l-2.72 2.72h1.018a.75.75 0 1 1 0 1.5H9.25V3.171a.75.75 0 1 1 1.5 0V4.19l2.72-2.72a.75.75 0 0 1 1.06 0M1.47 14.53a.75.75 0 0 1 0-1.06l2.72-2.72H3.171a.75.75 0 0 1 0-1.5H6.75v3.579a.75.75 0 1 1-1.5 0V11.81l-2.72 2.72a.75.75 0 0 1-1.06 0"></path>
+                </svg>
+              </Button>
+            </div>
+          </div>
+          <section>
+            <div className="w-full aspect-square overflow-hidden rounded-2xl relative xl:max-w-[420px] mx-auto">
+              <img
+                src={imageUrl}
+                className="absolute top-0 left-0 w-full h-full object-cover"
+              />
+            </div>
+          </section>
         </ScrollArea>
       </div>
     </aside>

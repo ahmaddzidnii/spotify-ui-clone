@@ -92,7 +92,12 @@ export const GlobalNav = () => {
               </svg>
             </Button>
           </div>
-          <button className="size-12 flex items-center justify-center">
+          <button
+            onClick={() => {
+              window.open("https://github.com/ahmaddzidnii", "_blank", "noopener,noreferrer");
+            }}
+            className="size-12 flex items-center justify-center"
+          >
             <span className="bg-[#f573a0] w-8 h-8 text-semibold rounded-full flex items-center justify-center text-background-elevated-base font-bold">
               A
             </span>
