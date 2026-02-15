@@ -1,8 +1,8 @@
 import { Link } from "react-router";
 import { FaHome, FaSearch } from "react-icons/fa";
 
-import { SpotifyLogo } from "./logo";
-import { Button } from "./ui/button";
+import { SpotifyLogo } from "@/components/logo";
+import { Button } from "@/components/ui/button";
 
 export const GlobalNav = () => {
   return (

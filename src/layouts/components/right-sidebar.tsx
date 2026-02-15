@@ -1,8 +1,9 @@
 import { Link } from "react-router";
-import { ScrollArea } from "./scroll-area";
+import { ScrollArea } from "@/components/scroll-area";
+import { Image as OptimizedImage } from "@/components/image";
 import { useState, useEffect, type CSSProperties } from "react";
 import { cn } from "@/utils/cn";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
 import { useSidebarStore } from "@/stores/use-sidebar-store";
 import { FastAverageColor } from "fast-average-color";
 
@@ -136,8 +137,9 @@ export const RightSidebar = () => {
         <ScrollArea className="flex-1">
           <div className="px-4 py-4">
             <div className="w-full aspect-square overflow-hidden rounded-lg relative xl:max-w-96 mx-auto">
-              <img
+              <OptimizedImage
                 src={imageUrl}
+                alt="Album cover"
                 className="absolute top-0 left-0 w-full h-full object-cover"
               />
             </div>
@@ -218,8 +220,9 @@ export const RightSidebar = () => {
               <div className="flex flex-col">
                 <div className="flex">
                   <div className="relative w-12 h-12 aspect-square rounded-sm overflow-hidden flex shrink-0 me-4">
-                    <img
+                    <OptimizedImage
                       src="https://i.scdn.co/image/ab67616d00001e02d7105ffabf2ff9ddd265eab1"
+                      alt="Queue item cover"
                       className="absolute w-full top-0 bottom-0"
                     />
                   </div>
@@ -309,8 +312,9 @@ export const RightSidebar = () => {
           </div>
           <section>
             <div className="w-full aspect-square overflow-hidden rounded-2xl relative xl:max-w-[420px] mx-auto">
-              <img
+              <OptimizedImage
                 src={imageUrl}
+                alt="Album cover"
                 className="absolute top-0 left-0 w-full h-full object-cover"
               />
             </div>

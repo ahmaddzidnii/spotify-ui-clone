@@ -1,13 +1,14 @@
 import { useRef } from "react";
-import { ScrollArea, type ScrollAreaRef } from "./components/scroll-area";
-import { useScrollTrigger } from "./hooks/use-scroll-trigger";
 import { useNavigate } from "react-router";
-import { useThemeStore } from "./stores/use-theme-store";
-import { useExtractColor } from "./hooks/use-extract-color";
-import { RECENTS } from "./data/recents";
-import { getDateName } from "./utils/get-day-name";
+import { ScrollArea, type ScrollAreaRef } from "@/components/scroll-area";
+import { Image } from "@/components/image";
+import { useScrollTrigger } from "@/hooks/use-scroll-trigger";
+import { useThemeStore } from "@/stores/use-theme-store";
+import { useExtractColor } from "@/hooks/use-extract-color";
+import { RECENTS } from "@/data/recents";
+import { getDateName } from "@/utils/get-day-name";
 
-function App() {
+export const HomePage = () => {
   const scrollRef = useRef<ScrollAreaRef | null>(null);
   const isScrolled = useScrollTrigger(scrollRef, 10);
 
@@ -77,11 +78,10 @@ function App() {
                   >
                     <div className="text-sm font-medium flex items-center h-full">
                       <div className="relative w-12 h-12 aspect-square">
-                        <img
+                        <Image
                           src={r.imageUrl}
                           alt="Playlist cover"
                           className="object-cover w-full h-full absolute top-0 left-0"
-                          crossOrigin="anonymous"
                         />
                       </div>
                       <span className="line-clamp-2  ms-2">{r.title}</span>
@@ -114,11 +114,10 @@ function App() {
                     className="flex flex-col cursor-pointer group"
                   >
                     <div className="relative w-full rounded-md overflow-hidden pb-[100%] mb-2 group">
-                      <img
+                      <Image
                         src={imageSrc}
                         alt="Playlist cover"
                         className="object-cover w-full h-full absolute top-0 left-0"
-                        crossOrigin="anonymous"
                       />
                       <button className="flex items-center justify-center bg-[#1ed760] p-2 rounded-full w-12 h-12 absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
                         <svg
@@ -141,6 +140,4 @@ function App() {
       </ScrollArea>
     </div>
   );
-}
-
-export default App;
+};

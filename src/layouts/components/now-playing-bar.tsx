@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Image } from "@/components/image";
 
 import { PlayerControls } from "./player-controls";
 import { useEffect, useState } from "react";
@@ -32,7 +33,7 @@ export const NowPlayingBar = () => {
         <div className="w-[30%] min-w-[180px]">
           <div className="flex items-center gap-3">
             <div className="w-14 h-14 rounded overflow-hidden flex-shrink-0">
-              <img
+              <Image
                 className="w-full h-full object-cover"
                 src="https://i.scdn.co/image/ab67616d0000b2730f94886d67ae4e92a92b2281"
                 alt="Album cover"

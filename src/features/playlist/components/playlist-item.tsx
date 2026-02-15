@@ -1,4 +1,5 @@
 import type { Playlist } from "@/data/playlists";
+import { Image } from "@/components/image";
 
 interface PlaylistItemProps {
   playlist: Playlist;
@@ -11,7 +12,7 @@ export const PlaylistItem = ({ playlist }: PlaylistItemProps) => {
       className="group hover:bg-background-elevated-highlight rounded-md @min-[280px]/left-sidebar:p-2 flex @min-[421px]/left-sidebar:flex-col @min-[421px]/left-sidebar:gap-2"
     >
       <div className="w-12 rounded-md overflow-hidden relative aspect-square @min-[421px]/left-sidebar:w-full">
-        <img
+        <Image
           src={playlist.coverImage}
           alt={`${playlist.title} cover`}
           className="object-cover w-full h-full absolute top-0 left-0"

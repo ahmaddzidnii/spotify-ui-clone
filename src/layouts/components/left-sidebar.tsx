@@ -1,10 +1,10 @@
 import { FaPlus } from "react-icons/fa6";
-import { ScrollArea } from "./scroll-area";
+import { ScrollArea } from "@/components/scroll-area";
 import { useState, type CSSProperties } from "react";
 import { cn } from "@/utils/cn";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
 import { useSidebarStore } from "@/stores/use-sidebar-store";
-import { PlaylistItem } from "./playlist-item";
+import { PlaylistItem } from "@/features/playlist/components/playlist-item";
 import { likedSongs, playlists } from "@/data/playlists";
 
 export const LeftSidebar = () => {
