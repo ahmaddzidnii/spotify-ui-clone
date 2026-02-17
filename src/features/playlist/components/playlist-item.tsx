@@ -1,12 +1,15 @@
 import type { Playlist } from "@/data/playlists";
 import { Image } from "@/components/image";
+import { Tooltip } from "@/components/ui/tooltip";
+import { useSidebarCollapsed } from "@/stores/use-sidebar-store";
 
 interface PlaylistItemProps {
   playlist: Playlist;
 }
 
 export const PlaylistItem = ({ playlist }: PlaylistItemProps) => {
-  return (
+  const isCollapsed = useSidebarCollapsed("left");
+  const element = (
     <div
       role="button"
       className="group hover:bg-background-elevated-highlight rounded-md @min-[280px]/left-sidebar:p-2 flex @min-[421px]/left-sidebar:flex-col @min-[421px]/left-sidebar:gap-2"
@@ -59,5 +62,16 @@ export const PlaylistItem = ({ playlist }: PlaylistItemProps) => {
         </div>
       </div>
     </div>
+  );
+
+  return isCollapsed ? (
+    <Tooltip
+      content={playlist.title}
+      side="right"
+    >
+      {element}
+    </Tooltip>
+  ) : (
+    element
   );
 };

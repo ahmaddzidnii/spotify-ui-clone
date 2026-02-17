@@ -9,8 +9,14 @@ export const LayoutProvider = ({ children }: { children: React.ReactNode }) => {
   useEffect(() => {
     const left = useSidebarStore.getState().sidebars.left;
     const right = useSidebarStore.getState().sidebars.right;
+    const { setWidth } = useSidebarStore.getState();
 
     if (!isSmallScreen) return;
+
+    if (!left.isCollapsed && !right.isCollapsed) {
+      setWidth("left", 280);
+      setWidth("right", 280);
+    }
 
     if (!left.isCollapsed) {
       if (right.isCollapsed) {
