@@ -110,7 +110,7 @@ body {
 
 .left-sidebar {
   grid-area: left-sidebar;
-  width: var(--left-sidebar-width);
+  width: calc(var(--left-sidebar-width, 420) * 1px);
   background-color: var(--background-elevated-base);
   border-radius: 8px;
   overflow: hidden;
@@ -147,15 +147,6 @@ body {
   overflow: hidden;
 }
 
-/* .app-shell:has(.left-sidebar.full) .main-view {
-  display: none;
-}
-
-.app-shell:has(.right-sidebar.full) .left-sidebar,
-.app-shell:has(.right-sidebar.full) .main-view {
-  display: none;
-} */
-
 .main-view {
   grid-area: main-view;
   background-color: var(--background-elevated-base);
@@ -167,7 +158,7 @@ body {
 .right-sidebar {
   grid-area: right-sidebar;
   background-color: var(--background-elevated-base);
-  width: var(--right-sidebar-width);
+  width: calc(var(--right-sidebar-width, 420) * 1px);
   border-radius: 8px;
   transition: width 0.3s ease;
   overflow: hidden;

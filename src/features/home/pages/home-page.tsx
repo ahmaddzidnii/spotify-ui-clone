@@ -32,7 +32,7 @@ export const HomePage = () => {
         className="w-full h-64  mt-0 absolute top-0 left-0 pointer-events-none transition-colors duration-300 ease-in-out z-0"
         style={{
           backgroundColor: dominantColor,
-          backgroundImage: "linear-gradient(#0009 0%, var(--background-base) 100%), var(--background-noise)",
+          backgroundImage: "linear-gradient(#0009 0%, var(--background-elevated-base) 100%), var(--background-noise)",
         }}
       ></div>
       <ScrollArea

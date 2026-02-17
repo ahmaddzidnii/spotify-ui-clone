@@ -43,7 +43,7 @@ export const RightSidebar = () => {
 
   return (
     <aside
-      style={{ "--right-sidebar-width": `${sidebarWidth}px` } as CSSProperties}
+      style={{ "--right-sidebar-width": `${sidebarWidth}` } as CSSProperties}
       className={cn("right-sidebar @container/right-sidebar", isFull && "full")}
     >
       {/* Button Collapse */}

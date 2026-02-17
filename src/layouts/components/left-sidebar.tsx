@@ -19,7 +19,7 @@ export const LeftSidebar = () => {
 
   return (
     <aside
-      style={{ "--left-sidebar-width": `${sidebarWidth}px` } as CSSProperties}
+      style={{ "--left-sidebar-width": `${sidebarWidth}` } as CSSProperties}
       className={cn("left-sidebar @container/left-sidebar", isFull && "full")}
     >
       <div className="h-full flex flex-col">
@@ -119,7 +119,7 @@ export const LeftSidebar = () => {
         </div>
 
         <ScrollArea className="flex-1">
-          <div className="flex flex-col gap-2 px-4 py-4 flex-wrap  @min-[421px]/left-sidebar:grid @min-[421px]/left-sidebar:grid-cols-6">
+          <div className="flex flex-col gap-2 px-4 py-4 @min-[421px]/left-sidebar:grid @min-[421px]/left-sidebar:grid-cols-2 @min-[500px]/left-sidebar:grid-cols-3 @min-[600px]/left-sidebar:grid-cols-4 @min-[900px]/left-sidebar:grid-cols-6">
             <PlaylistItem playlist={likedSongs} />
             {playlists.map((playlist) => (
               <PlaylistItem
