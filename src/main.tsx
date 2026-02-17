@@ -9,11 +9,16 @@ import { NotFoundPage } from "./features/error/pages/not-found-page.tsx";
 
 import "./styles/main.css";
 import "overlayscrollbars/overlayscrollbars.css";
+import { LayoutProvider } from "./layouts/components/layout-provider.tsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <AppLayout />,
+    element: (
+      <LayoutProvider>
+        <AppLayout />
+      </LayoutProvider>
+    ),
     children: [
       {
         index: true,

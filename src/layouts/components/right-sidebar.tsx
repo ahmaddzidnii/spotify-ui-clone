@@ -4,16 +4,15 @@ import { Image as OptimizedImage } from "@/components/image";
 import { useState, useEffect, type CSSProperties } from "react";
 import { cn } from "@/utils/cn";
 import { Button } from "@/components/ui/button";
-import { useSidebarStore } from "@/stores/use-sidebar-store";
+import { useSidebarWidth, useSidebarActions } from "@/stores/use-sidebar-store";
 import { FastAverageColor } from "fast-average-color";
 
 export const RightSidebar = () => {
   const [isFull, setIsFull] = useState(false);
-  const [isCollapsed, setIsCollapsed] = useState(false);
   const [bgColor, setBgColor] = useState("rgb(83, 83, 83)");
 
-  const sidebarWidth = useSidebarStore((state) => state.rightSidebarWidth);
-  const setRightSidebarWidth = useSidebarStore((state) => state.setRightSidebarWidth);
+  const sidebarWidth = useSidebarWidth("right");
+  const { toggle } = useSidebarActions();
 
   const imageUrl = "https://i.scdn.co/image/ab67616d0000b2730f94886d67ae4e92a92b2281";
   // const imageUrl = " https://i.scdn.co/image/ab6761610000e5eb07189aefe72bf176ecd0b2ab";
@@ -37,8 +36,7 @@ export const RightSidebar = () => {
   }, [imageUrl]);
 
   const handleCollapse = () => {
-    setIsCollapsed((prev) => !prev);
-    setRightSidebarWidth(!isCollapsed ? 40 : 420);
+    toggle("right", "user");
   };
 
   return (

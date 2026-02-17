@@ -3,18 +3,18 @@ import { ScrollArea } from "@/components/scroll-area";
 import { useState, type CSSProperties } from "react";
 import { cn } from "@/utils/cn";
 import { Button } from "@/components/ui/button";
-import { useSidebarStore } from "@/stores/use-sidebar-store";
+import { useSidebarWidth, useSidebarActions } from "@/stores/use-sidebar-store";
 import { PlaylistItem } from "@/features/playlist/components/playlist-item";
 import { likedSongs, playlists } from "@/data/playlists";
 
 export const LeftSidebar = () => {
   const [isFull, setIsFull] = useState(false);
 
-  const sidebarWidth = useSidebarStore((state) => state.leftSidebarWidth);
-  const toggleLeftCollapse = useSidebarStore((state) => state.toggleLeftCollapse);
+  const sidebarWidth = useSidebarWidth("left");
+  const { toggle } = useSidebarActions();
 
   const handleCollapse = () => {
-    toggleLeftCollapse();
+    toggle("left", "user");
   };
 
   return (

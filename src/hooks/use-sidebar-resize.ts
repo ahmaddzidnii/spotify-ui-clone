@@ -1,5 +1,5 @@
 import { useRef, useState, useEffect, useCallback } from "react";
-import { useSidebarStore } from "@/stores/use-sidebar-store";
+import { useSidebarActions } from "@/stores/use-sidebar-store";
 
 type SidebarSide = "left" | "right";
 
@@ -15,10 +15,11 @@ export const useSidebarResize = ({ side, minWidth, maxWidth, collapseThreshold }
   const startXRef = useRef(0);
   const startWidthRef = useRef(0);
 
-  // Get actions from store
-  const setLeftSidebarWidth = useSidebarStore((state) => state.setLeftSidebarWidth);
-  const setRightSidebarWidth = useSidebarStore((state) => state.setRightSidebarWidth);
-  const collapseLeft = useSidebarStore((state) => state.collapseLeft);
+  // Get actions from store (use ref to avoid re-renders)
+  const actionsRef = useRef(useSidebarActions());
+
+  // Update ref on each render but don't cause re-render
+  actionsRef.current = useSidebarActions();
 
   const handleMouseDown = useCallback(
     (e: React.MouseEvent) => {
@@ -51,14 +52,11 @@ export const useSidebarResize = ({ side, minWidth, maxWidth, collapseThreshold }
 
       // Handle left sidebar collapse
       if (side === "left" && collapseThreshold && newWidth < collapseThreshold) {
-        collapseLeft();
+        actionsRef.current.collapse("left", "responsive");
       } else {
         // Update the appropriate sidebar width
-        if (side === "left") {
-          setLeftSidebarWidth(Math.max(collapseThreshold || minWidth, newWidth));
-        } else {
-          setRightSidebarWidth(newWidth);
-        }
+        const effectiveMinWidth = side === "left" && collapseThreshold ? collapseThreshold : minWidth;
+        actionsRef.current.setWidth(side, Math.max(effectiveMinWidth, newWidth));
       }
     };
 
@@ -75,7 +73,7 @@ export const useSidebarResize = ({ side, minWidth, maxWidth, collapseThreshold }
       window.removeEventListener("mousemove", handleMouseMove);
       window.removeEventListener("mouseup", handleMouseUp);
     };
-  }, [isDragging, side, minWidth, maxWidth, collapseThreshold, setLeftSidebarWidth, setRightSidebarWidth, collapseLeft]);
+  }, [isDragging, side, minWidth, maxWidth, collapseThreshold]);
 
   return { handleMouseDown, isDragging };
 };

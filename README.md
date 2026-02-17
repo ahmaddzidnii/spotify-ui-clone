@@ -144,15 +144,20 @@ spotify-ui-clone/
 #### 1. **State Management with Zustand**
 
 ```typescript
-// Minimal boilerplate, maximum efficiency
+// Minimal boilerplate, maximum efficiency with multi-sidebar support
 const useSidebarStore = create<SidebarState>((set) => ({
-  leftSidebarWidth: 420,
-  setLeftSidebarWidth: (width) => set({ leftSidebarWidth: width }),
+  sidebars: {
+    left: { width: 420, defaultWidth: 420, isCollapsed: false, ... },
+    right: { width: 420, defaultWidth: 420, isCollapsed: false, ... },
+  },
+  setWidth: (id, width) => set(...),
+  collapse: (id, source) => set(...),
   // ... more actions
 }));
 
 // Component only re-renders when specific state changes
-const width = useSidebarStore((state) => state.leftSidebarWidth);
+const width = useSidebarWidth("left");
+const { toggle, setWidth } = useSidebarActions();
 ```
 
 #### 2. **Custom Hooks for Reusability**
