@@ -311,7 +311,7 @@ export const RightSidebar = () => {
             </div>
           </div>
           <section>
-            <div className="w-full aspect-square overflow-hidden rounded-2xl relative xl:max-w-[420px] mx-auto">
+            <div className="aspect-square overflow-hidden rounded-2xl relative max-w-[420px] mx-auto">
               <OptimizedImage
                 src={imageUrl}
                 alt="Album cover"
