@@ -5,6 +5,7 @@
   --panel-gap: 8px;
   --left-sidebar-width: 420px;
   --right-sidebar-width: 420px;
+  --above-everything-grid-area-z-index: 100;
 
   --cinema-mode-bg-color-from: #535353ff;
   --cinema-mode-bg-color-to: #353535ff;
@@ -90,7 +91,7 @@ body {
   width: 100%;
   min-width: 800px;
   min-height: 600px;
-  overflow: hidden;
+  overflow: visible;
   background-color: #000;
   gap: var(--panel-gap);
   grid-template:
@@ -106,6 +107,9 @@ body {
   background-color: #000;
   padding: calc(var(--panel-gap));
   margin: calc(var(--panel-gap) * -1);
+  overflow: visible;
+  position: relative;
+  z-index: 10;
 }
 
 .left-sidebar {
@@ -276,4 +280,8 @@ body {
 .left-sidebar,
 .right-sidebar {
   transition: all 0.5s cubic-bezier(0.3, 0, 0.4, 1);
+}
+
+a:hover {
+  text-decoration: underline;
 }

@@ -28,6 +28,18 @@ const router = createBrowserRouter([
         path: "/album/:id",
         element: <AlbumPage />,
       },
+      {
+        path: "/search",
+        element: <div>Browse</div>,
+      },
+      {
+        path: "/search/:query",
+        element: (
+          <div>
+            Search results for <span className="font-bold">{":query"}</span>
+          </div>
+        ),
+      },
     ],
   },
   {
