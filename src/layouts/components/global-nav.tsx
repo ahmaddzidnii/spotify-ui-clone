@@ -1,6 +1,6 @@
 import { Link, useLocation, useNavigate } from "react-router";
 import { useRef, useState, useCallback, useEffect, type KeyboardEvent } from "react";
-import { FaHome, FaSearch } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
 import { IoCloseSharp } from "react-icons/io5";
 
 import { SpotifyLogo } from "@/components/logo";
