@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import { AppLayout } from "./layouts/app-layout.tsx";
 import { HomePage } from "./features/home/pages/home-page.tsx";
 import { AlbumPage } from "./features/album/pages/album-page.tsx";
+import { BrowsePage } from "./features/browse/pages/browse-page.tsx";
 import { NotFoundPage } from "./features/error/pages/not-found-page.tsx";
 
 import "./styles/main.css";
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/search",
-        element: <div>Browse</div>,
+        element: <BrowsePage />,
       },
       {
         path: "/search/:query",
