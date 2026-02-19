@@ -10,8 +10,6 @@ import { Image } from "@/components/image";
 import { ScrollArea } from "@/components/scroll-area";
 
 const GITHUB_URL = "https://github.com/ahmaddzidnii";
-// const MAX_RECENT_SEARCHES = 8;
-// const RECENT_SEARCHES_STORAGE_KEY = "spotify-clone:recent-searches";
 const DROPDOWN_BLUR_DELAY_MS = 150;
 
 interface RecentSearch {
@@ -64,26 +62,14 @@ function getStoredRecentSearches(): RecentSearch[] {
 }
 
 function saveRecentSearches(_searches: RecentSearch[]): void {
-  try {
-    // localStorage.setItem(RECENT_SEARCHES_STORAGE_KEY, JSON.stringify(searches));
-  } catch {
-    // Silently fail if storage is unavailable (private browsing, quota, etc.)
-  }
+  //  Implement actual storage logic here, e.g. localStorage or IndexedDB
 }
 
 function useRecentSearches() {
   const [recentSearches, setRecentSearches] = useState<RecentSearch[]>(() => getStoredRecentSearches());
 
-  const addSearch = useCallback((query: string) => {
-    const trimmed = query.trim();
-    if (!trimmed) return;
-
-    // setRecentSearches((prev) => {
-    //   const filtered = prev.filter((s) => s.query.toLowerCase() !== trimmed.toLowerCase());
-    //   const updated: RecentSearch[] = [{ id: crypto.randomUUID(), query: trimmed, timestamp: Date.now() }, ...filtered].slice(0, MAX_RECENT_SEARCHES);
-    //   saveRecentSearches(updated);
-    //   return updated;
-    // });
+  const addSearch = useCallback((_query: string) => {
+    // Implement actual search result fetching logic here, e.g. call your search API with the query and get the result item
   }, []);
 
   const removeSearch = useCallback((id: string) => {

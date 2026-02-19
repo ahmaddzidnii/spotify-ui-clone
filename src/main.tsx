@@ -11,6 +11,7 @@ import { NotFoundPage } from "./features/error/pages/not-found-page.tsx";
 import "./styles/main.css";
 import "overlayscrollbars/overlayscrollbars.css";
 import { LayoutProvider } from "./layouts/components/layout-provider.tsx";
+import { LyricsPage } from "./features/song/pages/lyrics-page.tsx";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,18 @@ const router = createBrowserRouter([
             Search results for <span className="font-bold">{":query"}</span>
           </div>
         ),
+      },
+      {
+        path: "/lyrics",
+        element: <LyricsPage />,
+      },
+      {
+        path: "/playlist/:id",
+        element: <div>Playlist ID page</div>,
+      },
+      {
+        path: "/artist/:id",
+        element: <div>Artist ID page</div>,
       },
     ],
   },
