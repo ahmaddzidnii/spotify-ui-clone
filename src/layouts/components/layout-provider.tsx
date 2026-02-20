@@ -1,9 +1,15 @@
+import { useSidebarFullStore } from "@/stores/use-sidebar-full-store";
 import { useSidebarActions, useSidebarStore } from "@/stores/use-sidebar-store";
 import { useEffect } from "react";
+import { useLocation } from "react-router";
 import { useMediaQuery } from "usehooks-ts";
 
 export const LayoutProvider = ({ children }: { children: React.ReactNode }) => {
+  const location = useLocation();
   const isSmallScreen = useMediaQuery("(max-width: 1280px)");
+
+  const activeFull = useSidebarFullStore((state) => state.activeFull);
+  const closeAnyFullScreen = useSidebarFullStore((state) => state.closeAnyFull);
 
   const { collapse, expand } = useSidebarActions();
   useEffect(() => {
@@ -35,6 +41,13 @@ export const LayoutProvider = ({ children }: { children: React.ReactNode }) => {
     if (left.collapseSource === "responsive") expand("left");
     if (right.collapseSource === "responsive") expand("right");
   }, [isSmallScreen, expand]);
+
+  useEffect(() => {
+    console.log("Navigasi ", location);
+    if (activeFull) {
+      closeAnyFullScreen();
+    }
+  }, [location]);
 
   return <>{children}</>;
 };

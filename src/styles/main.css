@@ -5,7 +5,9 @@
   --panel-gap: 8px;
   --left-sidebar-width: 420px;
   --right-sidebar-width: 420px;
-  --above-everything-grid-area-z-index: 100;
+
+  --above-everything-grid-area-z-index: 10;
+  --below-search-dropdown-z-index: 9;
 
   --cinema-mode-bg-color-from: #535353ff;
   --cinema-mode-bg-color-to: #353535ff;
@@ -121,7 +123,7 @@ body {
   margin: calc(var(--panel-gap) * -1);
   overflow: visible;
   position: relative;
-  z-index: 10;
+  z-index: 11;
 }
 
 .left-sidebar {
@@ -133,34 +135,14 @@ body {
 }
 
 .left-sidebar.full {
-  grid-column: 1 / 3;
+  /*grid-column: 1 / 3;
   width: auto;
   max-width: none;
-}
-
-.right-sidebar.full {
-  grid-column: 2 / 4;
-  width: auto;
-  max-width: none;
-}
-
-.app-shell:has(.left-sidebar.full) .main-view {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  width: 0;
-  min-width: 0;
-  overflow: hidden;
-}
-
-.app-shell:has(.right-sidebar.full) .left-sidebar,
-.app-shell:has(.right-sidebar.full) .main-view {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  width: 0;
-  min-width: 0;
-  overflow: hidden;
+  */
+  grid-area: left-sidebar / left-sidebar / main-view / main-view;
+  width: 100%;
+  position: relative;
+  z-index: var(--below-search-dropdown-z-index);
 }
 
 .main-view {
@@ -176,11 +158,71 @@ body {
   background-color: var(--background-elevated-base);
   width: calc(var(--right-sidebar-width, 420) * 1px);
   border-radius: 8px;
-  transition: width 0.3s ease;
+  /* transition: width 0.3s ease; */
   overflow: hidden;
   position: relative;
 }
 
+.right-sidebar.full {
+  grid-column: 2 / 4;
+  width: auto;
+  max-width: none;
+}
+
+.now-playing-bar {
+  grid-area: now-playing-bar;
+  background-color: #000;
+  margin: calc(var(--panel-gap) * -1);
+  padding: calc(var(--panel-gap));
+}
+
+/* .app-shell:has(.left-sidebar.full) .main-view {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  width: 0;
+  min-width: 0;
+  overflow: hidden;
+} */
+
+.app-shell:has(.right-sidebar.full) .left-sidebar,
+.app-shell:has(.right-sidebar.full) .main-view {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  width: 0;
+  min-width: 0;
+  overflow: hidden;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+/* .left-sidebar,
+.right-sidebar {
+  transition: all 0.5s cubic-bezier(0.3, 0, 0.4, 1);
+} */
+
+.sidebar-left-filler {
+  grid-area: left-sidebar;
+  /* display: none; */
+  width: calc(var(--left-sidebar-width, 420) * 1px);
+}
+
+/* .sidebar-right-filler {
+  grid-area: right-sidebar;
+  width: calc(var(--right-sidebar-width, 420) * 1px);
+} */
+
+/* Scrollbar */
 .os-theme-spotify {
   --os-size: 12px;
   --os-padding-perpendicular: 2px;
@@ -223,20 +265,6 @@ body {
 .os-host,
 .os-viewport {
   display: block;
-}
-
-.now-playing-bar {
-  grid-area: now-playing-bar;
-  background-color: #000;
-  margin: calc(var(--panel-gap) * -1);
-  padding: calc(var(--panel-gap));
-}
-
-@layer base {
-  button:not(:disabled),
-  [role="button"]:not(:disabled) {
-    cursor: pointer;
-  }
 }
 
 /* Layout Resizer */
@@ -285,15 +313,26 @@ body {
   height: 1px;
 }
 
-.left-sidebar {
-  position: relative;
+/* Animasi murni menggunakan scale sesuai inspect element Spotify */
+@keyframes spotifyImageScale {
+  0% {
+    transform: scale(1.1);
+  }
+  80% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
-.left-sidebar,
-.right-sidebar {
-  transition: all 0.5s cubic-bezier(0.3, 0, 0.4, 1);
-}
-
-a:hover {
-  text-decoration: underline;
+.animate-spotify-scroll {
+  animation: 1s linear spotifyImageScale;
+  -webkit-animation: 1s linear spotifyImageScale;
+  animation-fill-mode: both;
+  background-attachment: scroll;
+  animation-iteration-count: 1;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
 }

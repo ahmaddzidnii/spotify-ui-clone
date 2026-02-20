@@ -5,12 +5,16 @@ import { PlayerControls } from "./player-controls";
 import { useEffect, useState } from "react";
 import { Tooltip } from "@/components/ui/tooltip";
 import { useLocation, useNavigate } from "react-router";
+import { useSidebarFullStore } from "@/stores/use-sidebar-full-store";
 
 export const NowPlayingBar = () => {
   const [isFullscreen, setIsFullscreen] = useState(!!document.fullscreenElement);
 
   const navigate = useNavigate();
   const location = useLocation();
+  const isAnySidebarFull = useSidebarFullStore((state) => state.activeFull) !== null;
+  const closeAnySidebarOpen = useSidebarFullStore((state) => state.closeAnyFull);
+  const shouldActivateLyrics = location.pathname === "/lyrics" && !isAnySidebarFull;
 
   useEffect(() => {
     const handleChange = () => {
@@ -23,6 +27,16 @@ export const NowPlayingBar = () => {
       document.removeEventListener("fullscreenchange", handleChange);
     };
   }, []);
+
+  const handleLyricsClick = () => {
+    if (isAnySidebarFull) {
+      closeAnySidebarOpen();
+    }
+
+    if (shouldActivateLyrics) {
+      navigate("/");
+    }
+  };
 
   const toggleFullscreen = () => {
     if (!document.fullscreenElement) {
@@ -76,21 +90,19 @@ export const NowPlayingBar = () => {
               variant="tertiary"
               className="p-2 relative"
               aria-label="Lyrics"
-              onClick={() => {
-                location.pathname === "/lyrics" ? navigate("/") : navigate("/lyrics");
-              }}
+              onClick={handleLyricsClick}
             >
               <svg
                 role="img"
                 viewBox="0 0 16 16"
                 style={{
-                  fill: location.pathname === "/lyrics" ? "#1db954" : "currentColor",
+                  fill: shouldActivateLyrics ? "#1db954" : "currentColor",
                 }}
                 className="w-4 h-4"
               >
                 <path d="M13.426 2.574a2.831 2.831 0 0 0-4.797 1.55l3.247 3.247a2.831 2.831 0 0 0 1.55-4.797M10.5 8.118l-2.619-2.62L4.74 9.075 2.065 12.12a1.287 1.287 0 0 0 1.816 1.816l3.06-2.688 3.56-3.129zM7.12 4.094a4.331 4.331 0 1 1 4.786 4.786l-3.974 3.493-3.06 2.689a2.787 2.787 0 0 1-3.933-3.933l2.676-3.045z"></path>
               </svg>
-              {location.pathname === "/lyrics" && (
+              {shouldActivateLyrics && (
                 <span
                   style={{
                     color: "#1db954",
