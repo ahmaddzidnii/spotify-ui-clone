@@ -35,7 +35,10 @@ export const NowPlayingBar = () => {
 
     if (shouldActivateLyrics) {
       navigate("/");
+      return;
     }
+
+    navigate("/lyrics");
   };
 
   const toggleFullscreen = () => {
