@@ -1,4 +1,6 @@
 import { create } from "zustand";
+import { persist } from "zustand/middleware";
+
 import {
   INTERNAL_SIDEBAR_LEFT_WIDTH,
   INTERNAL_SIDEBAR_LEFT_COLLAPSED_WIDTH,
@@ -55,51 +57,71 @@ const INITIAL_SIDEBARS: SidebarMap = {
   },
 };
 
-export const useSidebarStore = create<SidebarState>((set) => ({
-  sidebars: INITIAL_SIDEBARS,
+export const useSidebarStore = create<SidebarState>()(
+  persist(
+    (set) => ({
+      sidebars: INITIAL_SIDEBARS,
 
-  setWidth: (id, width) =>
-    set(({ sidebars }) => ({
-      sidebars: updateSidebar(sidebars, id, { width, defaultWidth: width }),
-    })),
+      setWidth: (id, width) =>
+        set(({ sidebars }) => ({
+          sidebars: updateSidebar(sidebars, id, { width, defaultWidth: width }),
+        })),
 
-  collapse: (id, source) =>
-    set(({ sidebars }) => {
-      const config = sidebars[id];
-      return {
-        sidebars: updateSidebar(sidebars, id, {
-          isCollapsed: true,
-          collapseSource: source,
-          width: getWidth(config, true),
+      collapse: (id, source) =>
+        set(({ sidebars }) => {
+          const config = sidebars[id];
+          return {
+            sidebars: updateSidebar(sidebars, id, {
+              isCollapsed: true,
+              collapseSource: source,
+              width: getWidth(config, true),
+            }),
+          };
         }),
-      };
-    }),
 
-  expand: (id) =>
-    set(({ sidebars }) => {
-      const config = sidebars[id];
-      return {
-        sidebars: updateSidebar(sidebars, id, {
-          isCollapsed: false,
-          collapseSource: null,
-          width: getWidth(config, false),
+      expand: (id) =>
+        set(({ sidebars }) => {
+          const config = sidebars[id];
+          return {
+            sidebars: updateSidebar(sidebars, id, {
+              isCollapsed: false,
+              collapseSource: null,
+              width: getWidth(config, false),
+            }),
+          };
         }),
-      };
-    }),
 
-  toggle: (id, source) =>
-    set(({ sidebars }) => {
-      const config = sidebars[id];
-      const isCollapsed = !config.isCollapsed;
-      return {
-        sidebars: updateSidebar(sidebars, id, {
-          isCollapsed,
-          collapseSource: isCollapsed ? source : null,
-          width: getWidth(config, isCollapsed),
+      toggle: (id, source) =>
+        set(({ sidebars }) => {
+          const config = sidebars[id];
+          const isCollapsed = !config.isCollapsed;
+          return {
+            sidebars: updateSidebar(sidebars, id, {
+              isCollapsed,
+              collapseSource: isCollapsed ? source : null,
+              width: getWidth(config, isCollapsed),
+            }),
+          };
         }),
-      };
     }),
-}));
+    {
+      name: "sidebar-storage",
+      storage: {
+        getItem: (name) => {
+          const value = localStorage.getItem(name);
+          if (value === null) {
+            const initial = { state: { sidebars: INITIAL_SIDEBARS }, version: 0 };
+            localStorage.setItem(name, JSON.stringify(initial));
+            return initial;
+          }
+          return JSON.parse(value);
+        },
+        setItem: (name, value) => localStorage.setItem(name, JSON.stringify(value)),
+        removeItem: (name) => localStorage.removeItem(name),
+      },
+    },
+  ),
+);
 
 export const getSidebars = (state: SidebarState) => state.sidebars;
 
