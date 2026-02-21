@@ -1,0 +1,15 @@
+import { cn } from "@/utils/cn";
+import type { IconProps } from "./types";
+
+export const EncoreIconInstallApp = ({ size = 16, className, ...props }: IconProps) => (
+  <svg
+    role="img"
+    viewBox="0 0 16 16"
+    width={size}
+    className={cn("fill-current inline-block shrink-0", className)}
+    {...props}
+  >
+    <path d="M4.995 8.745a.75.75 0 0 1 1.06 0L7.25 9.939V4a.75.75 0 0 1 1.5 0v5.94l1.195-1.195a.75.75 0 1 1 1.06 1.06L8 12.811l-.528-.528-.005-.005-2.472-2.473a.75.75 0 0 1 0-1.06" />
+    <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13" />
+  </svg>
+);

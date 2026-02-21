@@ -1,7 +1,7 @@
 import { cn } from "@/utils/cn";
 import type { IconProps } from "./types";
 
-export const EncoreIconPlay = ({ size = 16, className, ...props }: IconProps) => (
+export const EncoreIconMoreOptions = ({ size = 16, className, ...props }: IconProps) => (
   <svg
     role="img"
     viewBox="0 0 16 16"
@@ -9,6 +9,6 @@ export const EncoreIconPlay = ({ size = 16, className, ...props }: IconProps) =>
     className={cn("fill-current inline-block shrink-0", className)}
     {...props}
   >
-    <path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288z"></path>
+    <path d="M3 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m6.5 0a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0M16 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"></path>
   </svg>
 );
