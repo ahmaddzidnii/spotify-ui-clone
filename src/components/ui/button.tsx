@@ -9,7 +9,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         primary: "bg-essential-base text-text-base hover:bg-essential-highlight",
-        tertiary: "bg-transparent  hover:scale-105 hover:text-text-base transition-all text-text-subdued",
+        tertiary: "bg-transparent hover:scale-105 hover:text-text-base transition-all text-text-subdued",
       },
     },
     defaultVariants: {

@@ -1,104 +1,18 @@
+import { EncoreIconCheck, EncoreIconMoreOptions, EncoreIconPlay, EncoreIconShuffle } from "@/components/encore/icons";
 import { Image } from "@/components/image";
 import { ScrollArea, type ScrollAreaRef } from "@/components/scroll-area";
 import { Button } from "@/components/ui/button";
+import { DUMMY_TRACKS_IN_ARTIST_PAGE } from "@/data/tracks";
 import { useScrollTrigger } from "@/hooks/use-scroll-trigger";
 import { cn } from "@/utils/cn";
 import { useRef, useState } from "react";
-import { useParams } from "react-router";
-
-const tracks = [
-  {
-    id: 1,
-    title: "Seventeen",
-    playCount: "43,582,632",
-    duration: "3:45",
-    isSaved: true,
-    isMusicVideo: false,
-    isActive: false,
-    coverUrl: "https://i.scdn.co/image/ab67616d00001e02f6ce264866ac7fa1664b4db4",
-  },
-  {
-    id: 2,
-    title: "Rapsodi",
-    playCount: "136,379,509",
-    duration: "3:58",
-    isSaved: false,
-    isMusicVideo: false,
-    isActive: false,
-    coverUrl: "https://i.scdn.co/image/ab67616d00001e02dcd3a934c5c00bdfc1fd4d5c",
-  },
-  {
-    id: 3,
-    title: "Fortune Cookie Yang Mencinta",
-    playCount: "51,809,889",
-    duration: "4:42",
-    isSaved: true,
-    isMusicVideo: false,
-    isActive: false,
-    coverUrl: "https://i.scdn.co/image/ab67616d00001e02c1fb3e1f3cd9e8ace9cda286",
-  },
-  {
-    id: 4,
-    title: "Percik Kecil",
-    playCount: "5,664,230",
-    duration: "3:49",
-    isSaved: true,
-    isMusicVideo: true,
-    isActive: true,
-    coverUrl: "https://i.scdn.co/image/ab67616d00001e0291389f69b393611aff87a6ac",
-  },
-  {
-    id: 5,
-    title: "Andai 'Ku Bukan Idola",
-    playCount: "369,326",
-    duration: "4:13",
-    isSaved: false,
-    isMusicVideo: false,
-    isActive: false,
-    coverUrl: "https://i.scdn.co/image/ab67616d00001e02d96453e606852f7868e15963",
-  },
-];
-
-// 2. Ikon SVG Inline (Untuk mengurangi dependensi eksternal)
-const PlayIcon = () => (
-  <svg
-    viewBox="0 0 24 24"
-    fill="currentColor"
-    className="w-4 h-4 text-white"
-  >
-    <path d="M8 5.14v14l11-7-11-7z" />
-  </svg>
-);
-
-const CheckIcon = () => (
-  <svg
-    viewBox="0 0 24 24"
-    fill="#1ed760"
-    className="w-4 h-4"
-  >
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-    />
-  </svg>
-);
-
-const EllipsisIcon = () => (
-  <svg
-    viewBox="0 0 24 24"
-    fill="currentColor"
-    className="w-5 h-5 text-gray-400 hover:text-white"
-  >
-    <path d="M6 12a2 2 0 11-4 0 2 2 0 014 0zm8 0a2 2 0 11-4 0 2 2 0 014 0zm6 2a2 2 0 100-4 2 2 0 000 4z" />
-  </svg>
-);
+import { Link, useParams } from "react-router";
 
 export default function TrackList() {
   return (
     <div>
       <div className="flex flex-col">
-        {tracks.map((track, index) => (
+        {DUMMY_TRACKS_IN_ARTIST_PAGE.map((track, index) => (
           <div
             key={track.id}
             className={cn(
@@ -106,22 +20,20 @@ export default function TrackList() {
               track.isActive ? "bg-background-elevated-highlight" : "hover:bg-background-elevated-highlight",
             )}
           >
-            {/* Kolom 1: Nomor atau Ikon Play */}
             <div className="flex justify-center text-base">
-              {track.isActive ? <PlayIcon /> : <span className="group-hover:hidden text-text-subdued">{index + 1}</span>}
+              {track.isActive ? <EncoreIconPlay /> : <span className="group-hover:hidden text-text-subdued">{index + 1}</span>}
               {!track.isActive && (
                 <span className="hidden group-hover:block">
-                  <PlayIcon />
+                  <EncoreIconPlay />
                 </span>
               )}
             </div>
 
-            {/* Kolom 2: Gambar Album & Judul */}
             <div className="flex items-center gap-3 overflow-hidden">
               <Image
                 src={track.coverUrl}
                 alt={track.title}
-                className="w-10 h-10 object-cover rounded-sm flex-shrink-0"
+                className="w-10 h-10 object-cover rounded-sm shrink-0"
               />
               <div className="flex flex-col truncate">
                 <span
@@ -132,18 +44,15 @@ export default function TrackList() {
               </div>
             </div>
 
-            {/* Kolom 3: Jumlah Putar */}
-            <div className="text-sm text-right">{track.playCount}</div>
+            <div className="text-sm text-right text-text-subdued">{track.playCount}</div>
 
-            {/* Kolom 4: Ikon Checked (Saved) */}
-            <div className="flex justify-center">{track.isSaved && <CheckIcon />}</div>
+            <div className="flex justify-center">{track.isSaved && <EncoreIconCheck className="fill-[#1ed760]" />}</div>
 
-            {/* Kolom 5: Durasi & Ellipsis */}
-            <div className="flex items-center justify-end gap-3 text-sm pr-2">
+            <div className="flex items-center justify-end gap-3 text-sm pr-2 text-text-subdued">
               <span>{track.duration}</span>
               <div className={`flex items-center opacity-0 group-hover:opacity-100 transition-opacity ${track.isActive ? "opacity-100" : ""}`}>
                 <button className="p-1 focus:outline-none">
-                  <EllipsisIcon />
+                  <EncoreIconMoreOptions />
                 </button>
               </div>
             </div>
@@ -160,6 +69,7 @@ export const ArtistPage = () => {
 
   const scrollRef = useRef<ScrollAreaRef | null>(null);
   const isScrolled = useScrollTrigger(scrollRef, 50);
+  const headerRef = useRef<HTMLDivElement>(null);
   const playButtonBottomRef = useRef<HTMLDivElement>(null);
 
   const [mustShowPlayButtonTop, setMustShowPlayButtonTop] = useState(false);
@@ -171,28 +81,27 @@ export const ArtistPage = () => {
 
     const maxScroll = window.innerHeight * 0.4;
 
-    // Hitung progress dari 0.0 sampai 1.0
+    // Menghitung rasio scroll (0 hingga 1)
     const progress = Math.min(scrollTop / maxScroll, 1);
 
-    // Suntikkan nilai ke variabel CSS
     if (wrapperRef.current) {
       wrapperRef.current.style.setProperty("--scroll", progress.toString());
+      headerRef.current?.style.setProperty("--scroll", progress.toString());
     }
 
-    // Cek posisi play button setiap scroll
     if (playButtonBottomRef.current) {
       const top = playButtonBottomRef.current.getBoundingClientRect().top;
-      setMustShowPlayButtonTop(top < 90);
+      setMustShowPlayButtonTop(Math.floor(top) < 71);
     }
   };
 
   return (
     <>
       <header
+        ref={headerRef}
         style={{
           visibility: isScrolled ? "visible" : "hidden",
-          opacity: isScrolled ? 1 : 0,
-          transition: "visibility 0s, opacity 0.6s ease-in-out",
+          opacity: "calc(var(--scroll, 0) * 1.6)",
         }}
         className="absolute inset-x-0 top-0 p-4 bg-[#5B0058FF] h-16 flex items-center z-1"
       >
@@ -200,7 +109,7 @@ export const ArtistPage = () => {
           style={{
             visibility: mustShowPlayButtonTop ? "visible" : "hidden",
             opacity: mustShowPlayButtonTop ? 1 : 0,
-            transition: "visibility 0s, opacity 0.3s ease-in-out",
+            transition: "opacity 0.3s ease-in-out",
           }}
           className="flex items-center gap-2"
         >
@@ -237,24 +146,31 @@ export const ArtistPage = () => {
           />
           <div
             style={{
-              backgroundColor: `rgba(91, 0, 88, calc(var(--scroll, 0) * 0.9))`,
+              backgroundColor: `rgba(91, 0, 88, calc(var(--scroll, 0) * 2.3))`,
             }}
             className="absolute top-0 left-0 h-full w-full z-0"
           />
         </div>
       </div>
       <ScrollArea
-        className="min-h-screen flex-1"
+        className="flex-1"
         ref={scrollRef}
         onScrollCapture={handleScroll}
       >
         <div className="h-[40dvh] flex items-end relative z-10">
           <div className="flex flex-col p-4 z-1 flex-1">
-            <p className="text-[76px] font-extrabold">JKT48</p>
+            <p
+              style={{
+                fontFamily: "var(--font-display)",
+              }}
+              className="text-[76px] font-extrabold tracking-tight"
+            >
+              JKT48
+            </p>
             <p className="mt-2">1,540,960 monthly listeners</p>
           </div>
         </div>
-        <div className="h-full mt-4 bg-background-base relative z-0">
+        <div className="min-h-screen pb-24 mt-4 bg-background-base relative z-0">
           <div className="-z-1 bg-linear-to-b from-[#5b0058b3] to-transparent absolute top-0 left-0 w-full h-[173px]" />
           <div className="flex flex-col m-auto p-6">
             <div
@@ -283,16 +199,7 @@ export const ArtistPage = () => {
               </div>
               <div className="ml-6">
                 <Button variant="tertiary">
-                  <svg
-                    data-encore-id="icon"
-                    role="img"
-                    aria-hidden="true"
-                    viewBox="0 0 24 24"
-                    className="fill-current size-8"
-                  >
-                    <path d="M18.788 3.702a1 1 0 0 1 1.414-1.414L23.914 6l-3.712 3.712a1 1 0 1 1-1.414-1.414L20.086 7h-1.518a5 5 0 0 0-3.826 1.78l-7.346 8.73a7 7 0 0 1-5.356 2.494H1v-2h1.04a5 5 0 0 0 3.826-1.781l7.345-8.73A7 7 0 0 1 18.569 5h1.518l-1.298-1.298z"></path>
-                    <path d="M18.788 14.289a1 1 0 0 0 0 1.414L20.086 17h-1.518a5 5 0 0 1-3.826-1.78l-1.403-1.668-1.306 1.554 1.178 1.4A7 7 0 0 0 18.568 19h1.518l-1.298 1.298a1 1 0 1 0 1.414 1.414L23.914 18l-3.712-3.713a1 1 0 0 0-1.414 0zM7.396 6.49l2.023 2.404-1.307 1.553-2.246-2.67a5 5 0 0 0-3.826-1.78H1v-2h1.04A7 7 0 0 1 7.396 6.49"></path>
-                  </svg>
+                  <EncoreIconShuffle className="size-7" />
                 </Button>
               </div>
 
@@ -301,21 +208,50 @@ export const ArtistPage = () => {
               </div>
               <div className="ml-6">
                 <Button variant="tertiary">
-                  <svg
-                    data-encore-id="icon"
-                    role="img"
-                    aria-hidden="true"
-                    viewBox="0 0 24 24"
-                    className="fill-current size-8"
-                  >
-                    <path d="M4.5 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m15 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m-7.5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"></path>
-                  </svg>
+                  <EncoreIconMoreOptions className="size-7" />
                 </Button>
               </div>
             </div>
             <div>
-              <h2 className="font-semibold text-2xl mt-8 mb-2 font-semibold">Popular</h2>
+              <h2 className="font-semibold text-2xl mt-8 mb-4">Popular</h2>
               <TrackList />
+              <Button
+                variant="tertiary"
+                className="text-sm mt-4 font-semibold text-text-subdued hover:scale-100"
+              >
+                See more
+              </Button>
+            </div>
+            <div>
+              <h2 className="font-semibold text-2xl mt-8 mb-4">Artist Pick</h2>
+              <div className="flex">
+                <div className="relative size-22 aspect-square overflow-hidden rounded-xl me-4">
+                  <Image
+                    alt="Image"
+                    src="https://i.scdn.co/image/ab67616d00001e02d96453e606852f7868e15963"
+                    className="object-cover object-center w-full h-full"
+                  />
+                </div>
+                <div>
+                  <div className="flex items-center gap-3 mb-2 text-sm">
+                    <div className="size-6 aspect-square overflow-hidden rounded-full">
+                      <Image
+                        alt="Image"
+                        src="https://i.scdn.co/image/ab6761610000101f07189aefe72bf176ecd0b2ab"
+                        className="object-cover object-center w-full h-full"
+                      />
+                    </div>
+                    <span className="text-text-subdued">Posted By JKT48</span>
+                  </div>
+                  <Link
+                    to="/album/0eIpkNRhkvjZFnik8x8Ao3"
+                    className="font-semibold text-lg"
+                  >
+                    Andai 'Ku Bukan Idola
+                  </Link>
+                  <p className="text-sm text-text-subdued mt-1">Single</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
