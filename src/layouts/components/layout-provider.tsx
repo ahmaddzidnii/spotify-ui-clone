@@ -43,6 +43,8 @@ export const LayoutProvider = ({ children }: { children: React.ReactNode }) => {
   }, [isSmallScreen, expand]);
 
   useEffect(() => {
+    // check apakah initial render dan path adalah path yang full screen, jika iya maka jangan close full screen
+
     console.log("Navigasi ", location);
     if (activeFull) {
       closeAnyFullScreen();

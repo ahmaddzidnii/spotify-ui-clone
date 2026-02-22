@@ -43,11 +43,17 @@ export const NowPlayingBar = () => {
     }
 
     if (shouldActivateLyrics) {
-      navigate("/");
+      // Baca URL sebelumnya dari location.state. Jika tidak ada (misal direct visit), fallback ke "/"
+      const returnUrl = location.state?.from || "/";
+      navigate(returnUrl);
       return;
     }
 
-    navigate("/lyrics");
+    // Gabungkan pathname dan query params (search) agar state URL benar-benar akurat
+    const currentUrl = `${location.pathname}${location.search}`;
+
+    // Pindah ke halaman lyrics sambil membawa jejak URL sebelumnya
+    navigate("/lyrics", { state: { from: currentUrl } });
   };
 
   const toggleFullscreen = () => {

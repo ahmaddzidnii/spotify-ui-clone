@@ -1,71 +1,19 @@
-import { EncoreIconCheck, EncoreIconMoreOptions, EncoreIconPlay, EncoreIconShuffle } from "@/components/encore/icons";
+import { EncoreIconMoreOptions, EncoreIconShuffle } from "@/components/encore/icons";
 import { Image } from "@/components/image";
 import { ScrollArea, type ScrollAreaRef } from "@/components/scroll-area";
 import { Button } from "@/components/ui/button";
-import { DUMMY_TRACKS_IN_ARTIST_PAGE } from "@/data/tracks";
 import { useScrollTrigger } from "@/hooks/use-scroll-trigger";
-import { cn } from "@/utils/cn";
 import { useRef, useState } from "react";
 import { Link, useParams } from "react-router";
-
-export default function TrackList() {
-  return (
-    <div>
-      <div className="flex flex-col">
-        {DUMMY_TRACKS_IN_ARTIST_PAGE.map((track, index) => (
-          <div
-            key={track.id}
-            className={cn(
-              "group grid grid-cols-[40px_minmax(0,1fr)_120px_40px_80px] gap-4 items-center px-4 py-2 rounded-md transition-colors",
-              track.isActive ? "bg-background-elevated-highlight" : "hover:bg-background-elevated-highlight",
-            )}
-          >
-            <div className="flex justify-center text-base">
-              {track.isActive ? <EncoreIconPlay /> : <span className="group-hover:hidden text-text-subdued">{index + 1}</span>}
-              {!track.isActive && (
-                <span className="hidden group-hover:block">
-                  <EncoreIconPlay />
-                </span>
-              )}
-            </div>
-
-            <div className="flex items-center gap-3 overflow-hidden">
-              <Image
-                src={track.coverUrl}
-                alt={track.title}
-                className="w-10 h-10 object-cover rounded-sm shrink-0"
-              />
-              <div className="flex flex-col truncate">
-                <span
-                  className={`truncate text-base ${track.isActive || track.title === "Seventeen" || track.title === "Rapsodi" || track.title === "Fortune Cookie Yang Mencinta" ? "text-white" : "text-white group-hover:text-white"}`}
-                >
-                  {track.title}
-                </span>
-              </div>
-            </div>
-
-            <div className="text-sm text-right text-text-subdued">{track.playCount}</div>
-
-            <div className="flex justify-center">{track.isSaved && <EncoreIconCheck className="fill-[#1ed760]" />}</div>
-
-            <div className="flex items-center justify-end gap-3 text-sm pr-2 text-text-subdued">
-              <span>{track.duration}</span>
-              <div className={`flex items-center opacity-0 group-hover:opacity-100 transition-opacity ${track.isActive ? "opacity-100" : ""}`}>
-                <button className="p-1 focus:outline-none">
-                  <EncoreIconMoreOptions />
-                </button>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}
-
+import { TrackList } from "../components/track-list";
+import { getArtistById } from "@/data/artists";
+import { formatNumber } from "@/features/shared/formaters/format-number";
+import { hexToRgb } from "@/features/shared/formaters/format-color";
+import { EncoreIconInfo } from "@/components/encore/icons/encore-icon-info";
 export const ArtistPage = () => {
   const { id } = useParams();
-  console.log(id);
+
+  const artist = getArtistById(id!);
 
   const scrollRef = useRef<ScrollAreaRef | null>(null);
   const isScrolled = useScrollTrigger(scrollRef, 50);
@@ -95,6 +43,18 @@ export const ArtistPage = () => {
     }
   };
 
+  if (!artist) {
+    return (
+      <div className="flex items-center justify-center h-full flex-col gap-4">
+        <EncoreIconInfo className="size-16" />
+        <p className="text-3xl font-bold">Something went wrong while loading the artist.</p>
+        <p className="text-base font-medium">Search for something else?</p>
+      </div>
+    );
+  }
+
+  const { r, g, b } = hexToRgb(artist.cover.dominantColor);
+
   return (
     <>
       <header
@@ -102,8 +62,9 @@ export const ArtistPage = () => {
         style={{
           visibility: isScrolled ? "visible" : "hidden",
           opacity: "calc(var(--scroll, 0) * 1.6)",
+          backgroundColor: `rgba(${r}, ${g}, ${b}`,
         }}
-        className="absolute inset-x-0 top-0 p-4 bg-[#5B0058FF] h-16 flex items-center z-1"
+        className="absolute inset-x-0 top-0 p-4  h-16 flex items-center z-1"
       >
         <div
           style={{
@@ -122,15 +83,15 @@ export const ArtistPage = () => {
               <path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288z"></path>
             </svg>
           </button>
-          <span className="font-semibold text-3xl">JKT48</span>
+          <span className="font-semibold text-3xl">{artist.name}</span>
         </div>
       </header>
-      <div className="before-scroll-node ">
+      <div className="before-scroll-node">
         <div ref={wrapperRef}>
           <div className="sticky top-0 z-50 h-0 w-full overflow-visible"></div>
           <div
             style={{
-              backgroundImage: "url('https://image-cdn-fa.spotifycdn.com/image/ab67618600009d80eb8e79216d982f582071da3d')",
+              backgroundImage: `url(${artist.cover.url})`,
               backgroundPosition: "50% 15%",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
@@ -146,7 +107,7 @@ export const ArtistPage = () => {
           />
           <div
             style={{
-              backgroundColor: `rgba(91, 0, 88, calc(var(--scroll, 0) * 2.3))`,
+              backgroundColor: `rgba(${r}, ${g}, ${b}, calc(var(--scroll, 0) * 2.3))`,
             }}
             className="absolute top-0 left-0 h-full w-full z-0"
           />
@@ -165,14 +126,19 @@ export const ArtistPage = () => {
               }}
               className="text-[76px] font-extrabold tracking-tight"
             >
-              JKT48
+              {artist.name}
             </p>
-            <p className="mt-2">1,540,960 monthly listeners</p>
+            <p className="mt-2">{formatNumber(artist.monthlyListeners)} monthly listeners</p>
           </div>
         </div>
         <div className="min-h-screen pb-24 mt-4 bg-background-base relative z-0">
-          <div className="-z-1 bg-linear-to-b from-[#5b0058b3] to-transparent absolute top-0 left-0 w-full h-[173px]" />
-          <div className="flex flex-col m-auto p-6">
+          <div
+            style={{
+              background: `linear-gradient(to bottom, rgba(${r},${g},${b}), transparent)`,
+            }}
+            className="-z-1  absolute top-0 left-0 w-full h-[173px]"
+          />
+          <div className="flex flex-col -mt-1 p-6">
             <div
               className="flex items-center"
               ref={playButtonBottomRef}
@@ -186,17 +152,19 @@ export const ArtistPage = () => {
                   <path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288z"></path>
                 </svg>
               </button>
-              <div className="ml-6">
-                <div
-                  role="button"
-                  className="w-[38px] h-[48px] rounded-xl border-2 border-text-subdued flex items-center justify-center overflow-hidden"
-                >
-                  <img
-                    src="https://i.scdn.co/image/ab67ba6900002ea625059949a3b0744a3c7e5ade"
-                    alt="Video"
-                  />
+              {artist.tracks.metadata.videoPreview.present && (
+                <div className="ml-6">
+                  <div
+                    role="button"
+                    className="w-[38px] h-[48px] rounded-xl border-2 border-text-subdued flex items-center justify-center overflow-hidden"
+                  >
+                    <img
+                      src={artist.tracks.metadata.videoPreview.thumbnailUrl}
+                      alt={`Track video preview thumbnail for ${artist.name}`}
+                    />
+                  </div>
                 </div>
-              </div>
+              )}
               <div className="ml-6">
                 <Button variant="tertiary">
                   <EncoreIconShuffle className="size-7" />
@@ -214,7 +182,7 @@ export const ArtistPage = () => {
             </div>
             <div>
               <h2 className="font-semibold text-2xl mt-8 mb-4">Popular</h2>
-              <TrackList />
+              <TrackList tracks={artist.tracks.data} />
               <Button
                 variant="tertiary"
                 className="text-sm mt-4 font-semibold text-text-subdued hover:scale-100"

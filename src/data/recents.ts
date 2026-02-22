@@ -21,7 +21,7 @@ export const RECENTS = [
     id: "4",
     title: "Anggis Devaki",
     imageUrl: "https://i.scdn.co/image/ab6761610000e5eb934677a1fdc1deb7492f26b0",
-    href: "/artist/2l8I5pWUnfF7bMK1z6EJRk",
+    href: "/artist/7lXTU6VtJQWfiN2vuZyzqf",
   },
   {
     id: "5",
@@ -37,14 +37,14 @@ export const RECENTS = [
   },
   {
     id: "7",
-    title: "Arti Semestinya Cinta",
-    imageUrl: "https://i.scdn.co/image/ab67616d0000b2733acc68e876b8c4b1f56b22ee",
-    href: "/album/48VJneXoN4AW5QAT4Ruwkc",
+    title: "Tiara Andini",
+    imageUrl: "https://i.scdn.co/image/ab6761610000101f12d698404d2d020c4212df6b",
+    href: "/artist/0kPb52ySN2k9P6wEZPTUzm",
   },
   {
     id: "8",
-    title: "Arti Semestinya Cinta",
-    imageUrl: "https://i.scdn.co/image/ab67616d0000b2733acc68e876b8c4b1f56b22ee",
-    href: "/album/48VJneXoN4AW5QAT4Ruwkc",
+    title: "Sleman Receh",
+    imageUrl: "https://i.scdn.co/image/ab6761610000101f2b543815d7461bbe24b1aaec",
+    href: "/artist/0jcgtGZTWxoepAUgADwcHP",
   },
 ];

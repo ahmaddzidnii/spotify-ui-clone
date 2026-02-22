@@ -216,6 +216,7 @@ body {
   --os-handle-bg: rgba(255, 255, 255, 0.3);
   --os-handle-bg-hover: rgba(255, 255, 255, 0.5);
   --os-handle-bg-active: rgba(255, 255, 255, 0.5);
+  z-index: 2;
 }
 
 .os-theme-spotify > .os-scrollbar-vertical {
@@ -277,6 +278,10 @@ body {
   width: 2px;
   background-color: transparent;
   transition: background-color 0.2s;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
 
 .layout-resizer:hover::after {
