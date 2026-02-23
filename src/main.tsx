@@ -13,6 +13,7 @@ import "overlayscrollbars/overlayscrollbars.css";
 import { LayoutProvider } from "./layouts/components/layout-provider.tsx";
 import { LyricsPage } from "./features/song/pages/lyrics-page.tsx";
 import { ArtistPage } from "./features/artist/pages/artist-page.tsx";
+import { PlaylistPage } from "./features/playlist/pages/playlist-page.tsx";
 
 const router = createBrowserRouter([
   {
@@ -49,7 +50,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/playlist/:id",
-        element: <div>Playlist ID page</div>,
+        element: <PlaylistPage />,
       },
       {
         path: "/artist/:id",

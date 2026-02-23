@@ -28,3 +28,4 @@ export { EncoreIconBell } from "./encore-icon-bell";
 export { EncoreIconUserGroup } from "./encore-icon-user-group";
 export { EncoreIconClock } from "./encore-icon-clock";
 export { EncoreIconDownload } from "./encore-icon-download";
+export { EncoreIconPersonPlus } from "./encore-icon-person-plus";

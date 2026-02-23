@@ -2,6 +2,7 @@ import type { Playlist } from "@/data/playlists";
 import { Image } from "@/components/image";
 import { Tooltip } from "@/components/ui/tooltip";
 import { useSidebarCollapsed } from "@/stores/use-sidebar-store";
+import { EncoreIconPlay } from "@/components/encore/icons";
 
 interface PlaylistItemProps {
   playlist: Playlist;
@@ -22,20 +23,14 @@ export const PlaylistItem = ({ playlist }: PlaylistItemProps) => {
         />
         {/* Play button - shows on hover for larger screens */}
         <button className="flex items-center justify-center bg-[#1ed760] p-2 rounded-full w-12 h-12 absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity @max-[421px]/left-sidebar:hidden">
-          <svg
-            role="img"
-            viewBox="0 0 16 16"
-            className="w-6 h-6 fill-background-base"
-          >
-            <path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288z"></path>
-          </svg>
+          <EncoreIconPlay className="size-6 fill-background-base" />
         </button>
         {/* Play button - centered for mobile view */}
         <button className="flex items-center justify-center p-2 rounded-full bg-[#1ed760] size-8 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity @min-[421px]/left-sidebar:hidden">
           <svg
             role="img"
             viewBox="0 0 16 16"
-            className="w-6 h-6 fill-background-base"
+            className="size-6 fill-background-base"
           >
             <path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288z"></path>
           </svg>
@@ -55,7 +50,7 @@ export const PlaylistItem = ({ playlist }: PlaylistItemProps) => {
             </svg>
           )}
           <p className="line-clamp-1 @min-[421px]/left-sidebar:text-xs">
-            {playlist.subtitle || playlist.type}
+            {playlist.type === "playlist" && "Playlist"}
             {playlist.songCount && <span> • {playlist.songCount} songs</span>}
             {playlist.subtitle && !playlist.songCount && playlist.type === "playlist" && <span> • {playlist.subtitle}</span>}
           </p>
