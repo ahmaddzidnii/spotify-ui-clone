@@ -26,3 +26,5 @@ export { EncoreIconBrowseOutline } from "./encore-icon-browse-outline";
 export { EncoreIconInstallApp } from "./encore-icon-install-app";
 export { EncoreIconBell } from "./encore-icon-bell";
 export { EncoreIconUserGroup } from "./encore-icon-user-group";
+export { EncoreIconClock } from "./encore-icon-clock";
+export { EncoreIconDownload } from "./encore-icon-download";

@@ -25,7 +25,7 @@ export function Tooltip({ children, content, side = "top", align = "center", cla
             className={cn(
               "z-50 px-2 py-1 text-sm rounded-md font-medium",
               "bg-background-elevated-base text-white",
-              "shadow-lg border border-white/10 transition-all duration-200",
+              "shadow-lg border border-background-elevated-highlight transition-all duration-200",
 
               className,
             )}

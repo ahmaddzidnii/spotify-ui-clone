@@ -1,19 +1,25 @@
-import { EncoreIconMoreOptions, EncoreIconShuffle } from "@/components/encore/icons";
-import { Image } from "@/components/image";
-import { ScrollArea, type ScrollAreaRef } from "@/components/scroll-area";
-import { Button } from "@/components/ui/button";
-import { useScrollTrigger } from "@/hooks/use-scroll-trigger";
 import { useRef, useState } from "react";
 import { Link, useParams } from "react-router";
-import { TrackList } from "../components/track-list";
-import { getArtistById } from "@/data/artists";
-import { formatNumber } from "@/features/shared/formaters/format-number";
+
+import { getArtistWithTracks } from "@/data/query";
+import { useScrollTrigger } from "@/hooks/use-scroll-trigger";
+
 import { hexToRgb } from "@/features/shared/formaters/format-color";
+import { formatNumber } from "@/features/shared/formaters/format-number";
+
+import { Image } from "@/components/image";
+import { Button } from "@/components/ui/button";
+import { ScrollArea, type ScrollAreaRef } from "@/components/scroll-area";
 import { EncoreIconInfo } from "@/components/encore/icons/encore-icon-info";
+import { EncoreIconMoreOptions, EncoreIconShuffle } from "@/components/encore/icons";
+
+import { TrackList } from "../components/track-list";
+import { Footer } from "@/layouts/components/footer";
+
 export const ArtistPage = () => {
   const { id } = useParams();
 
-  const artist = getArtistById(id!);
+  const artist = getArtistWithTracks(id!);
 
   const scrollRef = useRef<ScrollAreaRef | null>(null);
   const isScrolled = useScrollTrigger(scrollRef, 50);
@@ -223,6 +229,7 @@ export const ArtistPage = () => {
             </div>
           </div>
         </div>
+        <Footer />
       </ScrollArea>
     </>
   );

@@ -1,7 +1,7 @@
 import { cn } from "@/utils/cn";
 import { Image } from "@/components/image";
 import { EncoreIconCheck, EncoreIconMoreOptions, EncoreIconPlay } from "@/components/encore/icons";
-import type { Track } from "@/data/artists";
+import type { Track } from "@/data/tracks";
 
 interface TrackListProps {
   tracks: Track[];
@@ -35,11 +35,7 @@ export const TrackList = ({ tracks }: TrackListProps) => {
                 className="w-10 h-10 object-cover rounded-sm shrink-0"
               />
               <div className="flex flex-col truncate">
-                <span
-                  className={`truncate text-base ${track.isActive || track.title === "Seventeen" || track.title === "Rapsodi" || track.title === "Fortune Cookie Yang Mencinta" ? "text-white" : "text-white group-hover:text-white"}`}
-                >
-                  {track.title}
-                </span>
+                <span className={cn("truncate text-base ", track.isActive ? "text-white" : "text-white group-hover:text-white")}>{track.title}</span>
               </div>
             </div>
 

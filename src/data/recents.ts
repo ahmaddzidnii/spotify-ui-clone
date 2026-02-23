@@ -25,9 +25,9 @@ export const RECENTS = [
   },
   {
     id: "5",
-    title: "Cat Loving [Revemayuzumi Remix] (Dangdut ver.)",
-    imageUrl: "https://i.scdn.co/image/ab67616d0000b273a8257362ae9239c71c3ac0a2",
-    href: "/album/48VJneXoN4AW5QAT4Ruwkc",
+    title: "Mahagita Vol. 2",
+    imageUrl: "https://i.scdn.co/image/ab67616d00001e02f6ce264866ac7fa1664b4db4",
+    href: "/album/7MpAqxM7Mew0Vb1clDl6pJ",
   },
   {
     id: "6",
