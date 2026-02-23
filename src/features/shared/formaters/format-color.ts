@@ -1,4 +1,4 @@
-import chroma from "chroma-js";
+import convert from "color-convert";
 
 export const hexToRgb = (hex: string) => {
   let clean = hex.replace("#", "");
@@ -19,19 +19,9 @@ export const hexToRgb = (hex: string) => {
   };
 };
 
-export const generateDarkenHex = (sourceHex: string) => {
-  // Buang alpha channel 'FF' di akhir string agar chroma-js fokus ke warna dasar
-  const cleanHex = sourceHex.replace(/FF$/i, "");
+export const rgbToHex = (r: number, g: number, b: number, alpha: number) => {
+  const baseHex = convert.rgb.hex(r, g, b);
+  const alphaHex = alpha.toString(16).padStart(2, "0");
 
-  const color = chroma(cleanHex);
-
-  // Manipulasi HSL secara presisi
-  const baseDarkHex = color
-    .set("hsl.h", color.get("hsl.h") - 2.86) // Geser hue ke titik target
-    .set("hsl.s", 1) // Paksa saturasi mentok ke 100%
-    .set("hsl.l", 0.1608) // Gelapkan lightness presisi ke 16.08%
-    .hex()
-    .toUpperCase(); // Format output ke huruf besar
-
-  return `${baseDarkHex}FF`;
+  return `#${baseHex}${alphaHex}`.toUpperCase();
 };

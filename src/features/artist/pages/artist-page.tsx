@@ -51,7 +51,7 @@ export const ArtistPage = () => {
 
   if (!artist) {
     return (
-      <div className="flex items-center justify-center h-full flex-col gap-4">
+      <div className="flex items-center justify-center text-center h-full flex-col gap-4">
         <EncoreIconInfo className="size-16" />
         <p className="text-3xl font-bold">Something went wrong while loading the artist.</p>
         <p className="text-base font-medium">Search for something else?</p>

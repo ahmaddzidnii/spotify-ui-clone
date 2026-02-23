@@ -25,7 +25,7 @@ const RANDOM_IMAGES = [
   "https://mosaic.scdn.co/300/ab6761610000e5eb07189aefe72bf176ecd0b2abab67616d00001e025630e188f3ff752d38f97087ab67616d00001e02be7982704b25a460843a308bab67616d00001e02d67195a1fc32eae4835450ae",
 ];
 
-export const playlists: Playlist[] = Array.from({ length: 20 }, (_, index) => ({
+export const savedPlaylists: Playlist[] = Array.from({ length: 20 }, (_, index) => ({
   id: `playlist-${index + 1}`,
   title: `Playlist #${index + 1}`,
   type: "playlist" as const,

@@ -1,10 +1,7 @@
-import { useRef, useState } from "react";
+import React, { useMemo, useRef, useState } from "react";
 import { Link, useParams } from "react-router";
 
-import { getArtistWithTracks } from "@/data/query";
 import { useScrollTrigger } from "@/hooks/use-scroll-trigger";
-
-import { generateDarkenHex, hexToRgb } from "@/features/shared/formaters/format-color";
 
 import { Image } from "@/components/image";
 import { Button } from "@/components/ui/button";
@@ -20,23 +17,21 @@ import {
   EncoreIconCheck,
 } from "@/components/encore/icons";
 import { Footer } from "@/layouts/components/footer";
-import { artistDiscographyData } from "@/data/album";
+import { albums } from "@/data/album";
+import { transformSpotifyUriToUrl } from "@/features/shared/parsers/parse-uri";
+import { formatDuration } from "@/features/shared/formaters/format.duration";
+import { transformAlbumType } from "../lib/utils";
+import { rgbToHex } from "@/features/shared/formaters/format-color";
 
-const tracks = [
-  { id: 1, title: "Eureka Milik Kita", artist: "JKT48", duration: "4:11", isSaved: false, isPlaying: false },
-  { id: 2, title: "Seventeen", artist: "JKT48", duration: "3:45", isSaved: true, isPlaying: false },
-  { id: 3, title: "New Ship", artist: "JKT48", duration: "4:48", isSaved: false, isPlaying: false },
-  { id: 4, title: "Better", artist: "JKT48", duration: "4:49", isSaved: false, isPlaying: true },
-  { id: 5, title: "Mari Menjadi Pohon Sakura", artist: "JKT48", duration: "5:32", isSaved: false, isPlaying: false },
-  { id: 6, title: "Pin Heel Merah dan Profesor", artist: "JKT48", duration: "4:12", isSaved: false, isPlaying: false },
-  { id: 7, title: "Tolong Ingatlah", artist: "JKT48", duration: "5:18", isSaved: false, isPlaying: false },
-  { id: 8, title: "Ingin Bertemu", artist: "JKT48", duration: "3:52", isSaved: false, isPlaying: false },
-];
+const symbolMap = {
+  C: "©",
+  P: "℗",
+} as any;
 
 export const AlbumPage = () => {
-  const artist = getArtistWithTracks("2l8I5pWUnfF7bMK1z6EJRk");
-
   const { id } = useParams();
+
+  const album = albums.find((a) => a.id === id);
 
   const scrollRef = useRef<ScrollAreaRef | null>(null);
   const isScrolled = useScrollTrigger(scrollRef, 50);
@@ -61,28 +56,49 @@ export const AlbumPage = () => {
     }
   };
 
-  if (!artist) {
+  if (!album) {
     return (
-      <div className="flex items-center justify-center h-full flex-col gap-4">
+      <div className="flex items-center justify-center text-center h-full flex-col gap-4">
         <EncoreIconInfo className="size-16" />
-        <p className="text-3xl font-bold">Something went wrong while loading the artist.</p>
+        <p className="text-3xl font-bold w-full">Something went wrong while loading the album.</p>
         <p className="text-base font-medium">Search for something else?</p>
       </div>
     );
   }
 
-  const dominantColor = "#D02070FF";
-  const darkenedColor = generateDarkenHex(dominantColor);
-  const darkenedColorRGB = hexToRgb(darkenedColor);
+  const totalDurationSeconds = useMemo(() => {
+    return album.tracksV2.items.reduce((acc, track) => acc + track.track.duration.totalMilliseconds / 1000, 0);
+  }, [album.tracksV2.items]);
+
+  const visualIdentity = album.visualIdentity;
+  const colorBackgroundBase = rgbToHex(
+    visualIdentity.higherContrast.backgroundBase.red,
+    visualIdentity.higherContrast.backgroundBase.green,
+    visualIdentity.higherContrast.backgroundBase.blue,
+    visualIdentity.higherContrast.backgroundBase.alpha,
+  );
+
+  const colorBackgroundBase70 = `rgba(${visualIdentity.higherContrast.backgroundBase.red}, ${visualIdentity.higherContrast.backgroundBase.green}, ${visualIdentity.higherContrast.backgroundBase.blue}, 0.7)`;
+
+  const colorBackgroundBaseMinContrast = rgbToHex(
+    visualIdentity.minContrast.backgroundBase.red,
+    visualIdentity.minContrast.backgroundBase.green,
+    visualIdentity.minContrast.backgroundBase.blue,
+    visualIdentity.minContrast.backgroundBase.alpha,
+  );
+
   return (
     <>
       <header
         ref={headerRef}
-        style={{
-          visibility: isScrolled ? "visible" : "hidden",
-          opacity: "calc(var(--scroll, 0) * 1.6)",
-          backgroundColor: `${darkenedColor}`,
-        }}
+        style={
+          {
+            "--background-base": colorBackgroundBase,
+            visibility: isScrolled ? "visible" : "hidden",
+            opacity: "calc(var(--scroll, 0) * 1.6)",
+            backgroundColor: "var(--background-base)",
+          } as React.CSSProperties
+        }
         className="absolute inset-x-0 top-0 p-4 h-16 flex items-center z-1"
       >
         <div
@@ -102,7 +118,7 @@ export const AlbumPage = () => {
               <path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288z"></path>
             </svg>
           </button>
-          <span className="font-semibold text-2xl">Mahagita Vol. 2</span>
+          <span className="font-semibold text-2xl">{album.name}</span>
         </div>
       </header>
       <ScrollArea
@@ -125,10 +141,14 @@ export const AlbumPage = () => {
           className="flex items-end relative w-full pb-6 z-10"
         >
           <div
-            style={{
-              backgroundColor: `${darkenedColor}`,
-              backgroundImage: `linear-gradient(to bottom, ${dominantColor}, transparent)`,
-            }}
+            style={
+              {
+                "--background-base": colorBackgroundBase,
+                "--background-base-min-contrast": colorBackgroundBaseMinContrast,
+                backgroundColor: "var(--background-base)",
+                backgroundImage: `linear-gradient(to bottom, var(--background-base-min-contrast), transparent)`,
+              } as React.CSSProperties
+            }
             className="absolute top-0 left-0 w-full h-full -z-1"
           ></div>
 
@@ -143,14 +163,14 @@ export const AlbumPage = () => {
               className="relative rounded-xl overflow-hidden me-5 shrink-0"
             >
               <Image
-                src="https://i.scdn.co/image/ab67616d00001e02f6ce264866ac7fa1664b4db4"
+                src={album.coverArt.sources[0].url}
                 alt="Album cover"
                 className="absolute top-0 left-0 w-full h-full object-cover"
               />
             </div>
 
             <div className="flex-col flex justify-end">
-              <p className="font-medium text-sm">Album</p>
+              <p className="font-medium text-sm">{transformAlbumType(album.type)}</p>
 
               <p
                 style={{
@@ -161,24 +181,54 @@ export const AlbumPage = () => {
                 }}
                 className="font-extrabold tracking-tight mt-1 mb-2"
               >
-                Mahagita Vol. 2
+                {album.name}
               </p>
 
               {/* Meta Info */}
               <div className="flex items-center gap-2">
-                <div className="flex items-center">
-                  <Image
-                    alt="JKT48"
-                    src="https://i.scdn.co/image/ab6761610000101f07189aefe72bf176ecd0b2ab"
-                    className="size-6 rounded-full me-2"
-                  />
-                  <Link
-                    to="/artist/2l8I5pWUnfF7bMK1z6EJRk"
-                    className="font-semibold"
-                  >
-                    JKT48
-                  </Link>
-                  <span className="ms-2 text-sm text-text-subdued">• 2023 • 11 songs, 51 min 10 sec</span>
+                <div className="flex min-w-0 flex-wrap items-center gap-x-2 gap-y-1 text-sm">
+                  {/* Artists */}
+                  {album.artists.totalCount > 1 ? (
+                    <div className="flex flex-wrap items-center min-w-0">
+                      {album.artists.items.map((artist, index) => (
+                        <React.Fragment key={artist.id}>
+                          <Link
+                            to={transformSpotifyUriToUrl(artist.uri)}
+                            className="font-bold wrap-break-word"
+                          >
+                            {artist.profile.name}
+                          </Link>
+
+                          {index < album.artists.items.length - 1 && <span className="mx-1 text-text-subdued">•</span>}
+                        </React.Fragment>
+                      ))}
+                    </div>
+                  ) : (
+                    album.artists.items.map((artist) => (
+                      <div
+                        key={artist.id}
+                        className="flex items-center min-w-0"
+                      >
+                        <Image
+                          alt="Artist avatar"
+                          src={artist.visuals.avatarImage.sources[0].url}
+                          className="me-2 size-6 shrink-0 rounded-full"
+                        />
+                        <Link
+                          to={transformSpotifyUriToUrl(artist.uri)}
+                          className="font-semibold wrap-break-word"
+                        >
+                          {artist.profile.name}
+                        </Link>
+                      </div>
+                    ))
+                  )}
+
+                  {/* Meta */}
+                  <span className="text-text-subdued wrap-break-word">
+                    • {album.date.isoString.split("-")[0]} • {album.discs.items.reduce((acc, d) => acc + d.tracks.totalCount, 0)} songs,{" "}
+                    {formatDuration(totalDurationSeconds, { compact: false })}
+                  </span>
                 </div>
               </div>
             </div>
@@ -186,10 +236,13 @@ export const AlbumPage = () => {
         </div>
         <div className="min-h-screen bg-background-base relative z-0">
           <div
-            style={{
-              height: "173px",
-              background: `linear-gradient(to bottom, rgba(${darkenedColorRGB.r},${darkenedColorRGB.g},${darkenedColorRGB.b},0.7), transparent)`,
-            }}
+            style={
+              {
+                "--background-base-70": colorBackgroundBase70,
+                height: "173px",
+                background: `linear-gradient(to bottom, var(--background-base-70), transparent)`,
+              } as React.CSSProperties
+            }
             className="-z-1  absolute top-0 left-0 w-full"
           />
           <div className="flex flex-col -mt-1 p-6">
@@ -206,23 +259,24 @@ export const AlbumPage = () => {
                   <path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288z"></path>
                 </svg>
               </button>
-              {artist.tracks.metadata.videoPreview.present && (
-                <div className="ml-6">
-                  <div
-                    role="button"
-                    style={{
-                      width: "38px",
-                      height: "48px",
-                    }}
-                    className="rounded-xl border-2 border-text-subdued flex items-center justify-center overflow-hidden"
-                  >
-                    <img
-                      src={artist.tracks.metadata.videoPreview.thumbnailUrl}
-                      alt={`Track video preview thumbnail for ${artist.name}`}
-                    />
-                  </div>
+
+              <div className="ml-6">
+                <div
+                  role="button"
+                  style={{
+                    width: "38px",
+                    height: "48px",
+                  }}
+                  className="rounded-xl border-2 border-text-subdued flex items-center justify-center overflow-hidden relative"
+                >
+                  <img
+                    src={album.watchFeedEntrypoint.thumbnailImage.data.imageId}
+                    alt=""
+                    className="absolute object-cover aspect-9/16"
+                  />
                 </div>
-              )}
+              </div>
+
               <div className="ml-6">
                 <Button variant="tertiary">
                   <EncoreIconShuffle className="size-7" />
@@ -255,39 +309,37 @@ export const AlbumPage = () => {
                 </div>
 
                 <div className="flex flex-col">
-                  {tracks.map((track, index) => (
+                  {album.tracksV2.items.map((track, index) => (
                     <div
-                      key={track.id}
-                      className={`group grid grid-cols-[40px_1fr_auto] gap-4 px-4 py-2 rounded-md items-center cursor-pointer transition-colors ${
-                        track.isPlaying ? "bg-background-elevated-highlight" : "hover:bg-background-elevated-highlight"
-                      }`}
+                      key={track.uid}
+                      className={`group grid grid-cols-[40px_1fr_auto] gap-4 px-4 py-2 rounded-md items-center cursor-pointer transition-colors ${"hover:bg-background-elevated-highlight"}`}
                     >
                       <div className="flex items-center justify-center w-6 h-6 ml-1 text-text-subdued">
-                        {track.isPlaying ? (
-                          <svg
-                            viewBox="0 0 24 24"
-                            className="w-4 h-4 fill-white"
-                          >
-                            <path d="M8 5.14v14l11-7-11-7z"></path>
-                          </svg>
-                        ) : (
-                          <>
-                            <span className="text-base group-hover:hidden">{index + 1}</span>
-                            <EncoreIconPlay
-                              viewBox="0 0 24 24"
-                              className="w-4 h-4 fill-white hidden group-hover:block"
-                            />
-                          </>
-                        )}
+                        <span className="text-base group-hover:hidden">{index + 1}</span>
+                        <EncoreIconPlay
+                          viewBox="0 0 24 24"
+                          className="w-4 h-4 fill-white hidden group-hover:block"
+                        />
                       </div>
 
                       <div className="flex flex-col overflow-hidden">
-                        <span className={`text-[15px] truncate ${track.isPlaying ? "text-[#1db954]" : "text-white"}`}>{track.title}</span>
-                        <span className="text-[13px] text-text-subdued truncate group-hover:text-white transition-colors mt-0.5">{track.artist}</span>
+                        <span className={`text-[15px] truncate "text-white"}`}>{track.track.name}</span>
+                        <div className="flex">
+                          {track.track.artists.items.map((artist, i) => (
+                            <span
+                              key={artist.profile.name}
+                              className="text-[13px] text-text-subdued truncate group-hover:text-white transition-colors mt-0.5"
+                            >
+                              <Link to={transformSpotifyUriToUrl(artist.uri)}>{artist.profile.name}</Link>
+                              {i < track.track.artists.items.length - 1 && ","}
+                              &nbsp;
+                            </span>
+                          ))}
+                        </div>
                       </div>
 
                       <div className="flex items-center justify-end gap-5">
-                        {track.isSaved ? (
+                        {track.track.saved ? (
                           <EncoreIconCheck
                             viewBox="0 0 16 16"
                             className="size-4.5 fill-[#1ed760]"
@@ -296,7 +348,7 @@ export const AlbumPage = () => {
                           <Button
                             variant="tertiary"
                             aria-label="Add to Liked Songs"
-                            className={`${track.isPlaying ? "opacity-100" : "opacity-0 group-hover:opacity-100"} transition-opacity`}
+                            className={`opacity-0 group-hover:opacity-100 transition-opacity`}
                           >
                             <EncoreIconPlus
                               viewBox="0 0 16 16"
@@ -306,11 +358,13 @@ export const AlbumPage = () => {
                         )}
 
                         {/* Durasi */}
-                        <span className="text-sm text-text-subdued w-8 text-right">{track.duration}</span>
+                        <span className="text-sm text-text-subdued w-8 text-right">
+                          {formatDuration(track.track.duration.totalMilliseconds / 1000)}
+                        </span>
 
                         <button
                           aria-label="More options"
-                          className={`${track.isPlaying ? "opacity-100" : "opacity-0 group-hover:opacity-100"} transition-opacity`}
+                          className={`opacity-0 group-hover:opacity-100 transition-opacity`}
                         >
                           <svg
                             viewBox="0 0 16 16"
@@ -326,11 +380,24 @@ export const AlbumPage = () => {
               </div>
             </div>
             <div className="mt-8 text-text-subdued  leading-tight">
-              <p className="text-sm">March 12, 2021</p>
-              <p className="text-xs">&copy; 2021 Universal Music Indonesia</p>
+              <p className="text-sm">
+                {new Intl.DateTimeFormat("en-US", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                }).format(new Date(album.date.isoString))}
+              </p>
+              {album.copyright.items.map((c, i) => (
+                <p
+                  key={i}
+                  className="text-xs"
+                >
+                  {symbolMap[c.type] ?? ""} {c.text.replace(/[©℗]/g, "")}
+                </p>
+              ))}
             </div>
             <div className="mt-16 flex flex-col">
-              <h2 className="font-bold text-2xl">More by JKT48</h2>
+              <h2 className="font-bold text-2xl">More by {album.artists.items[0].profile.name}</h2>
               <div
                 style={
                   {
@@ -345,7 +412,7 @@ export const AlbumPage = () => {
                 }
                 className="mt-4"
               >
-                {artistDiscographyData.moreAlbumsByArtist.items
+                {album.moreAlbumsByArtist.items
                   .filter((f) => f.id != id)
                   .map((b) => (
                     <div
@@ -357,7 +424,7 @@ export const AlbumPage = () => {
                           <Link to="#">
                             <Image
                               src={b.coverArt.sources[0].url}
-                              alt={`Album cover for ${b.name} by ${artist.name}`}
+                              alt=""
                               className="absolute top-0 left-0 object-cover object-center w-full h-full"
                             />
                           </Link>

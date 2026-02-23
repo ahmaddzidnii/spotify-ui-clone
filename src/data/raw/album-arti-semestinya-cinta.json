@@ -1,0 +1,884 @@
+{
+  "data": {
+    "albumUnion": {
+      "__typename": "Album",
+      "copyright": {
+        "items": [
+          {
+            "text": "© 2024 Universal Music Indonesia",
+            "type": "C"
+          },
+          {
+            "text": "℗ 2024 Universal Music Indonesia",
+            "type": "P"
+          }
+        ],
+        "totalCount": 2
+      },
+      "courtesyLine": "",
+      "date": {
+        "isoString": "2024-03-07T00:00:00Z",
+        "precision": "DAY"
+      },
+      "isPreRelease": false,
+      "label": "PT. Universal Music Indonesia",
+      "name": "ArTi Semestinya Cinta",
+      "playability": {
+        "playable": true,
+        "reason": "PLAYABLE"
+      },
+      "preReleaseEndDateTime": null,
+      "saved": false,
+      "sharingInfo": {
+        "shareId": "YmpSEVqbShayASRPzcRRnQ",
+        "shareUrl": "https://open.spotify.com/album/48VJneXoN4AW5QAT4Ruwkc?si=YmpSEVqbShayASRPzcRRnQ"
+      },
+      "tracksV2": {
+        "items": [
+          {
+            "track": {
+              "artists": {
+                "items": [
+                  {
+                    "profile": {
+                      "name": "Tiara Andini"
+                    },
+                    "uri": "spotify:artist:0kPb52ySN2k9P6wEZPTUzm"
+                  },
+                  {
+                    "profile": {
+                      "name": "Arsy Widianto"
+                    },
+                    "uri": "spotify:artist:7j5PGC0BF48rRtcmgbVvOT"
+                  }
+                ]
+              },
+              "associationsV3": {
+                "videoAssociations": {
+                  "totalCount": 1
+                }
+              },
+              "contentRating": {
+                "label": "NONE"
+              },
+              "discNumber": 1,
+              "duration": {
+                "totalMilliseconds": 261476
+              },
+              "name": "Lagu Pernikahan Kita",
+              "playability": {
+                "playable": true
+              },
+              "playcount": "90745070",
+              "relinkingInformation": null,
+              "saved": false,
+              "trackNumber": 1,
+              "uri": "spotify:track:77iq7yA9yPUAdQo9A5q2iA"
+            },
+            "uid": "9b79cb823331cffa5d58"
+          },
+          {
+            "track": {
+              "artists": {
+                "items": [
+                  {
+                    "profile": {
+                      "name": "Arsy Widianto"
+                    },
+                    "uri": "spotify:artist:7j5PGC0BF48rRtcmgbVvOT"
+                  },
+                  {
+                    "profile": {
+                      "name": "Tiara Andini"
+                    },
+                    "uri": "spotify:artist:0kPb52ySN2k9P6wEZPTUzm"
+                  }
+                ]
+              },
+              "associationsV3": {
+                "videoAssociations": {
+                  "totalCount": 1
+                }
+              },
+              "contentRating": {
+                "label": "NONE"
+              },
+              "discNumber": 1,
+              "duration": {
+                "totalMilliseconds": 262341
+              },
+              "name": "Masih Hatiku",
+              "playability": {
+                "playable": true
+              },
+              "playcount": "167912009",
+              "relinkingInformation": null,
+              "saved": false,
+              "trackNumber": 2,
+              "uri": "spotify:track:4moNzW4Fo4wXNiAkVPzZiO"
+            },
+            "uid": "c895ed891920601a9fad"
+          },
+          {
+            "track": {
+              "artists": {
+                "items": [
+                  {
+                    "profile": {
+                      "name": "Tiara Andini"
+                    },
+                    "uri": "spotify:artist:0kPb52ySN2k9P6wEZPTUzm"
+                  },
+                  {
+                    "profile": {
+                      "name": "Arsy Widianto"
+                    },
+                    "uri": "spotify:artist:7j5PGC0BF48rRtcmgbVvOT"
+                  }
+                ]
+              },
+              "associationsV3": {
+                "videoAssociations": {
+                  "totalCount": 1
+                }
+              },
+              "contentRating": {
+                "label": "NONE"
+              },
+              "discNumber": 1,
+              "duration": {
+                "totalMilliseconds": 240862
+              },
+              "name": "Cantik",
+              "playability": {
+                "playable": true
+              },
+              "playcount": "52317863",
+              "relinkingInformation": null,
+              "saved": false,
+              "trackNumber": 3,
+              "uri": "spotify:track:3tri5XrdkhTT8dXPhWXZDa"
+            },
+            "uid": "946e3a9f4da3e5ba4aa0"
+          },
+          {
+            "track": {
+              "artists": {
+                "items": [
+                  {
+                    "profile": {
+                      "name": "Arsy Widianto"
+                    },
+                    "uri": "spotify:artist:7j5PGC0BF48rRtcmgbVvOT"
+                  },
+                  {
+                    "profile": {
+                      "name": "Tiara Andini"
+                    },
+                    "uri": "spotify:artist:0kPb52ySN2k9P6wEZPTUzm"
+                  }
+                ]
+              },
+              "associationsV3": {
+                "videoAssociations": {
+                  "totalCount": 0
+                }
+              },
+              "contentRating": {
+                "label": "NONE"
+              },
+              "discNumber": 1,
+              "duration": {
+                "totalMilliseconds": 252205
+              },
+              "name": "Terindah Di Dunia",
+              "playability": {
+                "playable": true
+              },
+              "playcount": "6981745",
+              "relinkingInformation": null,
+              "saved": false,
+              "trackNumber": 4,
+              "uri": "spotify:track:6x3s7qNHUx8TQQFbHskOr1"
+            },
+            "uid": "a971584c5d7c47c67e72"
+          },
+          {
+            "track": {
+              "artists": {
+                "items": [
+                  {
+                    "profile": {
+                      "name": "Arsy Widianto"
+                    },
+                    "uri": "spotify:artist:7j5PGC0BF48rRtcmgbVvOT"
+                  },
+                  {
+                    "profile": {
+                      "name": "Tiara Andini"
+                    },
+                    "uri": "spotify:artist:0kPb52ySN2k9P6wEZPTUzm"
+                  }
+                ]
+              },
+              "associationsV3": {
+                "videoAssociations": {
+                  "totalCount": 0
+                }
+              },
+              "contentRating": {
+                "label": "NONE"
+              },
+              "discNumber": 1,
+              "duration": {
+                "totalMilliseconds": 239066
+              },
+              "name": "Mantan Terindah",
+              "playability": {
+                "playable": true
+              },
+              "playcount": "6823027",
+              "relinkingInformation": null,
+              "saved": false,
+              "trackNumber": 5,
+              "uri": "spotify:track:4Jts0dxxaYaSxbbNaFUXTF"
+            },
+            "uid": "211c6478d382591ad2df"
+          }
+        ],
+        "totalCount": 5
+      },
+      "type": "EP",
+      "uri": "spotify:album:48VJneXoN4AW5QAT4Ruwkc",
+      "visualIdentity": {
+        "squareCoverImage": {
+          "__typename": "VisualIdentityImage",
+          "extractedColorSet": {
+            "encoreBaseSetTextColor": {
+              "alpha": 255,
+              "blue": 161,
+              "green": 187,
+              "red": 195
+            },
+            "highContrast": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 60,
+                "green": 83,
+                "red": 90
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 29,
+                "green": 50,
+                "red": 57
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 179,
+                "green": 205,
+                "red": 214
+              }
+            },
+            "higherContrast": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 31,
+                "green": 53,
+                "red": 60
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 63,
+                "green": 86,
+                "red": 93
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 96,
+                "green": 215,
+                "red": 30
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 179,
+                "green": 205,
+                "red": 214
+              }
+            },
+            "minContrast": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 104,
+                "green": 128,
+                "red": 136
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 79,
+                "green": 102,
+                "red": 109
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              }
+            }
+          }
+        }
+      },
+      "watchFeedEntrypoint": {
+        "entrypointUri": "spotify:watch-feed:album:48VJneXoN4AW5QAT4Ruwkc?itemId=c3BvdGlmeTp0cmFjazo3N2lxN3lBOXlQVUFkUW85QTVxMmlB",
+        "thumbnailImage": {
+          "data": {
+            "__typename": "ImageV2",
+            "imageId": "https://i.scdn.co/image/ab67616d00004851f4d7e497258b4a0bd0b5a973",
+            "imageIdType": "IMAGE_URL",
+            "sources": [
+              {
+                "imageFormat": "WEBP",
+                "maxHeight": 640,
+                "maxWidth": 640,
+                "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d000075a0f4d7e497258b4a0bd0b5a973"
+              },
+              {
+                "imageFormat": "WEBP",
+                "maxHeight": 64,
+                "maxWidth": 64,
+                "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d000090d5f4d7e497258b4a0bd0b5a973"
+              },
+              {
+                "imageFormat": "WEBP",
+                "maxHeight": 300,
+                "maxWidth": 300,
+                "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000ab87f4d7e497258b4a0bd0b5a973"
+              }
+            ]
+          }
+        },
+        "video": {
+          "endTime": 0,
+          "fileId": "https://canvaz.scdn.co/upload/licensor/7JGwF0zhX9oItt9901OvB5/video/505e79f06ca642d1a184c2e427faa549.cnvs.mp4",
+          "startTime": 0,
+          "videoType": "URL"
+        }
+      },
+      "artists": {
+        "items": [
+          {
+            "id": "7j5PGC0BF48rRtcmgbVvOT",
+            "profile": {
+              "name": "Arsy Widianto"
+            },
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/artist/7j5PGC0BF48rRtcmgbVvOT?si=jERV8UE3Qemi6PBsi4jIZA"
+            },
+            "uri": "spotify:artist:7j5PGC0BF48rRtcmgbVvOT",
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebcfbb23382ea9a0dfbd371077",
+                    "width": 640
+                  },
+                  {
+                    "height": 160,
+                    "url": "https://i.scdn.co/image/ab6761610000f178cfbb23382ea9a0dfbd371077",
+                    "width": 160
+                  },
+                  {
+                    "height": 320,
+                    "url": "https://i.scdn.co/image/ab67616100005174cfbb23382ea9a0dfbd371077",
+                    "width": 320
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "0kPb52ySN2k9P6wEZPTUzm",
+            "profile": {
+              "name": "Tiara Andini"
+            },
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/artist/0kPb52ySN2k9P6wEZPTUzm?si=J0XdIqdIQOuENW1rWYZQdw"
+            },
+            "uri": "spotify:artist:0kPb52ySN2k9P6wEZPTUzm",
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb12d698404d2d020c4212df6b",
+                    "width": 640
+                  },
+                  {
+                    "height": 160,
+                    "url": "https://i.scdn.co/image/ab6761610000f17812d698404d2d020c4212df6b",
+                    "width": 160
+                  },
+                  {
+                    "height": 320,
+                    "url": "https://i.scdn.co/image/ab6761610000517412d698404d2d020c4212df6b",
+                    "width": 320
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "totalCount": 2
+      },
+      "coverArt": {
+        "extractedColors": {
+          "colorDark": {
+            "hex": "#7E7660"
+          },
+          "colorLight": {
+            "hex": "#888068"
+          },
+          "colorRaw": {
+            "hex": "#888068"
+          }
+        },
+        "sources": [
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02f4d7e497258b4a0bd0b5a973",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851f4d7e497258b4a0bd0b5a973",
+            "width": 64
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273f4d7e497258b4a0bd0b5a973",
+            "width": 640
+          }
+        ]
+      },
+      "discs": {
+        "items": [
+          {
+            "number": 1,
+            "tracks": {
+              "totalCount": 5
+            }
+          }
+        ],
+        "totalCount": 1
+      },
+      "releases": {
+        "items": [],
+        "totalCount": 0
+      },
+      "moreAlbumsByArtist": {
+        "items": [
+          {
+            "discography": {
+              "popularReleasesAlbums": {
+                "items": [
+                  {
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02f73451551ac923d3d78ed281",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851f73451551ac923d3d78ed281",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273f73451551ac923d3d78ed281",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "year": 2023
+                    },
+                    "id": "2RNiOxbTKTqO549ZrsEdTV",
+                    "name": "Puisi",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "bpkoMNwZQmybBldegdKlNQ",
+                      "shareUrl": "https://open.spotify.com/album/2RNiOxbTKTqO549ZrsEdTV?si=bpkoMNwZQmybBldegdKlNQ"
+                    },
+                    "type": "ALBUM",
+                    "uri": "spotify:album:2RNiOxbTKTqO549ZrsEdTV"
+                  },
+                  {
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02acd5836a189c22acb9ca5abe",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851acd5836a189c22acb9ca5abe",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273acd5836a189c22acb9ca5abe",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "year": 2024
+                    },
+                    "id": "6uwl5luJhAy6CLqoU8ExTY",
+                    "name": "Masih Hatiku",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "bGRmZdgBQbahieESWqFj6w",
+                      "shareUrl": "https://open.spotify.com/album/6uwl5luJhAy6CLqoU8ExTY?si=bGRmZdgBQbahieESWqFj6w"
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:6uwl5luJhAy6CLqoU8ExTY"
+                  },
+                  {
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02a9b7549ce65148ae47956489",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851a9b7549ce65148ae47956489",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273a9b7549ce65148ae47956489",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "year": 2021
+                    },
+                    "id": "2qEHRe3bIRZ1DLyYMmnBK4",
+                    "name": "Cintanya Aku",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "KwOfXa9wR9WbApbEwtNb8Q",
+                      "shareUrl": "https://open.spotify.com/album/2qEHRe3bIRZ1DLyYMmnBK4?si=KwOfXa9wR9WbApbEwtNb8Q"
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:2qEHRe3bIRZ1DLyYMmnBK4"
+                  },
+                  {
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02f4d7e497258b4a0bd0b5a973",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851f4d7e497258b4a0bd0b5a973",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273f4d7e497258b4a0bd0b5a973",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "year": 2024
+                    },
+                    "id": "48VJneXoN4AW5QAT4Ruwkc",
+                    "name": "ArTi Semestinya Cinta",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "q-E_tU8iRYOUTRaKKRLSgQ",
+                      "shareUrl": "https://open.spotify.com/album/48VJneXoN4AW5QAT4Ruwkc?si=q-E_tU8iRYOUTRaKKRLSgQ"
+                    },
+                    "type": "EP",
+                    "uri": "spotify:album:48VJneXoN4AW5QAT4Ruwkc"
+                  },
+                  {
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e023b742ad14080732f6120bd79",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048513b742ad14080732f6120bd79",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2733b742ad14080732f6120bd79",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "year": 2024
+                    },
+                    "id": "5eY3dzN1EvreoSLr1vWVMu",
+                    "name": "Lagu Pernikahan Kita",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "aglfscTbRYCvDzS373E2Gg",
+                      "shareUrl": "https://open.spotify.com/album/5eY3dzN1EvreoSLr1vWVMu?si=aglfscTbRYCvDzS373E2Gg"
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:5eY3dzN1EvreoSLr1vWVMu"
+                  },
+                  {
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e028901c8f2b4af8dce42e66ff2",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048518901c8f2b4af8dce42e66ff2",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2738901c8f2b4af8dce42e66ff2",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "year": 2020
+                    },
+                    "id": "4S4ogrDItVyNo6H6gYmOK3",
+                    "name": "Rindu Dalam Hati",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "8lPwza-QQ6S7dbys-j2azQ",
+                      "shareUrl": "https://open.spotify.com/album/4S4ogrDItVyNo6H6gYmOK3?si=8lPwza-QQ6S7dbys-j2azQ"
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:4S4ogrDItVyNo6H6gYmOK3"
+                  },
+                  {
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02f19c8ed02b89e765e0ed6db1",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851f19c8ed02b89e765e0ed6db1",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273f19c8ed02b89e765e0ed6db1",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "year": 2021
+                    },
+                    "id": "4MidcEabYlfTGK6LGMzpSY",
+                    "name": "Bahaya",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "ePRywlObQd-OjRFkQnYr5A",
+                      "shareUrl": "https://open.spotify.com/album/4MidcEabYlfTGK6LGMzpSY?si=ePRywlObQd-OjRFkQnYr5A"
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:4MidcEabYlfTGK6LGMzpSY"
+                  },
+                  {
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e0295ae1c7af9a131edeb790f0f",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d0000485195ae1c7af9a131edeb790f0f",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b27395ae1c7af9a131edeb790f0f",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "year": 2020
+                    },
+                    "id": "5zgHNrSOEHKrzXnaWLvnfx",
+                    "name": "Soulmate",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "NSH9mQpySv-Gd3rP8wCT4Q",
+                      "shareUrl": "https://open.spotify.com/album/5zgHNrSOEHKrzXnaWLvnfx?si=NSH9mQpySv-Gd3rP8wCT4Q"
+                    },
+                    "type": "EP",
+                    "uri": "spotify:album:5zgHNrSOEHKrzXnaWLvnfx"
+                  },
+                  {
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e029315fdf08244356d69b6111e",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048519315fdf08244356d69b6111e",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2739315fdf08244356d69b6111e",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "year": 2018
+                    },
+                    "id": "6lfnTiXmRbPWrK40luaKFo",
+                    "name": "Dengan Caraku",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "RBtIWQxbTAWsiKnzBG8bXA",
+                      "shareUrl": "https://open.spotify.com/album/6lfnTiXmRbPWrK40luaKFo?si=RBtIWQxbTAWsiKnzBG8bXA"
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:6lfnTiXmRbPWrK40luaKFo"
+                  },
+                  {
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02b20f45528140ffa10411e894",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851b20f45528140ffa10411e894",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273b20f45528140ffa10411e894",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "year": 2021
+                    },
+                    "id": "3q65FljM2WnT8z3nZumLDZ",
+                    "name": "Diam - Diam",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "rmFXcZFxROy0CTWfitPRTg",
+                      "shareUrl": "https://open.spotify.com/album/3q65FljM2WnT8z3nZumLDZ?si=rmFXcZFxROy0CTWfitPRTg"
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:3q65FljM2WnT8z3nZumLDZ"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

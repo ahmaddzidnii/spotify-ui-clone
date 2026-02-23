@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { Link, useParams } from "react-router";
+import { Link } from "react-router";
 
 import { getArtistWithTracks } from "@/data/query";
 import { useScrollTrigger } from "@/hooks/use-scroll-trigger";
@@ -258,8 +258,6 @@ const tracks = [
 
 export const PlaylistPage = () => {
   const artist = getArtistWithTracks("2l8I5pWUnfF7bMK1z6EJRk");
-
-  const { id } = useParams();
 
   const scrollRef = useRef<ScrollAreaRef | null>(null);
   const isScrolled = useScrollTrigger(scrollRef, 50);

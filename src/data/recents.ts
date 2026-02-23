@@ -7,15 +7,15 @@ export const RECENTS = [
   },
   {
     id: "2",
-    title: "Arti Untuk Cinta",
+    title: "Arti Semestinya Cinta",
     imageUrl: "https://i.scdn.co/image/ab67616d0000b273f4d7e497258b4a0bd0b5a973",
     href: "/album/48VJneXoN4AW5QAT4Ruwkc",
   },
   {
     id: "3",
-    title: "Arti Semestinya Cinta",
+    title: "Arti Untuk Cinta",
     imageUrl: "https://i.scdn.co/image/ab67616d0000b2733acc68e876b8c4b1f56b22ee",
-    href: "/album/48VJneXoN4AW5QAT4Ruwkc",
+    href: "/album/4Tx1o9uaCC1EMPoCejM95i",
   },
   {
     id: "4",
