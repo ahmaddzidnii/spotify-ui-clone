@@ -21,7 +21,6 @@ import {
 } from "@/components/encore/icons";
 import { Footer } from "@/layouts/components/footer";
 import { artistDiscographyData } from "@/data/album";
-import { cn } from "@/utils/cn";
 
 const tracks = [
   { id: 1, title: "Eureka Milik Kita", artist: "JKT48", duration: "4:11", isSaved: false, isPlaying: false },
