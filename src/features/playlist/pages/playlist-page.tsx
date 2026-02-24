@@ -1,7 +1,6 @@
 import { useRef, useState } from "react";
 import { Link } from "react-router";
 
-import { getArtistWithTracks } from "@/data/query";
 import { useScrollTrigger } from "@/hooks/use-scroll-trigger";
 
 import { hexToRgb } from "@/features/shared/formaters/format-color";
@@ -21,6 +20,7 @@ import {
   EncoreIconPersonPlus,
 } from "@/components/encore/icons";
 import { Footer } from "@/layouts/components/footer";
+import { ARTISTS } from "@/data/artists";
 
 const tracks = [
   {
@@ -257,7 +257,7 @@ const tracks = [
 ];
 
 export const PlaylistPage = () => {
-  const artist = getArtistWithTracks("2l8I5pWUnfF7bMK1z6EJRk");
+  const artist = ARTISTS.find((x) => x.id == "2l8I5pWUnfF7bMK1z6EJRk");
 
   const scrollRef = useRef<ScrollAreaRef | null>(null);
   const isScrolled = useScrollTrigger(scrollRef, 50);

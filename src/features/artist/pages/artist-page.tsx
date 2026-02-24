@@ -1,7 +1,6 @@
 import { useRef, useState } from "react";
 import { Link, useParams } from "react-router";
 
-import { getArtistWithTracks } from "@/data/query";
 import { useScrollTrigger } from "@/hooks/use-scroll-trigger";
 
 import { hexToRgb } from "@/features/shared/formaters/format-color";
@@ -15,11 +14,12 @@ import { EncoreIconMoreOptions, EncoreIconShuffle } from "@/components/encore/ic
 import { TrackList } from "../components/track-list";
 import { Footer } from "@/layouts/components/footer";
 import { EntityError } from "@/features/error/components/entitiy-error";
+import { ARTISTS } from "@/data/artists";
 
 export const ArtistPage = () => {
   const { id } = useParams();
 
-  const artist = getArtistWithTracks(id!);
+  const artist = ARTISTS.find((artist) => artist.id === id);
 
   const scrollRef = useRef<ScrollAreaRef | null>(null);
   const isScrolled = useScrollTrigger(scrollRef, 50);

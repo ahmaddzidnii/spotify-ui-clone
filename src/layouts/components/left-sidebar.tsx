@@ -5,7 +5,7 @@ import { cn } from "@/utils/cn";
 import { Button } from "@/components/ui/button";
 import { useSidebarWidth, useSidebarActions } from "@/stores/use-sidebar-store";
 import { PlaylistItem } from "@/features/playlist/components/playlist-item";
-import { likedSongs, savedPlaylists } from "@/data/playlists";
+import { libraryResponse } from "@/data/playlists";
 import { Tooltip } from "@/components/ui/tooltip";
 import { useSidebarFullStore } from "@/stores/use-sidebar-full-store";
 import { EncoreIconCollapse, EncoreIconMinimize, EncoreIconExpand, EncoreIconLibrary } from "@/components/encore/icons";
@@ -118,10 +118,9 @@ export const LeftSidebar = () => {
 
           <ScrollArea className="flex-1">
             <div className="flex flex-col gap-2 px-2 py-4 @max-[280px]/left-sidebar:items-center @min-[421px]/left-sidebar:grid @min-[421px]/left-sidebar:grid-cols-2 @min-[500px]/left-sidebar:grid-cols-3 @min-[600px]/left-sidebar:grid-cols-4 @min-[900px]/left-sidebar:grid-cols-6">
-              <PlaylistItem playlist={likedSongs} />
-              {savedPlaylists.map((playlist) => (
+              {libraryResponse.data.me.libraryV3.items.map((playlist) => (
                 <PlaylistItem
-                  key={playlist.id}
+                  key={playlist.item.data.uri}
                   playlist={playlist}
                 />
               ))}

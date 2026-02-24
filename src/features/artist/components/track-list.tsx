@@ -1,7 +1,7 @@
 import { cn } from "@/utils/cn";
 import { Image } from "@/components/image";
 import { EncoreIconCheck, EncoreIconMoreOptions, EncoreIconPlay } from "@/components/encore/icons";
-import type { Track } from "@/data/tracks";
+import type { Track } from "@/data/artists";
 
 interface TrackListProps {
   tracks: Track[];
