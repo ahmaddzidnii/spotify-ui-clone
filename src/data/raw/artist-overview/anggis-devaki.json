@@ -1,0 +1,3853 @@
+{
+  "data": {
+    "artistUnion": {
+      "__typename": "Artist",
+      "discography": {
+        "albums": {
+          "items": [
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "HITS Records",
+                          "type": "C"
+                        },
+                        {
+                          "text": "HITS Records",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02d7105ffabf2ff9ddd265eab1",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851d7105ffabf2ff9ddd265eab1",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273d7105ffabf2ff9ddd265eab1",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 26,
+                      "month": 9,
+                      "precision": "DAY",
+                      "year": 2025
+                    },
+                    "id": "6WyxwTMDu7MdmWKZ2m4lCe",
+                    "label": "HITS Records",
+                    "name": "Devaki",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "gSFEycIRQ_GJ48BKacllfA",
+                      "shareUrl": "https://open.spotify.com/album/6WyxwTMDu7MdmWKZ2m4lCe?si=gSFEycIRQ_GJ48BKacllfA"
+                    },
+                    "tracks": {
+                      "totalCount": 9
+                    },
+                    "type": "ALBUM",
+                    "uri": "spotify:album:6WyxwTMDu7MdmWKZ2m4lCe"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2016 Anggis Devaki",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2016 Anggis Devaki",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e0204d2c436fed007049c85a7b2",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d0000485104d2c436fed007049c85a7b2",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b27304d2c436fed007049c85a7b2",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 29,
+                      "month": 1,
+                      "precision": "DAY",
+                      "year": 2016
+                    },
+                    "id": "33ekEswVlEhh3D3TWZBur4",
+                    "label": "Anggis Devaki",
+                    "name": "Anggis Devaki",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "bLFfaxRkSI6LmwuEtHoYMw",
+                      "shareUrl": "https://open.spotify.com/album/33ekEswVlEhh3D3TWZBur4?si=bLFfaxRkSI6LmwuEtHoYMw"
+                    },
+                    "tracks": {
+                      "totalCount": 11
+                    },
+                    "type": "ALBUM",
+                    "uri": "spotify:album:33ekEswVlEhh3D3TWZBur4"
+                  }
+                ]
+              }
+            }
+          ],
+          "totalCount": 2
+        },
+        "compilations": {
+          "items": [],
+          "totalCount": 0
+        },
+        "latest": {
+          "copyright": {
+            "items": [
+              {
+                "text": "HITS Records",
+                "type": "C"
+              },
+              {
+                "text": "HITS Records",
+                "type": "P"
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02d7105ffabf2ff9ddd265eab1",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851d7105ffabf2ff9ddd265eab1",
+                "width": 64
+              },
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273d7105ffabf2ff9ddd265eab1",
+                "width": 640
+              }
+            ]
+          },
+          "date": {
+            "day": 26,
+            "month": 9,
+            "precision": "DAY",
+            "year": 2025
+          },
+          "id": "6WyxwTMDu7MdmWKZ2m4lCe",
+          "label": "HITS Records",
+          "name": "Devaki",
+          "playability": {
+            "playable": true,
+            "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+            "shareId": "UoD3U_5kTDCVqBtsi6iS4A",
+            "shareUrl": "https://open.spotify.com/album/6WyxwTMDu7MdmWKZ2m4lCe?si=UoD3U_5kTDCVqBtsi6iS4A"
+          },
+          "tracks": {
+            "totalCount": 9
+          },
+          "type": "ALBUM",
+          "uri": "spotify:album:6WyxwTMDu7MdmWKZ2m4lCe"
+        },
+        "popularReleasesAlbums": {
+          "items": [
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "HITS Records",
+                    "type": "C"
+                  },
+                  {
+                    "text": "HITS Records",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02d7105ffabf2ff9ddd265eab1",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851d7105ffabf2ff9ddd265eab1",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273d7105ffabf2ff9ddd265eab1",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 26,
+                "month": 9,
+                "precision": "DAY",
+                "year": 2025
+              },
+              "id": "6WyxwTMDu7MdmWKZ2m4lCe",
+              "label": "HITS Records",
+              "name": "Devaki",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "EW0BQbvLSCCYHSpyla4YRA",
+                "shareUrl": "https://open.spotify.com/album/6WyxwTMDu7MdmWKZ2m4lCe?si=EW0BQbvLSCCYHSpyla4YRA"
+              },
+              "tracks": {
+                "totalCount": 9
+              },
+              "type": "ALBUM",
+              "uri": "spotify:album:6WyxwTMDu7MdmWKZ2m4lCe"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "HITS Records",
+                    "type": "C"
+                  },
+                  {
+                    "text": "HITS Records",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e023e54da790e49d24b970d069e",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048513e54da790e49d24b970d069e",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2733e54da790e49d24b970d069e",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 29,
+                "month": 11,
+                "precision": "DAY",
+                "year": 2024
+              },
+              "id": "1XwDxY39rQn75hkx763Kri",
+              "label": "HITS Records",
+              "name": "Dirimu Yang Dulu",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "xo2iK365QiuonbuyUuXe0A",
+                "shareUrl": "https://open.spotify.com/album/1XwDxY39rQn75hkx763Kri?si=xo2iK365QiuonbuyUuXe0A"
+              },
+              "tracks": {
+                "totalCount": 2
+              },
+              "type": "EP",
+              "uri": "spotify:album:1XwDxY39rQn75hkx763Kri"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "HITS Records",
+                    "type": "C"
+                  },
+                  {
+                    "text": "HITS Records",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02876476b0244c1943097100ff",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851876476b0244c1943097100ff",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273876476b0244c1943097100ff",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 29,
+                "month": 2,
+                "precision": "DAY",
+                "year": 2024
+              },
+              "id": "3n3wxffHONB1v1idVCoMcK",
+              "label": "HITS Records",
+              "name": "Kisah Tanpa Dirimu",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "L55OjAr5SXKzL4hvp9oujw",
+                "shareUrl": "https://open.spotify.com/album/3n3wxffHONB1v1idVCoMcK?si=L55OjAr5SXKzL4hvp9oujw"
+              },
+              "tracks": {
+                "totalCount": 2
+              },
+              "type": "EP",
+              "uri": "spotify:album:3n3wxffHONB1v1idVCoMcK"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "HITS Records",
+                    "type": "C"
+                  },
+                  {
+                    "text": "HITS Records",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02e9ec3ca520b1503ec49c8b9d",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851e9ec3ca520b1503ec49c8b9d",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273e9ec3ca520b1503ec49c8b9d",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 27,
+                "month": 6,
+                "precision": "DAY",
+                "year": 2025
+              },
+              "id": "1enR50jqoFl1yz75axX2sF",
+              "label": "HITS Records",
+              "name": "Percuma",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "2Gx2dUF9TmiVouUSaP32TQ",
+                "shareUrl": "https://open.spotify.com/album/1enR50jqoFl1yz75axX2sF?si=2Gx2dUF9TmiVouUSaP32TQ"
+              },
+              "tracks": {
+                "totalCount": 2
+              },
+              "type": "EP",
+              "uri": "spotify:album:1enR50jqoFl1yz75axX2sF"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "HITS Records",
+                    "type": "C"
+                  },
+                  {
+                    "text": "HITS Records",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e0253296972a75c4e17840eba3f",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d0000485153296972a75c4e17840eba3f",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b27353296972a75c4e17840eba3f",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 7,
+                "month": 2,
+                "precision": "DAY",
+                "year": 2025
+              },
+              "id": "2zGRJnutXLCACHo3LAt5ob",
+              "label": "HITS Records",
+              "name": "Lewat Semesta (OST. TABAYYUN)",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "PR-t1srqRp6itV2WCIE_OQ",
+                "shareUrl": "https://open.spotify.com/album/2zGRJnutXLCACHo3LAt5ob?si=PR-t1srqRp6itV2WCIE_OQ"
+              },
+              "tracks": {
+                "totalCount": 2
+              },
+              "type": "EP",
+              "uri": "spotify:album:2zGRJnutXLCACHo3LAt5ob"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "HITS Records",
+                    "type": "C"
+                  },
+                  {
+                    "text": "HITS Records",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02203176771297a99d1e4d0e35",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851203176771297a99d1e4d0e35",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273203176771297a99d1e4d0e35",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 28,
+                "month": 6,
+                "precision": "DAY",
+                "year": 2024
+              },
+              "id": "3uX5S5Lrm7mHT22OFt3q00",
+              "label": "HITS Records",
+              "name": "Jatuh Rapuh",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "EaMmFkrqQ9y3H4ee50fwCA",
+                "shareUrl": "https://open.spotify.com/album/3uX5S5Lrm7mHT22OFt3q00?si=EaMmFkrqQ9y3H4ee50fwCA"
+              },
+              "tracks": {
+                "totalCount": 2
+              },
+              "type": "EP",
+              "uri": "spotify:album:3uX5S5Lrm7mHT22OFt3q00"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "Anggis Devaki",
+                    "type": "C"
+                  },
+                  {
+                    "text": "Anggis Devaki",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e029e3921cdd73d95cb22093909",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048519e3921cdd73d95cb22093909",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2739e3921cdd73d95cb22093909",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 14,
+                "month": 2,
+                "precision": "DAY",
+                "year": 2022
+              },
+              "id": "03PgDhrcam2NnWoUvImH5X",
+              "label": "Anggis Devaki",
+              "name": "Jaga Cintamu",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "FTwQWs7tTR2eTR_SXIUwsA",
+                "shareUrl": "https://open.spotify.com/album/03PgDhrcam2NnWoUvImH5X?si=FTwQWs7tTR2eTR_SXIUwsA"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:03PgDhrcam2NnWoUvImH5X"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "2016 Anggis Devaki",
+                    "type": "C"
+                  },
+                  {
+                    "text": "2016 Anggis Devaki",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e0204d2c436fed007049c85a7b2",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d0000485104d2c436fed007049c85a7b2",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b27304d2c436fed007049c85a7b2",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 29,
+                "month": 1,
+                "precision": "DAY",
+                "year": 2016
+              },
+              "id": "33ekEswVlEhh3D3TWZBur4",
+              "label": "Anggis Devaki",
+              "name": "Anggis Devaki",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "OeX04XCaQouq_ohZTfhg2w",
+                "shareUrl": "https://open.spotify.com/album/33ekEswVlEhh3D3TWZBur4?si=OeX04XCaQouq_ohZTfhg2w"
+              },
+              "tracks": {
+                "totalCount": 11
+              },
+              "type": "ALBUM",
+              "uri": "spotify:album:33ekEswVlEhh3D3TWZBur4"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "HITS Records",
+                    "type": "C"
+                  },
+                  {
+                    "text": "HITS Records",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e0217560ef175afe04a4c2b325c",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d0000485117560ef175afe04a4c2b325c",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b27317560ef175afe04a4c2b325c",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 20,
+                "month": 10,
+                "precision": "DAY",
+                "year": 2023
+              },
+              "id": "0W6CtBfGyNGW7fwiUwL81Z",
+              "label": "HITS Records",
+              "name": "Bodoh",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "CK_6PZKgRkOd1WC5tJRJAA",
+                "shareUrl": "https://open.spotify.com/album/0W6CtBfGyNGW7fwiUwL81Z?si=CK_6PZKgRkOd1WC5tJRJAA"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:0W6CtBfGyNGW7fwiUwL81Z"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "Anggis Devaki",
+                    "type": "C"
+                  },
+                  {
+                    "text": "Anggis Devaki",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e027d4f9ef127cb24bf833df72b",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048517d4f9ef127cb24bf833df72b",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2737d4f9ef127cb24bf833df72b",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 26,
+                "month": 8,
+                "precision": "DAY",
+                "year": 2022
+              },
+              "id": "3OGYxNQkdimtA74etNVlf0",
+              "label": "Anggis Devaki",
+              "name": "SEMESTA",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "YTZ5RhGrQdaGX3tThvT25g",
+                "shareUrl": "https://open.spotify.com/album/3OGYxNQkdimtA74etNVlf0?si=YTZ5RhGrQdaGX3tThvT25g"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:3OGYxNQkdimtA74etNVlf0"
+            }
+          ],
+          "totalCount": 18
+        },
+        "singles": {
+          "items": [
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "HITS Records",
+                          "type": "C"
+                        },
+                        {
+                          "text": "HITS Records",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02e9ec3ca520b1503ec49c8b9d",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851e9ec3ca520b1503ec49c8b9d",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273e9ec3ca520b1503ec49c8b9d",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 27,
+                      "month": 6,
+                      "precision": "DAY",
+                      "year": 2025
+                    },
+                    "id": "1enR50jqoFl1yz75axX2sF",
+                    "label": "HITS Records",
+                    "name": "Percuma",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "AjFmLm8QTG2VnM4DOi-3UQ",
+                      "shareUrl": "https://open.spotify.com/album/1enR50jqoFl1yz75axX2sF?si=AjFmLm8QTG2VnM4DOi-3UQ"
+                    },
+                    "tracks": {
+                      "totalCount": 2
+                    },
+                    "type": "EP",
+                    "uri": "spotify:album:1enR50jqoFl1yz75axX2sF"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "HITS Records",
+                          "type": "C"
+                        },
+                        {
+                          "text": "HITS Records",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e0253296972a75c4e17840eba3f",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d0000485153296972a75c4e17840eba3f",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b27353296972a75c4e17840eba3f",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 7,
+                      "month": 2,
+                      "precision": "DAY",
+                      "year": 2025
+                    },
+                    "id": "2zGRJnutXLCACHo3LAt5ob",
+                    "label": "HITS Records",
+                    "name": "Lewat Semesta (OST. TABAYYUN)",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "YE6dXG4LQGqaRQ3LTiYjTw",
+                      "shareUrl": "https://open.spotify.com/album/2zGRJnutXLCACHo3LAt5ob?si=YE6dXG4LQGqaRQ3LTiYjTw"
+                    },
+                    "tracks": {
+                      "totalCount": 2
+                    },
+                    "type": "EP",
+                    "uri": "spotify:album:2zGRJnutXLCACHo3LAt5ob"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "HITS Records",
+                          "type": "C"
+                        },
+                        {
+                          "text": "HITS Records",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e023e54da790e49d24b970d069e",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048513e54da790e49d24b970d069e",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2733e54da790e49d24b970d069e",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 29,
+                      "month": 11,
+                      "precision": "DAY",
+                      "year": 2024
+                    },
+                    "id": "1XwDxY39rQn75hkx763Kri",
+                    "label": "HITS Records",
+                    "name": "Dirimu Yang Dulu",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "GVSVUnDwQei518LS1VbFHw",
+                      "shareUrl": "https://open.spotify.com/album/1XwDxY39rQn75hkx763Kri?si=GVSVUnDwQei518LS1VbFHw"
+                    },
+                    "tracks": {
+                      "totalCount": 2
+                    },
+                    "type": "EP",
+                    "uri": "spotify:album:1XwDxY39rQn75hkx763Kri"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "HITS Records",
+                          "type": "C"
+                        },
+                        {
+                          "text": "HITS Records",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02203176771297a99d1e4d0e35",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851203176771297a99d1e4d0e35",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273203176771297a99d1e4d0e35",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 28,
+                      "month": 6,
+                      "precision": "DAY",
+                      "year": 2024
+                    },
+                    "id": "3uX5S5Lrm7mHT22OFt3q00",
+                    "label": "HITS Records",
+                    "name": "Jatuh Rapuh",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "b4cgs9vnR1i2i9YedcsNXg",
+                      "shareUrl": "https://open.spotify.com/album/3uX5S5Lrm7mHT22OFt3q00?si=b4cgs9vnR1i2i9YedcsNXg"
+                    },
+                    "tracks": {
+                      "totalCount": 2
+                    },
+                    "type": "EP",
+                    "uri": "spotify:album:3uX5S5Lrm7mHT22OFt3q00"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "HITS Records",
+                          "type": "C"
+                        },
+                        {
+                          "text": "HITS Records",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e022decf92b4eb38ce3069c1719",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048512decf92b4eb38ce3069c1719",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2732decf92b4eb38ce3069c1719",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 30,
+                      "month": 3,
+                      "precision": "DAY",
+                      "year": 2024
+                    },
+                    "id": "15dox8qJ8FfmR0MURY104l",
+                    "label": "HITS Records",
+                    "name": "Kisah Tanpa Dirimu (Piano Version)",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "fJTEyMotRE2dWkGD2sDLMA",
+                      "shareUrl": "https://open.spotify.com/album/15dox8qJ8FfmR0MURY104l?si=fJTEyMotRE2dWkGD2sDLMA"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:15dox8qJ8FfmR0MURY104l"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "HITS Records",
+                          "type": "C"
+                        },
+                        {
+                          "text": "HITS Records",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02876476b0244c1943097100ff",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851876476b0244c1943097100ff",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273876476b0244c1943097100ff",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 29,
+                      "month": 2,
+                      "precision": "DAY",
+                      "year": 2024
+                    },
+                    "id": "3n3wxffHONB1v1idVCoMcK",
+                    "label": "HITS Records",
+                    "name": "Kisah Tanpa Dirimu",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "F8A6OLfUQJ2pB6TinMvJTQ",
+                      "shareUrl": "https://open.spotify.com/album/3n3wxffHONB1v1idVCoMcK?si=F8A6OLfUQJ2pB6TinMvJTQ"
+                    },
+                    "tracks": {
+                      "totalCount": 2
+                    },
+                    "type": "EP",
+                    "uri": "spotify:album:3n3wxffHONB1v1idVCoMcK"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "HITS Records",
+                          "type": "C"
+                        },
+                        {
+                          "text": "HITS Records",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e024b13015ad99e50d3048f47e6",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048514b13015ad99e50d3048f47e6",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2734b13015ad99e50d3048f47e6",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 1,
+                      "month": 11,
+                      "precision": "DAY",
+                      "year": 2023
+                    },
+                    "id": "1aOJdKmP8kyDgUti0efUG7",
+                    "label": "HITS Records",
+                    "name": "Bodoh (Sped Up Version)",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "TPcA_XL_T0GQ8P7_5G6ETQ",
+                      "shareUrl": "https://open.spotify.com/album/1aOJdKmP8kyDgUti0efUG7?si=TPcA_XL_T0GQ8P7_5G6ETQ"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:1aOJdKmP8kyDgUti0efUG7"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "HITS Records",
+                          "type": "C"
+                        },
+                        {
+                          "text": "HITS Records",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e0217560ef175afe04a4c2b325c",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d0000485117560ef175afe04a4c2b325c",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b27317560ef175afe04a4c2b325c",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 20,
+                      "month": 10,
+                      "precision": "DAY",
+                      "year": 2023
+                    },
+                    "id": "0W6CtBfGyNGW7fwiUwL81Z",
+                    "label": "HITS Records",
+                    "name": "Bodoh",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "d_0VWZpHSDW8pQl07bwCsA",
+                      "shareUrl": "https://open.spotify.com/album/0W6CtBfGyNGW7fwiUwL81Z?si=d_0VWZpHSDW8pQl07bwCsA"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:0W6CtBfGyNGW7fwiUwL81Z"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "Anggis Devaki",
+                          "type": "C"
+                        },
+                        {
+                          "text": "Anggis Devaki",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e027d4f9ef127cb24bf833df72b",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048517d4f9ef127cb24bf833df72b",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2737d4f9ef127cb24bf833df72b",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 26,
+                      "month": 8,
+                      "precision": "DAY",
+                      "year": 2022
+                    },
+                    "id": "3OGYxNQkdimtA74etNVlf0",
+                    "label": "Anggis Devaki",
+                    "name": "SEMESTA",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "gnHRZ40kQNKguf4hGRjbIg",
+                      "shareUrl": "https://open.spotify.com/album/3OGYxNQkdimtA74etNVlf0?si=gnHRZ40kQNKguf4hGRjbIg"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:3OGYxNQkdimtA74etNVlf0"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "Anggis Devaki",
+                          "type": "C"
+                        },
+                        {
+                          "text": "Anggis Devaki",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e029e3921cdd73d95cb22093909",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048519e3921cdd73d95cb22093909",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2739e3921cdd73d95cb22093909",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 14,
+                      "month": 2,
+                      "precision": "DAY",
+                      "year": 2022
+                    },
+                    "id": "03PgDhrcam2NnWoUvImH5X",
+                    "label": "Anggis Devaki",
+                    "name": "Jaga Cintamu",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "JQdN_DnDT6qL79IRoSU71Q",
+                      "shareUrl": "https://open.spotify.com/album/03PgDhrcam2NnWoUvImH5X?si=JQdN_DnDT6qL79IRoSU71Q"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:03PgDhrcam2NnWoUvImH5X"
+                  }
+                ]
+              }
+            }
+          ],
+          "totalCount": 16
+        },
+        "topTracks": {
+          "items": [
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02d7105ffabf2ff9ddd265eab1"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851d7105ffabf2ff9ddd265eab1"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273d7105ffabf2ff9ddd265eab1"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:6WyxwTMDu7MdmWKZ2m4lCe"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Anggis Devaki"
+                      },
+                      "uri": "spotify:artist:7lXTU6VtJQWfiN2vuZyzqf"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 240800
+                },
+                "id": "3GIiXoibZNOxoB4QJ0b8UR",
+                "name": "Dirimu Yang Dulu",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "72369229",
+                "uri": "spotify:track:3GIiXoibZNOxoB4QJ0b8UR"
+              },
+              "uid": "639a348cd176c20efdf6"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02d7105ffabf2ff9ddd265eab1"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851d7105ffabf2ff9ddd265eab1"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273d7105ffabf2ff9ddd265eab1"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:6WyxwTMDu7MdmWKZ2m4lCe"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Anggis Devaki"
+                      },
+                      "uri": "spotify:artist:7lXTU6VtJQWfiN2vuZyzqf"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 257531
+                },
+                "id": "6RAxgUG90f39dVSGUr4qOd",
+                "name": "Kisah Tanpa Dirimu",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "101603804",
+                "uri": "spotify:track:6RAxgUG90f39dVSGUr4qOd"
+              },
+              "uid": "a5c5acb52c2e40fa3eef"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02d7105ffabf2ff9ddd265eab1"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851d7105ffabf2ff9ddd265eab1"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273d7105ffabf2ff9ddd265eab1"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:6WyxwTMDu7MdmWKZ2m4lCe"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Anggis Devaki"
+                      },
+                      "uri": "spotify:artist:7lXTU6VtJQWfiN2vuZyzqf"
+                    },
+                    {
+                      "profile": {
+                        "name": "Betrand Putra Onsu"
+                      },
+                      "uri": "spotify:artist:6Pu9A4Pe31OK06u1GL8q4c"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 247265
+                },
+                "id": "1L9jXXydO67NPyrSXKYetC",
+                "name": "Percuma",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "17876649",
+                "uri": "spotify:track:1L9jXXydO67NPyrSXKYetC"
+              },
+              "uid": "44dc283a92e9cbf94059"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02d7105ffabf2ff9ddd265eab1"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851d7105ffabf2ff9ddd265eab1"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273d7105ffabf2ff9ddd265eab1"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:6WyxwTMDu7MdmWKZ2m4lCe"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Anggis Devaki"
+                      },
+                      "uri": "spotify:artist:7lXTU6VtJQWfiN2vuZyzqf"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 270800
+                },
+                "id": "0vWlqDPDUUwFyEEAJz9bjs",
+                "name": "Jatuh Rapuh",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "19327228",
+                "uri": "spotify:track:0vWlqDPDUUwFyEEAJz9bjs"
+              },
+              "uid": "c24f405134832566b210"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02d7105ffabf2ff9ddd265eab1"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851d7105ffabf2ff9ddd265eab1"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273d7105ffabf2ff9ddd265eab1"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:6WyxwTMDu7MdmWKZ2m4lCe"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Anggis Devaki"
+                      },
+                      "uri": "spotify:artist:7lXTU6VtJQWfiN2vuZyzqf"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 248700
+                },
+                "id": "7c2BaCapEtAppjDOQieykA",
+                "name": "Bodoh",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "12581071",
+                "uri": "spotify:track:7c2BaCapEtAppjDOQieykA"
+              },
+              "uid": "fac236f8a09c7dc71860"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02d7105ffabf2ff9ddd265eab1"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851d7105ffabf2ff9ddd265eab1"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273d7105ffabf2ff9ddd265eab1"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:6WyxwTMDu7MdmWKZ2m4lCe"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Anggis Devaki"
+                      },
+                      "uri": "spotify:artist:7lXTU6VtJQWfiN2vuZyzqf"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 251577
+                },
+                "id": "3QGn2vrHAI8vAV81ulQ9m0",
+                "name": "Menua Bersama",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "1180091",
+                "uri": "spotify:track:3QGn2vrHAI8vAV81ulQ9m0"
+              },
+              "uid": "129808d3261f9be208d9"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e0253296972a75c4e17840eba3f"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000485153296972a75c4e17840eba3f"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b27353296972a75c4e17840eba3f"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:2zGRJnutXLCACHo3LAt5ob"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Anggis Devaki"
+                      },
+                      "uri": "spotify:artist:7lXTU6VtJQWfiN2vuZyzqf"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 247734
+                },
+                "id": "4p30SyLpRQVG3NnydGSDnu",
+                "name": "Lewat Semesta - OST. TABAYYUN",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "4306300",
+                "uri": "spotify:track:4p30SyLpRQVG3NnydGSDnu"
+              },
+              "uid": "9e366ef1d0543cabe16c"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e023e54da790e49d24b970d069e"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d000048513e54da790e49d24b970d069e"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2733e54da790e49d24b970d069e"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:1XwDxY39rQn75hkx763Kri"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Anggis Devaki"
+                      },
+                      "uri": "spotify:artist:7lXTU6VtJQWfiN2vuZyzqf"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 240800
+                },
+                "id": "0cEPWwxlr6WtikOP7a3gFR",
+                "name": "Dirimu Yang Dulu - Instrumental",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "704718",
+                "uri": "spotify:track:0cEPWwxlr6WtikOP7a3gFR"
+              },
+              "uid": "b827306752725767b464"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02d7105ffabf2ff9ddd265eab1"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851d7105ffabf2ff9ddd265eab1"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273d7105ffabf2ff9ddd265eab1"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:6WyxwTMDu7MdmWKZ2m4lCe"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Anggis Devaki"
+                      },
+                      "uri": "spotify:artist:7lXTU6VtJQWfiN2vuZyzqf"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 231600
+                },
+                "id": "4psG16wWeWACDW2POXCcnT",
+                "name": "Iman Tak Restui",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "1428738",
+                "uri": "spotify:track:4psG16wWeWACDW2POXCcnT"
+              },
+              "uid": "f13525859c33bf5dfc9c"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e029e3921cdd73d95cb22093909"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d000048519e3921cdd73d95cb22093909"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2739e3921cdd73d95cb22093909"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:03PgDhrcam2NnWoUvImH5X"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Anggis Devaki"
+                      },
+                      "uri": "spotify:artist:7lXTU6VtJQWfiN2vuZyzqf"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 228327
+                },
+                "id": "6gs3RkBekstSadRSIzo6vh",
+                "name": "Jaga Cintamu",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "2509104",
+                "uri": "spotify:track:6gs3RkBekstSadRSIzo6vh"
+              },
+              "uid": "b39baf298616d0f69c95"
+            }
+          ]
+        }
+      },
+      "goods": {
+        "concerts": {
+          "items": [],
+          "totalCount": 0
+        },
+        "merch": {
+          "items": []
+        }
+      },
+      "headerImage": {
+        "data": {
+          "__typename": "ImageV2",
+          "sources": [
+            {
+              "maxHeight": 640,
+              "maxWidth": 1494,
+              "url": "https://image-cdn-ak.spotifycdn.com/image/ab67618600000194c9ea054ea26ca751d2f34938"
+            },
+            {
+              "maxHeight": 1080,
+              "maxWidth": 1920,
+              "url": "https://i2o.scdn.co/image/ab67618600001667c9ea054ea26ca751d2f34938"
+            },
+            {
+              "maxHeight": 1080,
+              "maxWidth": 1920,
+              "url": "https://i2o.scdn.co/image/ab67618600001667c9ea054ea26ca751d2f34938"
+            },
+            {
+              "maxHeight": 641,
+              "maxWidth": 1495,
+              "url": "https://image-cdn-ak.spotifycdn.com/image/ab67618600009d80c9ea054ea26ca751d2f34938"
+            },
+            {
+              "maxHeight": 1140,
+              "maxWidth": 2660,
+              "url": "https://image-cdn-ak.spotifycdn.com/image/ab6761860000eab1c9ea054ea26ca751d2f34938"
+            }
+          ]
+        }
+      },
+      "id": "7lXTU6VtJQWfiN2vuZyzqf",
+      "preRelease": null,
+      "profile": {
+        "biography": {
+          "text": "Anggis Devaki adalah penyanyi dan penulis lagu asal Indonesia yang dikenal dengan suara khasnya yang lembut dan penuh emosi. Dia mulai dikenal luas setelah merilis beberapa lagu hits seperti 'Dirimu Yang Dulu' dan 'Kisah Tanpa Dirimu'. Anggis Devaki sering mengangkat tema cinta, patah hati, dan kehidupan sehari-hari dalam lirik lagunya, yang membuat banyak pendengar merasa terhubung dengan musiknya. Selain itu, dia juga aktif di media sosial, berbagi momen-momen kehidupannya dengan para penggemar. Dengan bakatnya yang luar biasa dan kehadirannya yang kuat di dunia musik Indonesia, Anggis Devaki terus menjadi salah satu artis yang paling dicintai di tanah air.",
+          "type": "AUTOBIOGRAPHY"
+        },
+        "externalLinks": {
+          "items": [
+            {
+              "name": "FACEBOOK",
+              "url": "https://facebook.com/anggisdevakiofficial"
+            },
+            {
+              "name": "INSTAGRAM",
+              "url": "https://instagram.com/anggisdevakii"
+            },
+            {
+              "name": "TWITTER",
+              "url": "https://twitter.com/anggis_devaki"
+            },
+            {
+              "name": "WHATSAPP",
+              "url": "https://whatsapp.com/channel/0029VaSpzEOCcW4k2eOPpn2f"
+            },
+            {
+              "name": "WIKIPEDIA",
+              "url": "https://wikipedia.org/wiki/Anggis_Devaki"
+            }
+          ]
+        },
+        "name": "Anggis Devaki",
+        "pinnedItem": {
+          "backgroundImageV2": {
+            "data": {
+              "__typename": "ImageV2",
+              "sources": [
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67617000005910853a3b21ffa27023f013a02e"
+                }
+              ]
+            }
+          },
+          "comment": "Yang bikin kalian senyum2 sendiri \uD83E\uDD0E",
+          "itemV2": {
+            "__typename": "TrackResponseWrapper",
+            "data": {
+              "__typename": "Track",
+              "albumOfTrack": {
+                "coverArt": {
+                  "sources": [
+                    {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e02d7105ffabf2ff9ddd265eab1",
+                      "width": 300
+                    },
+                    {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d00004851d7105ffabf2ff9ddd265eab1",
+                      "width": 64
+                    },
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b273d7105ffabf2ff9ddd265eab1",
+                      "width": 640
+                    }
+                  ]
+                }
+              },
+              "name": "Menua Bersama",
+              "uri": "spotify:track:3QGn2vrHAI8vAV81ulQ9m0"
+            }
+          },
+          "subtitle": "Track",
+          "thumbnailImage": {
+            "data": {
+              "sources": [
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d000075a0d7105ffabf2ff9ddd265eab1"
+                },
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d000090d5d7105ffabf2ff9ddd265eab1"
+                },
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000ab87d7105ffabf2ff9ddd265eab1"
+                }
+              ]
+            }
+          },
+          "title": "Menua Bersama",
+          "type": "TRACK",
+          "uri": "spotify:track:3QGn2vrHAI8vAV81ulQ9m0"
+        },
+        "playlistsV2": {
+          "items": [
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "This is Anggis Devaki. The essential tracks, all in one playlist.",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/thisisv3/7lXTU6VtJQWfiN2vuZyzqf/en",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "This Is Anggis Devaki",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DZ06evO4lSIKh"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Baru Rilis Nih adalah playlist yang diupdate setiap minggunya hanya untuk Penyanyi Asal Indonesia, Tempat Berkarya Musisi Indonesia. Diperbarui setiap hari Jumat ya! Cover: Ongky Muntazar",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84fb33c1714737fcee9c7c2c9d",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "Baru Rilis Nih!",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "PT Suara Mas Abadi"
+                  }
+                },
+                "uri": "spotify:playlist:03zeOCIqqDJuHfU1JqRo6V"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84d7d04cd38efedf9fd0309757",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "gektu’s fav tracks!",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Anggis Devaki"
+                  }
+                },
+                "uri": "spotify:playlist:7FHWs8BEAhS1IdUs6ftYFO"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Best of Anggis Devaki.",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a5a3d545aa16158c15412192",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "Dengerin Lagu - Lagu Aku Yuk! ",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Anggis Devaki"
+                  }
+                },
+                "uri": "spotify:playlist:4h9K0YChzUErXUPAR6SdWz"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Selamat datang di &#x27;Fresh Pop&#x27;, playlist pilihan terbaru, menikmati hits terkini dari lagu terbaru dari Indonesia dan penjuru dunia. Cover: IVE",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84efcda80d02812a6bceb87800",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "Fresh POP!",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "PT Suara Mas Abadi"
+                  }
+                },
+                "uri": "spotify:playlist:3Pmd0AyUacsQKC4R9pcitW"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Lagu Terbaru di 2025 Yang Dirilis Oleh HITS Records, Standard Musik Masa Kini. Cover: Ongky Muntazar",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da848944e3d170aeba84a071c65b",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "LAGU TERBARU DI 2026",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "PT Suara Mas Abadi"
+                  }
+                },
+                "uri": "spotify:playlist:1AxjVhLzaSlKaGTFRM0zxB"
+              }
+            }
+          ],
+          "totalCount": 6
+        },
+        "verified": true
+      },
+      "relatedContent": {
+        "appearsOn": {
+          "items": [
+            {
+              "releases": {
+                "items": [
+                  {
+                    "artists": {
+                      "items": [
+                        {
+                          "profile": {
+                            "name": "Balawan"
+                          },
+                          "uri": "spotify:artist:3aKNBxiNR6YBHvOoi6f9Cm"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e0291ca43277a3f593f166d9606",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d0000485191ca43277a3f593f166d9606",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b27391ca43277a3f593f166d9606",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "year": 2020
+                    },
+                    "id": "2qGoxQvOJfjGCxaEQ2TxRu",
+                    "name": "Bali Kembali",
+                    "sharingInfo": {
+                      "shareId": "KikdxeQ4TOiKBzGv4oUJ3A",
+                      "shareUrl": "https://open.spotify.com/album/2qGoxQvOJfjGCxaEQ2TxRu?si=KikdxeQ4TOiKBzGv4oUJ3A"
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:2qGoxQvOJfjGCxaEQ2TxRu"
+                  }
+                ],
+                "totalCount": 1
+              }
+            }
+          ],
+          "totalCount": 1
+        },
+        "discoveredOnV2": {
+          "items": [
+            {
+              "data": {
+                "__typename": "GenericError"
+              }
+            },
+            {
+              "data": {
+                "__typename": "GenericError"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Your daily update of the most played tracks right now - Indonesia.",
+                "id": "37i9dQZEVXbObFQZ3JLcXt",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://charts-images.scdn.co/assets/locale_en/regional/daily/region_id_default.jpg",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Top 50 - Indonesia",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZEVXbObFQZ3JLcXt"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Hits terpanas dari Naykilla, SIENNA SPIRO, Anggis Devaki, Nadhif Basalamah serta artis terfavorit Anda dari dalam negeri dan mancanegara.",
+                "id": "37i9dQZF1DXa2EiKmMLhFD",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f00000002c3d5ba90735c511c7174cdd6",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Hot Hits Indonesia",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DXa2EiKmMLhFD"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Kumpulan lagu yang sedang menyebar luas. Cover: eńau, Ari Lesmana",
+                "id": "37i9dQZF1DWWhB4HOWKFQc",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f00000002e3a0d374eb6cccd367dcd769",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Lagi Viral",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DWWhB4HOWKFQc"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Deretan hits viral yang lagi trending dengerin semua lagunya disini.  cover: Sheila on 7",
+                "id": "4yjgdCG36M4nuIhDhFLvOQ",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8483eb4d87830db91d9d310055",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "LAGU VIRAL TRENDING 2026",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Filtr Indonesia"
+                  }
+                },
+                "uri": "spotify:playlist:4yjgdCG36M4nuIhDhFLvOQ"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Lagu-lagu sedih yang menyayat hati \uD83D\uDE2D",
+                "id": "37i9dQZF1DX9U5XaCM7ssr",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f00000002b925a89f8a7e2d2180c936c1",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Generasi Galau",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DX9U5XaCM7ssr"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "5u2RPYKDvulNLLucGXqmQA",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67616d00001e023e54da790e49d24b970d069e",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Mana dirimu yg dahulu",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Octa Viola"
+                  }
+                },
+                "uri": "spotify:playlist:5u2RPYKDvulNLLucGXqmQA"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Your weekly update of the most played tracks right now - Indonesia.",
+                "id": "37i9dQZEVXbIZK8aUquyx8",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_id_default.jpg",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Top Songs - Indonesia",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZEVXbIZK8aUquyx8"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "lagu galau terbaik, lagu galau terbaru, galau, lagu sad, lagu sedih, lagu galau,  bikin nangis, viral tiktok, viral I IG @sabs_media ",
+                "id": "3Uo6wcwipB5JtMBtDk1msK",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da842a974fd06e6de607556476f4",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "LAGU GALAU  TERBARU TERBAIK 2026",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Feelgood"
+                  }
+                },
+                "uri": "spotify:playlist:3Uo6wcwipB5JtMBtDk1msK"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Deretan musik Indonesia terpopuler saat ini.  Cover: Batas Senja",
+                "id": "37i9dQZF1DWZxM58TRkuqg",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f0000000221feff5bf74f1d5ffb8f1da8",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Puncak Klasemen",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DWZxM58TRkuqg"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Kumpulan lagu Indonesia rilisan 2025 yang dinikmati masyarakat Indonesia sepanjang tahun berdasarkan pilihan editor. Cover: Rony Parulian",
+                "id": "37i9dQZF1DXbfZXE0YeP2Y",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f00000002626b7ae386924cbfe8cd23c6",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Puncak Klasemen Favorites of 2025",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DXbfZXE0YeP2Y"
+              }
+            },
+            {
+              "data": {
+                "__typename": "GenericError"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Koleksi lagu Indonesia yang populer belakangan ini. Cover: Rizky Febian",
+                "id": "37i9dQZF1DWW5b4WmmOtn7",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f00000002a79c8538d5d861de4c776bc8",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Alunan Kesukaan",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DWW5b4WmmOtn7"
+              }
+            },
+            {
+              "data": {
+                "__typename": "GenericError"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Temukan playlist kami dengan kata kunci berikut: lagu populer indonesia 2026 - hits terbaru musik indonesia - lagu indonesia terpopuler - playlist lagu indonesia - kumpulan musik indonesia 2026 - lagu hits 2026 indonesia - musik indonesia terkini - chart musik indonesia 2026",
+                "id": "0uT9jtRMC5dt60EX3feYPf",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84e02f88435917e54531f0c633",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Lagu Indonesia Paling Banyak Didengar di Februari 2026 - Daftar Putar Musik Indonesia Lama dan Baru",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Redlist Playlists"
+                  }
+                },
+                "uri": "spotify:playlist:0uT9jtRMC5dt60EX3feYPf"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Lagu-lagu yang wajib ada dalam playlist. Cover: Dato' Sri Siti Nurhaliza, Ade Govinda",
+                "id": "37i9dQZF1DXb1RLKxkHZ77",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f000000029e26f4bc6fdf27178fa16652",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Carta Malaysia 50",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DXb1RLKxkHZ77"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Your daily update of the most played tracks right now - Malaysia.",
+                "id": "37i9dQZEVXbJlfUljuZExa",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://charts-images.scdn.co/assets/locale_en/regional/daily/region_my_default.jpg",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Top 50 - Malaysia",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZEVXbJlfUljuZExa"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "0jnpCx2HH5b2e8rlauy06J",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": 640,
+                          "url": "https://mosaic.scdn.co/640/ab67616d00001e0236ce47d2191c6ffb9bc59818ab67616d00001e025bd00b369e89c5cbc74d827bab67616d00001e028dc8c573565969d55f9f3477ab67616d00001e02f3e3f888fbfcc916ecce50a9",
+                          "width": 640
+                        },
+                        {
+                          "height": 300,
+                          "url": "https://mosaic.scdn.co/300/ab67616d00001e0236ce47d2191c6ffb9bc59818ab67616d00001e025bd00b369e89c5cbc74d827bab67616d00001e028dc8c573565969d55f9f3477ab67616d00001e02f3e3f888fbfcc916ecce50a9",
+                          "width": 300
+                        },
+                        {
+                          "height": 60,
+                          "url": "https://mosaic.scdn.co/60/ab67616d00001e0236ce47d2191c6ffb9bc59818ab67616d00001e025bd00b369e89c5cbc74d827bab67616d00001e028dc8c573565969d55f9f3477ab67616d00001e02f3e3f888fbfcc916ecce50a9",
+                          "width": 60
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Bahagia Lagi",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "alexandria"
+                  }
+                },
+                "uri": "spotify:playlist:0jnpCx2HH5b2e8rlauy06J"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "layan je",
+                "id": "37i9dQZF1DWT7gTeoPX8Il",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f000000021560b7e563a6b5c29033e70a",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "galau rabak",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DWT7gTeoPX8Il"
+              }
+            }
+          ],
+          "totalCount": 100
+        },
+        "featuringV2": {
+          "items": [
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "This is Anggis Devaki. The essential tracks, all in one playlist.",
+                "id": "37i9dQZF1DZ06evO4lSIKh",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/thisisv3/7lXTU6VtJQWfiN2vuZyzqf/en",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "This Is Anggis Devaki",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DZ06evO4lSIKh"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "With Lyodra, Shabrina Leanor, Meiska and more",
+                "id": "37i9dQZF1E4rFNJVbcRGoe",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/7lXTU6VtJQWfiN2vuZyzqf/en",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Anggis Devaki Radio",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1E4rFNJVbcRGoe"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Hits terpanas dari Naykilla, SIENNA SPIRO, Anggis Devaki, Nadhif Basalamah serta artis terfavorit Anda dari dalam negeri dan mancanegara.",
+                "id": "37i9dQZF1DXa2EiKmMLhFD",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f00000002c3d5ba90735c511c7174cdd6",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Hot Hits Indonesia",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DXa2EiKmMLhFD"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Kumpulan lagu yang sedang menyebar luas. Cover: eńau, Ari Lesmana",
+                "id": "37i9dQZF1DWWhB4HOWKFQc",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f00000002e3a0d374eb6cccd367dcd769",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Lagi Viral",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DWWhB4HOWKFQc"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Lagu-lagu sedih yang menyayat hati \uD83D\uDE2D",
+                "id": "37i9dQZF1DX9U5XaCM7ssr",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f00000002b925a89f8a7e2d2180c936c1",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Generasi Galau",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DX9U5XaCM7ssr"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Deretan musik Indonesia terpopuler saat ini.  Cover: Batas Senja",
+                "id": "37i9dQZF1DWZxM58TRkuqg",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f0000000221feff5bf74f1d5ffb8f1da8",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Puncak Klasemen",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DWZxM58TRkuqg"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Koleksi lagu Indonesia yang populer belakangan ini. Cover: Rizky Febian",
+                "id": "37i9dQZF1DWW5b4WmmOtn7",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f00000002a79c8538d5d861de4c776bc8",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Alunan Kesukaan",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DWW5b4WmmOtn7"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Kumpulan lagu Indonesia rilisan 2025 yang dinikmati masyarakat Indonesia sepanjang tahun berdasarkan pilihan editor. Cover: Rony Parulian",
+                "id": "37i9dQZF1DXbfZXE0YeP2Y",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f00000002626b7ae386924cbfe8cd23c6",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Puncak Klasemen Favorites of 2025",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DXbfZXE0YeP2Y"
+              }
+            }
+          ],
+          "totalCount": 8
+        },
+        "relatedArtists": {
+          "items": [
+            {
+              "id": "4yRVdMqPrguKBFwZYpmke0",
+              "profile": {
+                "name": "Andi Rianto"
+              },
+              "uri": "spotify:artist:4yRVdMqPrguKBFwZYpmke0",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb0ed8228cbff5eeb561591f22",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f1780ed8228cbff5eeb561591f22",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab676161000051740ed8228cbff5eeb561591f22",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "7Ln5yumFjHCkeZ8bAzHUcp",
+              "profile": {
+                "name": "Yovie Widianto"
+              },
+              "uri": "spotify:artist:7Ln5yumFjHCkeZ8bAzHUcp",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb9adad46022570f8b8b3209a9",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f1789adad46022570f8b8b3209a9",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab676161000051749adad46022570f8b8b3209a9",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "2w2xKlumnOzCf5eVTkmNXn",
+              "profile": {
+                "name": "Natasya Sabella"
+              },
+              "uri": "spotify:artist:2w2xKlumnOzCf5eVTkmNXn",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb49450f0c5ccd546757f3199c",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f17849450f0c5ccd546757f3199c",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab6761610000517449450f0c5ccd546757f3199c",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "6Sv2jkzH9sWQjwghW5ArMG",
+              "profile": {
+                "name": "Lyodra"
+              },
+              "uri": "spotify:artist:6Sv2jkzH9sWQjwghW5ArMG",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebd382004b4ee59e1145505c74",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178d382004b4ee59e1145505c74",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174d382004b4ee59e1145505c74",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "5x3nSujruZLuB6xBicI6Ai",
+              "profile": {
+                "name": "Nuca"
+              },
+              "uri": "spotify:artist:5x3nSujruZLuB6xBicI6Ai",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb17e09dfcf1504d02658b58ee",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f17817e09dfcf1504d02658b58ee",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab6761610000517417e09dfcf1504d02658b58ee",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "13y29W8mEcA2gKqUr1SPLJ",
+              "profile": {
+                "name": "Rony Parulian"
+              },
+              "uri": "spotify:artist:13y29W8mEcA2gKqUr1SPLJ",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb6120e795b4df2d105f8e00da",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f1786120e795b4df2d105f8e00da",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab676161000051746120e795b4df2d105f8e00da",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "5LcNPa8f8bRmZqELgoRFkN",
+              "profile": {
+                "name": "Raim Laode"
+              },
+              "uri": "spotify:artist:5LcNPa8f8bRmZqELgoRFkN",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebf0835eb9adc7cee5169194d0",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178f0835eb9adc7cee5169194d0",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174f0835eb9adc7cee5169194d0",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "4cgBCGxtlfap2g6jveB7du",
+              "profile": {
+                "name": "Afgan"
+              },
+              "uri": "spotify:artist:4cgBCGxtlfap2g6jveB7du",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb8d58eb4a3cd3941609327ec4",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f1788d58eb4a3cd3941609327ec4",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab676161000051748d58eb4a3cd3941609327ec4",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "3JQketpX6wbJUNAlOIigJc",
+              "profile": {
+                "name": "Fajar Noor"
+              },
+              "uri": "spotify:artist:3JQketpX6wbJUNAlOIigJc",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb30d9e39c4a8a8ea4ab5def2f",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f17830d9e39c4a8a8ea4ab5def2f",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab6761610000517430d9e39c4a8a8ea4ab5def2f",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "6UgERnTHmjk3qXM9x5vzyO",
+              "profile": {
+                "name": "Nadhif Basalamah"
+              },
+              "uri": "spotify:artist:6UgERnTHmjk3qXM9x5vzyO",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb6c95c421d7bdc60a2d980002",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f1786c95c421d7bdc60a2d980002",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab676161000051746c95c421d7bdc60a2d980002",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "2yK0XmEXeIJMXxW0rD3N8f",
+              "profile": {
+                "name": "Shabrina Leanor"
+              },
+              "uri": "spotify:artist:2yK0XmEXeIJMXxW0rD3N8f",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebe9dfae2dad6511d5cc1f095b",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178e9dfae2dad6511d5cc1f095b",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174e9dfae2dad6511d5cc1f095b",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "7pFWMC2E7h8eL3SZyHRsRq",
+              "profile": {
+                "name": "Idgitaf"
+              },
+              "uri": "spotify:artist:7pFWMC2E7h8eL3SZyHRsRq",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebb394f3f8620f5f84a94599bc",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178b394f3f8620f5f84a94599bc",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174b394f3f8620f5f84a94599bc",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "5fS7aONqrIhiw6YzgKVOsd",
+              "profile": {
+                "name": "Judika"
+              },
+              "uri": "spotify:artist:5fS7aONqrIhiw6YzgKVOsd",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb47d4024deba593ac2609ac95",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f17847d4024deba593ac2609ac95",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab6761610000517447d4024deba593ac2609ac95",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "6Ifk2cbxyVzT41jLexYCas",
+              "profile": {
+                "name": "Budi Doremi"
+              },
+              "uri": "spotify:artist:6Ifk2cbxyVzT41jLexYCas",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebac04f271f5b2f8fb1f1d5ee7",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178ac04f271f5b2f8fb1f1d5ee7",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174ac04f271f5b2f8fb1f1d5ee7",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "5zAYPlhV1TirCul0R4NKGM",
+              "profile": {
+                "name": "Piche Kota"
+              },
+              "uri": "spotify:artist:5zAYPlhV1TirCul0R4NKGM",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb4a93d0e5644403a74c01f97b",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f1784a93d0e5644403a74c01f97b",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab676161000051744a93d0e5644403a74c01f97b",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "3wOsYKZM0zcKNasi3I7fP4",
+              "profile": {
+                "name": "Mahalini"
+              },
+              "uri": "spotify:artist:3wOsYKZM0zcKNasi3I7fP4",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebd3564043a332daaa882853d6",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178d3564043a332daaa882853d6",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174d3564043a332daaa882853d6",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "0sLoVTeBT6akDY7ecDxKYe",
+              "profile": {
+                "name": "Nabila Taqiyyah"
+              },
+              "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebbc2332dd0cb39a845d1a89ee",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178bc2332dd0cb39a845d1a89ee",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174bc2332dd0cb39a845d1a89ee",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "1ZT1OfVAO3kpOEHVejBxV8",
+              "profile": {
+                "name": "Meiska"
+              },
+              "uri": "spotify:artist:1ZT1OfVAO3kpOEHVejBxV8",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebc5827f82e8721609cc83d399",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178c5827f82e8721609cc83d399",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174c5827f82e8721609cc83d399",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "3sMsWkApnc6yPyMUsNHQlb",
+              "profile": {
+                "name": "Kaleb J"
+              },
+              "uri": "spotify:artist:3sMsWkApnc6yPyMUsNHQlb",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb634d2f38605036ce3c913b8b",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178634d2f38605036ce3c913b8b",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174634d2f38605036ce3c913b8b",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "7eKNo6fozgNsKThGC40ol7",
+              "profile": {
+                "name": "Khifnu"
+              },
+              "uri": "spotify:artist:7eKNo6fozgNsKThGC40ol7",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb2dc47c9fd32b5a2b18d7376d",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f1782dc47c9fd32b5a2b18d7376d",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab676161000051742dc47c9fd32b5a2b18d7376d",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "totalCount": 40
+        }
+      },
+      "relatedMusicVideos": {
+        "__typename": "MusicVideosPage",
+        "items": [],
+        "pagingInfo": {
+          "nextOffset": null
+        },
+        "totalCount": 0
+      },
+      "saved": false,
+      "sharingInfo": {
+        "shareId": "0QIHOdqcTuKtxpryB0ktgQ",
+        "shareUrl": "https://open.spotify.com/artist/7lXTU6VtJQWfiN2vuZyzqf?si=0QIHOdqcTuKtxpryB0ktgQ"
+      },
+      "stats": {
+        "followers": 155581,
+        "monthlyListeners": 8341498,
+        "topCities": {
+          "items": [
+            {
+              "city": "Jakarta",
+              "country": "ID",
+              "numberOfListeners": 1890316,
+              "region": "JK"
+            },
+            {
+              "city": "Bandung",
+              "country": "ID",
+              "numberOfListeners": 723987,
+              "region": "JB"
+            },
+            {
+              "city": "Surabaya",
+              "country": "ID",
+              "numberOfListeners": 570990,
+              "region": "JI"
+            },
+            {
+              "city": "Makassar",
+              "country": "ID",
+              "numberOfListeners": 500837,
+              "region": "SN"
+            },
+            {
+              "city": "Medan",
+              "country": "ID",
+              "numberOfListeners": 480388,
+              "region": "SU"
+            }
+          ]
+        },
+        "worldRank": 0
+      },
+      "unmappedMusicVideos": {
+        "__typename": "MusicVideosPage",
+        "items": [],
+        "pagingInfo": {
+          "nextOffset": null
+        },
+        "totalCount": 0
+      },
+      "uri": "spotify:artist:7lXTU6VtJQWfiN2vuZyzqf",
+      "visualIdentity": {
+        "wideFullBleedImage": {
+          "__typename": "VisualIdentityImage",
+          "extractedColorSet": {
+            "encoreBaseSetTextColor": {
+              "alpha": 255,
+              "blue": 187,
+              "green": 187,
+              "red": 187
+            },
+            "highContrast": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 56,
+                "green": 56,
+                "red": 56
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 88,
+                "green": 88,
+                "red": 88
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 205,
+                "green": 205,
+                "red": 205
+              }
+            },
+            "higherContrast": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 53,
+                "green": 53,
+                "red": 53
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 86,
+                "green": 86,
+                "red": 86
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 96,
+                "green": 215,
+                "red": 30
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 205,
+                "green": 205,
+                "red": 205
+              }
+            },
+            "minContrast": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 56,
+                "green": 56,
+                "red": 56
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 88,
+                "green": 88,
+                "red": 88
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              }
+            }
+          }
+        }
+      },
+      "visuals": {
+        "avatarImage": {
+          "extractedColors": {
+            "colorRaw": {
+              "hex": "#985048"
+            }
+          },
+          "sources": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6761610000e5eb934677a1fdc1deb7492f26b0",
+              "width": 640
+            },
+            {
+              "height": 160,
+              "url": "https://i.scdn.co/image/ab6761610000f178934677a1fdc1deb7492f26b0",
+              "width": 160
+            },
+            {
+              "height": 320,
+              "url": "https://i.scdn.co/image/ab67616100005174934677a1fdc1deb7492f26b0",
+              "width": 320
+            }
+          ]
+        },
+        "gallery": {
+          "items": [
+            {
+              "sources": [
+                {
+                  "height": 640,
+                  "url": "https://i.scdn.co/image/ab6761670000ecd4012e9e56a192cea3df801971",
+                  "width": 640
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "height": 640,
+                  "url": "https://i.scdn.co/image/ab6761670000ecd4722f0239b49beaf5530918ae",
+                  "width": 640
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "height": 640,
+                  "url": "https://i.scdn.co/image/ab6761670000ecd487a703ccc525434cd32e91ac",
+                  "width": 640
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "height": 640,
+                  "url": "https://i.scdn.co/image/ab6761670000ecd48a744ba8e25861883f4bf01f",
+                  "width": 640
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "height": 640,
+                  "url": "https://i.scdn.co/image/ab6761670000ecd4295e9c6d0924c2f79cce2772",
+                  "width": 640
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "height": 640,
+                  "url": "https://i.scdn.co/image/ab6761670000ecd488337b399452889fa126d2ae",
+                  "width": 640
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "height": 640,
+                  "url": "https://i.scdn.co/image/ab6761670000ecd4eac711cae628a4ebf185623a",
+                  "width": 640
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "height": 640,
+                  "url": "https://i.scdn.co/image/ab6761670000ecd4f5af037ec90e4f52aae4d54e",
+                  "width": 640
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "watchFeedEntrypoint": {
+        "entrypointUri": "spotify:watch-feed:artist:7lXTU6VtJQWfiN2vuZyzqf?itemId=c3BvdGlmeTp0cmFjazozR0lpWG9pYlpOT3hvQjRRSjBiOFVS",
+        "thumbnailImage": {
+          "data": {
+            "__typename": "ImageV2",
+            "imageId": "https://i.scdn.co/image/ab67ba6900002ea6bf3a1e33527a83d13e486109",
+            "imageIdType": "IMAGE_URL",
+            "sources": [
+              {
+                "imageFormat": "WEBP",
+                "maxHeight": 512,
+                "maxWidth": 288,
+                "url": "https://image-cdn-ak.spotifycdn.com/image/ab67ba6900001d96bf3a1e33527a83d13e486109"
+              },
+              {
+                "imageFormat": "WEBP",
+                "maxHeight": 1920,
+                "maxWidth": 1080,
+                "url": "https://image-cdn-ak.spotifycdn.com/image/ab67ba6900002b60bf3a1e33527a83d13e486109"
+              },
+              {
+                "imageFormat": "WEBP",
+                "maxHeight": 256,
+                "maxWidth": 144,
+                "url": "https://image-cdn-ak.spotifycdn.com/image/ab67ba690000db9ebf3a1e33527a83d13e486109"
+              }
+            ]
+          }
+        },
+        "video": {
+          "endTime": 0,
+          "fileId": "https://canvaz.scdn.co/upload/licensor/0k3yVqUcuRIWMIiRZcK4V7/video/70e8920c9ed946329d8b1af47d3f3cf8.cnvs.mp4",
+          "startTime": 0,
+          "videoType": "URL"
+        }
+      }
+    }
+  }
+}

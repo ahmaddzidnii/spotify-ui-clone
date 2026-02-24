@@ -1,0 +1,4482 @@
+{
+  "data": {
+    "artistUnion": {
+      "__typename": "Artist",
+      "discography": {
+        "albums": {
+          "items": [
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2025 Indonesia Musik Nusantara",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2025 Indonesia Musik Nusantara",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02ca23c9153ff7f3b5d563dff3",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851ca23c9153ff7f3b5d563dff3",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273ca23c9153ff7f3b5d563dff3",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 8,
+                      "month": 10,
+                      "precision": "DAY",
+                      "year": 2025
+                    },
+                    "id": "5jhaywps3SnnIIixJQsPHN",
+                    "label": "Indonesia Musik Nusantara",
+                    "name": "Pertaruhan Cinta",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "axiobuoyTO2x-Hh7LlFYYw",
+                      "shareUrl": "https://open.spotify.com/album/5jhaywps3SnnIIixJQsPHN?si=axiobuoyTO2x-Hh7LlFYYw"
+                    },
+                    "tracks": {
+                      "totalCount": 16
+                    },
+                    "type": "ALBUM",
+                    "uri": "spotify:album:5jhaywps3SnnIIixJQsPHN"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2024 JKT48",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2024 JKT48",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02af24121c60c4e0d458cb98c4",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851af24121c60c4e0d458cb98c4",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273af24121c60c4e0d458cb98c4",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 19,
+                      "month": 3,
+                      "precision": "DAY",
+                      "year": 2024
+                    },
+                    "id": "4JwoKsEJ9qZryWz3AwSkiM",
+                    "label": "Indonesia Musik Nusantara",
+                    "name": "BANZAI JKT48",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "WTc3GnGZS4majCK2zzUuLw",
+                      "shareUrl": "https://open.spotify.com/album/4JwoKsEJ9qZryWz3AwSkiM?si=WTc3GnGZS4majCK2zzUuLw"
+                    },
+                    "tracks": {
+                      "totalCount": 16
+                    },
+                    "type": "ALBUM",
+                    "uri": "spotify:album:4JwoKsEJ9qZryWz3AwSkiM"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2023 JKT48",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2023 JKT48",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02f6ce264866ac7fa1664b4db4",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851f6ce264866ac7fa1664b4db4",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273f6ce264866ac7fa1664b4db4",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 27,
+                      "month": 10,
+                      "precision": "DAY",
+                      "year": 2023
+                    },
+                    "id": "7MpAqxM7Mew0Vb1clDl6pJ",
+                    "label": "Indonesia Musik Nusantara",
+                    "name": "Mahagita Vol. 2",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "g2ps3Y5xRmyXJDiiRoBwHw",
+                      "shareUrl": "https://open.spotify.com/album/7MpAqxM7Mew0Vb1clDl6pJ?si=g2ps3Y5xRmyXJDiiRoBwHw"
+                    },
+                    "tracks": {
+                      "totalCount": 11
+                    },
+                    "type": "ALBUM",
+                    "uri": "spotify:album:7MpAqxM7Mew0Vb1clDl6pJ"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2023 JKT48",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2023 JKT48",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e0209ad599a5cb91b00e66cfb45",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d0000485109ad599a5cb91b00e66cfb45",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b27309ad599a5cb91b00e66cfb45",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 23,
+                      "month": 10,
+                      "precision": "DAY",
+                      "year": 2023
+                    },
+                    "id": "6tRleUrRxrtk5L51qhCfh3",
+                    "label": "Indonesia Musik Nusantara",
+                    "name": "Back Hip Circle (Saka Agari)",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "ZyPkNVGtQrCuSsDE4DIFZQ",
+                      "shareUrl": "https://open.spotify.com/album/6tRleUrRxrtk5L51qhCfh3?si=ZyPkNVGtQrCuSsDE4DIFZQ"
+                    },
+                    "tracks": {
+                      "totalCount": 16
+                    },
+                    "type": "ALBUM",
+                    "uri": "spotify:album:6tRleUrRxrtk5L51qhCfh3"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2023 JKT48",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2023 JKT48",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02d41506c06eb99bc19d72056f",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851d41506c06eb99bc19d72056f",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273d41506c06eb99bc19d72056f",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 20,
+                      "month": 10,
+                      "precision": "DAY",
+                      "year": 2023
+                    },
+                    "id": "5hM5Plam6DgkT8lDDOffgU",
+                    "label": "Indonesia Musik Nusantara",
+                    "name": "Fajar Sang Idola",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "Q8EPFc7zRtu4AxzkdfvKmA",
+                      "shareUrl": "https://open.spotify.com/album/5hM5Plam6DgkT8lDDOffgU?si=Q8EPFc7zRtu4AxzkdfvKmA"
+                    },
+                    "tracks": {
+                      "totalCount": 16
+                    },
+                    "type": "ALBUM",
+                    "uri": "spotify:album:5hM5Plam6DgkT8lDDOffgU"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2023 JKT48",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2023 JKT48",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02a03be8b7a62adb4748ef68a4",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851a03be8b7a62adb4748ef68a4",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273a03be8b7a62adb4748ef68a4",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 14,
+                      "month": 3,
+                      "precision": "DAY",
+                      "year": 2023
+                    },
+                    "id": "5eD0DMXJrZtRXtsRZMcJur",
+                    "label": "Indonesia Musik Nusantara",
+                    "name": "THIS IS JKT48 NEW ERA",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "Gs8rqxmDTTuLv3TzcYMrmA",
+                      "shareUrl": "https://open.spotify.com/album/5eD0DMXJrZtRXtsRZMcJur?si=Gs8rqxmDTTuLv3TzcYMrmA"
+                    },
+                    "tracks": {
+                      "totalCount": 7
+                    },
+                    "type": "ALBUM",
+                    "uri": "spotify:album:5eD0DMXJrZtRXtsRZMcJur"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2020 JKT48",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2020 JKT48",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e024c158b911c0caeaeb78f675b",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048514c158b911c0caeaeb78f675b",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2734c158b911c0caeaeb78f675b",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 1,
+                      "month": 1,
+                      "precision": "YEAR",
+                      "year": 2020
+                    },
+                    "id": "0j84qPebv2OwwbXxcbl0cj",
+                    "label": "Indonesia Musik Nusantara",
+                    "name": "Theater No Megami - Dewi Theater",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "96Eg5TwERR2Lr1HRoJiRgg",
+                      "shareUrl": "https://open.spotify.com/album/0j84qPebv2OwwbXxcbl0cj?si=96Eg5TwERR2Lr1HRoJiRgg"
+                    },
+                    "tracks": {
+                      "totalCount": 17
+                    },
+                    "type": "ALBUM",
+                    "uri": "spotify:album:0j84qPebv2OwwbXxcbl0cj"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2020 JKT48",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2020 JKT48",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02ffb1232bb140b2fa85303294",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851ffb1232bb140b2fa85303294",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273ffb1232bb140b2fa85303294",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 1,
+                      "month": 1,
+                      "precision": "YEAR",
+                      "year": 2020
+                    },
+                    "id": "2WocDfVT4CtjfVeSrxlXUd",
+                    "label": "Indonesia Musik Nusantara",
+                    "name": "Tadaima Renaichuu (Sekarang Sedang Jatuh Cinta)",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "G7qrcVV2TD-mKD0HxXz5tQ",
+                      "shareUrl": "https://open.spotify.com/album/2WocDfVT4CtjfVeSrxlXUd?si=G7qrcVV2TD-mKD0HxXz5tQ"
+                    },
+                    "tracks": {
+                      "totalCount": 16
+                    },
+                    "type": "ALBUM",
+                    "uri": "spotify:album:2WocDfVT4CtjfVeSrxlXUd"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2020 JKT48",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2020 JKT48",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e026e3f55ac3d40cfb4f5115c10",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048516e3f55ac3d40cfb4f5115c10",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2736e3f55ac3d40cfb4f5115c10",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 1,
+                      "month": 1,
+                      "precision": "YEAR",
+                      "year": 2020
+                    },
+                    "id": "6oSgRlvmHRC3lD1EE9VorD",
+                    "label": "Indonesia Musik Nusantara",
+                    "name": "Seishun Girls - Gadis Gadis Remaja",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "66x_-TM5T-aFMraPd_ysAA",
+                      "shareUrl": "https://open.spotify.com/album/6oSgRlvmHRC3lD1EE9VorD?si=66x_-TM5T-aFMraPd_ysAA"
+                    },
+                    "tracks": {
+                      "totalCount": 14
+                    },
+                    "type": "ALBUM",
+                    "uri": "spotify:album:6oSgRlvmHRC3lD1EE9VorD"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2020 JKT48",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2020 JKT48",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02b5e43e81be042d4121611c4c",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851b5e43e81be042d4121611c4c",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273b5e43e81be042d4121611c4c",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 1,
+                      "month": 1,
+                      "precision": "YEAR",
+                      "year": 2020
+                    },
+                    "id": "6Fvl9wwd19W6DbhvfEqTOP",
+                    "label": "Indonesia Musik Nusantara",
+                    "name": "Sambil Menggandeng Erat Tanganku ((Te Wo Tsunaginagara))",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "umnYrYnzS1yQK95AGbs-Iw",
+                      "shareUrl": "https://open.spotify.com/album/6Fvl9wwd19W6DbhvfEqTOP?si=umnYrYnzS1yQK95AGbs-Iw"
+                    },
+                    "tracks": {
+                      "totalCount": 16
+                    },
+                    "type": "ALBUM",
+                    "uri": "spotify:album:6Fvl9wwd19W6DbhvfEqTOP"
+                  }
+                ]
+              }
+            }
+          ],
+          "totalCount": 18
+        },
+        "compilations": {
+          "items": [],
+          "totalCount": 0
+        },
+        "latest": {
+          "copyright": {
+            "items": [
+              {
+                "text": "© 2026 Indonesia Musik Nusantara",
+                "type": "C"
+              },
+              {
+                "text": "℗ 2026 Indonesia Musik Nusantara",
+                "type": "P"
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02d96453e606852f7868e15963",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851d96453e606852f7868e15963",
+                "width": 64
+              },
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273d96453e606852f7868e15963",
+                "width": 640
+              }
+            ]
+          },
+          "date": {
+            "day": 4,
+            "month": 2,
+            "precision": "DAY",
+            "year": 2026
+          },
+          "id": "0eIpkNRhkvjZFnik8x8Ao3",
+          "label": "Indonesia Musik Nusantara",
+          "name": "Andai 'Ku Bukan Idola",
+          "playability": {
+            "playable": true,
+            "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+            "shareId": "Eg0r1DLwQjW2aLXeZriqkw",
+            "shareUrl": "https://open.spotify.com/album/0eIpkNRhkvjZFnik8x8Ao3?si=Eg0r1DLwQjW2aLXeZriqkw"
+          },
+          "tracks": {
+            "totalCount": 1
+          },
+          "type": "SINGLE",
+          "uri": "spotify:album:0eIpkNRhkvjZFnik8x8Ao3"
+        },
+        "popularReleasesAlbums": {
+          "items": [
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "2023 JKT48",
+                    "type": "C"
+                  },
+                  {
+                    "text": "2023 JKT48",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02f6ce264866ac7fa1664b4db4",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851f6ce264866ac7fa1664b4db4",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273f6ce264866ac7fa1664b4db4",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 27,
+                "month": 10,
+                "precision": "DAY",
+                "year": 2023
+              },
+              "id": "7MpAqxM7Mew0Vb1clDl6pJ",
+              "label": "Indonesia Musik Nusantara",
+              "name": "Mahagita Vol. 2",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "QICNKmwGQTqt8C2hrJpZ2Q",
+                "shareUrl": "https://open.spotify.com/album/7MpAqxM7Mew0Vb1clDl6pJ?si=QICNKmwGQTqt8C2hrJpZ2Q"
+              },
+              "tracks": {
+                "totalCount": 11
+              },
+              "type": "ALBUM",
+              "uri": "spotify:album:7MpAqxM7Mew0Vb1clDl6pJ"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "2016 JKT48",
+                    "type": "C"
+                  },
+                  {
+                    "text": "2016 JKT48",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02c1fb3e1f3cd9e8ace9cda286",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851c1fb3e1f3cd9e8ace9cda286",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273c1fb3e1f3cd9e8ace9cda286",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 1,
+                "month": 1,
+                "precision": "YEAR",
+                "year": 2016
+              },
+              "id": "5nATWPrpqcW1IYuHO7jO9e",
+              "label": "Indonesia Musik Nusantara",
+              "name": "Mahagita - Kamikyokutachi",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "9Z9UsVlBTdmXeARMUzi6cw",
+                "shareUrl": "https://open.spotify.com/album/5nATWPrpqcW1IYuHO7jO9e?si=9Z9UsVlBTdmXeARMUzi6cw"
+              },
+              "tracks": {
+                "totalCount": 15
+              },
+              "type": "ALBUM",
+              "uri": "spotify:album:5nATWPrpqcW1IYuHO7jO9e"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "2020 JKT48",
+                    "type": "C"
+                  },
+                  {
+                    "text": "2020 JKT48",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02dcd3a934c5c00bdfc1fd4d5c",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851dcd3a934c5c00bdfc1fd4d5c",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273dcd3a934c5c00bdfc1fd4d5c",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 9,
+                "month": 1,
+                "precision": "DAY",
+                "year": 2020
+              },
+              "id": "2svR3lTZ0z5FGpQEEyxX6T",
+              "label": "Indonesia Musik Nusantara",
+              "name": "Rapsodi",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "7x1cVxbTTp-Qnb2NCDujLg",
+                "shareUrl": "https://open.spotify.com/album/2svR3lTZ0z5FGpQEEyxX6T?si=7x1cVxbTTp-Qnb2NCDujLg"
+              },
+              "tracks": {
+                "totalCount": 5
+              },
+              "type": "EP",
+              "uri": "spotify:album:2svR3lTZ0z5FGpQEEyxX6T"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "2025 Indonesia Musik Nusantara",
+                    "type": "C"
+                  },
+                  {
+                    "text": "2025 Indonesia Musik Nusantara",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02ca23c9153ff7f3b5d563dff3",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851ca23c9153ff7f3b5d563dff3",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273ca23c9153ff7f3b5d563dff3",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 8,
+                "month": 10,
+                "precision": "DAY",
+                "year": 2025
+              },
+              "id": "5jhaywps3SnnIIixJQsPHN",
+              "label": "Indonesia Musik Nusantara",
+              "name": "Pertaruhan Cinta",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "Z0_GU20kT-q12sGGuvt9sQ",
+                "shareUrl": "https://open.spotify.com/album/5jhaywps3SnnIIixJQsPHN?si=Z0_GU20kT-q12sGGuvt9sQ"
+              },
+              "tracks": {
+                "totalCount": 16
+              },
+              "type": "ALBUM",
+              "uri": "spotify:album:5jhaywps3SnnIIixJQsPHN"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "2013 JKT48",
+                    "type": "C"
+                  },
+                  {
+                    "text": "2013 JKT48",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02c716f0361f9ed5a8f4b78d80",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851c716f0361f9ed5a8f4b78d80",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273c716f0361f9ed5a8f4b78d80",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 13,
+                "month": 12,
+                "precision": "DAY",
+                "year": 2012
+              },
+              "id": "26VpWxdiIXNXUTLLZcT9ku",
+              "label": "Indonesia Musik Nusantara",
+              "name": "Pajama Drive",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "rONM8EV2TcyocZAf2-R5aA",
+                "shareUrl": "https://open.spotify.com/album/26VpWxdiIXNXUTLLZcT9ku?si=rONM8EV2TcyocZAf2-R5aA"
+              },
+              "tracks": {
+                "totalCount": 16
+              },
+              "type": "ALBUM",
+              "uri": "spotify:album:26VpWxdiIXNXUTLLZcT9ku"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "2013 JKT48",
+                    "type": "C"
+                  },
+                  {
+                    "text": "2013 JKT48",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02dd210ef0428f42233ce04919",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851dd210ef0428f42233ce04919",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273dd210ef0428f42233ce04919",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 1,
+                "month": 1,
+                "precision": "YEAR",
+                "year": 2013
+              },
+              "id": "0bdUBzOW4q6d26z2RbnaiM",
+              "label": "Indonesia Musik Nusantara",
+              "name": "Heavy Rotation",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "dldkSWMNRbqJzZ7wNA8qAw",
+                "shareUrl": "https://open.spotify.com/album/0bdUBzOW4q6d26z2RbnaiM?si=dldkSWMNRbqJzZ7wNA8qAw"
+              },
+              "tracks": {
+                "totalCount": 10
+              },
+              "type": "ALBUM",
+              "uri": "spotify:album:0bdUBzOW4q6d26z2RbnaiM"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "© 2025 JUNI Records & Indonesia Musik Nusantara",
+                    "type": "C"
+                  },
+                  {
+                    "text": "℗ 2025 JUNI Records & Indonesia Musik Nusantara",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e0291389f69b393611aff87a6ac",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d0000485191389f69b393611aff87a6ac",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b27391389f69b393611aff87a6ac",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 26,
+                "month": 7,
+                "precision": "DAY",
+                "year": 2025
+              },
+              "id": "3TrKCx9c3yJ7iD7NsIDRAC",
+              "label": "Juni Records, Indonesia Musik Nusantara",
+              "name": "Percik Kecil",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "sxdEt6C0Q3eIYscb0REodA",
+                "shareUrl": "https://open.spotify.com/album/3TrKCx9c3yJ7iD7NsIDRAC?si=sxdEt6C0Q3eIYscb0REodA"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:3TrKCx9c3yJ7iD7NsIDRAC"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "© 2026 Indonesia Musik Nusantara",
+                    "type": "C"
+                  },
+                  {
+                    "text": "℗ 2026 Indonesia Musik Nusantara",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02d96453e606852f7868e15963",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851d96453e606852f7868e15963",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273d96453e606852f7868e15963",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 4,
+                "month": 2,
+                "precision": "DAY",
+                "year": 2026
+              },
+              "id": "0eIpkNRhkvjZFnik8x8Ao3",
+              "label": "Indonesia Musik Nusantara",
+              "name": "Andai 'Ku Bukan Idola",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "FMTyq7OvRqKkeR3QotflMw",
+                "shareUrl": "https://open.spotify.com/album/0eIpkNRhkvjZFnik8x8Ao3?si=FMTyq7OvRqKkeR3QotflMw"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:0eIpkNRhkvjZFnik8x8Ao3"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "2020 JKT48",
+                    "type": "C"
+                  },
+                  {
+                    "text": "2020 JKT48",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02b5e43e81be042d4121611c4c",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851b5e43e81be042d4121611c4c",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273b5e43e81be042d4121611c4c",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 1,
+                "month": 1,
+                "precision": "YEAR",
+                "year": 2020
+              },
+              "id": "6Fvl9wwd19W6DbhvfEqTOP",
+              "label": "Indonesia Musik Nusantara",
+              "name": "Sambil Menggandeng Erat Tanganku ((Te Wo Tsunaginagara))",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "cIPhDv21RJGMpi25X3Ql9A",
+                "shareUrl": "https://open.spotify.com/album/6Fvl9wwd19W6DbhvfEqTOP?si=cIPhDv21RJGMpi25X3Ql9A"
+              },
+              "tracks": {
+                "totalCount": 16
+              },
+              "type": "ALBUM",
+              "uri": "spotify:album:6Fvl9wwd19W6DbhvfEqTOP"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "2025 JKT48",
+                    "type": "C"
+                  },
+                  {
+                    "text": "2025 JKT48",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02659e17439d790db7fd3fbba7",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851659e17439d790db7fd3fbba7",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273659e17439d790db7fd3fbba7",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 3,
+                "month": 2,
+                "precision": "DAY",
+                "year": 2025
+              },
+              "id": "0O08uQJqXLzbuSnZh3kMRz",
+              "label": "Indonesia Musik Nusantara",
+              "name": "#KuSangatSuka",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "TRn5A9CeTYGcXjpwvhJAwA",
+                "shareUrl": "https://open.spotify.com/album/0O08uQJqXLzbuSnZh3kMRz?si=TRn5A9CeTYGcXjpwvhJAwA"
+              },
+              "tracks": {
+                "totalCount": 4
+              },
+              "type": "EP",
+              "uri": "spotify:album:0O08uQJqXLzbuSnZh3kMRz"
+            }
+          ],
+          "totalCount": 20
+        },
+        "singles": {
+          "items": [
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "© 2026 Indonesia Musik Nusantara",
+                          "type": "C"
+                        },
+                        {
+                          "text": "℗ 2026 Indonesia Musik Nusantara",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02d96453e606852f7868e15963",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851d96453e606852f7868e15963",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273d96453e606852f7868e15963",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 4,
+                      "month": 2,
+                      "precision": "DAY",
+                      "year": 2026
+                    },
+                    "id": "0eIpkNRhkvjZFnik8x8Ao3",
+                    "label": "Indonesia Musik Nusantara",
+                    "name": "Andai 'Ku Bukan Idola",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "GanyFeWYS3WRFayzbQPNHQ",
+                      "shareUrl": "https://open.spotify.com/album/0eIpkNRhkvjZFnik8x8Ao3?si=GanyFeWYS3WRFayzbQPNHQ"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:0eIpkNRhkvjZFnik8x8Ao3"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "(C) 2025 Garena Free Fire",
+                          "type": "C"
+                        },
+                        {
+                          "text": "(P) 2025 Garena Free Fire",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e026c0b928ba28a2dcd5113a478",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048516c0b928ba28a2dcd5113a478",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2736c0b928ba28a2dcd5113a478",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 10,
+                      "month": 11,
+                      "precision": "DAY",
+                      "year": 2025
+                    },
+                    "id": "4l0Oja2NliXRJelfb7IDwF",
+                    "label": "Garena Free Fire",
+                    "name": "Looks That Kill (Weird Genius Remix)",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "_vMPGhN2T0qD3BBW1um11A",
+                      "shareUrl": "https://open.spotify.com/album/4l0Oja2NliXRJelfb7IDwF?si=_vMPGhN2T0qD3BBW1um11A"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:4l0Oja2NliXRJelfb7IDwF"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2025 Indonesia Musik Nusantara",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2025 Indonesia Musik Nusantara",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e025a26d35d228086b774d25a0f",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048515a26d35d228086b774d25a0f",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2735a26d35d228086b774d25a0f",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 13,
+                      "month": 8,
+                      "precision": "DAY",
+                      "year": 2025
+                    },
+                    "id": "0Hur1QXkfI1VIo8nq6rbdE",
+                    "label": "Indonesia Musik Nusantara",
+                    "name": "Oh my pumpkin! (JKT48 Version)",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "2BYTh6AkScy3J7jAPPKZrg",
+                      "shareUrl": "https://open.spotify.com/album/0Hur1QXkfI1VIo8nq6rbdE?si=2BYTh6AkScy3J7jAPPKZrg"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:0Hur1QXkfI1VIo8nq6rbdE"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "© 2025 JUNI Records & Indonesia Musik Nusantara",
+                          "type": "C"
+                        },
+                        {
+                          "text": "℗ 2025 JUNI Records & Indonesia Musik Nusantara",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e0291389f69b393611aff87a6ac",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d0000485191389f69b393611aff87a6ac",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b27391389f69b393611aff87a6ac",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 26,
+                      "month": 7,
+                      "precision": "DAY",
+                      "year": 2025
+                    },
+                    "id": "3TrKCx9c3yJ7iD7NsIDRAC",
+                    "label": "Juni Records, Indonesia Musik Nusantara",
+                    "name": "Percik Kecil",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "XxZfbymfQ4GYSmFuNoSr9w",
+                      "shareUrl": "https://open.spotify.com/album/3TrKCx9c3yJ7iD7NsIDRAC?si=XxZfbymfQ4GYSmFuNoSr9w"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:3TrKCx9c3yJ7iD7NsIDRAC"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2025 JKT48V",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2025 JKT48V",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02922fc6a5b65d54d983e80300",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851922fc6a5b65d54d983e80300",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273922fc6a5b65d54d983e80300",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 19,
+                      "month": 7,
+                      "precision": "DAY",
+                      "year": 2025
+                    },
+                    "id": "6ikDtSzUiUrYyyNEWbw8JG",
+                    "label": "JKT48V",
+                    "name": "Kusuka Hari Minggu",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "atyXUeMOQ9GpqNAx0YqxJg",
+                      "shareUrl": "https://open.spotify.com/album/6ikDtSzUiUrYyyNEWbw8JG?si=atyXUeMOQ9GpqNAx0YqxJg"
+                    },
+                    "tracks": {
+                      "totalCount": 2
+                    },
+                    "type": "EP",
+                    "uri": "spotify:album:6ikDtSzUiUrYyyNEWbw8JG"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2025 Indonesia Musik Nusantara",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2025 Indonesia Musik Nusantara",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02916e81d18c2bad76fab3af53",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851916e81d18c2bad76fab3af53",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273916e81d18c2bad76fab3af53",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 26,
+                      "month": 6,
+                      "precision": "DAY",
+                      "year": 2025
+                    },
+                    "id": "3HYV94ZFqidpUeDa8fv2fq",
+                    "label": "Indonesia Musik Nusantara",
+                    "name": "Raja Hati",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "iIvG1RrTTfe07uuMKvn7bg",
+                      "shareUrl": "https://open.spotify.com/album/3HYV94ZFqidpUeDa8fv2fq?si=iIvG1RrTTfe07uuMKvn7bg"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:3HYV94ZFqidpUeDa8fv2fq"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2025 Indonesia Musik Nusantara",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2025 Indonesia Musik Nusantara",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e025d32289bb42f3361c7825303",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048515d32289bb42f3361c7825303",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2735d32289bb42f3361c7825303",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 23,
+                      "month": 5,
+                      "precision": "DAY",
+                      "year": 2025
+                    },
+                    "id": "1HJCzfL5rvkguSNpv6W1ob",
+                    "label": "Indonesia Musik Nusantara",
+                    "name": "GO AND FIGHT!",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "LRibJBo8TBmBT6rcD2szHg",
+                      "shareUrl": "https://open.spotify.com/album/1HJCzfL5rvkguSNpv6W1ob?si=LRibJBo8TBmBT6rcD2szHg"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:1HJCzfL5rvkguSNpv6W1ob"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2025 JKT48",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2025 JKT48",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02659e17439d790db7fd3fbba7",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851659e17439d790db7fd3fbba7",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273659e17439d790db7fd3fbba7",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 3,
+                      "month": 2,
+                      "precision": "DAY",
+                      "year": 2025
+                    },
+                    "id": "0O08uQJqXLzbuSnZh3kMRz",
+                    "label": "Indonesia Musik Nusantara",
+                    "name": "#KuSangatSuka",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "_e5wbh_6Tq6skAo-sRAB9Q",
+                      "shareUrl": "https://open.spotify.com/album/0O08uQJqXLzbuSnZh3kMRz?si=_e5wbh_6Tq6skAo-sRAB9Q"
+                    },
+                    "tracks": {
+                      "totalCount": 4
+                    },
+                    "type": "EP",
+                    "uri": "spotify:album:0O08uQJqXLzbuSnZh3kMRz"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2024 JKT48",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2024 JKT48",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e025db1f6b404e3caf020a8b03f",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048515db1f6b404e3caf020a8b03f",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2735db1f6b404e3caf020a8b03f",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 29,
+                      "month": 10,
+                      "precision": "DAY",
+                      "year": 2024
+                    },
+                    "id": "0QDHo1zasbvm7HrInZfx0V",
+                    "label": "Indonesia Musik Nusantara",
+                    "name": "LapTime Masa Remaja",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "kETiXMS9TMSM-nmA3Vy5jw",
+                      "shareUrl": "https://open.spotify.com/album/0QDHo1zasbvm7HrInZfx0V?si=kETiXMS9TMSM-nmA3Vy5jw"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:0QDHo1zasbvm7HrInZfx0V"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2024 JKT48",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2024 JKT48",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e025a476e8e8d81af33032e02d6",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048515a476e8e8d81af33032e02d6",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2735a476e8e8d81af33032e02d6",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 2,
+                      "month": 9,
+                      "precision": "DAY",
+                      "year": 2024
+                    },
+                    "id": "03yeji8V36Duk9oJdxBwBK",
+                    "label": "Indonesia Musik Nusantara",
+                    "name": "Saatnya Kesempatan",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "4-DWiCeySRyqLyDayyw_xA",
+                      "shareUrl": "https://open.spotify.com/album/03yeji8V36Duk9oJdxBwBK?si=4-DWiCeySRyqLyDayyw_xA"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:03yeji8V36Duk9oJdxBwBK"
+                  }
+                ]
+              }
+            }
+          ],
+          "totalCount": 49
+        },
+        "topTracks": {
+          "items": [
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02f6ce264866ac7fa1664b4db4"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851f6ce264866ac7fa1664b4db4"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273f6ce264866ac7fa1664b4db4"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:7MpAqxM7Mew0Vb1clDl6pJ"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "JKT48"
+                      },
+                      "uri": "spotify:artist:2l8I5pWUnfF7bMK1z6EJRk"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 225600
+                },
+                "id": "7q4zdBAgLFETdnslE7Z0Eq",
+                "name": "Seventeen",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "43754020",
+                "uri": "spotify:track:7q4zdBAgLFETdnslE7Z0Eq"
+              },
+              "uid": "bde83d820adbb151a35f"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02dcd3a934c5c00bdfc1fd4d5c"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851dcd3a934c5c00bdfc1fd4d5c"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273dcd3a934c5c00bdfc1fd4d5c"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:2svR3lTZ0z5FGpQEEyxX6T"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "JKT48"
+                      },
+                      "uri": "spotify:artist:2l8I5pWUnfF7bMK1z6EJRk"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 238672
+                },
+                "id": "2X62SjtuwVQiGiZvZZ9Ztr",
+                "name": "Rapsodi",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "136486460",
+                "uri": "spotify:track:2X62SjtuwVQiGiZvZZ9Ztr"
+              },
+              "uid": "822b2befef3a2e7c73f1"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02c1fb3e1f3cd9e8ace9cda286"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851c1fb3e1f3cd9e8ace9cda286"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273c1fb3e1f3cd9e8ace9cda286"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:5nATWPrpqcW1IYuHO7jO9e"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "JKT48"
+                      },
+                      "uri": "spotify:artist:2l8I5pWUnfF7bMK1z6EJRk"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 282972
+                },
+                "id": "1W3ufHAL2XuSKqjkBRewrh",
+                "name": "Fortune Cookie Yang Mencinta",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "51870684",
+                "uri": "spotify:track:1W3ufHAL2XuSKqjkBRewrh"
+              },
+              "uid": "3e0d4699cafef15ea7ce"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e0291389f69b393611aff87a6ac"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000485191389f69b393611aff87a6ac"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b27391389f69b393611aff87a6ac"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:3TrKCx9c3yJ7iD7NsIDRAC"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Bernadya"
+                      },
+                      "uri": "spotify:artist:47z98pKd71yIbgXwe9LPVC"
+                    },
+                    {
+                      "profile": {
+                        "name": "JKT48"
+                      },
+                      "uri": "spotify:artist:2l8I5pWUnfF7bMK1z6EJRk"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 1
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 229690
+                },
+                "id": "6CsSNFkQVVuQjRQMrzyDzq",
+                "name": "Percik Kecil",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "5718147",
+                "uri": "spotify:track:6CsSNFkQVVuQjRQMrzyDzq"
+              },
+              "uid": "9fc470cf412516f821dc"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02d96453e606852f7868e15963"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851d96453e606852f7868e15963"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273d96453e606852f7868e15963"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:0eIpkNRhkvjZFnik8x8Ao3"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "JKT48"
+                      },
+                      "uri": "spotify:artist:2l8I5pWUnfF7bMK1z6EJRk"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 253090
+                },
+                "id": "2Q6Lv9jgqt3YWZqrRcHG9C",
+                "name": "Andai 'Ku Bukan Idola",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "442878",
+                "uri": "spotify:track:2Q6Lv9jgqt3YWZqrRcHG9C"
+              },
+              "uid": "c40b3933aa84300bdbe4"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02c1fb3e1f3cd9e8ace9cda286"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851c1fb3e1f3cd9e8ace9cda286"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273c1fb3e1f3cd9e8ace9cda286"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:5nATWPrpqcW1IYuHO7jO9e"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "JKT48"
+                      },
+                      "uri": "spotify:artist:2l8I5pWUnfF7bMK1z6EJRk"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 280942
+                },
+                "id": "73fHRZD78M67KShlr2Xz4l",
+                "name": "365 Nichi No Kamihikouki - Pesawat Kertas 365 Hari",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "31902873",
+                "uri": "spotify:track:73fHRZD78M67KShlr2Xz4l"
+              },
+              "uid": "b89072f776634628b664"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02c716f0361f9ed5a8f4b78d80"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851c716f0361f9ed5a8f4b78d80"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273c716f0361f9ed5a8f4b78d80"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:26VpWxdiIXNXUTLLZcT9ku"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "JKT48"
+                      },
+                      "uri": "spotify:artist:2l8I5pWUnfF7bMK1z6EJRk"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 220693
+                },
+                "id": "6T9Mo2AWa9JeMdlW8VLKJ8",
+                "name": "Jurus Rahasia Teleport",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "34415185",
+                "uri": "spotify:track:6T9Mo2AWa9JeMdlW8VLKJ8"
+              },
+              "uid": "f78346b6c5550bc959b8"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02f6ce264866ac7fa1664b4db4"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851f6ce264866ac7fa1664b4db4"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273f6ce264866ac7fa1664b4db4"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:7MpAqxM7Mew0Vb1clDl6pJ"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "JKT48"
+                      },
+                      "uri": "spotify:artist:2l8I5pWUnfF7bMK1z6EJRk"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 232800
+                },
+                "id": "7y7SlT7zmbebEfzFoLCFfv",
+                "name": "Ingin Bertemu",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "13833723",
+                "uri": "spotify:track:7y7SlT7zmbebEfzFoLCFfv"
+              },
+              "uid": "6f9cba3d96b48343631f"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02dd210ef0428f42233ce04919"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851dd210ef0428f42233ce04919"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273dd210ef0428f42233ce04919"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:0bdUBzOW4q6d26z2RbnaiM"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "JKT48"
+                      },
+                      "uri": "spotify:artist:2l8I5pWUnfF7bMK1z6EJRk"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 282613
+                },
+                "id": "3dqeB38vVaC5pmf8SsvhoK",
+                "name": "Heavy Rotation",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "35549202",
+                "uri": "spotify:track:3dqeB38vVaC5pmf8SsvhoK"
+              },
+              "uid": "debef49bcc68d6345609"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02c1fb3e1f3cd9e8ace9cda286"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851c1fb3e1f3cd9e8ace9cda286"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273c1fb3e1f3cd9e8ace9cda286"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:5nATWPrpqcW1IYuHO7jO9e"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "JKT48"
+                      },
+                      "uri": "spotify:artist:2l8I5pWUnfF7bMK1z6EJRk"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 257970
+                },
+                "id": "2ZxzbNZtfya4xAhO7IqswC",
+                "name": "Only Today",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "19821684",
+                "uri": "spotify:track:2ZxzbNZtfya4xAhO7IqswC"
+              },
+              "uid": "9e80c4998e4d128b0c71"
+            }
+          ]
+        }
+      },
+      "goods": {
+        "concerts": {
+          "items": [],
+          "totalCount": 0
+        },
+        "merch": {
+          "items": []
+        }
+      },
+      "headerImage": {
+        "data": {
+          "__typename": "ImageV2",
+          "sources": [
+            {
+              "maxHeight": 640,
+              "maxWidth": 1494,
+              "url": "https://image-cdn-fa.spotifycdn.com/image/ab67618600000194eb8e79216d982f582071da3d"
+            },
+            {
+              "maxHeight": 1080,
+              "maxWidth": 1920,
+              "url": "https://i2o.scdn.co/image/ab67618600001667eb8e79216d982f582071da3d"
+            },
+            {
+              "maxHeight": 1080,
+              "maxWidth": 1920,
+              "url": "https://i2o.scdn.co/image/ab67618600001667eb8e79216d982f582071da3d"
+            },
+            {
+              "maxHeight": 641,
+              "maxWidth": 1495,
+              "url": "https://image-cdn-fa.spotifycdn.com/image/ab67618600009d80eb8e79216d982f582071da3d"
+            },
+            {
+              "maxHeight": 1140,
+              "maxWidth": 2660,
+              "url": "https://image-cdn-fa.spotifycdn.com/image/ab6761860000eab1eb8e79216d982f582071da3d"
+            }
+          ]
+        }
+      },
+      "id": "2l8I5pWUnfF7bMK1z6EJRk",
+      "preRelease": null,
+      "profile": {
+        "biography": {
+          "text": "JKT48 is AKB48&#39;s first overseas sister group",
+          "type": "AUTOBIOGRAPHY"
+        },
+        "externalLinks": {
+          "items": []
+        },
+        "name": "JKT48",
+        "pinnedItem": {
+          "backgroundImageV2": null,
+          "comment": "",
+          "itemV2": {
+            "__typename": "AlbumResponseWrapper",
+            "data": {
+              "__typename": "Album",
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02d96453e606852f7868e15963",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851d96453e606852f7868e15963",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273d96453e606852f7868e15963",
+                    "width": 640
+                  }
+                ]
+              },
+              "isPreRelease": false,
+              "name": "Andai 'Ku Bukan Idola",
+              "type": "SINGLE",
+              "uri": "spotify:album:0eIpkNRhkvjZFnik8x8Ao3"
+            }
+          },
+          "subtitle": "Single • New Release",
+          "thumbnailImage": {
+            "data": {
+              "sources": [
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d000075a0d96453e606852f7868e15963"
+                },
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d000090d5d96453e606852f7868e15963"
+                },
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000ab87d96453e606852f7868e15963"
+                }
+              ]
+            }
+          },
+          "title": "Andai 'Ku Bukan Idola",
+          "type": "ALBUM",
+          "uri": "spotify:album:0eIpkNRhkvjZFnik8x8Ao3"
+        },
+        "playlistsV2": {
+          "items": [
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Hi, I'm Sisca JKT48, My type of music, especially with a cup of tea and alternate universe stories. enjoy ! ",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c79d28fd9074b40be27ad0249",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "JKT48 Sisca [Sislounge]",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "JKT48"
+                  }
+                },
+                "uri": "spotify:playlist:5qrjDMdhJgP2gXXNOOzW1T"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Hi, I'm Gita JKT48. So if a one-sided love is still love, then I am in love.",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cd7b345dbcee2ad19705da41a",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "JKT48 Gita [One Sided Love Huh?]",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "JKT48"
+                  }
+                },
+                "uri": "spotify:playlist:2C8DuNqAcEfjIlWo3ErKs2"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Hai! Aku Freya JKT48, playlist yang aku buat ini seperti cerita yang bisa kalian imajinasikan sendiri hehe. Semoga kalian suka yaa, selamat mendengarkan!♡",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca21d841019358939fecb9fcb",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "JKT48 Freya [Jettokōsutā]",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "JKT48"
+                  }
+                },
+                "uri": "spotify:playlist:0Li73P73SCXGk6T6soafqi"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Hi, I'm Jinan JKT48,  Sometimes, life can be difficult but music can make it easier&quot; ",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cf8e9f2505ba5913be5153204",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "JKT48 Jinan [Songs To Lit Up My Mood]",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "JKT48"
+                  }
+                },
+                "uri": "spotify:playlist:6nNy4cbcPJQsL30JrnsaGH"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Hi, I'm Anin JKT48, I love you, in that place between music and sleep. enjoy!",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c346ddc17655c2091179d0eab",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "JKT48 Anin [Sleep well, you.]",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "JKT48"
+                  }
+                },
+                "uri": "spotify:playlist:5YsWy7WHSq23t5jodqb5AS"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Hi, I'm Flora JKT48. Here is some calming songs that help me fall asleep. enjoy!",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c88654ebfd56223a83440c480",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "JKT48 Flora [Ga Bisa Tidur]",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "JKT48"
+                  }
+                },
+                "uri": "spotify:playlist:2vCnITQJ4SIFEJgF7PQksO"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Hi, I'm Ashel JKT48, This is for you who are far away, let's listen to this song together while gazing at the stars! Enjoy!!",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c903ab033f0bc4d0d3c759d1f",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "JKT48 Ashel [Stargazing, Make a Wish]",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "JKT48"
+                  }
+                },
+                "uri": "spotify:playlist:4ukLFtqjSVirGXl1Paa4xD"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Hi, I'm Jesslyn JKT48, Happiness can be found, even in the darkest of times, if one only remembers to turn on the light. - A.D",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c2a65e6bf602398f8fb190993",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "JKT48 Jesslyn [Lumos]",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "JKT48"
+                  }
+                },
+                "uri": "spotify:playlist:5DoobEf16CtP8zFyok3zhk"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Hi, I’m Feni JKT48,  welcome to my 24/7 playlist~! These are some of the songs I've been listening lately, please enjoy it!",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c5dba4acc8f0238408257fde3",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "JKT48 Feni [24/7]",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "JKT48"
+                  }
+                },
+                "uri": "spotify:playlist:4AyDRHTVabvFR0KPxjeHLH"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Hi, I'm Indah JKT48, You've worked hard. A warm hug in a form of a playlist, enjoy! :)",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8497b6e2ffac84b186ff5c4bb0",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "JKT48 Indah [Healing Station]",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "JKT48"
+                  }
+                },
+                "uri": "spotify:playlist:3RZtYqyqrE21gZeJyA3kqL"
+              }
+            }
+          ],
+          "totalCount": 33
+        },
+        "verified": true
+      },
+      "relatedContent": {
+        "appearsOn": {
+          "items": [
+            {
+              "releases": {
+                "items": [
+                  {
+                    "artists": {
+                      "items": [
+                        {
+                          "profile": {
+                            "name": "Various Artists"
+                          },
+                          "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02d1359bb09149ed6d0aa3b11a",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851d1359bb09149ed6d0aa3b11a",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273d1359bb09149ed6d0aa3b11a",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "year": 2025
+                    },
+                    "id": "6XX5LqreD0BoqQmTbQYiJq",
+                    "name": "Lagu-Lagu Cemara (OST. Musikal Keluarga Cemara)",
+                    "sharingInfo": {
+                      "shareId": "p8ZhQoxPSIKz6FuwD32Tww",
+                      "shareUrl": "https://open.spotify.com/album/6XX5LqreD0BoqQmTbQYiJq?si=p8ZhQoxPSIKz6FuwD32Tww"
+                    },
+                    "type": "COMPILATION",
+                    "uri": "spotify:album:6XX5LqreD0BoqQmTbQYiJq"
+                  }
+                ],
+                "totalCount": 1
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "artists": {
+                      "items": [
+                        {
+                          "profile": {
+                            "name": "Garena Free Fire"
+                          },
+                          "uri": "spotify:artist:6Lad89OaqnRo5nf7FyVipt"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02887215054619df4e18097f21",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851887215054619df4e18097f21",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273887215054619df4e18097f21",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "year": 2022
+                    },
+                    "id": "5nhGvBKt0vd8Xv9mB2nu3h",
+                    "name": "Feel The Fire",
+                    "sharingInfo": {
+                      "shareId": "kFNrrf-2TrWld2_IwQPkMw",
+                      "shareUrl": "https://open.spotify.com/album/5nhGvBKt0vd8Xv9mB2nu3h?si=kFNrrf-2TrWld2_IwQPkMw"
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:5nhGvBKt0vd8Xv9mB2nu3h"
+                  }
+                ],
+                "totalCount": 1
+              }
+            }
+          ],
+          "totalCount": 2
+        },
+        "discoveredOnV2": {
+          "items": [
+            {
+              "data": {
+                "__typename": "GenericError"
+              }
+            },
+            {
+              "data": {
+                "__typename": "GenericError"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "2h1kyikFfaVRyb7zzuGP8C",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c58ab8065752e5c156dae0211",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "JKT48 PlayList",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "JKT48"
+                  }
+                },
+                "uri": "spotify:playlist:2h1kyikFfaVRyb7zzuGP8C"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "This is JKT48. The essential tracks, all in one playlist.",
+                "id": "37i9dQZF1DZ06evO1kR98I",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/thisisv3/2l8I5pWUnfF7bMK1z6EJRk/en",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "This Is JKT48",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DZ06evO1kR98I"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "2gowOOQQcR2SxLUrKIfCdO",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": 640,
+                          "url": "https://mosaic.scdn.co/640/ab67616d00001e02c716f0361f9ed5a8f4b78d80ab67616d00001e02dcd3a934c5c00bdfc1fd4d5cab67616d00001e02dd210ef0428f42233ce04919ab67616d00001e02e7a13ce78eb941820aeeb569",
+                          "width": 640
+                        },
+                        {
+                          "height": 300,
+                          "url": "https://mosaic.scdn.co/300/ab67616d00001e02c716f0361f9ed5a8f4b78d80ab67616d00001e02dcd3a934c5c00bdfc1fd4d5cab67616d00001e02dd210ef0428f42233ce04919ab67616d00001e02e7a13ce78eb941820aeeb569",
+                          "width": 300
+                        },
+                        {
+                          "height": 60,
+                          "url": "https://mosaic.scdn.co/60/ab67616d00001e02c716f0361f9ed5a8f4b78d80ab67616d00001e02dcd3a934c5c00bdfc1fd4d5cab67616d00001e02dd210ef0428f42233ce04919ab67616d00001e02e7a13ce78eb941820aeeb569",
+                          "width": 60
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "PLAYLIST LAGU JKT48 LENGKAP",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Zazz48"
+                  }
+                },
+                "uri": "spotify:playlist:2gowOOQQcR2SxLUrKIfCdO"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "4narzkSW7kieLFcjTWYlzv",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": 640,
+                          "url": "https://mosaic.scdn.co/640/ab67616d00001e027add2ac13464428421ac8b36ab67616d00001e02aff65fc8cfbd8aae35b91528ab67616d00001e02d41506c06eb99bc19d72056fab67616d00001e02e7f81467d33e844cd5fc8feb",
+                          "width": 640
+                        },
+                        {
+                          "height": 300,
+                          "url": "https://mosaic.scdn.co/300/ab67616d00001e027add2ac13464428421ac8b36ab67616d00001e02aff65fc8cfbd8aae35b91528ab67616d00001e02d41506c06eb99bc19d72056fab67616d00001e02e7f81467d33e844cd5fc8feb",
+                          "width": 300
+                        },
+                        {
+                          "height": 60,
+                          "url": "https://mosaic.scdn.co/60/ab67616d00001e027add2ac13464428421ac8b36ab67616d00001e02aff65fc8cfbd8aae35b91528ab67616d00001e02d41506c06eb99bc19d72056fab67616d00001e02e7f81467d33e844cd5fc8feb",
+                          "width": 60
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "JKT48 ALL SONG",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "farid"
+                  }
+                },
+                "uri": "spotify:playlist:4narzkSW7kieLFcjTWYlzv"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Happiness on loop! This playlist is your daily dose of sunshine\uD83D\uDE4C\uD83C\uDFFB\uD83C\uDF08\uD83C\uDF24️! ",
+                "id": "1D5FRSMc9uKgysoQzEw5uF",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": 640,
+                          "url": "https://mosaic.scdn.co/640/ab67616d00001e0271c65edbeed32af70b900637ab67616d00001e0298b7cd420705531db32b3aebab67616d00001e02d462cb84c9899a5a132101a1ab67616d00001e02e379dee8145ad1a2543c9383",
+                          "width": 640
+                        },
+                        {
+                          "height": 300,
+                          "url": "https://mosaic.scdn.co/300/ab67616d00001e0271c65edbeed32af70b900637ab67616d00001e0298b7cd420705531db32b3aebab67616d00001e02d462cb84c9899a5a132101a1ab67616d00001e02e379dee8145ad1a2543c9383",
+                          "width": 300
+                        },
+                        {
+                          "height": 60,
+                          "url": "https://mosaic.scdn.co/60/ab67616d00001e0271c65edbeed32af70b900637ab67616d00001e0298b7cd420705531db32b3aebab67616d00001e02d462cb84c9899a5a132101a1ab67616d00001e02e379dee8145ad1a2543c9383",
+                          "width": 60
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "LAGU BIKIN BAHAGIA NAIKIN MOOD",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Zen"
+                  }
+                },
+                "uri": "spotify:playlist:1D5FRSMc9uKgysoQzEw5uF"
+              }
+            },
+            {
+              "data": {
+                "__typename": "GenericError"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "<a href=\"https://open.spotify.com/playlist/34TolcXKGBkZTelF02NOs2\">\uD83D\uDCD6Musik untuk Belajar </a>Lagu-lagu galau yang menghantam hati. Untuk malam sunyi, pikiran berat, dan perasaan yang tak sempat terucap. ",
+                "id": "4AO6oKCkkkC5SXZoak13S5",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8450d3755b4f13fc40dc6300cc",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "sad galau brutal \uD83D\uDE22",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Calm Radio"
+                  }
+                },
+                "uri": "spotify:playlist:4AO6oKCkkkC5SXZoak13S5"
+              }
+            },
+            {
+              "data": {
+                "__typename": "GenericError"
+              }
+            },
+            {
+              "data": {
+                "__typename": "GenericError"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "06PV1xTVzHloaLo4cczxIw",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02c1fb3e1f3cd9e8ace9cda286",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Pesawat Kertas 365 Hari",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Farah"
+                  }
+                },
+                "uri": "spotify:playlist:06PV1xTVzHloaLo4cczxIw"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Deretan musik Indonesia terpopuler saat ini.  Cover: Batas Senja",
+                "id": "37i9dQZF1DWZxM58TRkuqg",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f0000000221feff5bf74f1d5ffb8f1da8",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Puncak Klasemen",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DWZxM58TRkuqg"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "7d3r9buNlGUniS4Ss3AytN",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": 640,
+                          "url": "https://mosaic.scdn.co/640/ab67616d00001e0209ad599a5cb91b00e66cfb45ab67616d00001e02c1fb3e1f3cd9e8ace9cda286ab67616d00001e02dcd3a934c5c00bdfc1fd4d5cab67616d00001e02f6ce264866ac7fa1664b4db4",
+                          "width": 640
+                        },
+                        {
+                          "height": 300,
+                          "url": "https://mosaic.scdn.co/300/ab67616d00001e0209ad599a5cb91b00e66cfb45ab67616d00001e02c1fb3e1f3cd9e8ace9cda286ab67616d00001e02dcd3a934c5c00bdfc1fd4d5cab67616d00001e02f6ce264866ac7fa1664b4db4",
+                          "width": 300
+                        },
+                        {
+                          "height": 60,
+                          "url": "https://mosaic.scdn.co/60/ab67616d00001e0209ad599a5cb91b00e66cfb45ab67616d00001e02c1fb3e1f3cd9e8ace9cda286ab67616d00001e02dcd3a934c5c00bdfc1fd4d5cab67616d00001e02f6ce264866ac7fa1664b4db4",
+                          "width": 60
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "JKT48 FULL ALBUM",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Miko"
+                  }
+                },
+                "uri": "spotify:playlist:7d3r9buNlGUniS4Ss3AytN"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "JKT48 14th Anniversary Concert &amp; Gracia Graduation Ceremony (December 20, 2025)",
+                "id": "6KI2IymjPQ42wilaqIEQf9",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da847484e82db84c35f8ecb272c4",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "JKT48 - The First Snow (14th Anniv)",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "sanitamima"
+                  }
+                },
+                "uri": "spotify:playlist:6KI2IymjPQ42wilaqIEQf9"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "4klmjCCmfSi5Rz2O1RL8M9",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": 640,
+                          "url": "https://mosaic.scdn.co/640/ab67616d00001e02c1fb3e1f3cd9e8ace9cda286ab67616d00001e02c716f0361f9ed5a8f4b78d80ab67616d00001e02dcd3a934c5c00bdfc1fd4d5cab67616d00001e02f6ce264866ac7fa1664b4db4",
+                          "width": 640
+                        },
+                        {
+                          "height": 300,
+                          "url": "https://mosaic.scdn.co/300/ab67616d00001e02c1fb3e1f3cd9e8ace9cda286ab67616d00001e02c716f0361f9ed5a8f4b78d80ab67616d00001e02dcd3a934c5c00bdfc1fd4d5cab67616d00001e02f6ce264866ac7fa1664b4db4",
+                          "width": 300
+                        },
+                        {
+                          "height": 60,
+                          "url": "https://mosaic.scdn.co/60/ab67616d00001e02c1fb3e1f3cd9e8ace9cda286ab67616d00001e02c716f0361f9ed5a8f4b78d80ab67616d00001e02dcd3a934c5c00bdfc1fd4d5cab67616d00001e02f6ce264866ac7fa1664b4db4",
+                          "width": 60
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Rumahmu yang dulu toko minuman",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Najmi Samudra"
+                  }
+                },
+                "uri": "spotify:playlist:4klmjCCmfSi5Rz2O1RL8M9"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "48EJvAK8GOELfPoWsGlylX",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": 640,
+                          "url": "https://mosaic.scdn.co/640/ab67616d00001e022aeb91e05fcb92ed8852f6f2ab67616d00001e02aa01b040e1a3c5c7369efc4dab67616d00001e02b50cb1d319aa9180d67fc065ab67616d00001e02c1fb3e1f3cd9e8ace9cda286",
+                          "width": 640
+                        },
+                        {
+                          "height": 300,
+                          "url": "https://mosaic.scdn.co/300/ab67616d00001e022aeb91e05fcb92ed8852f6f2ab67616d00001e02aa01b040e1a3c5c7369efc4dab67616d00001e02b50cb1d319aa9180d67fc065ab67616d00001e02c1fb3e1f3cd9e8ace9cda286",
+                          "width": 300
+                        },
+                        {
+                          "height": 60,
+                          "url": "https://mosaic.scdn.co/60/ab67616d00001e022aeb91e05fcb92ed8852f6f2ab67616d00001e02aa01b040e1a3c5c7369efc4dab67616d00001e02b50cb1d319aa9180d67fc065ab67616d00001e02c1fb3e1f3cd9e8ace9cda286",
+                          "width": 60
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "JKT48 BEST SONG",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Sal"
+                  }
+                },
+                "uri": "spotify:playlist:48EJvAK8GOELfPoWsGlylX"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Get ready for JKT48&#x27;s 27th Single, &quot;Andai &#x27;Ku Bukan Idola&quot;. This playlist brings you mix of cheerful and high energy vibes from JKT48 songs❤️",
+                "id": "2xuouCtdfwrXnZhapwT1WD",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84131782baed6a945c0dd9b477",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Andai 'Ku Bukan Idola | JKT48",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Fandy"
+                  }
+                },
+                "uri": "spotify:playlist:2xuouCtdfwrXnZhapwT1WD"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Rilisan baru pekan ini dari Fajar Noor, SZA, hingga Lana Del Rey dan masih banyak lagi dari dalam dan mancanegara.",
+                "id": "37i9dQZF1DX8vAahjzdXGC",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f00000002793973fbec486191e514fad6",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "New Music Friday Indonesia",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DX8vAahjzdXGC"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "1aJXh7Y3vzdyMcbUaLoF89",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8495ece06863be4c49ae8aafc6",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "playlist vibes semangat kerja ♟️",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "bukan rini"
+                  }
+                },
+                "uri": "spotify:playlist:1aJXh7Y3vzdyMcbUaLoF89"
+              }
+            }
+          ],
+          "totalCount": 100
+        },
+        "featuringV2": {
+          "items": [
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "This is JKT48. The essential tracks, all in one playlist.",
+                "id": "37i9dQZF1DZ06evO1kR98I",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/thisisv3/2l8I5pWUnfF7bMK1z6EJRk/en",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "This Is JKT48",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DZ06evO1kR98I"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "With Twenty Nine Teens, Super Girlies, UPgirls and more",
+                "id": "37i9dQZF1E4AsKFQe41ojI",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2l8I5pWUnfF7bMK1z6EJRk/en",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "JKT48 Radio",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1E4AsKFQe41ojI"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Deretan musik Indonesia terpopuler saat ini.  Cover: Batas Senja",
+                "id": "37i9dQZF1DWZxM58TRkuqg",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f0000000221feff5bf74f1d5ffb8f1da8",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Puncak Klasemen",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DWZxM58TRkuqg"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Koleksi lagu Indonesia yang populer belakangan ini. Cover: Rizky Febian",
+                "id": "37i9dQZF1DWW5b4WmmOtn7",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f00000002a79c8538d5d861de4c776bc8",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Alunan Kesukaan",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DWW5b4WmmOtn7"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Lagu-lagu terkini yang sedang beranjak menjadi hit. Cover:  Difki Khalif, Prinsa Mandagie",
+                "id": "37i9dQZF1DX7sD2LU79ZzQ",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f000000020e1345dae4dc580ae7e5bf8b",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Naik Daun",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DX7sD2LU79ZzQ"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Bekal telinga dan hati sebelum saling jaga di Pestapora 2025 ",
+                "id": "37i9dQZF1DX8lZWmDvFGbQ",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f00000002ea760017e1305145e14172b9",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Pestapora Official Playlist",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DX8lZWmDvFGbQ"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Semesta bagi para idola terfavorit. Cover: JKT48",
+                "id": "37i9dQZF1DXe1uhsb3MVw8",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f000000029a044669379046eae1a45b2d",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Insan Pujaan ",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DXe1uhsb3MVw8"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Artis perempuan tanah air yang memperkaya keragaman musik Indonesia hari ini. Cover: Putri Ariani",
+                "id": "37i9dQZF1DXaokDaMlNwPI",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f000000027bd75722dfd1a1905a04dd2f",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Women of Indonesia",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DXaokDaMlNwPI"
+              }
+            }
+          ],
+          "totalCount": 8
+        },
+        "relatedArtists": {
+          "items": [
+            {
+              "id": "2oXCgnN1W8fMfNu2mHVgSz",
+              "profile": {
+                "name": "Cherrybelle"
+              },
+              "uri": "spotify:artist:2oXCgnN1W8fMfNu2mHVgSz",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b2733ad38432e5772bf80a9a2483",
+                      "width": 640
+                    },
+                    {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d000048513ad38432e5772bf80a9a2483",
+                      "width": 64
+                    },
+                    {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e023ad38432e5772bf80a9a2483",
+                      "width": 300
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "1WX2v0BiEW19Vw7xmznLdZ",
+              "profile": {
+                "name": "Vierra"
+              },
+              "uri": "spotify:artist:1WX2v0BiEW19Vw7xmznLdZ",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebce05aec92bc5b3e81205ff73",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178ce05aec92bc5b3e81205ff73",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174ce05aec92bc5b3e81205ff73",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "4V1Io5SwSO4CwaUbgLMYvz",
+              "profile": {
+                "name": "Gita Gutawa"
+              },
+              "uri": "spotify:artist:4V1Io5SwSO4CwaUbgLMYvz",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eba4fd94663608e354175b2dff",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178a4fd94663608e354175b2dff",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174a4fd94663608e354175b2dff",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "3qL7BzwJOXq3EzAio36aLX",
+              "profile": {
+                "name": "Ghea Indrawari"
+              },
+              "uri": "spotify:artist:3qL7BzwJOXq3EzAio36aLX",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb299912b504767b61b115792e",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178299912b504767b61b115792e",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174299912b504767b61b115792e",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "1fw9jZ1duJbRsYjugzA0TW",
+              "profile": {
+                "name": "Coboy Junior"
+              },
+              "uri": "spotify:artist:1fw9jZ1duJbRsYjugzA0TW",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b27312acd55333b9c705f0ab818c",
+                      "width": 640
+                    },
+                    {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d0000485112acd55333b9c705f0ab818c",
+                      "width": 64
+                    },
+                    {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e0212acd55333b9c705f0ab818c",
+                      "width": 300
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "4oAZA3aniPjL9XINSvj7VP",
+              "profile": {
+                "name": "Utopia"
+              },
+              "uri": "spotify:artist:4oAZA3aniPjL9XINSvj7VP",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebc10be7b7fff309b12b7657fd",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178c10be7b7fff309b12b7657fd",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174c10be7b7fff309b12b7657fd",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "4ubEZ6sMsrrbQChueyouCC",
+              "profile": {
+                "name": "Hivi!"
+              },
+              "uri": "spotify:artist:4ubEZ6sMsrrbQChueyouCC",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebdaecd6df4e946467b5461e5d",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178daecd6df4e946467b5461e5d",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174daecd6df4e946467b5461e5d",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "02Tq76MwpeoRu3BHIAiaio",
+              "profile": {
+                "name": "Yura Yunita"
+              },
+              "uri": "spotify:artist:02Tq76MwpeoRu3BHIAiaio",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb50fe6d9b4037208aa8e52269",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f17850fe6d9b4037208aa8e52269",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab6761610000517450fe6d9b4037208aa8e52269",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "3DHOtJqv0Bw65ENlK4FiSF",
+              "profile": {
+                "name": "Yovie & Nuno"
+              },
+              "uri": "spotify:artist:3DHOtJqv0Bw65ENlK4FiSF",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebbdb006ea21e76b936c98abb4",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178bdb006ea21e76b936c98abb4",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174bdb006ea21e76b936c98abb4",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "5a5fiumH9eDxjvvzAvJfEx",
+              "profile": {
+                "name": "Super Girlies"
+              },
+              "uri": "spotify:artist:5a5fiumH9eDxjvvzAvJfEx",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b273a0b6b2ed46779558f2906546",
+                      "width": 640
+                    },
+                    {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d00004851a0b6b2ed46779558f2906546",
+                      "width": 64
+                    },
+                    {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e027eddffc8e64a1dc4ba1a8892",
+                      "width": 300
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "4EiSzlOeMnJcp2U8ayCQ3a",
+              "profile": {
+                "name": "Keisya Levronka"
+              },
+              "uri": "spotify:artist:4EiSzlOeMnJcp2U8ayCQ3a",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebbd8e63fc8e9d7e6e994efc35",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178bd8e63fc8e9d7e6e994efc35",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174bd8e63fc8e9d7e6e994efc35",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "2D3ztMHoKJOJs3HgQJPXf6",
+              "profile": {
+                "name": "Project Pop"
+              },
+              "uri": "spotify:artist:2D3ztMHoKJOJs3HgQJPXf6",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebda9a60d60cfe4b7fd77de134",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178da9a60d60cfe4b7fd77de134",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174da9a60d60cfe4b7fd77de134",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "3tMTXQyRrPmMyHv5SoC0TV",
+              "profile": {
+                "name": "Juicy Luicy"
+              },
+              "uri": "spotify:artist:3tMTXQyRrPmMyHv5SoC0TV",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebd966b59ac3edc236b907b33e",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178d966b59ac3edc236b907b33e",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174d966b59ac3edc236b907b33e",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "05CRzFTp7TouOXPuH6Tapu",
+              "profile": {
+                "name": "Isyana Sarasvati"
+              },
+              "uri": "spotify:artist:05CRzFTp7TouOXPuH6Tapu",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebc1798fc0311e71ccb359a636",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178c1798fc0311e71ccb359a636",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174c1798fc0311e71ccb359a636",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "17Wt0hzZb6fAEVfIHffQFB",
+              "profile": {
+                "name": "Maudy Ayunda"
+              },
+              "uri": "spotify:artist:17Wt0hzZb6fAEVfIHffQFB",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebc4e6f6b43daa2b5414a7e7c3",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178c4e6f6b43daa2b5414a7e7c3",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174c4e6f6b43daa2b5414a7e7c3",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "4sEWznAKWWNcicTuLxzb6d",
+              "profile": {
+                "name": "Nidji"
+              },
+              "uri": "spotify:artist:4sEWznAKWWNcicTuLxzb6d",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebd63cba90d27bdf26effba4c7",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178d63cba90d27bdf26effba4c7",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174d63cba90d27bdf26effba4c7",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "3GheatPWdVzxqmRXOKxHTb",
+              "profile": {
+                "name": "Lyla"
+              },
+              "uri": "spotify:artist:3GheatPWdVzxqmRXOKxHTb",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebed01e9fe487dc4c53510edd5",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178ed01e9fe487dc4c53510edd5",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174ed01e9fe487dc4c53510edd5",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "2iDVt6mFbtbDEZG5ax0dTi",
+              "profile": {
+                "name": "Tulus"
+              },
+              "uri": "spotify:artist:2iDVt6mFbtbDEZG5ax0dTi",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb53462891ab7799f2934b568e",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f17853462891ab7799f2934b568e",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab6761610000517453462891ab7799f2934b568e",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "0yz3hWDSRvBZ8V5HMYVWzp",
+              "profile": {
+                "name": "Vierratale"
+              },
+              "uri": "spotify:artist:0yz3hWDSRvBZ8V5HMYVWzp",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb5be50c33ed754c4bdebe0fd9",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f1785be50c33ed754c4bdebe0fd9",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab676161000051745be50c33ed754c4bdebe0fd9",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "7pFWMC2E7h8eL3SZyHRsRq",
+              "profile": {
+                "name": "Idgitaf"
+              },
+              "uri": "spotify:artist:7pFWMC2E7h8eL3SZyHRsRq",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebb394f3f8620f5f84a94599bc",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178b394f3f8620f5f84a94599bc",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174b394f3f8620f5f84a94599bc",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "totalCount": 40
+        }
+      },
+      "relatedMusicVideos": {
+        "__typename": "MusicVideosPage",
+        "items": [
+          {
+            "_uri": "spotify:track:4ljUQ95dI413FKhvYyxl4V",
+            "data": {
+              "__typename": "Track",
+              "albumOfTrack": {
+                "coverArt": {
+                  "sources": [
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b7120506b644578c459d04c587",
+                      "width": 1280
+                    },
+                    {
+                      "height": 360,
+                      "url": "https://i.scdn.co/image/ab6742d3000052b7120506b644578c459d04c587",
+                      "width": 640
+                    },
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b7120506b644578c459d04c587",
+                      "width": 1280
+                    }
+                  ]
+                },
+                "uri": "spotify:album:2YPOYVxaBU6pWLePDYPmHU"
+              },
+              "artists": {
+                "items": [
+                  {
+                    "profile": {
+                      "name": "Bernadya"
+                    },
+                    "uri": "spotify:artist:47z98pKd71yIbgXwe9LPVC"
+                  },
+                  {
+                    "profile": {
+                      "name": "JKT48"
+                    },
+                    "uri": "spotify:artist:2l8I5pWUnfF7bMK1z6EJRk"
+                  }
+                ]
+              },
+              "associationsV3": {
+                "audioAssociations": {
+                  "items": [
+                    {
+                      "trackAudio": {
+                        "_uri": "spotify:track:6CsSNFkQVVuQjRQMrzyDzq"
+                      }
+                    }
+                  ]
+                }
+              },
+              "contentRating": {
+                "label": "NONE"
+              },
+              "name": "Percik Kecil",
+              "uri": "spotify:track:4ljUQ95dI413FKhvYyxl4V"
+            }
+          }
+        ],
+        "pagingInfo": {
+          "nextOffset": null
+        },
+        "totalCount": 1
+      },
+      "saved": false,
+      "sharingInfo": {
+        "shareId": "AkavkXFnQrWFnTVl8_re3w",
+        "shareUrl": "https://open.spotify.com/artist/2l8I5pWUnfF7bMK1z6EJRk?si=AkavkXFnQrWFnTVl8_re3w"
+      },
+      "stats": {
+        "followers": 4996251,
+        "monthlyListeners": 1541191,
+        "topCities": {
+          "items": [
+            {
+              "city": "Jakarta",
+              "country": "ID",
+              "numberOfListeners": 382773,
+              "region": "JK"
+            },
+            {
+              "city": "Bandung",
+              "country": "ID",
+              "numberOfListeners": 124837,
+              "region": "JB"
+            },
+            {
+              "city": "Surabaya",
+              "country": "ID",
+              "numberOfListeners": 107626,
+              "region": "JI"
+            },
+            {
+              "city": "Semarang",
+              "country": "ID",
+              "numberOfListeners": 74298,
+              "region": "JT"
+            },
+            {
+              "city": "Medan",
+              "country": "ID",
+              "numberOfListeners": 66907,
+              "region": "SU"
+            }
+          ]
+        },
+        "worldRank": 0
+      },
+      "unmappedMusicVideos": {
+        "__typename": "MusicVideosPage",
+        "items": [],
+        "pagingInfo": {
+          "nextOffset": null
+        },
+        "totalCount": 0
+      },
+      "uri": "spotify:artist:2l8I5pWUnfF7bMK1z6EJRk",
+      "visualIdentity": {
+        "wideFullBleedImage": {
+          "__typename": "VisualIdentityImage",
+          "extractedColorSet": {
+            "encoreBaseSetTextColor": {
+              "alpha": 255,
+              "blue": 255,
+              "green": 146,
+              "red": 255
+            },
+            "highContrast": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 137,
+                "green": 0,
+                "red": 142
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 84,
+                "green": 0,
+                "red": 87
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 240,
+                "green": 186,
+                "red": 247
+              }
+            },
+            "higherContrast": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 88,
+                "green": 0,
+                "red": 91
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 129,
+                "green": 51,
+                "red": 133
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 96,
+                "green": 215,
+                "red": 30
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 240,
+                "green": 186,
+                "red": 247
+              }
+            },
+            "minContrast": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 200,
+                "green": 72,
+                "red": 208
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 170,
+                "green": 36,
+                "red": 176
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              }
+            }
+          }
+        }
+      },
+      "visuals": {
+        "avatarImage": {
+          "extractedColors": {
+            "colorRaw": {
+              "hex": "#D058D0"
+            }
+          },
+          "sources": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6761610000e5eb07189aefe72bf176ecd0b2ab",
+              "width": 640
+            },
+            {
+              "height": 160,
+              "url": "https://i.scdn.co/image/ab6761610000f17807189aefe72bf176ecd0b2ab",
+              "width": 160
+            },
+            {
+              "height": 320,
+              "url": "https://i.scdn.co/image/ab6761610000517407189aefe72bf176ecd0b2ab",
+              "width": 320
+            }
+          ]
+        },
+        "gallery": {
+          "items": []
+        }
+      },
+      "watchFeedEntrypoint": {
+        "entrypointUri": "spotify:watch-feed:artist:2l8I5pWUnfF7bMK1z6EJRk?itemId=c3BvdGlmeTp0cmFjazoyUTZMdjlqZ3F0M1lXWnFyUmNIRzlD",
+        "thumbnailImage": {
+          "data": {
+            "__typename": "ImageV2",
+            "imageId": "https://i.scdn.co/image/ab67ba6900002ea625059949a3b0744a3c7e5ade",
+            "imageIdType": "IMAGE_URL",
+            "sources": [
+              {
+                "imageFormat": "WEBP",
+                "maxHeight": 512,
+                "maxWidth": 288,
+                "url": "https://image-cdn-ak.spotifycdn.com/image/ab67ba6900001d9625059949a3b0744a3c7e5ade"
+              },
+              {
+                "imageFormat": "WEBP",
+                "maxHeight": 1920,
+                "maxWidth": 1080,
+                "url": "https://image-cdn-ak.spotifycdn.com/image/ab67ba6900002b6025059949a3b0744a3c7e5ade"
+              },
+              {
+                "imageFormat": "WEBP",
+                "maxHeight": 256,
+                "maxWidth": 144,
+                "url": "https://image-cdn-ak.spotifycdn.com/image/ab67ba690000db9e25059949a3b0744a3c7e5ade"
+              }
+            ]
+          }
+        },
+        "video": {
+          "endTime": 0,
+          "fileId": "https://canvaz.scdn.co/upload/artist/2l8I5pWUnfF7bMK1z6EJRk/video/323093724fa94338b4086f73f11b4527.cnvs.mp4",
+          "startTime": 0,
+          "videoType": "URL"
+        }
+      }
+    }
+  }
+}

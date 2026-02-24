@@ -1,34 +1,4 @@
-export type Track = {
-  id: string;
-  title: string;
-  playCount: string;
-  duration: string;
-  isSaved: boolean;
-  isMusicVideo: boolean;
-  isActive: boolean;
-  coverUrl: string;
-};
-
-export interface ArtistWithTracks {
-  id: string;
-  cover: {
-    url: string;
-    dominantColor: string;
-  };
-  name: string;
-  monthlyListeners: number;
-  tracks: {
-    metadata: {
-      videoPreview: {
-        present: boolean;
-        thumbnailUrl: string;
-      };
-    };
-    data: Track[];
-  };
-}
-
-export const ARTISTS: ArtistWithTracks[] = [
+export const ARTISTS = [
   {
     id: "2l8I5pWUnfF7bMK1z6EJRk",
     cover: {

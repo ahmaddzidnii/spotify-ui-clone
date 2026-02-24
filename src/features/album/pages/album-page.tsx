@@ -82,7 +82,7 @@ export const AlbumPage = () => {
         <AlbumHero
           albumName={album.name}
           albumType={transformAlbumType(album.type)}
-          coverArtUrl={album.coverArt.sources[0].url}
+          coverArtSources={album.coverArt.sources}
           artists={album.artists}
           releaseYear={album.date.isoString.split("-")[0]}
           totalTracks={album.discs.items.reduce((acc, d) => acc + d.tracks.totalCount, 0)}

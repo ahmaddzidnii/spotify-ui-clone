@@ -2,11 +2,17 @@ import React, { useEffect, useRef, useState } from "react";
 import { cn } from "@/utils/cn";
 import { AlbumCard } from "./album-card";
 
+interface ImageSource {
+  url: string;
+  width?: number;
+  height?: number;
+}
+
 interface Album {
   id: string;
   name: string;
   coverArt: {
-    sources: Array<{ url: string }>;
+    sources: ImageSource[];
   };
   date: {
     year: number;
@@ -68,7 +74,7 @@ export const AlbumMoreByArtist: React.FC<AlbumMoreByArtistProps> = ({ artistName
             key={album.id}
             id={album.id}
             name={album.name}
-            coverArtUrl={album.coverArt.sources[0].url}
+            coverArtSources={album.coverArt.sources}
             releaseYear={album.date.year}
           />
         ))}

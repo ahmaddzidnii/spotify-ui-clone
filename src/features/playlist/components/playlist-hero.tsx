@@ -10,28 +10,15 @@ interface ImageSource {
   height?: number;
 }
 
-interface Artist {
-  id: string;
+interface Owner {
   uri: string;
-  profile: {
-    name: string;
-  };
-  visuals: {
-    avatarImage: {
-      sources: ImageSource[];
-    };
-  };
+  name: string;
 }
 
-interface AlbumHeroProps {
-  albumName: string;
-  albumType: string;
-  coverArtSources: ImageSource[];
-  artists: {
-    totalCount: number;
-    items: Artist[];
-  };
-  releaseYear: string;
+interface PlaylistHeroProps {
+  playlistName: string;
+  coverImageSources: ImageSource[];
+  owner: Owner;
   totalTracks: number;
   totalDuration: number;
   backgroundColor: string;
@@ -46,19 +33,18 @@ const buildSrcSet = (sources: ImageSource[]) => {
     .join(", ");
 };
 
-export const AlbumHero: React.FC<AlbumHeroProps> = ({
-  albumName,
-  albumType,
-  coverArtSources,
-  artists,
-  releaseYear,
+export const PlaylistHero: React.FC<PlaylistHeroProps> = ({
+  playlistName,
+  coverImageSources,
+  owner,
   totalTracks,
   totalDuration,
   backgroundColor,
   backgroundColorMinContrast,
 }) => {
-  const coverArtSrcSet = buildSrcSet(coverArtSources);
-  const coverArtUrl = coverArtSources[0]?.url || "";
+  const coverImageSrcSet = buildSrcSet(coverImageSources);
+  const coverImageUrl = coverImageSources[0]?.url || "";
+
   return (
     <div
       style={
@@ -96,16 +82,16 @@ export const AlbumHero: React.FC<AlbumHeroProps> = ({
           className="relative rounded-xl overflow-hidden me-5 shrink-0"
         >
           <Image
-            src={coverArtUrl}
-            srcSet={coverArtSrcSet}
+            src={coverImageUrl}
+            srcSet={coverImageSrcSet}
             sizes="(min-width: 1024px) 240px, 120px"
-            alt="Album cover"
+            alt="Playlist cover"
             className="absolute top-0 left-0 w-full h-full object-cover"
           />
         </div>
 
         <div className="flex-col flex justify-end">
-          <p className="font-medium text-sm">{albumType}</p>
+          <p className="font-medium text-sm">Public Playlist</p>
 
           <p
             style={{
@@ -115,51 +101,21 @@ export const AlbumHero: React.FC<AlbumHeroProps> = ({
             }}
             className="font-extrabold tracking-tight mt-1 mb-2"
           >
-            {albumName}
+            {playlistName}
           </p>
 
           <div className="flex items-center gap-2">
-            <div className="flex min-w-0 flex-wrap items-center gap-x-2 gap-y-1 text-sm">
-              {artists.totalCount > 1 ? (
-                <div className="flex flex-wrap items-center min-w-0">
-                  {artists.items.map((artist, index) => (
-                    <React.Fragment key={artist.id}>
-                      <Link
-                        to={transformSpotifyUriToUrl(artist.uri)}
-                        className="font-bold wrap-break-word"
-                      >
-                        {artist.profile.name}
-                      </Link>
-
-                      {index < artists.items.length - 1 && <span className="mx-1 text-text-subdued">•</span>}
-                    </React.Fragment>
-                  ))}
-                </div>
-              ) : (
-                artists.items.map((artist) => (
-                  <div
-                    key={artist.id}
-                    className="flex items-center min-w-0"
-                  >
-                    <Image
-                      alt="Artist avatar"
-                      src={artist.visuals.avatarImage.sources[0]?.url || ""}
-                      srcSet={buildSrcSet(artist.visuals.avatarImage.sources)}
-                      sizes="24px"
-                      className="me-2 size-6 shrink-0 rounded-full"
-                    />
-                    <Link
-                      to={transformSpotifyUriToUrl(artist.uri)}
-                      className="font-semibold wrap-break-word"
-                    >
-                      {artist.profile.name}
-                    </Link>
-                  </div>
-                ))
-              )}
-
+            <div className="flex items-center">
+              <div className="flex flex-wrap items-center min-w-0">
+                <Link
+                  to={transformSpotifyUriToUrl(owner.uri)}
+                  className="font-bold wrap-break-word"
+                >
+                  {owner.name}
+                </Link>
+              </div>
               <span className="text-text-subdued wrap-break-word">
-                • {releaseYear} • {totalTracks} songs, {formatDuration(totalDuration, { compact: false })}
+                • {totalTracks} songs, {formatDuration(totalDuration, { compact: false })}
               </span>
             </div>
           </div>

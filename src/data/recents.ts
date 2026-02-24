@@ -31,9 +31,10 @@ export const RECENTS = [
   },
   {
     id: "6",
-    title: "LAGU POP INDONESIA HITS 2026 TRENDING",
-    imageUrl: "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c18a92d4aefda166310706c10",
-    href: "/playlist/48VJneXoN4AW5QAT4Ruwkc",
+    title: "Ngodingh",
+    imageUrl:
+      "https://mosaic.scdn.co/640/ab67616d00001e020f94886d67ae4e92a92b2281ab67616d00001e02ab85980da8a5c59d26309a6fab67616d00001e02c5b4a9d8fdc63b9562a4d280ab67616d00001e02f6ce264866ac7fa1664b4db4",
+    href: "/playlist/5lF6ZtkLPr7acwFD973CCp",
   },
   {
     id: "7",

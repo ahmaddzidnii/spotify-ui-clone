@@ -1,7 +1,7 @@
 import React from "react";
 
-interface AlbumHeaderProps {
-  albumName: string;
+interface PlaylistHeaderProps {
+  playlistName: string;
   isScrolled: boolean;
   mustShowPlayButton: boolean;
   backgroundColor: string;
@@ -9,8 +9,8 @@ interface AlbumHeaderProps {
   headerRef: React.RefObject<HTMLDivElement | null>;
 }
 
-export const AlbumHeader: React.FC<AlbumHeaderProps> = ({
-  albumName,
+export const PlaylistHeader: React.FC<PlaylistHeaderProps> = ({
+  playlistName,
   isScrolled,
   mustShowPlayButton,
   backgroundColor,
@@ -47,7 +47,7 @@ export const AlbumHeader: React.FC<AlbumHeaderProps> = ({
             <path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288z"></path>
           </svg>
         </button>
-        <span className="font-semibold text-2xl">{albumName}</span>
+        <span className="font-semibold text-2xl">{playlistName}</span>
       </div>
     </header>
   );

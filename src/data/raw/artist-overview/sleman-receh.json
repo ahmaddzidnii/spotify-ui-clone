@@ -1,0 +1,3545 @@
+{
+  "data": {
+    "artistUnion": {
+      "__typename": "Artist",
+      "discography": {
+        "albums": {
+          "items": [],
+          "totalCount": 0
+        },
+        "compilations": {
+          "items": [],
+          "totalCount": 0
+        },
+        "latest": {
+          "copyright": {
+            "items": [
+              {
+                "text": "2025 Sleman Receh",
+                "type": "C"
+              },
+              {
+                "text": "2025 Sleman Receh",
+                "type": "P"
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02b419b9e976c2835557b42c2a",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851b419b9e976c2835557b42c2a",
+                "width": 64
+              },
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273b419b9e976c2835557b42c2a",
+                "width": 640
+              }
+            ]
+          },
+          "date": {
+            "day": 28,
+            "month": 11,
+            "precision": "DAY",
+            "year": 2025
+          },
+          "id": "2XPeS74Z87JwjWrWpwiVNz",
+          "label": "Sleman Receh",
+          "name": "Ajur",
+          "playability": {
+            "playable": true,
+            "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+            "shareId": "LOMi9UFMTgWDPEmsDQ4rMA",
+            "shareUrl": "https://open.spotify.com/album/2XPeS74Z87JwjWrWpwiVNz?si=LOMi9UFMTgWDPEmsDQ4rMA"
+          },
+          "tracks": {
+            "totalCount": 1
+          },
+          "type": "SINGLE",
+          "uri": "spotify:album:2XPeS74Z87JwjWrWpwiVNz"
+        },
+        "popularReleasesAlbums": {
+          "items": [
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "2020 Slemanreceh Official",
+                    "type": "C"
+                  },
+                  {
+                    "text": "2020 Slemanreceh Official",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02274a22bc9fee19a287c441ef",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851274a22bc9fee19a287c441ef",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273274a22bc9fee19a287c441ef",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 26,
+                "month": 6,
+                "precision": "DAY",
+                "year": 2020
+              },
+              "id": "0PyZNid2bV5dzmgsob9sGL",
+              "label": "Sleman Receh",
+              "name": "Dongaku Nggo Kowe",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "BeWWgEs-RmWMlJNeCN2jWQ",
+                "shareUrl": "https://open.spotify.com/album/0PyZNid2bV5dzmgsob9sGL?si=BeWWgEs-RmWMlJNeCN2jWQ"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:0PyZNid2bV5dzmgsob9sGL"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "2020 Slemanreceh Official",
+                    "type": "C"
+                  },
+                  {
+                    "text": "2020 Netrilis",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e020f94886d67ae4e92a92b2281",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048510f94886d67ae4e92a92b2281",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2730f94886d67ae4e92a92b2281",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 6,
+                "month": 6,
+                "precision": "DAY",
+                "year": 2020
+              },
+              "id": "3LO0L3YsfxpUNfZ1IM3P4s",
+              "label": "Netrilis Music",
+              "name": "Banyu Moto",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "EKXQhSQERiaQnC8SKfUXxw",
+                "shareUrl": "https://open.spotify.com/album/3LO0L3YsfxpUNfZ1IM3P4s?si=EKXQhSQERiaQnC8SKfUXxw"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:3LO0L3YsfxpUNfZ1IM3P4s"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "2025 Sleman Receh",
+                    "type": "C"
+                  },
+                  {
+                    "text": "2025 Sleman Receh",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e028a4239e966b053f46a0bedb7",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048518a4239e966b053f46a0bedb7",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2738a4239e966b053f46a0bedb7",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 28,
+                "month": 11,
+                "precision": "DAY",
+                "year": 2025
+              },
+              "id": "42qbyNwpD5vgDrxOtNt9Yi",
+              "label": "Sleman Receh",
+              "name": "Ajur",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "0jE9E7g6S8qxY2DcuONqxA",
+                "shareUrl": "https://open.spotify.com/album/42qbyNwpD5vgDrxOtNt9Yi?si=0jE9E7g6S8qxY2DcuONqxA"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:42qbyNwpD5vgDrxOtNt9Yi"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "2021 slemanreceh official",
+                    "type": "C"
+                  },
+                  {
+                    "text": "2021 slemanreceh official",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02bbe4f609aa7482abe0cb2f8c",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851bbe4f609aa7482abe0cb2f8c",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273bbe4f609aa7482abe0cb2f8c",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 24,
+                "month": 1,
+                "precision": "DAY",
+                "year": 2021
+              },
+              "id": "6wfble5jFmruwPzrpk3ble",
+              "label": "Slemanreceh",
+              "name": "Kesandung Tresno",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "8IkDqGx2TDySQxDCfAjXpA",
+                "shareUrl": "https://open.spotify.com/album/6wfble5jFmruwPzrpk3ble?si=8IkDqGx2TDySQxDCfAjXpA"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:6wfble5jFmruwPzrpk3ble"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "2020 Slemanreceh Official",
+                    "type": "C"
+                  },
+                  {
+                    "text": "2020 Slemanreceh Official",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02cdd4f5431c46709aeadd7f00",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851cdd4f5431c46709aeadd7f00",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273cdd4f5431c46709aeadd7f00",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 23,
+                "month": 6,
+                "precision": "DAY",
+                "year": 2020
+              },
+              "id": "5UZOhTpHCSQ4BtrtjDoTNX",
+              "label": "Slemanreceh",
+              "name": "Wes Ra Kurang-Kurang",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "cKCGnmfbTTOjd10SmCOxZw",
+                "shareUrl": "https://open.spotify.com/album/5UZOhTpHCSQ4BtrtjDoTNX?si=cKCGnmfbTTOjd10SmCOxZw"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:5UZOhTpHCSQ4BtrtjDoTNX"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "2025 Suara serta Ria",
+                    "type": "C"
+                  },
+                  {
+                    "text": "2025 Suara serta Ria",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e029d5c6861e98f218a35f1c469",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048519d5c6861e98f218a35f1c469",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2739d5c6861e98f218a35f1c469",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 9,
+                "month": 8,
+                "precision": "DAY",
+                "year": 2025
+              },
+              "id": "71waAJ4eqHlxlJ8YMD9mOs",
+              "label": "Sleman Receh",
+              "name": "Lepat",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "lIVpH9I6TOCWnrwEAlUkfQ",
+                "shareUrl": "https://open.spotify.com/album/71waAJ4eqHlxlJ8YMD9mOs?si=lIVpH9I6TOCWnrwEAlUkfQ"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:71waAJ4eqHlxlJ8YMD9mOs"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "2021 slemanrecehofficial",
+                    "type": "C"
+                  },
+                  {
+                    "text": "2021 slemanrecehofficial",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02e91a4e572f0629c807dfb716",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851e91a4e572f0629c807dfb716",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273e91a4e572f0629c807dfb716",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 31,
+                "month": 10,
+                "precision": "DAY",
+                "year": 2021
+              },
+              "id": "4JSvoIUY9gfqGXcBEm0hI4",
+              "label": "Slemanreceh",
+              "name": "ketulo",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "K2jw2bMcT-eEyqST7QZZzA",
+                "shareUrl": "https://open.spotify.com/album/4JSvoIUY9gfqGXcBEm0hI4?si=K2jw2bMcT-eEyqST7QZZzA"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:4JSvoIUY9gfqGXcBEm0hI4"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "2025 Suara Serta Ria",
+                    "type": "C"
+                  },
+                  {
+                    "text": "2025 Suara Serta Ria",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e024a5159e27698b1e433dc85ef",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048514a5159e27698b1e433dc85ef",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2734a5159e27698b1e433dc85ef",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 30,
+                "month": 9,
+                "precision": "DAY",
+                "year": 2025
+              },
+              "id": "5DbzFKXWSyMgW2fGduy6Mk",
+              "label": "Sleman Receh",
+              "name": "Durung Jodo",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "l-8UInX1QH2hGgTZX5vl5g",
+                "shareUrl": "https://open.spotify.com/album/5DbzFKXWSyMgW2fGduy6Mk?si=l-8UInX1QH2hGgTZX5vl5g"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:5DbzFKXWSyMgW2fGduy6Mk"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "2020 Slemanreceh official",
+                    "type": "C"
+                  },
+                  {
+                    "text": "2020 Slemanreceh official",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02c37af4d8a2f0b3590285f0a5",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851c37af4d8a2f0b3590285f0a5",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273c37af4d8a2f0b3590285f0a5",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 8,
+                "month": 11,
+                "precision": "DAY",
+                "year": 2020
+              },
+              "id": "27HnKjxvtqYrPS7C3a4ycC",
+              "label": "Slemanreceh",
+              "name": "Banyu Moto Ninggal Cerito",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "HKyudnF-Q_6KgN4pmzBkdw",
+                "shareUrl": "https://open.spotify.com/album/27HnKjxvtqYrPS7C3a4ycC?si=HKyudnF-Q_6KgN4pmzBkdw"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:27HnKjxvtqYrPS7C3a4ycC"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "2025 Suara Serta Ria",
+                    "type": "C"
+                  },
+                  {
+                    "text": "2025 Suara Serta Ria",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e0232686852701e10fa36c051d2",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d0000485132686852701e10fa36c051d2",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b27332686852701e10fa36c051d2",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 9,
+                "month": 8,
+                "precision": "DAY",
+                "year": 2025
+              },
+              "id": "40jHq5QjbgGNrZ5MBaIQqQ",
+              "label": "Sleman Receh",
+              "name": "Kota Kenangan",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "46wwkgs_Qs2NQK49rNIRWA",
+                "shareUrl": "https://open.spotify.com/album/40jHq5QjbgGNrZ5MBaIQqQ?si=46wwkgs_Qs2NQK49rNIRWA"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:40jHq5QjbgGNrZ5MBaIQqQ"
+            }
+          ],
+          "totalCount": 20
+        },
+        "singles": {
+          "items": [
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2025 Sleman Receh",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2025 Sleman Receh",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02b419b9e976c2835557b42c2a",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851b419b9e976c2835557b42c2a",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273b419b9e976c2835557b42c2a",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 28,
+                      "month": 11,
+                      "precision": "DAY",
+                      "year": 2025
+                    },
+                    "id": "2XPeS74Z87JwjWrWpwiVNz",
+                    "label": "Sleman Receh",
+                    "name": "Ajur",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "3tw3OKubQ0ynI_x7YaFvVA",
+                      "shareUrl": "https://open.spotify.com/album/2XPeS74Z87JwjWrWpwiVNz?si=3tw3OKubQ0ynI_x7YaFvVA"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:2XPeS74Z87JwjWrWpwiVNz"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2025 Suara Serta Ria",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2025 Suara Serta Ria",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e024a5159e27698b1e433dc85ef",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048514a5159e27698b1e433dc85ef",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2734a5159e27698b1e433dc85ef",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 30,
+                      "month": 9,
+                      "precision": "DAY",
+                      "year": 2025
+                    },
+                    "id": "5DbzFKXWSyMgW2fGduy6Mk",
+                    "label": "Sleman Receh",
+                    "name": "Durung Jodo",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "yhS_4B2BROqQfwmddB--iw",
+                      "shareUrl": "https://open.spotify.com/album/5DbzFKXWSyMgW2fGduy6Mk?si=yhS_4B2BROqQfwmddB--iw"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:5DbzFKXWSyMgW2fGduy6Mk"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2025 Sleman Receh",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2025 Sleman Receh",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02286b949833710ed94ff455bc",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851286b949833710ed94ff455bc",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273286b949833710ed94ff455bc",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 16,
+                      "month": 8,
+                      "precision": "DAY",
+                      "year": 2025
+                    },
+                    "id": "4PQPMKu8OK802OmVE3iAEP",
+                    "label": "Sleman Receh",
+                    "name": "Sungkem",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "fuOfiThiTq-KWch8PG8hMQ",
+                      "shareUrl": "https://open.spotify.com/album/4PQPMKu8OK802OmVE3iAEP?si=fuOfiThiTq-KWch8PG8hMQ"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:4PQPMKu8OK802OmVE3iAEP"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2025 Suara Serta Ria",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2025 Suara Serta Ria",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02bb2b7f9e07d379b3de871334",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851bb2b7f9e07d379b3de871334",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273bb2b7f9e07d379b3de871334",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 9,
+                      "month": 8,
+                      "precision": "DAY",
+                      "year": 2025
+                    },
+                    "id": "7JA84lQHuKlSVMOwI8Ex9A",
+                    "label": "Sleman Receh",
+                    "name": "Ngancani",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "wgSs7yrtTTKD__RmIS9N5Q",
+                      "shareUrl": "https://open.spotify.com/album/7JA84lQHuKlSVMOwI8Ex9A?si=wgSs7yrtTTKD__RmIS9N5Q"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:7JA84lQHuKlSVMOwI8Ex9A"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2025 Suara Serta Ria",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2025 Suara Serta Ria",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e025facc094c208c554a600d982",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048515facc094c208c554a600d982",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2735facc094c208c554a600d982",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 9,
+                      "month": 8,
+                      "precision": "DAY",
+                      "year": 2025
+                    },
+                    "id": "1CHL24Rey20ip2WG3K6Y23",
+                    "label": "Sleman Receh",
+                    "name": "Ngancani",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "5B-5XB9oRdmZAvowwZS-zw",
+                      "shareUrl": "https://open.spotify.com/album/1CHL24Rey20ip2WG3K6Y23?si=5B-5XB9oRdmZAvowwZS-zw"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:1CHL24Rey20ip2WG3K6Y23"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2025 Suara serta Ria",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2025 Suara serta Ria",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e029d5c6861e98f218a35f1c469",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048519d5c6861e98f218a35f1c469",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2739d5c6861e98f218a35f1c469",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 9,
+                      "month": 8,
+                      "precision": "DAY",
+                      "year": 2025
+                    },
+                    "id": "71waAJ4eqHlxlJ8YMD9mOs",
+                    "label": "Sleman Receh",
+                    "name": "Lepat",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "CoA3N5bATa6G-gjaC4Dsgg",
+                      "shareUrl": "https://open.spotify.com/album/71waAJ4eqHlxlJ8YMD9mOs?si=CoA3N5bATa6G-gjaC4Dsgg"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:71waAJ4eqHlxlJ8YMD9mOs"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2025 Suara Serta Ria",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2025 Suara Serta Ria",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e0232686852701e10fa36c051d2",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d0000485132686852701e10fa36c051d2",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b27332686852701e10fa36c051d2",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 9,
+                      "month": 8,
+                      "precision": "DAY",
+                      "year": 2025
+                    },
+                    "id": "40jHq5QjbgGNrZ5MBaIQqQ",
+                    "label": "Sleman Receh",
+                    "name": "Kota Kenangan",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "j4TtUWsKSUCBP_FiKpC9xw",
+                      "shareUrl": "https://open.spotify.com/album/40jHq5QjbgGNrZ5MBaIQqQ?si=j4TtUWsKSUCBP_FiKpC9xw"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:40jHq5QjbgGNrZ5MBaIQqQ"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2025 Suara Serta Ria",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2025 Suara Serta Ria",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e0263cd0f0a656bfdd6ea754581",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d0000485163cd0f0a656bfdd6ea754581",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b27363cd0f0a656bfdd6ea754581",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 9,
+                      "month": 8,
+                      "precision": "DAY",
+                      "year": 2025
+                    },
+                    "id": "2hwwJOGgV6oYBxtvHkcuED",
+                    "label": "Sleman Receh",
+                    "name": "Kesandung Tresno",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "ibGHR3l8Q_u3obK8BAKv9w",
+                      "shareUrl": "https://open.spotify.com/album/2hwwJOGgV6oYBxtvHkcuED?si=ibGHR3l8Q_u3obK8BAKv9w"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:2hwwJOGgV6oYBxtvHkcuED"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2024 Slemanreceh",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2024 Slemanreceh",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e023fe9fcaa7b9e14e159e2d525",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048513fe9fcaa7b9e14e159e2d525",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2733fe9fcaa7b9e14e159e2d525",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 9,
+                      "month": 7,
+                      "precision": "DAY",
+                      "year": 2024
+                    },
+                    "id": "2bz8sTrn0TQ5qhyZAsq45i",
+                    "label": "Slemanreceh",
+                    "name": "Penakke Wae (Live)",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "BB0i3MuTTp60tXMuYtrmSQ",
+                      "shareUrl": "https://open.spotify.com/album/2bz8sTrn0TQ5qhyZAsq45i?si=BB0i3MuTTp60tXMuYtrmSQ"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:2bz8sTrn0TQ5qhyZAsq45i"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2024 Slemanreceh",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2024 Slemanreceh",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e020d680e66af5cbb8f104e2c08",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048510d680e66af5cbb8f104e2c08",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2730d680e66af5cbb8f104e2c08",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 9,
+                      "month": 7,
+                      "precision": "DAY",
+                      "year": 2024
+                    },
+                    "id": "67w1YX3AeF4irNgiY17GF0",
+                    "label": "Slemanreceh",
+                    "name": "Banyu Moto (Live)",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "EGFLmYmXQRiiRdGBg6gwCw",
+                      "shareUrl": "https://open.spotify.com/album/67w1YX3AeF4irNgiY17GF0?si=EGFLmYmXQRiiRdGBg6gwCw"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:67w1YX3AeF4irNgiY17GF0"
+                  }
+                ]
+              }
+            }
+          ],
+          "totalCount": 31
+        },
+        "topTracks": {
+          "items": [
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02274a22bc9fee19a287c441ef"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851274a22bc9fee19a287c441ef"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273274a22bc9fee19a287c441ef"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:0PyZNid2bV5dzmgsob9sGL"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Sleman Receh"
+                      },
+                      "uri": "spotify:artist:0jcgtGZTWxoepAUgADwcHP"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 300000
+                },
+                "id": "3duz3gjeMFWxJjxKldLNc7",
+                "name": "Dongaku Nggo Kowe",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "39839998",
+                "uri": "spotify:track:3duz3gjeMFWxJjxKldLNc7"
+              },
+              "uid": "aad50a90d1923a290de9"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e020f94886d67ae4e92a92b2281"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d000048510f94886d67ae4e92a92b2281"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2730f94886d67ae4e92a92b2281"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:3LO0L3YsfxpUNfZ1IM3P4s"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Sleman Receh"
+                      },
+                      "uri": "spotify:artist:0jcgtGZTWxoepAUgADwcHP"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 249000
+                },
+                "id": "00WwcAFUBtfrsnfNYgplaM",
+                "name": "Banyu Moto",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "18092283",
+                "uri": "spotify:track:00WwcAFUBtfrsnfNYgplaM"
+              },
+              "uid": "7e445539eeac9d8a0a42"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e028a4239e966b053f46a0bedb7"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d000048518a4239e966b053f46a0bedb7"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2738a4239e966b053f46a0bedb7"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:42qbyNwpD5vgDrxOtNt9Yi"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Sleman Receh"
+                      },
+                      "uri": "spotify:artist:0jcgtGZTWxoepAUgADwcHP"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 316000
+                },
+                "id": "5GXW0eInGnrCbAx0db1VGM",
+                "name": "Ajur",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "140914",
+                "uri": "spotify:track:5GXW0eInGnrCbAx0db1VGM"
+              },
+              "uid": "d1acfe75504a52c8b870"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e029d5c6861e98f218a35f1c469"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d000048519d5c6861e98f218a35f1c469"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2739d5c6861e98f218a35f1c469"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:71waAJ4eqHlxlJ8YMD9mOs"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Sleman Receh"
+                      },
+                      "uri": "spotify:artist:0jcgtGZTWxoepAUgADwcHP"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 270856
+                },
+                "id": "59qKII2An217eTvfCstrWr",
+                "name": "Lepat",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "150223",
+                "uri": "spotify:track:59qKII2An217eTvfCstrWr"
+              },
+              "uid": "ec66e7126c978e58d004"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02bbe4f609aa7482abe0cb2f8c"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851bbe4f609aa7482abe0cb2f8c"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273bbe4f609aa7482abe0cb2f8c"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:6wfble5jFmruwPzrpk3ble"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Sleman Receh"
+                      },
+                      "uri": "spotify:artist:0jcgtGZTWxoepAUgADwcHP"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 297390
+                },
+                "id": "2eDFFnTG7pTErRU17Y3MAy",
+                "name": "Kesandung Tresno",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "3607956",
+                "uri": "spotify:track:2eDFFnTG7pTErRU17Y3MAy"
+              },
+              "uid": "f355967b8b9bc454f613"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02cdd4f5431c46709aeadd7f00"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851cdd4f5431c46709aeadd7f00"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273cdd4f5431c46709aeadd7f00"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:5UZOhTpHCSQ4BtrtjDoTNX"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Sleman Receh"
+                      },
+                      "uri": "spotify:artist:0jcgtGZTWxoepAUgADwcHP"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 322560
+                },
+                "id": "0cynDHOF5l3QfkCCwWh9P1",
+                "name": "Wes Ra Kurang-Kurang",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "1934449",
+                "uri": "spotify:track:0cynDHOF5l3QfkCCwWh9P1"
+              },
+              "uid": "86fe15ce0b093f105517"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e0232686852701e10fa36c051d2"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000485132686852701e10fa36c051d2"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b27332686852701e10fa36c051d2"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:40jHq5QjbgGNrZ5MBaIQqQ"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Sleman Receh"
+                      },
+                      "uri": "spotify:artist:0jcgtGZTWxoepAUgADwcHP"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 323606
+                },
+                "id": "6a6q00hyUk6QEpDvi92r05",
+                "name": "Kota Kenangan",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "104254",
+                "uri": "spotify:track:6a6q00hyUk6QEpDvi92r05"
+              },
+              "uid": "a90f64b4e3107e9a1544"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02e91a4e572f0629c807dfb716"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851e91a4e572f0629c807dfb716"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273e91a4e572f0629c807dfb716"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:4JSvoIUY9gfqGXcBEm0hI4"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Sleman Receh"
+                      },
+                      "uri": "spotify:artist:0jcgtGZTWxoepAUgADwcHP"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 288026
+                },
+                "id": "1A3r6IpBDefyEWKUBE18VG",
+                "name": "ketulo",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "290413",
+                "uri": "spotify:track:1A3r6IpBDefyEWKUBE18VG"
+              },
+              "uid": "e767ae090b5460ea6521"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e024a5159e27698b1e433dc85ef"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d000048514a5159e27698b1e433dc85ef"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2734a5159e27698b1e433dc85ef"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:5DbzFKXWSyMgW2fGduy6Mk"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Sleman Receh"
+                      },
+                      "uri": "spotify:artist:0jcgtGZTWxoepAUgADwcHP"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 325000
+                },
+                "id": "53vTt35f1uyM5us8iInRul",
+                "name": "Durung Jodo",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "83724",
+                "uri": "spotify:track:53vTt35f1uyM5us8iInRul"
+              },
+              "uid": "353730382de551bf2693"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02c37af4d8a2f0b3590285f0a5"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851c37af4d8a2f0b3590285f0a5"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273c37af4d8a2f0b3590285f0a5"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:27HnKjxvtqYrPS7C3a4ycC"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Sleman Receh"
+                      },
+                      "uri": "spotify:artist:0jcgtGZTWxoepAUgADwcHP"
+                    },
+                    {
+                      "profile": {
+                        "name": "Danang Rahmawan"
+                      },
+                      "uri": "spotify:artist:5UZmvYmJjWl2i1UIEI4fXP"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 303373
+                },
+                "id": "7ByHpWzw3FxJRSZwmWbCUf",
+                "name": "Banyu Moto Ninggal Cerito",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "650338",
+                "uri": "spotify:track:7ByHpWzw3FxJRSZwmWbCUf"
+              },
+              "uid": "d0fb9d38b006e3dae075"
+            }
+          ]
+        }
+      },
+      "goods": {
+        "concerts": {
+          "items": [],
+          "totalCount": 0
+        },
+        "merch": {
+          "items": []
+        }
+      },
+      "headerImage": {
+        "data": {
+          "__typename": "ImageV2",
+          "sources": [
+            {
+              "maxHeight": 640,
+              "maxWidth": 1494,
+              "url": "https://image-cdn-ak.spotifycdn.com/image/ab67618600000194e2c528890cd5432099d0aacb"
+            },
+            {
+              "maxHeight": 1080,
+              "maxWidth": 1920,
+              "url": "https://i2o.scdn.co/image/ab67618600001667e2c528890cd5432099d0aacb"
+            },
+            {
+              "maxHeight": 1080,
+              "maxWidth": 1920,
+              "url": "https://i2o.scdn.co/image/ab67618600001667e2c528890cd5432099d0aacb"
+            },
+            {
+              "maxHeight": 641,
+              "maxWidth": 1495,
+              "url": "https://image-cdn-ak.spotifycdn.com/image/ab67618600009d80e2c528890cd5432099d0aacb"
+            },
+            {
+              "maxHeight": 1140,
+              "maxWidth": 2660,
+              "url": "https://image-cdn-ak.spotifycdn.com/image/ab6761860000eab1e2c528890cd5432099d0aacb"
+            }
+          ]
+        }
+      },
+      "id": "0jcgtGZTWxoepAUgADwcHP",
+      "preRelease": null,
+      "profile": {
+        "biography": {
+          "text": "Sleman Receh is a music group from Sleman, Yogyakarta, formed in late 2019. In 2022, with a new lineup, they continued to focus on releasing original works with a pop-dangdut musical style.\n\nOrganized and supported by Suara Serta Ria.\n\nOfficial YouTube Channel: Slemanreceh Official.",
+          "type": "AUTOBIOGRAPHY"
+        },
+        "externalLinks": {
+          "items": [
+            {
+              "name": "INSTAGRAM",
+              "url": "https://instagram.com/_slemanreceh/"
+            },
+            {
+              "name": "TIKTOK",
+              "url": "https://tiktok.com/@slemanrecehofficial"
+            }
+          ]
+        },
+        "name": "Sleman Receh",
+        "pinnedItem": {
+          "backgroundImageV2": {
+            "data": {
+              "__typename": "ImageV2",
+              "sources": [
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab676170000059106a73c07c0dcdce7582989838"
+                }
+              ]
+            }
+          },
+          "comment": "single baru.. \"Ajur\"",
+          "itemV2": {
+            "__typename": "AlbumResponseWrapper",
+            "data": {
+              "__typename": "Album",
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e024737e5532ecae2823cca4c68",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048514737e5532ecae2823cca4c68",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2734737e5532ecae2823cca4c68",
+                    "width": 640
+                  }
+                ]
+              },
+              "isPreRelease": false,
+              "name": "Ajur",
+              "type": "SINGLE",
+              "uri": "spotify:album:2xj30sMia50aGitejKMDPy"
+            }
+          },
+          "subtitle": "Single",
+          "thumbnailImage": {
+            "data": {
+              "sources": [
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d000075a04737e5532ecae2823cca4c68"
+                },
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d000090d54737e5532ecae2823cca4c68"
+                },
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000ab874737e5532ecae2823cca4c68"
+                }
+              ]
+            }
+          },
+          "title": "Ajur",
+          "type": "ALBUM",
+          "uri": "spotify:album:2xj30sMia50aGitejKMDPy"
+        },
+        "playlistsV2": {
+          "items": [
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "With Sleman Receh, Dinda Teratu, Rindi Safira and more",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/track/67VssyIHLaBvzqDbMQZPNU/en",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "Durung Jodo Radio",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1E8P4F5NbNWr1p"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "With Sleman Receh, Twentynine, Arya galih and more",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/track/3tlPrFfwpq0Hm5DscD9Ga9/en",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "Mantan Dadi Manten - Live Radio",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1E8L7qiXl4UmXE"
+              }
+            }
+          ],
+          "totalCount": 2
+        },
+        "verified": true
+      },
+      "relatedContent": {
+        "appearsOn": {
+          "items": [
+            {
+              "releases": {
+                "items": [
+                  {
+                    "artists": {
+                      "items": [
+                        {
+                          "profile": {
+                            "name": "mawoot music"
+                          },
+                          "uri": "spotify:artist:4WFglq4ZxBxSFOXwaEey29"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e028ebc76f748e9346f692a951d",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048518ebc76f748e9346f692a951d",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2738ebc76f748e9346f692a951d",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "year": 2023
+                    },
+                    "id": "2QgykYbrlrbeWBHoKkq288",
+                    "name": "Kependem Tresno",
+                    "sharingInfo": {
+                      "shareId": "e1UJhHqfS0mouwH2iMXFUQ",
+                      "shareUrl": "https://open.spotify.com/album/2QgykYbrlrbeWBHoKkq288?si=e1UJhHqfS0mouwH2iMXFUQ"
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:2QgykYbrlrbeWBHoKkq288"
+                  }
+                ],
+                "totalCount": 1
+              }
+            }
+          ],
+          "totalCount": 1
+        },
+        "discoveredOnV2": {
+          "items": [
+            {
+              "data": {
+                "__typename": "GenericError"
+              }
+            },
+            {
+              "data": {
+                "__typename": "GenericError"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Tetaplah mengikuti playlist ini dan tekan suka! Lagu Jawa Viral TikTok 2026, Lagu Jawa Terbaru 2026, Jawa TerHITS, Full Album, Lagu Jawa Hits",
+                "id": "6BTsFWDpb7CJkmVMrRhmL9",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da842ee7383c8972de22740fd969",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Lagu Jawa Viral TikTok 2026 \uD83C\uDFB5 Lagu Jawa Terbaru 2026 - Jawa TerHITS",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Chartasia"
+                  }
+                },
+                "uri": "spotify:playlist:6BTsFWDpb7CJkmVMrRhmL9"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "galau versi Jawa \uD83D\uDE22",
+                "id": "4c08zgBdrf6EejkD6jJ6PV",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da844147203f060fb2ed3f3bc0ef",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "galau versi Jawa \uD83D\uDE22",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Playlst Recordings"
+                  }
+                },
+                "uri": "spotify:playlist:4c08zgBdrf6EejkD6jJ6PV"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "7iCSa1zJNIbXDY1yeo0fHA",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": 640,
+                          "url": "https://mosaic.scdn.co/640/ab67616d00001e02563f365a4631c08930d862fdab67616d00001e0283a4fcfbd3ecb3bb5e0203fbab67616d00001e028e04ed868bacedbf9d7bd8dcab67616d00001e02bb213449ba6743381c05002e",
+                          "width": 640
+                        },
+                        {
+                          "height": 300,
+                          "url": "https://mosaic.scdn.co/300/ab67616d00001e02563f365a4631c08930d862fdab67616d00001e0283a4fcfbd3ecb3bb5e0203fbab67616d00001e028e04ed868bacedbf9d7bd8dcab67616d00001e02bb213449ba6743381c05002e",
+                          "width": 300
+                        },
+                        {
+                          "height": 60,
+                          "url": "https://mosaic.scdn.co/60/ab67616d00001e02563f365a4631c08930d862fdab67616d00001e0283a4fcfbd3ecb3bb5e0203fbab67616d00001e028e04ed868bacedbf9d7bd8dcab67616d00001e02bb213449ba6743381c05002e",
+                          "width": 60
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Jawa pride",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "samuel cristian"
+                  }
+                },
+                "uri": "spotify:playlist:7iCSa1zJNIbXDY1yeo0fHA"
+              }
+            },
+            {
+              "data": {
+                "__typename": "GenericError"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "0JmsVn9UhbU0ibyWSmawl2",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": 640,
+                          "url": "https://mosaic.scdn.co/640/ab67616d00001e028f3019521bc93e4fc8e0a5f0ab67616d00001e02978e1c1f4a7ef6a13edc035cab67616d00001e029dea3e3e2f236bbd126f3f0eab67616d00001e02c55201c1d2ed02ddb90c66c5",
+                          "width": 640
+                        },
+                        {
+                          "height": 300,
+                          "url": "https://mosaic.scdn.co/300/ab67616d00001e028f3019521bc93e4fc8e0a5f0ab67616d00001e02978e1c1f4a7ef6a13edc035cab67616d00001e029dea3e3e2f236bbd126f3f0eab67616d00001e02c55201c1d2ed02ddb90c66c5",
+                          "width": 300
+                        },
+                        {
+                          "height": 60,
+                          "url": "https://mosaic.scdn.co/60/ab67616d00001e028f3019521bc93e4fc8e0a5f0ab67616d00001e02978e1c1f4a7ef6a13edc035cab67616d00001e029dea3e3e2f236bbd126f3f0eab67616d00001e02c55201c1d2ed02ddb90c66c5",
+                          "width": 60
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Ajur roso batin ku\uD83E\uDD15",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Febiolanovita"
+                  }
+                },
+                "uri": "spotify:playlist:0JmsVn9UhbU0ibyWSmawl2"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "5WBj8hyE9xwND58MgEEykd",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": 640,
+                          "url": "https://mosaic.scdn.co/640/ab67616d00001e02274a22bc9fee19a287c441efab67616d00001e0273bdcc6d3ca69cb035969ce1ab67616d00001e02978e1c1f4a7ef6a13edc035cab67616d00001e02ba917e7103e6374d5d9d257c",
+                          "width": 640
+                        },
+                        {
+                          "height": 300,
+                          "url": "https://mosaic.scdn.co/300/ab67616d00001e02274a22bc9fee19a287c441efab67616d00001e0273bdcc6d3ca69cb035969ce1ab67616d00001e02978e1c1f4a7ef6a13edc035cab67616d00001e02ba917e7103e6374d5d9d257c",
+                          "width": 300
+                        },
+                        {
+                          "height": 60,
+                          "url": "https://mosaic.scdn.co/60/ab67616d00001e02274a22bc9fee19a287c441efab67616d00001e0273bdcc6d3ca69cb035969ce1ab67616d00001e02978e1c1f4a7ef6a13edc035cab67616d00001e02ba917e7103e6374d5d9d257c",
+                          "width": 60
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "budal ning jepang\uD83C\uDDEF\uD83C\uDDF5",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Yogaaz zaaca"
+                  }
+                },
+                "uri": "spotify:playlist:5WBj8hyE9xwND58MgEEykd"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Sopo wae sing ngerti, yuk nyanyi sik. Cover: Northsle",
+                "id": "37i9dQZF1DXcwHMQ31Y15k",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f000000020de8e560afe285b780be9fb3",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Boso Jowo",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DXcwHMQ31Y15k"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "LAGU JAWA FULL ALBUM VIRAL TIKTOK 2024 \uD83D\uDCA5",
+                "id": "7CHkcoZ7EjJroVTZADj5Ys",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da842a36e0714f113c8ad318b7d6",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "LAGU JAWA FULL ALBUM VIRAL TIKTOK 2024 \uD83D\uDCA5",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Soundd Asia"
+                  }
+                },
+                "uri": "spotify:playlist:7CHkcoZ7EjJroVTZADj5Ys"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "6re57ttImSBDF94z1QEdaJ",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": 640,
+                          "url": "https://mosaic.scdn.co/640/ab67616d00001e0216338aab71c994433deaa827ab67616d00001e02563f365a4631c08930d862fdab67616d00001e02ad330d0e6a25a1a321d18436ab67616d00001e02bb213449ba6743381c05002e",
+                          "width": 640
+                        },
+                        {
+                          "height": 300,
+                          "url": "https://mosaic.scdn.co/300/ab67616d00001e0216338aab71c994433deaa827ab67616d00001e02563f365a4631c08930d862fdab67616d00001e02ad330d0e6a25a1a321d18436ab67616d00001e02bb213449ba6743381c05002e",
+                          "width": 300
+                        },
+                        {
+                          "height": 60,
+                          "url": "https://mosaic.scdn.co/60/ab67616d00001e0216338aab71c994433deaa827ab67616d00001e02563f365a4631c08930d862fdab67616d00001e02ad330d0e6a25a1a321d18436ab67616d00001e02bb213449ba6743381c05002e",
+                          "width": 60
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "JAWA JAWA JAWA",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "LordReck\uD83D\uDC7B"
+                  }
+                },
+                "uri": "spotify:playlist:6re57ttImSBDF94z1QEdaJ"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "\"Aku pancen ora sempurna, gampang terluka...\" \uD83D\uDC94",
+                "id": "37i9dQZF1DX4V6WLWzdIgr",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f00000002e8c9655fdee37020baec971c",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Ambyar",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DX4V6WLWzdIgr"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "7zHmLbmBSuWGTAcEdw15nW",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": 640,
+                          "url": "https://mosaic.scdn.co/640/ab67616d00001e020fe7814ce91a1b4e7b0d5881ab67616d00001e021c6ad348f95ef0898bb634cdab67616d00001e02d5d3451105870cb1e065160fab67616d00001e02df70a8ffde0763631b126015",
+                          "width": 640
+                        },
+                        {
+                          "height": 300,
+                          "url": "https://mosaic.scdn.co/300/ab67616d00001e020fe7814ce91a1b4e7b0d5881ab67616d00001e021c6ad348f95ef0898bb634cdab67616d00001e02d5d3451105870cb1e065160fab67616d00001e02df70a8ffde0763631b126015",
+                          "width": 300
+                        },
+                        {
+                          "height": 60,
+                          "url": "https://mosaic.scdn.co/60/ab67616d00001e020fe7814ce91a1b4e7b0d5881ab67616d00001e021c6ad348f95ef0898bb634cdab67616d00001e02d5d3451105870cb1e065160fab67616d00001e02df70a8ffde0763631b126015",
+                          "width": 60
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "kenshuseijapan\uD83C\uDDEE\uD83C\uDDE9\uD83C\uDDEF\uD83C\uDDF5\uD83C\uDF8C",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Rengga Gento"
+                  }
+                },
+                "uri": "spotify:playlist:7zHmLbmBSuWGTAcEdw15nW"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "73imfjU2A2bn3DL23GWKmL",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": 640,
+                          "url": "https://mosaic.scdn.co/640/ab67616d00001e020f94886d67ae4e92a92b2281ab67616d00001e0240c73fb419728626eb3a353cab67616d00001e0256a4c6c2add7ea74f59b7057ab67616d00001e02f1f1e524da6fd9e2b142ce07",
+                          "width": 640
+                        },
+                        {
+                          "height": 300,
+                          "url": "https://mosaic.scdn.co/300/ab67616d00001e020f94886d67ae4e92a92b2281ab67616d00001e0240c73fb419728626eb3a353cab67616d00001e0256a4c6c2add7ea74f59b7057ab67616d00001e02f1f1e524da6fd9e2b142ce07",
+                          "width": 300
+                        },
+                        {
+                          "height": 60,
+                          "url": "https://mosaic.scdn.co/60/ab67616d00001e020f94886d67ae4e92a92b2281ab67616d00001e0240c73fb419728626eb3a353cab67616d00001e0256a4c6c2add7ea74f59b7057ab67616d00001e02f1f1e524da6fd9e2b142ce07",
+                          "width": 60
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Lagu Jawa Sad sedih tiktok",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Helan"
+                  }
+                },
+                "uri": "spotify:playlist:73imfjU2A2bn3DL23GWKmL"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "047OBAQOEr3hqGScbiezqd",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02978e1c1f4a7ef6a13edc035c",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Pengapurane kngmas",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Ditatrilestari"
+                  }
+                },
+                "uri": "spotify:playlist:047OBAQOEr3hqGScbiezqd"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "4X2st7dgHHsBoV94CZoDJj",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": 640,
+                          "url": "https://mosaic.scdn.co/640/ab67616d00001e0216fd4bebb1c9035a1c68a88bab67616d00001e021c6ad348f95ef0898bb634cdab67616d00001e0227e48432093383b982f3ee25ab67616d00001e029fbf6c1d4493c64391232441",
+                          "width": 640
+                        },
+                        {
+                          "height": 300,
+                          "url": "https://mosaic.scdn.co/300/ab67616d00001e0216fd4bebb1c9035a1c68a88bab67616d00001e021c6ad348f95ef0898bb634cdab67616d00001e0227e48432093383b982f3ee25ab67616d00001e029fbf6c1d4493c64391232441",
+                          "width": 300
+                        },
+                        {
+                          "height": 60,
+                          "url": "https://mosaic.scdn.co/60/ab67616d00001e0216fd4bebb1c9035a1c68a88bab67616d00001e021c6ad348f95ef0898bb634cdab67616d00001e0227e48432093383b982f3ee25ab67616d00001e029fbf6c1d4493c64391232441",
+                          "width": 60
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Lagu Budal Jepang \uD83C\uDDEE\uD83C\uDDE9\uD83C\uDDEF\uD83C\uDDF5",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "hokage youtube"
+                  }
+                },
+                "uri": "spotify:playlist:4X2st7dgHHsBoV94CZoDJj"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "rasselindo firmansyah \uD83E\uDD0D",
+                "id": "4o9L8WyjRh2rs98SZjSroY",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8489943768c9676c3533d9dcde",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "rasselll⚡",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "deandra Key"
+                  }
+                },
+                "uri": "spotify:playlist:4o9L8WyjRh2rs98SZjSroY"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "6t1zu3JhTohmbYxSSck9vb",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": 640,
+                          "url": "https://mosaic.scdn.co/640/ab67616d00001e0256a4c6c2add7ea74f59b7057ab67616d00001e027f434994802d189dfc66a626ab67616d00001e028e04ed868bacedbf9d7bd8dcab67616d00001e02a31da8706ee9543c00eaa76f",
+                          "width": 640
+                        },
+                        {
+                          "height": 300,
+                          "url": "https://mosaic.scdn.co/300/ab67616d00001e0256a4c6c2add7ea74f59b7057ab67616d00001e027f434994802d189dfc66a626ab67616d00001e028e04ed868bacedbf9d7bd8dcab67616d00001e02a31da8706ee9543c00eaa76f",
+                          "width": 300
+                        },
+                        {
+                          "height": 60,
+                          "url": "https://mosaic.scdn.co/60/ab67616d00001e0256a4c6c2add7ea74f59b7057ab67616d00001e027f434994802d189dfc66a626ab67616d00001e028e04ed868bacedbf9d7bd8dcab67616d00001e02a31da8706ee9543c00eaa76f",
+                          "width": 60
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "JAWAAA\uD83E\uDE77",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "shm"
+                  }
+                },
+                "uri": "spotify:playlist:6t1zu3JhTohmbYxSSck9vb"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "0LhRFzmKRpCLEYQtsgNrLb",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": 640,
+                          "url": "https://mosaic.scdn.co/640/ab67616d00001e02978e1c1f4a7ef6a13edc035cab67616d00001e029dea3e3e2f236bbd126f3f0eab67616d00001e02a7125c3d9b5160ba39d39122ab67616d00001e02c55201c1d2ed02ddb90c66c5",
+                          "width": 640
+                        },
+                        {
+                          "height": 300,
+                          "url": "https://mosaic.scdn.co/300/ab67616d00001e02978e1c1f4a7ef6a13edc035cab67616d00001e029dea3e3e2f236bbd126f3f0eab67616d00001e02a7125c3d9b5160ba39d39122ab67616d00001e02c55201c1d2ed02ddb90c66c5",
+                          "width": 300
+                        },
+                        {
+                          "height": 60,
+                          "url": "https://mosaic.scdn.co/60/ab67616d00001e02978e1c1f4a7ef6a13edc035cab67616d00001e029dea3e3e2f236bbd126f3f0eab67616d00001e02a7125c3d9b5160ba39d39122ab67616d00001e02c55201c1d2ed02ddb90c66c5",
+                          "width": 60
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Tresno liyane",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "dapoelterdepan"
+                  }
+                },
+                "uri": "spotify:playlist:0LhRFzmKRpCLEYQtsgNrLb"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "1J6mtqvHFbaTtKH1FBc8Ck",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": 640,
+                          "url": "https://mosaic.scdn.co/640/ab67616d00001e020f94886d67ae4e92a92b2281ab67616d00001e026940c898523cd9e843d281bcab67616d00001e02ea30423a684687845163f8ddab67616d00001e02eed8a972d49c1354a1b960be",
+                          "width": 640
+                        },
+                        {
+                          "height": 300,
+                          "url": "https://mosaic.scdn.co/300/ab67616d00001e020f94886d67ae4e92a92b2281ab67616d00001e026940c898523cd9e843d281bcab67616d00001e02ea30423a684687845163f8ddab67616d00001e02eed8a972d49c1354a1b960be",
+                          "width": 300
+                        },
+                        {
+                          "height": 60,
+                          "url": "https://mosaic.scdn.co/60/ab67616d00001e020f94886d67ae4e92a92b2281ab67616d00001e026940c898523cd9e843d281bcab67616d00001e02ea30423a684687845163f8ddab67616d00001e02eed8a972d49c1354a1b960be",
+                          "width": 60
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "FULL KOPLO TERBARU LAGU JAWA POPULER",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "chandrahk09@gmail.com"
+                  }
+                },
+                "uri": "spotify:playlist:1J6mtqvHFbaTtKH1FBc8Ck"
+              }
+            }
+          ],
+          "totalCount": 100
+        },
+        "featuringV2": {
+          "items": [
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "This is Sleman Receh. The essential tracks, all in one playlist.",
+                "id": "37i9dQZF1DZ06evO074DJX",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/thisisv3/0jcgtGZTWxoepAUgADwcHP/en",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "This Is Sleman Receh",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DZ06evO074DJX"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "With Vadesta, Northsle, Lavora and more",
+                "id": "37i9dQZF1E4Awv8vaRDhRZ",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0jcgtGZTWxoepAUgADwcHP/en",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Sleman Receh Radio",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1E4Awv8vaRDhRZ"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Sopo wae sing ngerti, yuk nyanyi sik. Cover: Northsle",
+                "id": "37i9dQZF1DXcwHMQ31Y15k",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f000000020de8e560afe285b780be9fb3",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Boso Jowo",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DXcwHMQ31Y15k"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "\"Aku pancen ora sempurna, gampang terluka...\" \uD83D\uDC94",
+                "id": "37i9dQZF1DX4V6WLWzdIgr",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f00000002e8c9655fdee37020baec971c",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Ambyar",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DX4V6WLWzdIgr"
+              }
+            }
+          ],
+          "totalCount": 4
+        },
+        "relatedArtists": {
+          "items": [
+            {
+              "id": "6gFk218PI8SlzkhDHR0LfL",
+              "profile": {
+                "name": "Losskita"
+              },
+              "uri": "spotify:artist:6gFk218PI8SlzkhDHR0LfL",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b2731b17597f295155e95e79a4d8",
+                      "width": 640
+                    },
+                    {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d000048511b17597f295155e95e79a4d8",
+                      "width": 64
+                    },
+                    {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e0243d29661409f0cc4beac268c",
+                      "width": 300
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "0ZrpjSmeaK6iY14eZFx5dF",
+              "profile": {
+                "name": "Damara De"
+              },
+              "uri": "spotify:artist:0ZrpjSmeaK6iY14eZFx5dF",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebdcf420665ed358edc6e71480",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178dcf420665ed358edc6e71480",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174dcf420665ed358edc6e71480",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "7vAiI188SHEmVcvPgqnzYO",
+              "profile": {
+                "name": "Vadesta"
+              },
+              "uri": "spotify:artist:7vAiI188SHEmVcvPgqnzYO",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb3b63dfea6f0167490797e9a0",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f1783b63dfea6f0167490797e9a0",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab676161000051743b63dfea6f0167490797e9a0",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "0EBOHgWxXkIP5YVXFnkw9y",
+              "profile": {
+                "name": "Tekomlaku"
+              },
+              "uri": "spotify:artist:0EBOHgWxXkIP5YVXFnkw9y",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebdc2b481ba4ba030f8985a682",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178dc2b481ba4ba030f8985a682",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174dc2b481ba4ba030f8985a682",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "2uLPgRE1AC21L9Ep5WmGVu",
+              "profile": {
+                "name": "Northsle"
+              },
+              "uri": "spotify:artist:2uLPgRE1AC21L9Ep5WmGVu",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebf818a11b53a12e6ba4826a88",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178f818a11b53a12e6ba4826a88",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174f818a11b53a12e6ba4826a88",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "4Fze9hgN2zqkdoLgXYIyCu",
+              "profile": {
+                "name": "Miqbal GA"
+              },
+              "uri": "spotify:artist:4Fze9hgN2zqkdoLgXYIyCu",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb443fe960b6e368c7a27c1a4d",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178443fe960b6e368c7a27c1a4d",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174443fe960b6e368c7a27c1a4d",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "6g7rgHXRnw8trLFXSnhue4",
+              "profile": {
+                "name": "Lavora"
+              },
+              "uri": "spotify:artist:6g7rgHXRnw8trLFXSnhue4",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebe945e36a8672a034694a9398",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178e945e36a8672a034694a9398",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174e945e36a8672a034694a9398",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "26tD8d49VHsZQAuMiYb1IB",
+              "profile": {
+                "name": "Pusma Shakira"
+              },
+              "uri": "spotify:artist:26tD8d49VHsZQAuMiYb1IB",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b273761f48e3973a09135887cbae",
+                      "width": 640
+                    },
+                    {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d00004851761f48e3973a09135887cbae",
+                      "width": 64
+                    },
+                    {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e02761f48e3973a09135887cbae",
+                      "width": 300
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "1fUKdAlQVtR3mZmdiFTzrq",
+              "profile": {
+                "name": "Diorama"
+              },
+              "uri": "spotify:artist:1fUKdAlQVtR3mZmdiFTzrq",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb471b295d338a90d55dd3c580",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178471b295d338a90d55dd3c580",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174471b295d338a90d55dd3c580",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "2qqlMQmfHRcimpBBndLOx2",
+              "profile": {
+                "name": "RNK"
+              },
+              "uri": "spotify:artist:2qqlMQmfHRcimpBBndLOx2",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb5b04f77772fbf1980237ef9e",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f1785b04f77772fbf1980237ef9e",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab676161000051745b04f77772fbf1980237ef9e",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "2T5OHdPiQqkWtD1LB4E0Ae",
+              "profile": {
+                "name": "Pendhoza"
+              },
+              "uri": "spotify:artist:2T5OHdPiQqkWtD1LB4E0Ae",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b273530d9c0f69775db48b8a9198",
+                      "width": 640
+                    },
+                    {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d00004851530d9c0f69775db48b8a9198",
+                      "width": 64
+                    },
+                    {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e02530d9c0f69775db48b8a9198",
+                      "width": 300
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "0Dy5Kl31HAOnSbZEZAEAKk",
+              "profile": {
+                "name": "Arya galih"
+              },
+              "uri": "spotify:artist:0Dy5Kl31HAOnSbZEZAEAKk",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b2730cd808346f7425ae6c884878",
+                      "width": 640
+                    },
+                    {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d000048510cd808346f7425ae6c884878",
+                      "width": 64
+                    },
+                    {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e020cd808346f7425ae6c884878",
+                      "width": 300
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "6daEl3JyMDgK52fKuqPelL",
+              "profile": {
+                "name": "Aftershine"
+              },
+              "uri": "spotify:artist:6daEl3JyMDgK52fKuqPelL",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb88b6c7f04c4f354da1cfeea0",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f17888b6c7f04c4f354da1cfeea0",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab6761610000517488b6c7f04c4f354da1cfeea0",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "0wjrZ5PUcVjAbUUX33JRr8",
+              "profile": {
+                "name": "Woro Widowati"
+              },
+              "uri": "spotify:artist:0wjrZ5PUcVjAbUUX33JRr8",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb0446963cf34a25bc5ae4df7c",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f1780446963cf34a25bc5ae4df7c",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab676161000051740446963cf34a25bc5ae4df7c",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "3j0qZWmFuvRwN6OcG4m4Fh",
+              "profile": {
+                "name": "Nayla Fardila"
+              },
+              "uri": "spotify:artist:3j0qZWmFuvRwN6OcG4m4Fh",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b2732920e34e6fcc23437e149a9b",
+                      "width": 640
+                    },
+                    {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d000048512920e34e6fcc23437e149a9b",
+                      "width": 64
+                    },
+                    {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e022920e34e6fcc23437e149a9b",
+                      "width": 300
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "0v9WaCOp2TPIkNFk97Fr5h",
+              "profile": {
+                "name": "BANDRASTRES"
+              },
+              "uri": "spotify:artist:0v9WaCOp2TPIkNFk97Fr5h",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebda8b2cfb6b7802f5a348e38f",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178da8b2cfb6b7802f5a348e38f",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174da8b2cfb6b7802f5a348e38f",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "4GgexJxJZfH4pxYRIF4nBh",
+              "profile": {
+                "name": "Masdddho"
+              },
+              "uri": "spotify:artist:4GgexJxJZfH4pxYRIF4nBh",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebc0cfa019807b3f89f6f2ff5e",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178c0cfa019807b3f89f6f2ff5e",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174c0cfa019807b3f89f6f2ff5e",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "4sy1TsEotKwjBHrQGPIwzZ",
+              "profile": {
+                "name": "Didik Budi"
+              },
+              "uri": "spotify:artist:4sy1TsEotKwjBHrQGPIwzZ",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb59980b085a05ae9b52f4603b",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f17859980b085a05ae9b52f4603b",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab6761610000517459980b085a05ae9b52f4603b",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "2XP2vbNW8lX74lZ7pygm2S",
+              "profile": {
+                "name": "TTM AKUSTIK"
+              },
+              "uri": "spotify:artist:2XP2vbNW8lX74lZ7pygm2S",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b273f87d929c2d4ad02c768541f9",
+                      "width": 640
+                    },
+                    {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d00004851f87d929c2d4ad02c768541f9",
+                      "width": 64
+                    },
+                    {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e02f87d929c2d4ad02c768541f9",
+                      "width": 300
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "67GIf08F817YX8OveIXOWF",
+              "profile": {
+                "name": "GIFY Production"
+              },
+              "uri": "spotify:artist:67GIf08F817YX8OveIXOWF",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b273702fd62cb7e372249a14651b",
+                      "width": 640
+                    },
+                    {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d00004851702fd62cb7e372249a14651b",
+                      "width": 64
+                    },
+                    {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e02702fd62cb7e372249a14651b",
+                      "width": 300
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "totalCount": 40
+        }
+      },
+      "relatedMusicVideos": {
+        "__typename": "MusicVideosPage",
+        "items": [],
+        "pagingInfo": {
+          "nextOffset": null
+        },
+        "totalCount": 0
+      },
+      "saved": false,
+      "sharingInfo": {
+        "shareId": "cDFERi2iSxCwHoOn9dnKog",
+        "shareUrl": "https://open.spotify.com/artist/0jcgtGZTWxoepAUgADwcHP?si=cDFERi2iSxCwHoOn9dnKog"
+      },
+      "stats": {
+        "followers": 197337,
+        "monthlyListeners": 1065657,
+        "topCities": {
+          "items": [
+            {
+              "city": "Jakarta",
+              "country": "ID",
+              "numberOfListeners": 200075,
+              "region": "JK"
+            },
+            {
+              "city": "Semarang",
+              "country": "ID",
+              "numberOfListeners": 113812,
+              "region": "JT"
+            },
+            {
+              "city": "Surabaya",
+              "country": "ID",
+              "numberOfListeners": 99610,
+              "region": "JI"
+            },
+            {
+              "city": "Yogyakarta",
+              "country": "ID",
+              "numberOfListeners": 62893,
+              "region": "YO"
+            },
+            {
+              "city": "Bandung",
+              "country": "ID",
+              "numberOfListeners": 51158,
+              "region": "JB"
+            }
+          ]
+        },
+        "worldRank": 0
+      },
+      "unmappedMusicVideos": {
+        "__typename": "MusicVideosPage",
+        "items": [],
+        "pagingInfo": {
+          "nextOffset": null
+        },
+        "totalCount": 0
+      },
+      "uri": "spotify:artist:0jcgtGZTWxoepAUgADwcHP",
+      "visualIdentity": {
+        "wideFullBleedImage": {
+          "__typename": "VisualIdentityImage",
+          "extractedColorSet": {
+            "encoreBaseSetTextColor": {
+              "alpha": 255,
+              "blue": 200,
+              "green": 192,
+              "red": 176
+            },
+            "highContrast": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 92,
+                "green": 85,
+                "red": 71
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 59,
+                "green": 53,
+                "red": 40
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 216,
+                "green": 208,
+                "red": 192
+              }
+            },
+            "higherContrast": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 62,
+                "green": 55,
+                "red": 42
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 95,
+                "green": 88,
+                "red": 74
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 96,
+                "green": 215,
+                "red": 30
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 216,
+                "green": 208,
+                "red": 192
+              }
+            },
+            "minContrast": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 163,
+                "green": 155,
+                "red": 140
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 138,
+                "green": 131,
+                "red": 116
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              }
+            }
+          }
+        }
+      },
+      "visuals": {
+        "avatarImage": {
+          "extractedColors": {
+            "colorRaw": {
+              "hex": "#608888"
+            }
+          },
+          "sources": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6761610000e5eb2b543815d7461bbe24b1aaec",
+              "width": 640
+            },
+            {
+              "height": 160,
+              "url": "https://i.scdn.co/image/ab6761610000f1782b543815d7461bbe24b1aaec",
+              "width": 160
+            },
+            {
+              "height": 320,
+              "url": "https://i.scdn.co/image/ab676161000051742b543815d7461bbe24b1aaec",
+              "width": 320
+            }
+          ]
+        },
+        "gallery": {
+          "items": [
+            {
+              "sources": [
+                {
+                  "height": 640,
+                  "url": "https://i.scdn.co/image/ab6761670000ecd415421f8fde86f32431927fbe",
+                  "width": 640
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "watchFeedEntrypoint": {
+        "entrypointUri": "spotify:watch-feed:artist:0jcgtGZTWxoepAUgADwcHP?itemId=c3BvdGlmeTp0cmFjazozZHV6M2dqZU1GV3hKanhLbGRMTmM3",
+        "thumbnailImage": {
+          "data": {
+            "__typename": "ImageV2",
+            "imageId": "https://i.scdn.co/image/ab67ba6900002ea69c95c5fff85e1f0ce0c75bc6",
+            "imageIdType": "IMAGE_URL",
+            "sources": [
+              {
+                "imageFormat": "WEBP",
+                "maxHeight": 512,
+                "maxWidth": 288,
+                "url": "https://image-cdn-ak.spotifycdn.com/image/ab67ba6900001d969c95c5fff85e1f0ce0c75bc6"
+              },
+              {
+                "imageFormat": "WEBP",
+                "maxHeight": 1920,
+                "maxWidth": 1080,
+                "url": "https://image-cdn-ak.spotifycdn.com/image/ab67ba6900002b609c95c5fff85e1f0ce0c75bc6"
+              },
+              {
+                "imageFormat": "WEBP",
+                "maxHeight": 256,
+                "maxWidth": 144,
+                "url": "https://image-cdn-ak.spotifycdn.com/image/ab67ba690000db9e9c95c5fff85e1f0ce0c75bc6"
+              }
+            ]
+          }
+        },
+        "video": {
+          "endTime": 0,
+          "fileId": "https://canvaz.scdn.co/upload/artist/0jcgtGZTWxoepAUgADwcHP/video/a3f21cbb23db4ed3b94b6f57d4a1c378.cnvs.mp4",
+          "startTime": 0,
+          "videoType": "URL"
+        }
+      }
+    }
+  }
+}

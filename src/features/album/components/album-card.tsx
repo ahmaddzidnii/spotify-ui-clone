@@ -3,14 +3,30 @@ import { Link } from "react-router";
 import { Image } from "@/components/image";
 import { EncoreIconPlay } from "@/components/encore/icons";
 
+interface ImageSource {
+  url: string;
+  width?: number;
+  height?: number;
+}
+
 interface AlbumCardProps {
   id: string;
   name: string;
-  coverArtUrl: string;
+  coverArtSources: ImageSource[];
   releaseYear: number;
 }
 
-export const AlbumCard: React.FC<AlbumCardProps> = ({ id, name, coverArtUrl, releaseYear }) => {
+const buildSrcSet = (sources: ImageSource[]) => {
+  return sources
+    .filter((source) => source.width)
+    .sort((a, b) => (a.width || 0) - (b.width || 0))
+    .map((source) => `${source.url} ${source.width}w`)
+    .join(", ");
+};
+
+export const AlbumCard: React.FC<AlbumCardProps> = ({ id, name, coverArtSources, releaseYear }) => {
+  const coverArtUrl = coverArtSources[0]?.url || "";
+  const coverArtSrcSet = buildSrcSet(coverArtSources);
   console.log(id);
   return (
     <div className="group px-2 py-1.5 rounded-md hover:bg-background-elevated-highlight transition-colors">
@@ -19,6 +35,8 @@ export const AlbumCard: React.FC<AlbumCardProps> = ({ id, name, coverArtUrl, rel
           <Link to="#">
             <Image
               src={coverArtUrl}
+              srcSet={coverArtSrcSet}
+              sizes="(min-width: 768px) 180px, 120px"
               alt=""
               className="absolute top-0 left-0 object-cover object-center w-full h-full"
             />

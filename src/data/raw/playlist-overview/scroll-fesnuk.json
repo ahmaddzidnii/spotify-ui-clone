@@ -1,0 +1,1670 @@
+{
+  "data": {
+    "playlistV2": {
+      "__typename": "Playlist",
+      "content": {
+        "__typename": "PlaylistItemsPage",
+        "items": [
+          {
+            "addedAt": {
+              "isoString": "2026-02-15T09:08:21.760Z"
+            },
+            "addedBy": {
+              "data": {
+                "__typename": "User",
+                "avatar": null,
+                "name": "ahmaddzidnii",
+                "uri": "spotify:user:nil5fgbz7xteglq1d46gfnnqs",
+                "username": "nil5fgbz7xteglq1d46gfnnqs"
+              }
+            },
+            "attributes": [],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "albumOfTrack": {
+                  "artists": {
+                    "items": [
+                      {
+                        "profile": {
+                          "name": "Royal Music"
+                        },
+                        "uri": "spotify:artist:1coVIbS4yAqP5hmezkHAXM"
+                      },
+                      {
+                        "profile": {
+                          "name": "Happy Asmara"
+                        },
+                        "uri": "spotify:artist:5423rMdVbchY2cgu0GgH5X"
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e02ff0bb52e3043a5bf5f7978a8",
+                        "width": 300
+                      },
+                      {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d00004851ff0bb52e3043a5bf5f7978a8",
+                        "width": 64
+                      },
+                      {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b273ff0bb52e3043a5bf5f7978a8",
+                        "width": 640
+                      }
+                    ]
+                  },
+                  "name": "Kalah",
+                  "uri": "spotify:album:3gZgNtOPtJuQyFcdkDaAPs"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Royal Music"
+                      },
+                      "uri": "spotify:artist:1coVIbS4yAqP5hmezkHAXM"
+                    },
+                    {
+                      "profile": {
+                        "name": "Happy Asmara"
+                      },
+                      "uri": "spotify:artist:5423rMdVbchY2cgu0GgH5X"
+                    },
+                    {
+                      "profile": {
+                        "name": "Hasan Toys"
+                      },
+                      "uri": "spotify:artist:6547mD6VWw58uvZqYWANJW"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "audioAssociations": {
+                    "__typename": "TrackAudioAssociationPage",
+                    "items": []
+                  },
+                  "videoAssociations": {
+                    "totalCount": 1
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "trackDuration": {
+                  "totalMilliseconds": 420952
+                },
+                "mediaType": "AUDIO",
+                "name": "Kalah",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "18600146",
+                "trackNumber": 1,
+                "uri": "spotify:track:5kLByP9E1Tf8liXNdcRang"
+              }
+            },
+            "itemV3": {
+              "__typename": "EntityResponseWrapper",
+              "data": {
+                "__typename": "Entity",
+                "consumptionExperienceTrait": {
+                  "__typename": "ConsumptionExperienceTrait",
+                  "contentRatings": [],
+                  "duration": {
+                    "nanoSeconds": 0,
+                    "seconds": 420
+                  }
+                },
+                "identityTrait": {
+                  "__typename": "IdentityTrait",
+                  "contentHierarchyParent": {
+                    "__typename": "Entity",
+                    "identityTrait": {
+                      "__typename": "IdentityTrait",
+                      "name": "Kalah"
+                    },
+                    "publishingMetadataTrait": {
+                      "__typename": "PublishingMetadataTrait",
+                      "firstPublishedAt": {
+                        "isoString": "2024-02-23",
+                        "precision": "DAY"
+                      }
+                    },
+                    "uri": "spotify:album:3gZgNtOPtJuQyFcdkDaAPs"
+                  },
+                  "contributors": {
+                    "items": [
+                      {
+                        "name": "Royal Music",
+                        "uri": "spotify:artist:1coVIbS4yAqP5hmezkHAXM"
+                      },
+                      {
+                        "name": "Happy Asmara",
+                        "uri": "spotify:artist:5423rMdVbchY2cgu0GgH5X"
+                      },
+                      {
+                        "name": "Hasan Toys",
+                        "uri": "spotify:artist:6547mD6VWw58uvZqYWANJW"
+                      }
+                    ],
+                    "totalCount": 3
+                  },
+                  "description": "",
+                  "name": "Kalah",
+                  "type": "Song"
+                },
+                "uri": "spotify:track:5kLByP9E1Tf8liXNdcRang",
+                "visualIdentityTrait": {
+                  "__typename": "VisualIdentityTrait",
+                  "sixteenByNineCoverImage": {
+                    "image": {
+                      "data": {
+                        "__typename": "ImageV2",
+                        "sources": [
+                          {
+                            "imageFormat": "WEBP",
+                            "maxHeight": 360,
+                            "maxWidth": 640,
+                            "url": "https://image-cdn-fa.spotifycdn.com/image/ab6742d3000052b650c43ee69311f66b44d578b0"
+                          },
+                          {
+                            "imageFormat": "WEBP",
+                            "maxHeight": 720,
+                            "maxWidth": 1280,
+                            "url": "https://image-cdn-fa.spotifycdn.com/image/ab6742d3000053b650c43ee69311f66b44d578b0"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "squareCoverImage": {
+                    "extractedColorSet": {
+                      "encoreBaseSetTextColor": {
+                        "alpha": 255,
+                        "blue": 255,
+                        "green": 186,
+                        "red": 156
+                      },
+                      "highContrast": {
+                        "backgroundBase": {
+                          "alpha": 255,
+                          "blue": 128,
+                          "green": 40,
+                          "red": 24
+                        },
+                        "backgroundTintedBase": {
+                          "alpha": 255,
+                          "blue": 168,
+                          "green": 78,
+                          "red": 53
+                        },
+                        "textBase": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textBrightAccent": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textSubdued": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 206,
+                          "red": 182
+                        }
+                      },
+                      "higherContrast": {
+                        "backgroundBase": {
+                          "alpha": 255,
+                          "blue": 128,
+                          "green": 40,
+                          "red": 24
+                        },
+                        "backgroundTintedBase": {
+                          "alpha": 255,
+                          "blue": 168,
+                          "green": 78,
+                          "red": 53
+                        },
+                        "textBase": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textBrightAccent": {
+                          "alpha": 255,
+                          "blue": 96,
+                          "green": 215,
+                          "red": 30
+                        },
+                        "textSubdued": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 206,
+                          "red": 182
+                        }
+                      },
+                      "minContrast": {
+                        "backgroundBase": {
+                          "alpha": 255,
+                          "blue": 128,
+                          "green": 40,
+                          "red": 24
+                        },
+                        "backgroundTintedBase": {
+                          "alpha": 255,
+                          "blue": 168,
+                          "green": 78,
+                          "red": 53
+                        },
+                        "textBase": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textBrightAccent": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textSubdued": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        }
+                      }
+                    },
+                    "image": {
+                      "data": {
+                        "__typename": "ImageV2",
+                        "sources": [
+                          {
+                            "imageFormat": "WEBP",
+                            "maxHeight": 640,
+                            "maxWidth": 640,
+                            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d000075a0ff0bb52e3043a5bf5f7978a8"
+                          },
+                          {
+                            "imageFormat": "WEBP",
+                            "maxHeight": 64,
+                            "maxWidth": 64,
+                            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d000090d5ff0bb52e3043a5bf5f7978a8"
+                          },
+                          {
+                            "imageFormat": "WEBP",
+                            "maxHeight": 300,
+                            "maxWidth": 300,
+                            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000ab87ff0bb52e3043a5bf5f7978a8"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "uid": "1898a787aee0859c"
+          },
+          {
+            "addedAt": {
+              "isoString": "2026-02-15T09:08:21.760Z"
+            },
+            "addedBy": {
+              "data": {
+                "__typename": "User",
+                "avatar": null,
+                "name": "ahmaddzidnii",
+                "uri": "spotify:user:nil5fgbz7xteglq1d46gfnnqs",
+                "username": "nil5fgbz7xteglq1d46gfnnqs"
+              }
+            },
+            "attributes": [],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "albumOfTrack": {
+                  "artists": {
+                    "items": [
+                      {
+                        "profile": {
+                          "name": "Yovie Widianto"
+                        },
+                        "uri": "spotify:artist:7Ln5yumFjHCkeZ8bAzHUcp"
+                      },
+                      {
+                        "profile": {
+                          "name": "Tiara Andini"
+                        },
+                        "uri": "spotify:artist:0kPb52ySN2k9P6wEZPTUzm"
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e02d1b4ab00a8b44b4405f884e0",
+                        "width": 300
+                      },
+                      {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d00004851d1b4ab00a8b44b4405f884e0",
+                        "width": 64
+                      },
+                      {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b273d1b4ab00a8b44b4405f884e0",
+                        "width": 640
+                      }
+                    ]
+                  },
+                  "name": "Tanpa Cinta",
+                  "uri": "spotify:album:5FZVotW2jvhK31tvGSCKHz"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Yovie Widianto"
+                      },
+                      "uri": "spotify:artist:7Ln5yumFjHCkeZ8bAzHUcp"
+                    },
+                    {
+                      "profile": {
+                        "name": "Tiara Andini"
+                      },
+                      "uri": "spotify:artist:0kPb52ySN2k9P6wEZPTUzm"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "audioAssociations": {
+                    "__typename": "TrackAudioAssociationPage",
+                    "items": []
+                  },
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "trackDuration": {
+                  "totalMilliseconds": 255327
+                },
+                "mediaType": "AUDIO",
+                "name": "Tanpa Cinta",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "68307230",
+                "trackNumber": 1,
+                "uri": "spotify:track:3CSFXGhoR8C9kBF90xhIXG"
+              }
+            },
+            "itemV3": {
+              "__typename": "EntityResponseWrapper",
+              "data": {
+                "__typename": "Entity",
+                "consumptionExperienceTrait": {
+                  "__typename": "ConsumptionExperienceTrait",
+                  "contentRatings": [],
+                  "duration": {
+                    "nanoSeconds": 0,
+                    "seconds": 255
+                  }
+                },
+                "identityTrait": {
+                  "__typename": "IdentityTrait",
+                  "contentHierarchyParent": {
+                    "__typename": "Entity",
+                    "identityTrait": {
+                      "__typename": "IdentityTrait",
+                      "name": "Tanpa Cinta"
+                    },
+                    "publishingMetadataTrait": {
+                      "__typename": "PublishingMetadataTrait",
+                      "firstPublishedAt": {
+                        "isoString": "2025-04-24",
+                        "precision": "DAY"
+                      }
+                    },
+                    "uri": "spotify:album:5FZVotW2jvhK31tvGSCKHz"
+                  },
+                  "contributors": {
+                    "items": [
+                      {
+                        "name": "Yovie Widianto",
+                        "uri": "spotify:artist:7Ln5yumFjHCkeZ8bAzHUcp"
+                      },
+                      {
+                        "name": "Tiara Andini",
+                        "uri": "spotify:artist:0kPb52ySN2k9P6wEZPTUzm"
+                      }
+                    ],
+                    "totalCount": 2
+                  },
+                  "description": "",
+                  "name": "Tanpa Cinta",
+                  "type": "Song"
+                },
+                "uri": "spotify:track:3CSFXGhoR8C9kBF90xhIXG",
+                "visualIdentityTrait": {
+                  "__typename": "VisualIdentityTrait",
+                  "sixteenByNineCoverImage": null,
+                  "squareCoverImage": {
+                    "extractedColorSet": {
+                      "encoreBaseSetTextColor": {
+                        "alpha": 255,
+                        "blue": 185,
+                        "green": 185,
+                        "red": 194
+                      },
+                      "highContrast": {
+                        "backgroundBase": {
+                          "alpha": 255,
+                          "blue": 81,
+                          "green": 81,
+                          "red": 89
+                        },
+                        "backgroundTintedBase": {
+                          "alpha": 255,
+                          "blue": 49,
+                          "green": 49,
+                          "red": 56
+                        },
+                        "textBase": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textBrightAccent": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textSubdued": {
+                          "alpha": 255,
+                          "blue": 203,
+                          "green": 203,
+                          "red": 213
+                        }
+                      },
+                      "higherContrast": {
+                        "backgroundBase": {
+                          "alpha": 255,
+                          "blue": 52,
+                          "green": 52,
+                          "red": 59
+                        },
+                        "backgroundTintedBase": {
+                          "alpha": 255,
+                          "blue": 84,
+                          "green": 84,
+                          "red": 92
+                        },
+                        "textBase": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textBrightAccent": {
+                          "alpha": 255,
+                          "blue": 96,
+                          "green": 215,
+                          "red": 30
+                        },
+                        "textSubdued": {
+                          "alpha": 255,
+                          "blue": 203,
+                          "green": 203,
+                          "red": 213
+                        }
+                      },
+                      "minContrast": {
+                        "backgroundBase": {
+                          "alpha": 255,
+                          "blue": 96,
+                          "green": 96,
+                          "red": 104
+                        },
+                        "backgroundTintedBase": {
+                          "alpha": 255,
+                          "blue": 66,
+                          "green": 66,
+                          "red": 74
+                        },
+                        "textBase": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textBrightAccent": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textSubdued": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        }
+                      }
+                    },
+                    "image": {
+                      "data": {
+                        "__typename": "ImageV2",
+                        "sources": [
+                          {
+                            "imageFormat": "WEBP",
+                            "maxHeight": 640,
+                            "maxWidth": 640,
+                            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d000075a0d1b4ab00a8b44b4405f884e0"
+                          },
+                          {
+                            "imageFormat": "WEBP",
+                            "maxHeight": 64,
+                            "maxWidth": 64,
+                            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d000090d5d1b4ab00a8b44b4405f884e0"
+                          },
+                          {
+                            "imageFormat": "WEBP",
+                            "maxHeight": 300,
+                            "maxWidth": 300,
+                            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000ab87d1b4ab00a8b44b4405f884e0"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "uid": "49e10837d03830be"
+          },
+          {
+            "addedAt": {
+              "isoString": "2026-02-15T09:08:21.760Z"
+            },
+            "addedBy": {
+              "data": {
+                "__typename": "User",
+                "avatar": null,
+                "name": "ahmaddzidnii",
+                "uri": "spotify:user:nil5fgbz7xteglq1d46gfnnqs",
+                "username": "nil5fgbz7xteglq1d46gfnnqs"
+              }
+            },
+            "attributes": [],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "albumOfTrack": {
+                  "artists": {
+                    "items": [
+                      {
+                        "profile": {
+                          "name": "Kezia"
+                        },
+                        "uri": "spotify:artist:2CcuEDxpgMLXTjNf1sci2b"
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e025a2e45771132eedfc23ed5d5",
+                        "width": 300
+                      },
+                      {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d000048515a2e45771132eedfc23ed5d5",
+                        "width": 64
+                      },
+                      {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b2735a2e45771132eedfc23ed5d5",
+                        "width": 640
+                      }
+                    ]
+                  },
+                  "name": "AKU MASIH MEMIKIRKANMU",
+                  "uri": "spotify:album:7L4EwSoKKigcjc4I4xDn6d"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Kezia"
+                      },
+                      "uri": "spotify:artist:2CcuEDxpgMLXTjNf1sci2b"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "audioAssociations": {
+                    "__typename": "TrackAudioAssociationPage",
+                    "items": []
+                  },
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "trackDuration": {
+                  "totalMilliseconds": 247210
+                },
+                "mediaType": "AUDIO",
+                "name": "AKU MASIH MEMIKIRKANMU",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "50370690",
+                "trackNumber": 1,
+                "uri": "spotify:track:2KCikMsmJSBEgfOOskQ87P"
+              }
+            },
+            "itemV3": {
+              "__typename": "EntityResponseWrapper",
+              "data": {
+                "__typename": "Entity",
+                "consumptionExperienceTrait": {
+                  "__typename": "ConsumptionExperienceTrait",
+                  "contentRatings": [],
+                  "duration": {
+                    "nanoSeconds": 0,
+                    "seconds": 247
+                  }
+                },
+                "identityTrait": {
+                  "__typename": "IdentityTrait",
+                  "contentHierarchyParent": {
+                    "__typename": "Entity",
+                    "identityTrait": {
+                      "__typename": "IdentityTrait",
+                      "name": "Aku Masih Memikirkanmu"
+                    },
+                    "publishingMetadataTrait": {
+                      "__typename": "PublishingMetadataTrait",
+                      "firstPublishedAt": {
+                        "isoString": "2022-03-30",
+                        "precision": "DAY"
+                      }
+                    },
+                    "uri": "spotify:album:1lrKEfTmVj7nqe3FYC4yKy"
+                  },
+                  "contributors": {
+                    "items": [
+                      {
+                        "name": "Kezia",
+                        "uri": "spotify:artist:2CcuEDxpgMLXTjNf1sci2b"
+                      }
+                    ],
+                    "totalCount": 1
+                  },
+                  "description": "",
+                  "name": "Aku Masih Memikirkanmu",
+                  "type": "Song"
+                },
+                "uri": "spotify:track:2KCikMsmJSBEgfOOskQ87P",
+                "visualIdentityTrait": {
+                  "__typename": "VisualIdentityTrait",
+                  "sixteenByNineCoverImage": null,
+                  "squareCoverImage": {
+                    "extractedColorSet": {
+                      "encoreBaseSetTextColor": {
+                        "alpha": 255,
+                        "blue": 208,
+                        "green": 192,
+                        "red": 248
+                      },
+                      "highContrast": {
+                        "backgroundBase": {
+                          "alpha": 255,
+                          "blue": 84,
+                          "green": 69,
+                          "red": 116
+                        },
+                        "backgroundTintedBase": {
+                          "alpha": 255,
+                          "blue": 51,
+                          "green": 36,
+                          "red": 79
+                        },
+                        "textBase": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textBrightAccent": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textSubdued": {
+                          "alpha": 255,
+                          "blue": 206,
+                          "green": 190,
+                          "red": 246
+                        }
+                      },
+                      "higherContrast": {
+                        "backgroundBase": {
+                          "alpha": 255,
+                          "blue": 53,
+                          "green": 39,
+                          "red": 82
+                        },
+                        "backgroundTintedBase": {
+                          "alpha": 255,
+                          "blue": 87,
+                          "green": 72,
+                          "red": 119
+                        },
+                        "textBase": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textBrightAccent": {
+                          "alpha": 255,
+                          "blue": 96,
+                          "green": 215,
+                          "red": 30
+                        },
+                        "textSubdued": {
+                          "alpha": 255,
+                          "blue": 206,
+                          "green": 190,
+                          "red": 246
+                        }
+                      },
+                      "minContrast": {
+                        "backgroundBase": {
+                          "alpha": 255,
+                          "blue": 154,
+                          "green": 138,
+                          "red": 191
+                        },
+                        "backgroundTintedBase": {
+                          "alpha": 255,
+                          "blue": 129,
+                          "green": 114,
+                          "red": 165
+                        },
+                        "textBase": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textBrightAccent": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textSubdued": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        }
+                      }
+                    },
+                    "image": {
+                      "data": {
+                        "__typename": "ImageV2",
+                        "sources": [
+                          {
+                            "imageFormat": "WEBP",
+                            "maxHeight": 640,
+                            "maxWidth": 640,
+                            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d000075a0d40efa53074e19b201b18507"
+                          },
+                          {
+                            "imageFormat": "WEBP",
+                            "maxHeight": 64,
+                            "maxWidth": 64,
+                            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d000090d5d40efa53074e19b201b18507"
+                          },
+                          {
+                            "imageFormat": "WEBP",
+                            "maxHeight": 300,
+                            "maxWidth": 300,
+                            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000ab87d40efa53074e19b201b18507"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "uid": "1501825bf1001277"
+          },
+          {
+            "addedAt": {
+              "isoString": "2026-02-15T09:08:21.760Z"
+            },
+            "addedBy": {
+              "data": {
+                "__typename": "User",
+                "avatar": null,
+                "name": "ahmaddzidnii",
+                "uri": "spotify:user:nil5fgbz7xteglq1d46gfnnqs",
+                "username": "nil5fgbz7xteglq1d46gfnnqs"
+              }
+            },
+            "attributes": [],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "albumOfTrack": {
+                  "artists": {
+                    "items": [
+                      {
+                        "profile": {
+                          "name": "Denny Caknan"
+                        },
+                        "uri": "spotify:artist:3Gr3opnAGpJiTowsTyJFWG"
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e02f1f1e524da6fd9e2b142ce07",
+                        "width": 300
+                      },
+                      {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d00004851f1f1e524da6fd9e2b142ce07",
+                        "width": 64
+                      },
+                      {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b273f1f1e524da6fd9e2b142ce07",
+                        "width": 640
+                      }
+                    ]
+                  },
+                  "name": "Satru",
+                  "uri": "spotify:album:6uFWJmSRjh5VIQ6qwog9fL"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Denny Caknan"
+                      },
+                      "uri": "spotify:artist:3Gr3opnAGpJiTowsTyJFWG"
+                    },
+                    {
+                      "profile": {
+                        "name": "Happy Asmara"
+                      },
+                      "uri": "spotify:artist:5423rMdVbchY2cgu0GgH5X"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "audioAssociations": {
+                    "__typename": "TrackAudioAssociationPage",
+                    "items": []
+                  },
+                  "videoAssociations": {
+                    "totalCount": 1
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "trackDuration": {
+                  "totalMilliseconds": 311008
+                },
+                "mediaType": "AUDIO",
+                "name": "Satru",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "55042197",
+                "trackNumber": 1,
+                "uri": "spotify:track:3wKDY6xYJeoiI4fnazAsmI"
+              }
+            },
+            "itemV3": {
+              "__typename": "EntityResponseWrapper",
+              "data": {
+                "__typename": "Entity",
+                "consumptionExperienceTrait": {
+                  "__typename": "ConsumptionExperienceTrait",
+                  "contentRatings": [],
+                  "duration": {
+                    "nanoSeconds": 0,
+                    "seconds": 311
+                  }
+                },
+                "identityTrait": {
+                  "__typename": "IdentityTrait",
+                  "contentHierarchyParent": {
+                    "__typename": "Entity",
+                    "identityTrait": {
+                      "__typename": "IdentityTrait",
+                      "name": "Satru"
+                    },
+                    "publishingMetadataTrait": {
+                      "__typename": "PublishingMetadataTrait",
+                      "firstPublishedAt": {
+                        "isoString": "2021-03-19",
+                        "precision": "DAY"
+                      }
+                    },
+                    "uri": "spotify:album:6uFWJmSRjh5VIQ6qwog9fL"
+                  },
+                  "contributors": {
+                    "items": [
+                      {
+                        "name": "Denny Caknan",
+                        "uri": "spotify:artist:3Gr3opnAGpJiTowsTyJFWG"
+                      },
+                      {
+                        "name": "Happy Asmara",
+                        "uri": "spotify:artist:5423rMdVbchY2cgu0GgH5X"
+                      }
+                    ],
+                    "totalCount": 2
+                  },
+                  "description": "",
+                  "name": "Satru",
+                  "type": "Song"
+                },
+                "uri": "spotify:track:3wKDY6xYJeoiI4fnazAsmI",
+                "visualIdentityTrait": {
+                  "__typename": "VisualIdentityTrait",
+                  "sixteenByNineCoverImage": {
+                    "image": {
+                      "data": {
+                        "__typename": "ImageV2",
+                        "sources": [
+                          {
+                            "imageFormat": "WEBP",
+                            "maxHeight": 360,
+                            "maxWidth": 640,
+                            "url": "https://image-cdn-ak.spotifycdn.com/image/ab6742d3000052b68b3285cd0595aba023987e16"
+                          },
+                          {
+                            "imageFormat": "WEBP",
+                            "maxHeight": 720,
+                            "maxWidth": 1280,
+                            "url": "https://image-cdn-ak.spotifycdn.com/image/ab6742d3000053b68b3285cd0595aba023987e16"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "squareCoverImage": {
+                    "extractedColorSet": {
+                      "encoreBaseSetTextColor": {
+                        "alpha": 255,
+                        "blue": 190,
+                        "green": 200,
+                        "red": 126
+                      },
+                      "highContrast": {
+                        "backgroundBase": {
+                          "alpha": 255,
+                          "blue": 85,
+                          "green": 93,
+                          "red": 1
+                        },
+                        "backgroundTintedBase": {
+                          "alpha": 255,
+                          "blue": 50,
+                          "green": 57,
+                          "red": 0
+                        },
+                        "textBase": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textBrightAccent": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textSubdued": {
+                          "alpha": 255,
+                          "blue": 208,
+                          "green": 219,
+                          "red": 145
+                        }
+                      },
+                      "higherContrast": {
+                        "backgroundBase": {
+                          "alpha": 255,
+                          "blue": 53,
+                          "green": 59,
+                          "red": 0
+                        },
+                        "backgroundTintedBase": {
+                          "alpha": 255,
+                          "blue": 86,
+                          "green": 94,
+                          "red": 43
+                        },
+                        "textBase": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textBrightAccent": {
+                          "alpha": 255,
+                          "blue": 96,
+                          "green": 215,
+                          "red": 30
+                        },
+                        "textSubdued": {
+                          "alpha": 255,
+                          "blue": 208,
+                          "green": 219,
+                          "red": 145
+                        }
+                      },
+                      "minContrast": {
+                        "backgroundBase": {
+                          "alpha": 255,
+                          "blue": 88,
+                          "green": 96,
+                          "red": 8
+                        },
+                        "backgroundTintedBase": {
+                          "alpha": 255,
+                          "blue": 54,
+                          "green": 61,
+                          "red": 0
+                        },
+                        "textBase": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textBrightAccent": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textSubdued": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        }
+                      }
+                    },
+                    "image": {
+                      "data": {
+                        "__typename": "ImageV2",
+                        "sources": [
+                          {
+                            "imageFormat": "WEBP",
+                            "maxHeight": 640,
+                            "maxWidth": 640,
+                            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d000075a0f1f1e524da6fd9e2b142ce07"
+                          },
+                          {
+                            "imageFormat": "WEBP",
+                            "maxHeight": 64,
+                            "maxWidth": 64,
+                            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d000090d5f1f1e524da6fd9e2b142ce07"
+                          },
+                          {
+                            "imageFormat": "WEBP",
+                            "maxHeight": 300,
+                            "maxWidth": 300,
+                            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000ab87f1f1e524da6fd9e2b142ce07"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "uid": "dd39d4de554712ac"
+          },
+          {
+            "addedAt": {
+              "isoString": "2026-02-15T09:08:21.760Z"
+            },
+            "addedBy": {
+              "data": {
+                "__typename": "User",
+                "avatar": null,
+                "name": "ahmaddzidnii",
+                "uri": "spotify:user:nil5fgbz7xteglq1d46gfnnqs",
+                "username": "nil5fgbz7xteglq1d46gfnnqs"
+              }
+            },
+            "attributes": [],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "albumOfTrack": {
+                  "artists": {
+                    "items": [
+                      {
+                        "profile": {
+                          "name": "Sleman Receh"
+                        },
+                        "uri": "spotify:artist:0jcgtGZTWxoepAUgADwcHP"
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e020f94886d67ae4e92a92b2281",
+                        "width": 300
+                      },
+                      {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d000048510f94886d67ae4e92a92b2281",
+                        "width": 64
+                      },
+                      {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b2730f94886d67ae4e92a92b2281",
+                        "width": 640
+                      }
+                    ]
+                  },
+                  "name": "Banyu Moto",
+                  "uri": "spotify:album:3LO0L3YsfxpUNfZ1IM3P4s"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Sleman Receh"
+                      },
+                      "uri": "spotify:artist:0jcgtGZTWxoepAUgADwcHP"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "audioAssociations": {
+                    "__typename": "TrackAudioAssociationPage",
+                    "items": []
+                  },
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "trackDuration": {
+                  "totalMilliseconds": 249000
+                },
+                "mediaType": "AUDIO",
+                "name": "Banyu Moto",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "18092283",
+                "trackNumber": 1,
+                "uri": "spotify:track:00WwcAFUBtfrsnfNYgplaM"
+              }
+            },
+            "itemV3": {
+              "__typename": "EntityResponseWrapper",
+              "data": {
+                "__typename": "Entity",
+                "consumptionExperienceTrait": {
+                  "__typename": "ConsumptionExperienceTrait",
+                  "contentRatings": [],
+                  "duration": {
+                    "nanoSeconds": 0,
+                    "seconds": 249
+                  }
+                },
+                "identityTrait": {
+                  "__typename": "IdentityTrait",
+                  "contentHierarchyParent": {
+                    "__typename": "Entity",
+                    "identityTrait": {
+                      "__typename": "IdentityTrait",
+                      "name": "Banyu Moto"
+                    },
+                    "publishingMetadataTrait": {
+                      "__typename": "PublishingMetadataTrait",
+                      "firstPublishedAt": {
+                        "isoString": "2020-06-06",
+                        "precision": "DAY"
+                      }
+                    },
+                    "uri": "spotify:album:3LO0L3YsfxpUNfZ1IM3P4s"
+                  },
+                  "contributors": {
+                    "items": [
+                      {
+                        "name": "Sleman Receh",
+                        "uri": "spotify:artist:0jcgtGZTWxoepAUgADwcHP"
+                      }
+                    ],
+                    "totalCount": 1
+                  },
+                  "description": "",
+                  "name": "Banyu Moto",
+                  "type": "Song"
+                },
+                "uri": "spotify:track:00WwcAFUBtfrsnfNYgplaM",
+                "visualIdentityTrait": {
+                  "__typename": "VisualIdentityTrait",
+                  "sixteenByNineCoverImage": null,
+                  "squareCoverImage": {
+                    "extractedColorSet": {
+                      "encoreBaseSetTextColor": {
+                        "alpha": 255,
+                        "blue": 178,
+                        "green": 178,
+                        "red": 215
+                      },
+                      "highContrast": {
+                        "backgroundBase": {
+                          "alpha": 255,
+                          "blue": 75,
+                          "green": 75,
+                          "red": 106
+                        },
+                        "backgroundTintedBase": {
+                          "alpha": 255,
+                          "blue": 43,
+                          "green": 43,
+                          "red": 71
+                        },
+                        "textBase": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textBrightAccent": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textSubdued": {
+                          "alpha": 255,
+                          "blue": 196,
+                          "green": 197,
+                          "red": 234
+                        }
+                      },
+                      "higherContrast": {
+                        "backgroundBase": {
+                          "alpha": 255,
+                          "blue": 46,
+                          "green": 45,
+                          "red": 74
+                        },
+                        "backgroundTintedBase": {
+                          "alpha": 255,
+                          "blue": 78,
+                          "green": 78,
+                          "red": 109
+                        },
+                        "textBase": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textBrightAccent": {
+                          "alpha": 255,
+                          "blue": 96,
+                          "green": 215,
+                          "red": 30
+                        },
+                        "textSubdued": {
+                          "alpha": 255,
+                          "blue": 196,
+                          "green": 197,
+                          "red": 234
+                        }
+                      },
+                      "minContrast": {
+                        "backgroundBase": {
+                          "alpha": 255,
+                          "blue": 88,
+                          "green": 88,
+                          "red": 120
+                        },
+                        "backgroundTintedBase": {
+                          "alpha": 255,
+                          "blue": 58,
+                          "green": 58,
+                          "red": 88
+                        },
+                        "textBase": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textBrightAccent": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        },
+                        "textSubdued": {
+                          "alpha": 255,
+                          "blue": 255,
+                          "green": 255,
+                          "red": 255
+                        }
+                      }
+                    },
+                    "image": {
+                      "data": {
+                        "__typename": "ImageV2",
+                        "sources": [
+                          {
+                            "imageFormat": "WEBP",
+                            "maxHeight": 640,
+                            "maxWidth": 640,
+                            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d000075a00f94886d67ae4e92a92b2281"
+                          },
+                          {
+                            "imageFormat": "WEBP",
+                            "maxHeight": 64,
+                            "maxWidth": 64,
+                            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d000090d50f94886d67ae4e92a92b2281"
+                          },
+                          {
+                            "imageFormat": "WEBP",
+                            "maxHeight": 300,
+                            "maxWidth": 300,
+                            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000ab870f94886d67ae4e92a92b2281"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "uid": "62b425252918ae48"
+          }
+        ],
+        "pagingInfo": {
+          "limit": 25,
+          "offset": 0
+        },
+        "totalCount": 5
+      },
+      "abuseReportingEnabled": true,
+      "attributes": [],
+      "basePermission": "VIEWER",
+      "currentUserCapabilities": {
+        "canAbuseReport": false,
+        "canAdministratePermissions": true,
+        "canCancelMembership": false,
+        "canEditItems": true,
+        "canView": true
+      },
+      "description": " ",
+      "followers": 0,
+      "following": true,
+      "format": "",
+      "images": {
+        "items": [
+          {
+            "sources": [
+              {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d00001e02d1b4ab00a8b44b4405f884e0ab67616d00001e02d40efa53074e19b201b18507ab67616d00001e02f1f1e524da6fd9e2b142ce07ab67616d00001e02ff0bb52e3043a5bf5f7978a8",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d00001e02d1b4ab00a8b44b4405f884e0ab67616d00001e02d40efa53074e19b201b18507ab67616d00001e02f1f1e524da6fd9e2b142ce07ab67616d00001e02ff0bb52e3043a5bf5f7978a8",
+                "width": 300
+              },
+              {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d00001e02d1b4ab00a8b44b4405f884e0ab67616d00001e02d40efa53074e19b201b18507ab67616d00001e02f1f1e524da6fd9e2b142ce07ab67616d00001e02ff0bb52e3043a5bf5f7978a8",
+                "width": 60
+              }
+            ]
+          }
+        ]
+      },
+      "members": {
+        "items": [
+          {
+            "isOwner": true,
+            "permissionLevel": "CONTRIBUTOR",
+            "user": {
+              "data": {
+                "__typename": "User",
+                "avatar": null,
+                "name": "ahmaddzidnii",
+                "uri": "spotify:user:nil5fgbz7xteglq1d46gfnnqs",
+                "username": "nil5fgbz7xteglq1d46gfnnqs"
+              }
+            }
+          }
+        ],
+        "totalCount": 1
+      },
+      "name": "Scroll Fesnuk",
+      "ownerV2": {
+        "data": {
+          "__typename": "User",
+          "avatar": null,
+          "name": "ahmaddzidnii",
+          "uri": "spotify:user:nil5fgbz7xteglq1d46gfnnqs",
+          "username": "nil5fgbz7xteglq1d46gfnnqs"
+        }
+      },
+      "revisionId": "AAAABB2wp8qCTyMn33bZzR3v4RH68gW8",
+      "sharingInfo": {
+        "shareId": "R_QLpV8rRbmg2GoXJdeiPw",
+        "shareUrl": "https://open.spotify.com/playlist/3fN3Kgy4kxLLtpFyfSDcuB?si=R_QLpV8rRbmg2GoXJdeiPw"
+      },
+      "uri": "spotify:playlist:3fN3Kgy4kxLLtpFyfSDcuB",
+      "visualIdentity": {
+        "squareCoverImage": {
+          "__typename": "VisualIdentityImage",
+          "extractedColorSet": {
+            "encoreBaseSetTextColor": {
+              "alpha": 255,
+              "blue": 185,
+              "green": 185,
+              "red": 194
+            },
+            "highContrast": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 81,
+                "green": 81,
+                "red": 89
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 49,
+                "green": 49,
+                "red": 56
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 203,
+                "green": 203,
+                "red": 213
+              }
+            },
+            "higherContrast": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 52,
+                "green": 52,
+                "red": 59
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 84,
+                "green": 84,
+                "red": 92
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 96,
+                "green": 215,
+                "red": 30
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 203,
+                "green": 203,
+                "red": 213
+              }
+            },
+            "minContrast": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 96,
+                "green": 96,
+                "red": 104
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 66,
+                "green": 66,
+                "red": 74
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              }
+            }
+          }
+        }
+      },
+      "watchFeedEntrypoint": {
+        "entrypointUri": "spotify:watch-feed:playlist:3fN3Kgy4kxLLtpFyfSDcuB?itemId=c3BvdGlmeTp0cmFjazo1a0xCeVA5RTFUZjhsaVhOZGNSYW5n",
+        "thumbnailImage": {
+          "data": {
+            "__typename": "ImageV2",
+            "imageId": "https://i.scdn.co/image/ab67616d00004851ff0bb52e3043a5bf5f7978a8",
+            "imageIdType": "IMAGE_URL",
+            "sources": [
+              {
+                "imageFormat": "WEBP",
+                "maxHeight": 640,
+                "maxWidth": 640,
+                "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d000075a0ff0bb52e3043a5bf5f7978a8"
+              },
+              {
+                "imageFormat": "WEBP",
+                "maxHeight": 64,
+                "maxWidth": 64,
+                "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d000090d5ff0bb52e3043a5bf5f7978a8"
+              },
+              {
+                "imageFormat": "WEBP",
+                "maxHeight": 300,
+                "maxWidth": 300,
+                "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000ab87ff0bb52e3043a5bf5f7978a8"
+              }
+            ]
+          }
+        },
+        "video": null
+      }
+    }
+  }
+}

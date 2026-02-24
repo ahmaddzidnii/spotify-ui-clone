@@ -1,3 +1,11 @@
+import ngodinghPlaylist from "./raw/playlist-overview/ngodingh.json";
+import scrollFesnukPlaylist from "./raw/playlist-overview/scroll-fesnuk.json";
+
+export const playlists = {
+  "spotify:playlist:5lF6ZtkLPr7acwFD973CCp": ngodinghPlaylist.data.playlistV2,
+  "spotify:playlist:3fN3Kgy4kxLLtpFyfSDcuB": scrollFesnukPlaylist.data.playlistV2,
+};
+
 export const libraryResponse = {
   data: {
     me: {
