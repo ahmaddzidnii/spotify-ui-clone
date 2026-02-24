@@ -15,6 +15,7 @@ import { EncoreIconMoreOptions, EncoreIconShuffle } from "@/components/encore/ic
 
 import { TrackList } from "../components/track-list";
 import { Footer } from "@/layouts/components/footer";
+import { EntityError } from "@/features/error/components/entitiy-error";
 
 export const ArtistPage = () => {
   const { id } = useParams();
@@ -50,13 +51,7 @@ export const ArtistPage = () => {
   };
 
   if (!artist) {
-    return (
-      <div className="flex items-center justify-center text-center h-full flex-col gap-4">
-        <EncoreIconInfo className="size-16" />
-        <p className="text-3xl font-bold">Something went wrong while loading the artist.</p>
-        <p className="text-base font-medium">Search for something else?</p>
-      </div>
-    );
+    return <EntityError entityName="artist" />;
   }
 
   const { r, g, b } = hexToRgb(artist.cover.dominantColor);

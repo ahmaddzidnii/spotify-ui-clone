@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useParams } from "react-router";
 
 import { useScrollTrigger } from "@/hooks/use-scroll-trigger";
@@ -6,7 +6,6 @@ import { useScrollTrigger } from "@/hooks/use-scroll-trigger";
 import { Image } from "@/components/image";
 import { Button } from "@/components/ui/button";
 import { ScrollArea, type ScrollAreaRef } from "@/components/scroll-area";
-import { EncoreIconInfo } from "@/components/encore/icons/encore-icon-info";
 import {
   EncoreIconClock,
   EncoreIconMoreOptions,
@@ -20,13 +19,10 @@ import { Footer } from "@/layouts/components/footer";
 import { albums } from "@/data/album";
 import { transformSpotifyUriToUrl } from "@/features/shared/parsers/parse-uri";
 import { formatDuration } from "@/features/shared/formaters/format.duration";
-import { transformAlbumType } from "../lib/utils";
+import { transformAlbumType, transformCopyrightType } from "../lib/utils";
 import { rgbToHex } from "@/features/shared/formaters/format-color";
-
-const symbolMap = {
-  C: "©",
-  P: "℗",
-} as any;
+import { EntityError } from "@/features/error/components/entitiy-error";
+import { cn } from "@/utils/cn";
 
 export const AlbumPage = () => {
   const { id } = useParams();
@@ -56,14 +52,46 @@ export const AlbumPage = () => {
     }
   };
 
+  const gridContainerRef = useRef(null);
+
+  // 2. State untuk menyimpan angka class (misal: 4 untuk nrVisibleCards-4)
+  const [visibleCount, setVisibleCount] = useState(1);
+
+  useEffect(() => {
+    // Pastikan ref sudah terpasang ke elemen DOM
+    if (!gridContainerRef.current) return;
+
+    // 3. Inisialisasi ResizeObserver
+    const observer = new ResizeObserver((entries) => {
+      for (let entry of entries) {
+        // Ambil lebar container saat ini secara real-time
+        const containerWidth = entry.contentRect.width;
+
+        // Ukuran minimal kartu berdasarkan variabel CSS Spotify tadi
+        const minColumnWidth = 180;
+        const gridGap = 0; // Asumsi ada jarak antar kartu 24px
+
+        // 4. Kalkulasi matematika: Lebar Container dibagi (Lebar Kartu + Gap)
+        // Math.floor digunakan agar angkanya selalu dibulatkan ke bawah (tidak ada setengah kartu)
+        const calculatedColumns = Math.floor((containerWidth + gridGap) / (minColumnWidth + gridGap));
+
+        // 5. Update state dengan angka jumlah kartu maksimal yang muat
+        // Jika lebarnya cukup untuk 5 kolom, maka state menjadi 5
+        setVisibleCount(calculatedColumns > 0 ? calculatedColumns : 1);
+      }
+    });
+
+    // Mulai memantau container
+    observer.observe(gridContainerRef.current);
+
+    // Cleanup function: Hentikan pemantauan jika komponen dihapus dari layar (mencegah memory leak)
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
   if (!album) {
-    return (
-      <div className="flex items-center justify-center text-center h-full flex-col gap-4">
-        <EncoreIconInfo className="size-16" />
-        <p className="text-3xl font-bold w-full">Something went wrong while loading the album.</p>
-        <p className="text-base font-medium">Search for something else?</p>
-      </div>
-    );
+    return <EntityError entityName="album" />;
   }
 
   const totalDurationSeconds = useMemo(() => {
@@ -392,13 +420,14 @@ export const AlbumPage = () => {
                   key={i}
                   className="text-xs"
                 >
-                  {symbolMap[c.type] ?? ""} {c.text.replace(/[©℗]/g, "")}
+                  {transformCopyrightType(c.type)} {c.text.replace(/[©℗]/g, "")}
                 </p>
               ))}
             </div>
             <div className="mt-16 flex flex-col">
               <h2 className="font-bold text-2xl">More by {album.artists.items[0].profile.name}</h2>
               <div
+                ref={gridContainerRef}
                 style={
                   {
                     "--min-column-width": "180px",
@@ -406,11 +435,10 @@ export const AlbumPage = () => {
                     display: "grid",
                     gridTemplateColumns: "repeat(auto-fill, minmax(var(--min-column-width), 1fr))",
                     gridAutoRows: 0,
-                    overflow: "hidden",
                     gridTemplateRows: "repeat(var(--row-count), minmax(0, 1fr))",
                   } as React.CSSProperties
                 }
-                className="mt-4"
+                className={cn("mt-4", `nrVisibleCards-${visibleCount}`)}
               >
                 {album.moreAlbumsByArtist.items
                   .filter((f) => f.id != id)

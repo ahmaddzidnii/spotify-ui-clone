@@ -9,6 +9,7 @@ import { BrowsePage } from "./features/browse/pages/browse-page.tsx";
 import { NotFoundPage } from "./features/error/pages/not-found-page.tsx";
 
 import "./styles/main.css";
+import "./styles/sass.scss";
 import "overlayscrollbars/overlayscrollbars.css";
 import { LayoutProvider } from "./layouts/components/layout-provider.tsx";
 import { LyricsPage } from "./features/song/pages/lyrics-page.tsx";
