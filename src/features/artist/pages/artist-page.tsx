@@ -10,7 +10,6 @@ import { formatNumber } from "@/features/shared/formaters/format-number";
 import { Image } from "@/components/image";
 import { Button } from "@/components/ui/button";
 import { ScrollArea, type ScrollAreaRef } from "@/components/scroll-area";
-import { EncoreIconInfo } from "@/components/encore/icons/encore-icon-info";
 import { EncoreIconMoreOptions, EncoreIconShuffle } from "@/components/encore/icons";
 
 import { TrackList } from "../components/track-list";
