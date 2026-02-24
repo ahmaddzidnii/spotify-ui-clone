@@ -1,10 +1,10 @@
 import { cn } from "@/utils/cn";
 import { Image } from "@/components/image";
 import { EncoreIconCheck, EncoreIconMoreOptions, EncoreIconPlay } from "@/components/encore/icons";
-import type { Track } from "@/data/artists";
+import type { ARTISTS } from "@/data/artists";
 
 interface TrackListProps {
-  tracks: Track[];
+  tracks: (typeof ARTISTS)[0]["tracks"]["data"];
 }
 
 export const TrackList = ({ tracks }: TrackListProps) => {
