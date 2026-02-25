@@ -1,25 +1,26 @@
 import { useRef, useState } from "react";
-import { Link, useParams } from "react-router";
+import { useParams } from "react-router";
 
 import { useScrollTrigger } from "@/hooks/use-scroll-trigger";
 
-import { hexToRgb } from "@/features/shared/formaters/format-color";
+import { rgbToHex } from "@/features/shared/formaters/format-color";
 import { formatNumber } from "@/features/shared/formaters/format-number";
 
-import { Image } from "@/components/image";
 import { Button } from "@/components/ui/button";
 import { ScrollArea, type ScrollAreaRef } from "@/components/scroll-area";
 import { EncoreIconMoreOptions, EncoreIconShuffle } from "@/components/encore/icons";
 
-import { TrackList } from "../components/track-list";
+import { TopTrackList } from "../components/top-track-list";
 import { Footer } from "@/layouts/components/footer";
 import { EntityError } from "@/features/error/components/entitiy-error";
-import { ARTISTS } from "@/data/artists";
+import { artists } from "@/data/artists";
+import type { ArtistUnion } from "@/data/types";
+import { ArtistPick } from "../components/artist-pick";
 
 export const ArtistPage = () => {
   const { id } = useParams();
-
-  const artist = ARTISTS.find((artist) => artist.id === id);
+  const uri = `spotify:artist:${id}`;
+  const artist = artists[uri as keyof typeof artists] ?? null;
 
   const scrollRef = useRef<ScrollAreaRef | null>(null);
   const isScrolled = useScrollTrigger(scrollRef, 50);
@@ -53,17 +54,29 @@ export const ArtistPage = () => {
     return <EntityError entityName="artist" />;
   }
 
-  const { r, g, b } = hexToRgb(artist.cover.dominantColor);
+  const colorSet = artist.visualIdentity.wideFullBleedImage.extractedColorSet;
+
+  const colorBackgroundBase = rgbToHex(
+    colorSet.higherContrast.backgroundBase.red,
+    colorSet.higherContrast.backgroundBase.green,
+    colorSet.higherContrast.backgroundBase.blue,
+    colorSet.higherContrast.backgroundBase.alpha,
+  );
+
+  const colorBackgroundBase70 = `rgba(${colorSet.higherContrast.backgroundBase.red}, ${colorSet.higherContrast.backgroundBase.green}, ${colorSet.higherContrast.backgroundBase.blue}, 0.7)`;
 
   return (
     <>
       <header
         ref={headerRef}
-        style={{
-          visibility: isScrolled ? "visible" : "hidden",
-          opacity: "calc(var(--scroll, 0) * 1.6)",
-          backgroundColor: `rgba(${r}, ${g}, ${b}`,
-        }}
+        style={
+          {
+            "--background-base": colorBackgroundBase,
+            visibility: isScrolled ? "visible" : "hidden",
+            opacity: "calc(var(--scroll, 0) * 1.6)",
+            backgroundColor: "var(--background-base)",
+          } as React.CSSProperties
+        }
         className="absolute inset-x-0 top-0 p-4  h-16 flex items-center z-1"
       >
         <div
@@ -83,7 +96,7 @@ export const ArtistPage = () => {
               <path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288z"></path>
             </svg>
           </button>
-          <span className="font-semibold text-3xl">{artist.name}</span>
+          <span className="font-semibold text-3xl">{artist.profile.name}</span>
         </div>
       </header>
       <div className="before-scroll-node">
@@ -91,7 +104,7 @@ export const ArtistPage = () => {
           <div className="sticky top-0 z-50 h-0 w-full overflow-visible"></div>
           <div
             style={{
-              backgroundImage: `url(${artist.cover.url})`,
+              backgroundImage: `url(${artist.headerImage.data.sources[0].url})`,
               backgroundPosition: "50% 15%",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
@@ -107,7 +120,7 @@ export const ArtistPage = () => {
           />
           <div
             style={{
-              backgroundColor: `rgba(${r}, ${g}, ${b}, calc(var(--scroll, 0) * 2.3))`,
+              backgroundColor: `rgba(${colorSet.higherContrast.backgroundBase.red}, ${colorSet.higherContrast.backgroundBase.green}, ${colorSet.higherContrast.backgroundBase.blue}, calc(var(--scroll, 0) * 2.3))`,
             }}
             className="absolute top-0 left-0 h-full w-full z-0"
           />
@@ -126,16 +139,19 @@ export const ArtistPage = () => {
               }}
               className="text-[76px] font-extrabold tracking-tight"
             >
-              {artist.name}
+              {artist.profile.name}
             </p>
-            <p className="mt-2">{formatNumber(artist.monthlyListeners)} monthly listeners</p>
+            <p className="mt-2">{formatNumber(artist.stats.monthlyListeners)} monthly listeners</p>
           </div>
         </div>
-        <div className="min-h-screen pb-24 mt-4 bg-background-base relative z-0">
+        <div className="pb-24 mt-4 bg-background-base relative z-0">
           <div
-            style={{
-              background: `linear-gradient(to bottom, rgba(${r},${g},${b}), transparent)`,
-            }}
+            style={
+              {
+                "--background-base-70": colorBackgroundBase70,
+                background: `linear-gradient(to bottom, var(--background-base-70), transparent)`,
+              } as React.CSSProperties
+            }
             className="-z-1  absolute top-0 left-0 w-full h-[173px]"
           />
           <div className="flex flex-col -mt-1 p-6">
@@ -152,19 +168,19 @@ export const ArtistPage = () => {
                   <path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288z"></path>
                 </svg>
               </button>
-              {artist.tracks.metadata.videoPreview.present && (
-                <div className="ml-6">
-                  <div
-                    role="button"
-                    className="w-[38px] h-[48px] rounded-xl border-2 border-text-subdued flex items-center justify-center overflow-hidden"
-                  >
-                    <img
-                      src={artist.tracks.metadata.videoPreview.thumbnailUrl}
-                      alt={`Track video preview thumbnail for ${artist.name}`}
-                    />
-                  </div>
+
+              <div className="ml-6">
+                <div
+                  role="button"
+                  className="w-[38px] h-[48px] rounded-xl border-2 border-text-subdued flex items-center justify-center overflow-hidden"
+                >
+                  <img
+                    src={artist.watchFeedEntrypoint.thumbnailImage.data.imageId}
+                    alt={``}
+                  />
                 </div>
-              )}
+              </div>
+
               <div className="ml-6">
                 <Button variant="tertiary">
                   <EncoreIconShuffle className="size-7" />
@@ -180,47 +196,8 @@ export const ArtistPage = () => {
                 </Button>
               </div>
             </div>
-            <div>
-              <h2 className="font-semibold text-2xl mt-8 mb-4">Popular</h2>
-              <TrackList tracks={artist.tracks.data} />
-              <Button
-                variant="tertiary"
-                className="text-sm mt-4 font-semibold text-text-subdued hover:scale-100"
-              >
-                See more
-              </Button>
-            </div>
-            <div>
-              <h2 className="font-semibold text-2xl mt-8 mb-4">Artist Pick</h2>
-              <div className="flex">
-                <div className="relative size-22 aspect-square overflow-hidden rounded-xl me-4">
-                  <Image
-                    alt="Image"
-                    src="https://i.scdn.co/image/ab67616d00001e02d96453e606852f7868e15963"
-                    className="object-cover object-center w-full h-full"
-                  />
-                </div>
-                <div>
-                  <div className="flex items-center gap-3 mb-2 text-sm">
-                    <div className="size-6 aspect-square overflow-hidden rounded-full">
-                      <Image
-                        alt="Image"
-                        src="https://i.scdn.co/image/ab6761610000101f07189aefe72bf176ecd0b2ab"
-                        className="object-cover object-center w-full h-full"
-                      />
-                    </div>
-                    <span className="text-text-subdued">Posted By JKT48</span>
-                  </div>
-                  <Link
-                    to="/album/0eIpkNRhkvjZFnik8x8Ao3"
-                    className="font-semibold text-lg"
-                  >
-                    Andai 'Ku Bukan Idola
-                  </Link>
-                  <p className="text-sm text-text-subdued mt-1">Single</p>
-                </div>
-              </div>
-            </div>
+            <TopTrackList tracks={artist.discography.topTracks} />
+            <ArtistPick artists={artist as ArtistUnion} />
           </div>
         </div>
         <Footer />
