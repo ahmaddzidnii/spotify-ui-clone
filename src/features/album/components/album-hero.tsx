@@ -1,40 +1,12 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { Link } from "react-router";
 import { Image } from "@/components/image";
-import { transformSpotifyUriToUrl } from "@/features/shared/parsers/parse-uri";
 import { formatDuration } from "@/features/shared/formaters/format.duration";
 import { transformAlbumType } from "@/features/shared/utils/transformers";
-
-interface ImageSource {
-  url: string;
-  width?: number;
-  height?: number;
-}
-
-interface Artist {
-  id: string;
-  uri: string;
-  profile: {
-    name: string;
-  };
-  visuals: {
-    avatarImage: {
-      sources: ImageSource[];
-    };
-  };
-}
+import { useAlbumInfo, useAlbumArtists, useAlbumCoverArt, useAlbumTracks } from "../context/album-page-context";
+import type { ImageSource } from "../model/shared.types";
 
 interface AlbumHeroProps {
-  albumName: string;
-  albumType: string;
-  coverArtSources: ImageSource[];
-  artists: {
-    totalCount: number;
-    items: Artist[];
-  };
-  releaseYear: string;
-  totalTracks: number;
-  totalDuration: number;
   backgroundColor: string;
   backgroundColorMinContrast: string;
 }
@@ -47,19 +19,19 @@ const buildSrcSet = (sources: ImageSource[]) => {
     .join(", ");
 };
 
-export const AlbumHero: React.FC<AlbumHeroProps> = ({
-  albumName,
-  albumType,
-  coverArtSources,
-  artists,
-  releaseYear,
-  totalTracks,
-  totalDuration,
-  backgroundColor,
-  backgroundColorMinContrast,
-}) => {
-  const coverArtSrcSet = buildSrcSet(coverArtSources);
-  const coverArtUrl = coverArtSources[0]?.url || "";
+export const AlbumHero: React.FC<AlbumHeroProps> = ({ backgroundColor, backgroundColorMinContrast }) => {
+  const info = useAlbumInfo();
+  const artists = useAlbumArtists();
+  const coverArt = useAlbumCoverArt();
+  const tracks = useAlbumTracks();
+
+  const totalDuration = useMemo(() => {
+    return tracks.reduce((acc, track) => acc + track.duration.totalSeconds, 0);
+  }, [tracks]);
+
+  const coverArtSrcSet = buildSrcSet(coverArt.sources);
+  const coverArtUrl = coverArt.url;
+  const releaseYear = info.releaseDate.isoString?.split("-")[0] || String(info.releaseDate.year);
   return (
     <div
       style={
@@ -106,7 +78,7 @@ export const AlbumHero: React.FC<AlbumHeroProps> = ({
         </div>
 
         <div className="flex-col flex justify-end">
-          <p className="font-medium text-sm">{transformAlbumType(albumType)}</p>
+          <p className="font-medium text-sm">{transformAlbumType(info.type)}</p>
 
           <p
             style={{
@@ -116,51 +88,51 @@ export const AlbumHero: React.FC<AlbumHeroProps> = ({
             }}
             className="font-extrabold tracking-tight mt-1 mb-2"
           >
-            {albumName}
+            {info.name}
           </p>
 
           <div className="flex items-center gap-2">
             <div className="flex min-w-0 flex-wrap items-center gap-x-2 gap-y-1 text-sm">
-              {artists.totalCount > 1 ? (
+              {artists.length > 1 ? (
                 <div className="flex flex-wrap items-center min-w-0">
-                  {artists.items.map((artist, index) => (
+                  {artists.map((artist, index) => (
                     <React.Fragment key={artist.id}>
                       <Link
-                        to={transformSpotifyUriToUrl(artist.uri)}
+                        to={artist.path}
                         className="font-bold wrap-break-word"
                       >
-                        {artist.profile.name}
+                        {artist.name}
                       </Link>
 
-                      {index < artists.items.length - 1 && <span className="mx-1 text-text-subdued">•</span>}
+                      {index < artists.length - 1 && <span className="mx-1 text-text-subdued">•</span>}
                     </React.Fragment>
                   ))}
                 </div>
               ) : (
-                artists.items.map((artist) => (
+                artists.map((artist) => (
                   <div
                     key={artist.id}
                     className="flex items-center min-w-0"
                   >
                     <Image
                       alt="Artist avatar"
-                      src={artist.visuals.avatarImage.sources[0]?.url || ""}
-                      srcSet={buildSrcSet(artist.visuals.avatarImage.sources)}
+                      src={artist.avatarUrl}
+                      srcSet={buildSrcSet(artist.avatarSources)}
                       sizes="24px"
                       className="me-2 size-6 shrink-0 rounded-full"
                     />
                     <Link
-                      to={transformSpotifyUriToUrl(artist.uri)}
+                      to={artist.path}
                       className="font-semibold wrap-break-word"
                     >
-                      {artist.profile.name}
+                      {artist.name}
                     </Link>
                   </div>
                 ))
               )}
 
               <span className="text-text-subdued wrap-break-word">
-                • {releaseYear} • {totalTracks} songs, {formatDuration(totalDuration, { compact: false })}
+                • {releaseYear} • {info.totalTracks} songs, {formatDuration(totalDuration, { compact: false })}
               </span>
             </div>
           </div>

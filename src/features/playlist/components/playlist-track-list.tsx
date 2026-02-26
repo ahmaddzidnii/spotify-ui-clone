@@ -1,51 +1,10 @@
 import React from "react";
 import { PlaylistTrackListHeader } from "./playlist-track-list-header";
 import { PlaylistTrackRow } from "./playlist-track-row";
-
-interface ImageSource {
-  url: string;
-  width?: number;
-  height?: number;
-}
-
-interface Artist {
-  uri: string;
-  profile: {
-    name: string;
-  };
-}
-
-interface Album {
-  name: string;
-  coverArt: {
-    sources: ImageSource[];
-  };
-}
-
-interface Track {
-  name: string;
-  uri: string;
-  albumOfTrack: Album;
-  artists: {
-    items: Artist[];
-  };
-  trackDuration: {
-    totalMilliseconds: number;
-  };
-}
-
-interface PlaylistItem {
-  uid: string;
-  addedAt: {
-    isoString: string;
-  };
-  itemV2: {
-    data: Track;
-  };
-}
+import type { PlaylistTrack } from "../model/content.model";
 
 interface PlaylistTrackListProps {
-  items: PlaylistItem[];
+  items: PlaylistTrack[];
 }
 
 export const PlaylistTrackList: React.FC<PlaylistTrackListProps> = ({ items }) => {
@@ -56,9 +15,9 @@ export const PlaylistTrackList: React.FC<PlaylistTrackListProps> = ({ items }) =
         {items.map((item, index) => (
           <PlaylistTrackRow
             key={item.uid}
-            track={item.itemV2.data}
+            track={item.track}
             index={index}
-            addedAt={item.addedAt.isoString}
+            addedAt={item.addedAt}
           />
         ))}
       </div>

@@ -1,13 +1,14 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { EncoreIconShuffle, EncoreIconDownload, EncoreIconPersonPlus, EncoreIconMoreOptions } from "@/components/encore/icons";
+import { usePlaylistWatchFeedEntrypoint } from "../context/playlist-page-context";
 
 interface PlaylistActionBarProps {
-  watchFeedThumbnail: string;
   playButtonRef?: React.RefObject<HTMLDivElement | null>;
 }
 
-export const PlaylistActionBar: React.FC<PlaylistActionBarProps> = ({ watchFeedThumbnail, playButtonRef }) => {
+export const PlaylistActionBar: React.FC<PlaylistActionBarProps> = ({ playButtonRef }) => {
+  const watchFeedEntrypoint = usePlaylistWatchFeedEntrypoint();
   return (
     <div
       className="flex items-center"
@@ -33,7 +34,7 @@ export const PlaylistActionBar: React.FC<PlaylistActionBarProps> = ({ watchFeedT
           className="rounded-xl border-2 border-text-subdued flex items-center justify-center overflow-hidden"
         >
           <img
-            src={watchFeedThumbnail}
+            src={watchFeedEntrypoint.thumbnailUrl}
             alt=""
           />
         </div>

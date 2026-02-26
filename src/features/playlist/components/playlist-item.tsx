@@ -1,4 +1,4 @@
-import type { libraryResponse } from "@/data/playlists";
+import type { libraryResponse } from "@/data/library-response";
 import { Image } from "@/components/image";
 import { Tooltip } from "@/components/ui/tooltip";
 import { useSidebarCollapsed } from "@/stores/use-sidebar-store";
@@ -26,7 +26,7 @@ export const PlaylistItem = ({ playlist }: PlaylistItemProps) => {
   const imageUrl = imageSources?.[0]?.url || "";
 
   // Buat string srcSet (Format: "url1 64w, url2 300w, url3 640w")
-  const imageSrcSet = imageSources?.map((src) => `${src.url} ${src.width}w`).join(", ");
+  const imageSrcSet = imageSources?.map((src: { url: string; width?: number }) => `${src.url} ${src.width}w`).join(", ");
 
   const ownerData = !isPseudoPlaylist ? itemData.ownerV2?.data : null;
 

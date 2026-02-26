@@ -1,13 +1,14 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { EncoreIconShuffle, EncoreIconPlus, EncoreIconDownload, EncoreIconMoreOptions } from "@/components/encore/icons";
+import { useAlbumWatchFeed } from "../context/album-page-context";
 
 interface AlbumActionBarProps {
-  watchFeedThumbnail: string;
   playButtonRef?: React.RefObject<HTMLDivElement | null>;
 }
 
-export const AlbumActionBar: React.FC<AlbumActionBarProps> = ({ watchFeedThumbnail, playButtonRef }) => {
+export const AlbumActionBar: React.FC<AlbumActionBarProps> = ({ playButtonRef }) => {
+  const watchFeed = useAlbumWatchFeed();
   return (
     <div
       className="flex items-center"
@@ -33,7 +34,7 @@ export const AlbumActionBar: React.FC<AlbumActionBarProps> = ({ watchFeedThumbna
           className="rounded-xl border-2 border-text-subdued flex items-center justify-center overflow-hidden relative"
         >
           <img
-            src={watchFeedThumbnail}
+            src={watchFeed?.thumbnailImageUrl || ""}
             alt=""
             className="absolute object-cover aspect-9/16"
           />

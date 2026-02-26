@@ -1,31 +1,19 @@
 import React, { useEffect, useRef, useState } from "react";
 import { cn } from "@/utils/cn";
 import { AlbumCard } from "./album-card";
-
-interface ImageSource {
-  url: string;
-  width?: number;
-  height?: number;
-}
-
-interface Album {
-  id: string;
-  name: string;
-  coverArt: {
-    sources: ImageSource[];
-  };
-  date: {
-    year: number;
-  };
-}
+import { useAlbumArtists, useMoreAlbumsByArtist } from "../context/album-page-context";
+import type { AlbumRelease } from "../model/releases.model";
 
 interface AlbumMoreByArtistProps {
-  artistName: string;
-  albums: Album[];
   currentAlbumId?: string;
 }
 
-export const AlbumMoreByArtist: React.FC<AlbumMoreByArtistProps> = ({ artistName, albums, currentAlbumId }) => {
+export const AlbumMoreByArtist: React.FC<AlbumMoreByArtistProps> = ({ currentAlbumId }) => {
+  const artists = useAlbumArtists();
+  const moreAlbums = useMoreAlbumsByArtist();
+
+  const artistName = artists[0]?.name || "";
+  const albums = moreAlbums.popularReleases || [];
   const gridContainerRef = useRef<HTMLDivElement>(null);
   const [visibleCount, setVisibleCount] = useState(1);
 
@@ -50,7 +38,7 @@ export const AlbumMoreByArtist: React.FC<AlbumMoreByArtistProps> = ({ artistName
     };
   }, []);
 
-  const filteredAlbums = albums.filter((album) => album.id !== currentAlbumId);
+  const filteredAlbums: AlbumRelease[] = albums.filter((album) => album.id !== currentAlbumId);
 
   return (
     <div className="mt-16 flex flex-col">
@@ -73,8 +61,8 @@ export const AlbumMoreByArtist: React.FC<AlbumMoreByArtistProps> = ({ artistName
           <AlbumCard
             key={album.id}
             name={album.name}
-            coverArtSources={album.coverArt.sources}
-            releaseYear={album.date.year}
+            coverArtSources={album.coverSources}
+            releaseYear={album.releaseYear}
           />
         ))}
       </div>

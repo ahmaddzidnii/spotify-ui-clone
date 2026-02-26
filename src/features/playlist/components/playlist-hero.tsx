@@ -1,26 +1,11 @@
 import React from "react";
 import { Link } from "react-router";
 import { Image } from "@/components/image";
-import { transformSpotifyUriToUrl } from "@/features/shared/parsers/parse-uri";
 import { formatDuration } from "@/features/shared/formaters/format.duration";
-
-interface ImageSource {
-  url: string;
-  width?: number;
-  height?: number;
-}
-
-interface Owner {
-  uri: string;
-  name: string;
-}
+import { usePlaylistProfile, usePlaylistOwner, usePlaylistCoverImage, usePlaylistStats } from "../context/playlist-page-context";
+import type { ImageSource } from "../model/shared.types";
 
 interface PlaylistHeroProps {
-  playlistName: string;
-  coverImageSources: ImageSource[];
-  owner: Owner;
-  totalTracks: number;
-  totalDuration: number;
   backgroundColor: string;
   backgroundColorMinContrast: string;
 }
@@ -33,17 +18,14 @@ const buildSrcSet = (sources: ImageSource[]) => {
     .join(", ");
 };
 
-export const PlaylistHero: React.FC<PlaylistHeroProps> = ({
-  playlistName,
-  coverImageSources,
-  owner,
-  totalTracks,
-  totalDuration,
-  backgroundColor,
-  backgroundColorMinContrast,
-}) => {
-  const coverImageSrcSet = buildSrcSet(coverImageSources);
-  const coverImageUrl = coverImageSources[0]?.url || "";
+export const PlaylistHero: React.FC<PlaylistHeroProps> = ({ backgroundColor, backgroundColorMinContrast }) => {
+  const profile = usePlaylistProfile();
+  const owner = usePlaylistOwner();
+  const coverImage = usePlaylistCoverImage();
+  const stats = usePlaylistStats();
+
+  const coverImageSrcSet = buildSrcSet(coverImage.sources);
+  const coverImageUrl = coverImage.url;
 
   return (
     <div
@@ -101,21 +83,21 @@ export const PlaylistHero: React.FC<PlaylistHeroProps> = ({
             }}
             className="font-extrabold tracking-tight mt-1 mb-2"
           >
-            {playlistName}
+            {profile.name}
           </p>
 
           <div className="flex items-center gap-2">
             <div className="flex items-center">
               <div className="flex flex-wrap items-center min-w-0">
                 <Link
-                  to={transformSpotifyUriToUrl(owner.uri)}
+                  to={owner.path}
                   className="font-bold wrap-break-word"
                 >
                   {owner.name}
                 </Link>
               </div>
               <span className="text-text-subdued wrap-break-word">
-                • {totalTracks} songs, {formatDuration(totalDuration, { compact: false })}
+                • {stats.totalTracks} songs, {formatDuration(stats.totalDuration, { compact: false })}
               </span>
             </div>
           </div>

@@ -1,42 +1,10 @@
 import React from "react";
 import { Link } from "react-router";
 import { EncoreIconPlay, EncoreIconCheck } from "@/components/encore/icons";
-import { transformSpotifyUriToUrl } from "@/features/shared/parsers/parse-uri";
-import { formatDuration } from "@/features/shared/formaters/format.duration";
 import { formatRelativeTime } from "@/features/shared/formaters/date";
 import { Image } from "@/components/image";
-
-interface ImageSource {
-  url: string;
-  width?: number;
-  height?: number;
-}
-
-interface Artist {
-  uri: string;
-  profile: {
-    name: string;
-  };
-}
-
-interface Album {
-  name: string;
-  coverArt: {
-    sources: ImageSource[];
-  };
-}
-
-interface Track {
-  name: string;
-  uri: string;
-  albumOfTrack: Album;
-  artists: {
-    items: Artist[];
-  };
-  trackDuration: {
-    totalMilliseconds: number;
-  };
-}
+import type { Track } from "../model/content.model";
+import type { ImageSource } from "../model/shared.types";
 
 interface PlaylistTrackRowProps {
   track: Track;
@@ -55,8 +23,8 @@ const buildSrcSet = (sources: ImageSource[]) => {
 };
 
 export const PlaylistTrackRow: React.FC<PlaylistTrackRowProps> = ({ track, index, addedAt, isPlaying = false, isSaved = false }) => {
-  const albumCoverSrcSet = buildSrcSet(track.albumOfTrack.coverArt.sources);
-  const albumCoverUrl = track.albumOfTrack.coverArt.sources[0]?.url || "";
+  const albumCoverSrcSet = buildSrcSet(track.album.sources);
+  const albumCoverUrl = track.album.coverUrl;
 
   return (
     <div
@@ -93,20 +61,20 @@ export const PlaylistTrackRow: React.FC<PlaylistTrackRowProps> = ({ track, index
         <div className="flex flex-col overflow-hidden">
           <span className={`text-base font-normal truncate ${isPlaying ? "text-[#1ed760]" : "text-white"}`}>{track.name}</span>
           <span className="text-[13px] text-text-subdued truncate group-hover:text-white transition-colors mt-0.5 flex items-center gap-1.5">
-            {track.artists.items.map((artist, i) => (
+            {track.artists.map((artist, i) => (
               <Link
                 key={artist.uri}
-                to={transformSpotifyUriToUrl(artist.uri)}
+                to={artist.path}
               >
-                {artist.profile.name}
-                {i < track.artists.items.length - 1 && ", "}
+                {artist.name}
+                {i < track.artists.length - 1 && ", "}
               </Link>
             ))}
           </span>
         </div>
       </div>
 
-      <div className="text-sm text-text-subdued truncate group-hover:text-white transition-colors pr-4">{track.albumOfTrack.name}</div>
+      <div className="text-sm text-text-subdued truncate group-hover:text-white transition-colors pr-4">{track.album.name}</div>
 
       <div className="text-sm text-text-subdued truncate pr-4">{formatRelativeTime(addedAt)}</div>
 
@@ -118,7 +86,7 @@ export const PlaylistTrackRow: React.FC<PlaylistTrackRowProps> = ({ track, index
           />
         )}
 
-        <span className="text-sm text-text-subdued w-8 text-right tabular-nums">{formatDuration(track.trackDuration.totalMilliseconds / 1000)}</span>
+        <span className="text-sm text-text-subdued w-8 text-right tabular-nums">{track.duration.formatted}</span>
 
         <button
           aria-label="More options"

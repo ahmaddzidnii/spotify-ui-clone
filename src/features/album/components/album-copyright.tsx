@@ -1,25 +1,19 @@
 import { transformCopyrightType } from "@/features/shared/utils/transformers";
 import React from "react";
+import { useAlbumInfo, useAlbumCopyright } from "../context/album-page-context";
 
-interface Copyright {
-  type: string;
-  text: string;
-}
-
-interface AlbumCopyrightProps {
-  releaseDate: string;
-  copyrights: Copyright[];
-}
-
-export const AlbumCopyright: React.FC<AlbumCopyrightProps> = ({ releaseDate, copyrights }) => {
+export const AlbumCopyright: React.FC = () => {
+  const info = useAlbumInfo();
+  const copyrights = useAlbumCopyright();
   return (
     <div className="mt-8 text-text-subdued leading-tight">
       <p className="text-sm">
-        {new Intl.DateTimeFormat("en-US", {
-          year: "numeric",
-          month: "long",
-          day: "numeric",
-        }).format(new Date(releaseDate))}
+        {info.releaseDate.isoString &&
+          new Intl.DateTimeFormat("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          }).format(new Date(info.releaseDate.isoString))}
       </p>
       {copyrights.map((c, i) => (
         <p

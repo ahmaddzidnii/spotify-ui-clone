@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { useParams } from "react-router";
 
 import { useScrollTrigger } from "@/hooks/use-scroll-trigger";
@@ -7,15 +7,24 @@ import { rgbToHex } from "@/features/shared/formaters/format-color";
 
 import { ScrollArea, type ScrollAreaRef } from "@/components/scroll-area";
 import { Footer } from "@/layouts/components/footer";
-import { playlists } from "@/data/playlists";
 import { EntityError } from "@/features/error/components/entitiy-error";
 
 import { PlaylistHeader, PlaylistHero, PlaylistActionBar, PlaylistTrackList } from "../components";
+import { mapPlaylistApiToModel } from "../adapter/playlist.adapter";
+import { getPlaylistById } from "../data/playlist.store";
+import { PlaylistProvider } from "../context/playlist-page-context";
 
 export const PlaylistPage = () => {
   const { id } = useParams();
   const uri = `spotify:playlist:${id}`;
-  const playlist = playlists[uri as keyof typeof playlists] || null;
+
+  const rawPlaylistData = getPlaylistById(uri);
+
+  if (!rawPlaylistData) {
+    return <EntityError entityName="playlist" />;
+  }
+
+  const playlistModel = mapPlaylistApiToModel(rawPlaylistData);
 
   const scrollRef = useRef<ScrollAreaRef | null>(null);
   const isScrolled = useScrollTrigger(scrollRef, 50);
@@ -38,39 +47,27 @@ export const PlaylistPage = () => {
     }
   };
 
-  if (!playlist) {
-    return <EntityError entityName="playlist" />;
-  }
+  const colorSet = playlistModel.visualIdentity.extractedColorSet;
 
-  const content = playlist.content;
-
-  const totalDuration = useMemo(() => {
-    return content.items.reduce((acc, item) => acc + item.itemV2.data.trackDuration.totalMilliseconds / 1000, 0);
-  }, [content.items]);
-
-  const totalTracks = content.totalCount;
-
-  const visualIdentity = playlist.visualIdentity.squareCoverImage.extractedColorSet;
   const colorBackgroundBase = rgbToHex(
-    visualIdentity.higherContrast.backgroundBase.red,
-    visualIdentity.higherContrast.backgroundBase.green,
-    visualIdentity.higherContrast.backgroundBase.blue,
-    visualIdentity.higherContrast.backgroundBase.alpha,
+    colorSet.higherContrast.backgroundBase.red,
+    colorSet.higherContrast.backgroundBase.green,
+    colorSet.higherContrast.backgroundBase.blue,
+    colorSet.higherContrast.backgroundBase.alpha,
   );
 
-  const colorBackgroundBase70 = `rgba(${visualIdentity.higherContrast.backgroundBase.red}, ${visualIdentity.higherContrast.backgroundBase.green}, ${visualIdentity.higherContrast.backgroundBase.blue}, 0.7)`;
+  const colorBackgroundBase70 = `rgba(${colorSet.higherContrast.backgroundBase.red}, ${colorSet.higherContrast.backgroundBase.green}, ${colorSet.higherContrast.backgroundBase.blue}, 0.7)`;
 
   const colorBackgroundBaseMinContrast = rgbToHex(
-    visualIdentity.minContrast.backgroundBase.red,
-    visualIdentity.minContrast.backgroundBase.green,
-    visualIdentity.minContrast.backgroundBase.blue,
-    visualIdentity.minContrast.backgroundBase.alpha,
+    colorSet.minContrast.backgroundBase.red,
+    colorSet.minContrast.backgroundBase.green,
+    colorSet.minContrast.backgroundBase.blue,
+    colorSet.minContrast.backgroundBase.alpha,
   );
 
   return (
-    <>
+    <PlaylistProvider value={playlistModel}>
       <PlaylistHeader
-        playlistName={playlist.name}
         isScrolled={isScrolled}
         mustShowPlayButton={mustShowPlayButtonTop}
         backgroundColor={colorBackgroundBase}
@@ -83,14 +80,6 @@ export const PlaylistPage = () => {
         onScrollCapture={handleScroll}
       >
         <PlaylistHero
-          playlistName={playlist.name}
-          coverImageSources={playlist.images.items[0].sources}
-          owner={{
-            uri: playlist.ownerV2.data.uri,
-            name: playlist.ownerV2.data.name,
-          }}
-          totalTracks={totalTracks}
-          totalDuration={totalDuration}
           backgroundColor={colorBackgroundBase}
           backgroundColorMinContrast={colorBackgroundBaseMinContrast}
         />
@@ -106,17 +95,14 @@ export const PlaylistPage = () => {
             className="-z-1  absolute top-0 left-0 w-full"
           />
           <div className="flex flex-col -mt-1 p-6">
-            <PlaylistActionBar
-              watchFeedThumbnail={playlist.watchFeedEntrypoint.thumbnailImage.data.sources[0].url}
-              playButtonRef={playButtonBottomRef}
-            />
+            <PlaylistActionBar playButtonRef={playButtonBottomRef} />
             <div>
-              <PlaylistTrackList items={content.items} />
+              <PlaylistTrackList items={playlistModel.tracks} />
             </div>
           </div>
         </div>
         <Footer />
       </ScrollArea>
-    </>
+    </PlaylistProvider>
   );
 };

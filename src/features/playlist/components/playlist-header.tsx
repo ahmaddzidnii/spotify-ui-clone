@@ -1,7 +1,7 @@
 import React from "react";
+import { usePlaylistProfile } from "../context/playlist-page-context";
 
 interface PlaylistHeaderProps {
-  playlistName: string;
   isScrolled: boolean;
   mustShowPlayButton: boolean;
   backgroundColor: string;
@@ -9,14 +9,8 @@ interface PlaylistHeaderProps {
   headerRef: React.RefObject<HTMLDivElement | null>;
 }
 
-export const PlaylistHeader: React.FC<PlaylistHeaderProps> = ({
-  playlistName,
-  isScrolled,
-  mustShowPlayButton,
-  backgroundColor,
-  scrollProgress,
-  headerRef,
-}) => {
+export const PlaylistHeader: React.FC<PlaylistHeaderProps> = ({ isScrolled, mustShowPlayButton, backgroundColor, scrollProgress, headerRef }) => {
+  const profile = usePlaylistProfile();
   return (
     <header
       ref={headerRef}
@@ -47,7 +41,7 @@ export const PlaylistHeader: React.FC<PlaylistHeaderProps> = ({
             <path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288z"></path>
           </svg>
         </button>
-        <span className="font-semibold text-2xl">{playlistName}</span>
+        <span className="font-semibold text-2xl">{profile.name}</span>
       </div>
     </header>
   );

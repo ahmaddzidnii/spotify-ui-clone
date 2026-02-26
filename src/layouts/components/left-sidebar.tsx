@@ -5,10 +5,10 @@ import { cn } from "@/utils/cn";
 import { Button } from "@/components/ui/button";
 import { useSidebarWidth, useSidebarActions } from "@/stores/use-sidebar-store";
 import { PlaylistItem } from "@/features/playlist/components/playlist-item";
-import { libraryResponse } from "@/data/playlists";
 import { Tooltip } from "@/components/ui/tooltip";
 import { useSidebarFullStore } from "@/stores/use-sidebar-full-store";
 import { EncoreIconCollapse, EncoreIconMinimize, EncoreIconExpand, EncoreIconLibrary } from "@/components/encore/icons";
+import { libraryResponse } from "@/data/library-response";
 
 export const LeftSidebar = () => {
   const activeFull = useSidebarFullStore((state) => state.activeFull);

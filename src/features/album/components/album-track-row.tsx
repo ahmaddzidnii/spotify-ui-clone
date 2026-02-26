@@ -4,24 +4,7 @@ import { Button } from "@/components/ui/button";
 import { EncoreIconPlay, EncoreIconPlus, EncoreIconCheck } from "@/components/encore/icons";
 import { transformSpotifyUriToUrl } from "@/features/shared/parsers/parse-uri";
 import { formatDuration } from "@/features/shared/formaters/format.duration";
-
-interface Artist {
-  uri: string;
-  profile: {
-    name: string;
-  };
-}
-
-interface Track {
-  name: string;
-  duration: {
-    totalMilliseconds: number;
-  };
-  saved: boolean;
-  artists: {
-    items: Artist[];
-  };
-}
+import type { Track } from "../model/content.model";
 
 interface AlbumTrackRowProps {
   track: Track;
@@ -42,13 +25,13 @@ export const AlbumTrackRow: React.FC<AlbumTrackRowProps> = ({ track, index }) =>
       <div className="flex flex-col overflow-hidden">
         <span className="text-[15px] truncate text-white">{track.name}</span>
         <div className="flex">
-          {track.artists.items.map((artist, i) => (
+          {track.artists.map((artist, i) => (
             <span
-              key={artist.profile.name}
+              key={artist.name}
               className="text-[13px] text-text-subdued truncate group-hover:text-white transition-colors mt-0.5"
             >
-              <Link to={transformSpotifyUriToUrl(artist.uri)}>{artist.profile.name}</Link>
-              {i < track.artists.items.length - 1 && ","}
+              <Link to={transformSpotifyUriToUrl(artist.uri)}>{artist.name}</Link>
+              {i < track.artists.length - 1 && ","}
               &nbsp;
             </span>
           ))}
@@ -56,7 +39,7 @@ export const AlbumTrackRow: React.FC<AlbumTrackRowProps> = ({ track, index }) =>
       </div>
 
       <div className="flex items-center justify-end gap-5">
-        {track.saved ? (
+        {track.isSaved ? (
           <EncoreIconCheck
             viewBox="0 0 16 16"
             className="size-4.5 fill-[#1ed760]"

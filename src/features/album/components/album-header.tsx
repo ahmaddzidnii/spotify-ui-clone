@@ -1,7 +1,7 @@
 import React from "react";
+import { useAlbumInfo } from "../context/album-page-context";
 
 interface AlbumHeaderProps {
-  albumName: string;
   isScrolled: boolean;
   mustShowPlayButton: boolean;
   backgroundColor: string;
@@ -9,14 +9,8 @@ interface AlbumHeaderProps {
   headerRef: React.RefObject<HTMLDivElement | null>;
 }
 
-export const AlbumHeader: React.FC<AlbumHeaderProps> = ({
-  albumName,
-  isScrolled,
-  mustShowPlayButton,
-  backgroundColor,
-  scrollProgress,
-  headerRef,
-}) => {
+export const AlbumHeader: React.FC<AlbumHeaderProps> = ({ isScrolled, mustShowPlayButton, backgroundColor, scrollProgress, headerRef }) => {
+  const info = useAlbumInfo();
   return (
     <header
       ref={headerRef}
@@ -47,7 +41,7 @@ export const AlbumHeader: React.FC<AlbumHeaderProps> = ({
             <path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288z"></path>
           </svg>
         </button>
-        <span className="font-semibold text-2xl">{albumName}</span>
+        <span className="font-semibold text-2xl">{info.name}</span>
       </div>
     </header>
   );
