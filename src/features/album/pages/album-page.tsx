@@ -6,7 +6,6 @@ import { useScrollTrigger } from "@/hooks/use-scroll-trigger";
 import { ScrollArea, type ScrollAreaRef } from "@/components/scroll-area";
 import { Footer } from "@/layouts/components/footer";
 import { albums } from "@/data/album";
-import { transformAlbumType, transformCopyrightType } from "../lib/utils";
 import { rgbToHex } from "@/features/shared/formaters/format-color";
 import { EntityError } from "@/features/error/components/entitiy-error";
 
@@ -81,7 +80,7 @@ export const AlbumPage = () => {
       >
         <AlbumHero
           albumName={album.name}
-          albumType={transformAlbumType(album.type)}
+          albumType={album.type}
           coverArtSources={album.coverArt.sources}
           artists={album.artists}
           releaseYear={album.date.isoString.split("-")[0]}
@@ -112,7 +111,6 @@ export const AlbumPage = () => {
             <AlbumCopyright
               releaseDate={album.date.isoString}
               copyrights={album.copyright.items}
-              formatCopyrightType={transformCopyrightType}
             />
             <AlbumMoreByArtist
               artistName={album.artists.items[0].profile.name}

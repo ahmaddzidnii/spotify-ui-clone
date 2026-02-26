@@ -1,22 +1,18 @@
-import React from "react";
 import { Link } from "react-router";
+
 import { Image } from "@/components/image";
-import { EncoreIconPlay } from "@/components/encore/icons";
 import { buildSrcSet } from "@/features/shared/utils/builder";
+import { EncoreIconPlay } from "@/components/encore/icons";
+import { transformAlbumType } from "../../shared/utils/transformers";
 
-interface ImageSource {
-  url: string;
-  width?: number;
-  height?: number;
-}
-
-interface AlbumCardProps {
+interface DiscographyCardProps {
   name: string;
-  coverArtSources: ImageSource[];
-  releaseYear: number;
+  coverArtSources: { url: string; width?: number; height?: number }[];
+  releaseYear: string | number;
+  type: string;
 }
 
-export const AlbumCard: React.FC<AlbumCardProps> = ({ name, coverArtSources, releaseYear }) => {
+export const DiscographyCard = ({ name, coverArtSources, releaseYear, type }: DiscographyCardProps) => {
   const coverArtUrl = coverArtSources[0]?.url || "";
   const coverArtSrcSet = buildSrcSet(coverArtSources);
   return (
@@ -43,7 +39,9 @@ export const AlbumCard: React.FC<AlbumCardProps> = ({ name, coverArtSources, rel
           >
             {name}
           </Link>
-          <p className="text-sm text-text-subdued mt-1">{releaseYear}</p>
+          <p className="text-sm text-text-subdued mt-1">
+            {releaseYear} • {transformAlbumType(type)}
+          </p>
         </div>
       </div>
     </div>

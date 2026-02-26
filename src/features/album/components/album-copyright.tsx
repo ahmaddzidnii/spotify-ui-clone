@@ -1,3 +1,4 @@
+import { transformCopyrightType } from "@/features/shared/utils/transformers";
 import React from "react";
 
 interface Copyright {
@@ -8,10 +9,9 @@ interface Copyright {
 interface AlbumCopyrightProps {
   releaseDate: string;
   copyrights: Copyright[];
-  formatCopyrightType: (type: string) => string;
 }
 
-export const AlbumCopyright: React.FC<AlbumCopyrightProps> = ({ releaseDate, copyrights, formatCopyrightType }) => {
+export const AlbumCopyright: React.FC<AlbumCopyrightProps> = ({ releaseDate, copyrights }) => {
   return (
     <div className="mt-8 text-text-subdued leading-tight">
       <p className="text-sm">
@@ -26,7 +26,7 @@ export const AlbumCopyright: React.FC<AlbumCopyrightProps> = ({ releaseDate, cop
           key={i}
           className="text-xs"
         >
-          {formatCopyrightType(c.type)} {c.text.replace(/[©℗]/g, "")}
+          {transformCopyrightType(c.type)} {c.text.replace(/[©℗]/g, "")}
         </p>
       ))}
     </div>

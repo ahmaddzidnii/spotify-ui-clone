@@ -3,6 +3,7 @@ import { Link } from "react-router";
 import { Image } from "@/components/image";
 import { transformSpotifyUriToUrl } from "@/features/shared/parsers/parse-uri";
 import { formatDuration } from "@/features/shared/formaters/format.duration";
+import { transformAlbumType } from "@/features/shared/utils/transformers";
 
 interface ImageSource {
   url: string;
@@ -105,7 +106,7 @@ export const AlbumHero: React.FC<AlbumHeroProps> = ({
         </div>
 
         <div className="flex-col flex justify-end">
-          <p className="font-medium text-sm">{albumType}</p>
+          <p className="font-medium text-sm">{transformAlbumType(albumType)}</p>
 
           <p
             style={{

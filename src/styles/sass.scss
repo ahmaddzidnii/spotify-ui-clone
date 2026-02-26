@@ -1,6 +1,6 @@
 @for $i from 1 through 100 {
-  // Jika nama class adalah .nrVisibleCards-4
-  // Maka anak yang disembunyikan dimulai dari ke-5 ($i + 1)
+  // Jika nama class adalah .nrVisibleCards-x
+  // Maka anak yang disembunyikan dimulai dari ke-x+1 ($i + 1)
   .nrVisibleCards-#{$i} > :nth-child(n + #{$i + 1}) {
     display: none;
   }

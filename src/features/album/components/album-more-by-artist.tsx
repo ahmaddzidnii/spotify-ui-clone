@@ -72,7 +72,6 @@ export const AlbumMoreByArtist: React.FC<AlbumMoreByArtistProps> = ({ artistName
         {filteredAlbums.map((album) => (
           <AlbumCard
             key={album.id}
-            id={album.id}
             name={album.name}
             coverArtSources={album.coverArt.sources}
             releaseYear={album.date.year}

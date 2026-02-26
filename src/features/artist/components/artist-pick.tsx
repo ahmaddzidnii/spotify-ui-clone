@@ -1,24 +1,18 @@
 import { Link } from "react-router";
 
 import { Image } from "@/components/image";
-import type { ArtistUnion } from "@/data/types";
-import { transformSpotifyUriToUrl } from "@/features/shared/parsers/parse-uri";
+import { useArtistPick, useArtistProfile } from "../context/artist-page-context";
 
-interface ArtistPickProps {
-  artists: ArtistUnion;
-}
-
-export const ArtistPick = ({ artists }: ArtistPickProps) => {
-  const pinnedItem = artists.profile.pinnedItem;
+export const ArtistPick = () => {
+  const pinnedItem = useArtistPick();
+  const profile = useArtistProfile();
 
   if (!pinnedItem) {
     return null;
   }
 
-  const isPosterStyle = pinnedItem.backgroundImageV2 !== null;
-
-  const trackData = pinnedItem.itemV2.data;
-  const avatarUrl = artists.visuals.avatarImage.sources[0].url;
+  const isPosterStyle = pinnedItem.isPosterStyle;
+  const avatarUrl = profile.avatarImage.url;
 
   return (
     <div className="mt-8">
@@ -29,7 +23,7 @@ export const ArtistPick = ({ artists }: ArtistPickProps) => {
         <div className="relative group overflow-hidden rounded-xl aspect-[1.1/1] max-w-[343px] cursor-pointer">
           <Image
             alt="Background"
-            src={pinnedItem.backgroundImageV2.data.sources[0].url}
+            src={pinnedItem.backgroundImageUrl || ""}
             className="object-cover w-full h-full transition-transform duration-300"
           />
 
@@ -49,9 +43,7 @@ export const ArtistPick = ({ artists }: ArtistPickProps) => {
                 className="object-cover"
               />
             </div>
-            <span className="text-black text-xs font-bold leading-tight line-clamp-1">
-              {pinnedItem.comment || `Posted by ${artists.profile.name}`}
-            </span>
+            <span className="text-black text-xs font-bold leading-tight line-clamp-1">{pinnedItem.comment}</span>
           </div>
 
           {/* Bottom Info Track */}
@@ -59,13 +51,13 @@ export const ArtistPick = ({ artists }: ArtistPickProps) => {
             <div className="flex items-center gap-3">
               <div className="size-14 rounded overflow-hidden shrink-0 shadow-lg">
                 <Image
-                  src={artists.profile.pinnedItem.thumbnailImage.data.sources[0].url}
+                  src={pinnedItem.thumbnailUrl}
                   alt="Track Cover"
                 />
               </div>
               <div>
                 <Link
-                  to={transformSpotifyUriToUrl(trackData.uri)}
+                  to={pinnedItem.item.path}
                   className="text-white font-bold hover:underline block leading-tight"
                 >
                   {pinnedItem.title}
@@ -81,7 +73,7 @@ export const ArtistPick = ({ artists }: ArtistPickProps) => {
           <div className="relative size-22 aspect-square overflow-hidden rounded-xl me-4 flex-shrink-0">
             <Image
               alt="Track Image"
-              src={pinnedItem.thumbnailImage.data.sources[0].url}
+              src={pinnedItem.thumbnailUrl}
               className="object-cover object-center w-full h-full"
             />
           </div>
@@ -93,10 +85,10 @@ export const ArtistPick = ({ artists }: ArtistPickProps) => {
                   src={avatarUrl}
                 />
               </div>
-              <span className="text-text-subdued text-xs font-medium">Posted By {artists.profile.name}</span>
+              <span className="text-text-subdued text-xs font-medium">Posted By {profile.name}</span>
             </div>
             <Link
-              to={transformSpotifyUriToUrl(trackData.uri)}
+              to={pinnedItem.item.path}
               className="font-bold text-lg leading-tight hover:underline"
             >
               {pinnedItem.title}

@@ -1,32 +1,23 @@
-import React from "react";
 import { Link } from "react-router";
 import { Image } from "@/components/image";
 import { EncoreIconPlay } from "@/components/encore/icons";
-import { buildSrcSet } from "@/features/shared/utils/builder";
 
-interface ImageSource {
-  url: string;
-  width?: number;
-  height?: number;
-}
+import type { ImageSource } from "@/features/artist/model/artist.model";
 
-interface AlbumCardProps {
+interface FeaturingCardProps {
   name: string;
+  description: string;
   coverArtSources: ImageSource[];
-  releaseYear: number;
 }
 
-export const AlbumCard: React.FC<AlbumCardProps> = ({ name, coverArtSources, releaseYear }) => {
-  const coverArtUrl = coverArtSources[0]?.url || "";
-  const coverArtSrcSet = buildSrcSet(coverArtSources);
+export const FeaturingCard = ({ name, description, coverArtSources }: FeaturingCardProps) => {
   return (
     <div className="group px-2 py-1.5 rounded-md hover:bg-background-elevated-highlight transition-colors">
       <div className="flex flex-col">
         <div className="w-full aspect-square overflow-hidden rounded-md relative">
           <Link to="#">
             <Image
-              src={coverArtUrl}
-              srcSet={coverArtSrcSet}
+              src={coverArtSources[0]?.url || ""}
               sizes="(min-width: 768px) 180px, 120px"
               alt=""
               className="absolute top-0 left-0 object-cover object-center w-full h-full"
@@ -43,7 +34,7 @@ export const AlbumCard: React.FC<AlbumCardProps> = ({ name, coverArtSources, rel
           >
             {name}
           </Link>
-          <p className="text-sm text-text-subdued mt-1">{releaseYear}</p>
+          <p className="text-sm text-text-subdued mt-1 line-clamp-2">{description}</p>
         </div>
       </div>
     </div>

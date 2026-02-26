@@ -13,14 +13,25 @@ import { EncoreIconMoreOptions, EncoreIconShuffle } from "@/components/encore/ic
 import { TopTrackList } from "../components/top-track-list";
 import { Footer } from "@/layouts/components/footer";
 import { EntityError } from "@/features/error/components/entitiy-error";
-import { artists } from "@/data/artists";
-import type { ArtistUnion } from "@/data/types";
 import { ArtistPick } from "../components/artist-pick";
+import { ArtistDiscography } from "../components/discography";
+import { ArtistFeaturing } from "../components/featuring";
+import { mapArtistApiToModel } from "../adapter/artist.adapter";
+import { getArtistById } from "../data/artist.store";
+import { ArtistProvider } from "../context/artist-page-context";
 
 export const ArtistPage = () => {
   const { id } = useParams();
   const uri = `spotify:artist:${id}`;
-  const artist = artists[uri as keyof typeof artists] ?? null;
+
+  // Get raw API data and map to model
+  const rawArtistData = getArtistById(uri);
+
+  if (!rawArtistData) {
+    return <EntityError entityName="artist" />;
+  }
+
+  const artistModel = mapArtistApiToModel(rawArtistData);
 
   const scrollRef = useRef<ScrollAreaRef | null>(null);
   const isScrolled = useScrollTrigger(scrollRef, 50);
@@ -50,11 +61,7 @@ export const ArtistPage = () => {
     }
   };
 
-  if (!artist) {
-    return <EntityError entityName="artist" />;
-  }
-
-  const colorSet = artist.visualIdentity.wideFullBleedImage.extractedColorSet;
+  const colorSet = artistModel.visualIdentity.extractedColorSet;
 
   const colorBackgroundBase = rgbToHex(
     colorSet.higherContrast.backgroundBase.red,
@@ -66,7 +73,7 @@ export const ArtistPage = () => {
   const colorBackgroundBase70 = `rgba(${colorSet.higherContrast.backgroundBase.red}, ${colorSet.higherContrast.backgroundBase.green}, ${colorSet.higherContrast.backgroundBase.blue}, 0.7)`;
 
   return (
-    <>
+    <ArtistProvider value={artistModel}>
       <header
         ref={headerRef}
         style={
@@ -96,7 +103,7 @@ export const ArtistPage = () => {
               <path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288z"></path>
             </svg>
           </button>
-          <span className="font-semibold text-3xl">{artist.profile.name}</span>
+          <span className="font-semibold text-3xl">{artistModel.profile.name}</span>
         </div>
       </header>
       <div className="before-scroll-node">
@@ -104,7 +111,7 @@ export const ArtistPage = () => {
           <div className="sticky top-0 z-50 h-0 w-full overflow-visible"></div>
           <div
             style={{
-              backgroundImage: `url(${artist.headerImage.data.sources[0].url})`,
+              backgroundImage: `url(${artistModel.headerImage.images[0]?.url || ""})`,
               backgroundPosition: "50% 15%",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
@@ -139,9 +146,9 @@ export const ArtistPage = () => {
               }}
               className="text-[76px] font-extrabold tracking-tight"
             >
-              {artist.profile.name}
+              {artistModel.profile.name}
             </p>
-            <p className="mt-2">{formatNumber(artist.stats.monthlyListeners)} monthly listeners</p>
+            <p className="mt-2">{formatNumber(artistModel.stats.monthlyListeners)} monthly listeners</p>
           </div>
         </div>
         <div className="pb-24 mt-4 bg-background-base relative z-0">
@@ -169,7 +176,8 @@ export const ArtistPage = () => {
                 </svg>
               </button>
 
-              <div className="ml-6">
+              {/* TODO: Add watchFeedEntrypoint to model */}
+              {/* <div className="ml-6">
                 <div
                   role="button"
                   className="w-[38px] h-[48px] rounded-xl border-2 border-text-subdued flex items-center justify-center overflow-hidden"
@@ -179,7 +187,7 @@ export const ArtistPage = () => {
                     alt={``}
                   />
                 </div>
-              </div>
+              </div> */}
 
               <div className="ml-6">
                 <Button variant="tertiary">
@@ -196,12 +204,14 @@ export const ArtistPage = () => {
                 </Button>
               </div>
             </div>
-            <TopTrackList tracks={artist.discography.topTracks} />
-            <ArtistPick artists={artist as ArtistUnion} />
+            <TopTrackList />
+            <ArtistPick />
+            <ArtistDiscography />
+            <ArtistFeaturing />
           </div>
         </div>
         <Footer />
       </ScrollArea>
-    </>
+    </ArtistProvider>
   );
 };
