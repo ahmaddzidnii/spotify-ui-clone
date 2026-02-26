@@ -3,6 +3,7 @@ import tiaraAndiniData from "@/data/raw/artist-overview/tiara-andini.json";
 import slemanRecehData from "@/data/raw/artist-overview/sleman-receh.json";
 import arsyWidiantoData from "@/data/raw/artist-overview/arsy-widianto.json";
 import anggisDevakiData from "@/data/raw/artist-overview/anggis-devaki.json";
+import nabilaTaqiyyahData from "@/data/raw/artist-overview/nabila-taqiyyah.json";
 
 import type { ArtistAPIContract } from "./artist.types";
 
@@ -12,6 +13,7 @@ export const artists: Record<string, ArtistAPIContract> = {
   "spotify:artist:0kPb52ySN2k9P6wEZPTUzm": tiaraAndiniData,
   "spotify:artist:0jcgtGZTWxoepAUgADwcHP": slemanRecehData,
   "spotify:artist:7j5PGC0BF48rRtcmgbVvOT": arsyWidiantoData,
+  "spotify:artist:0sLoVTeBT6akDY7ecDxKYe": nabilaTaqiyyahData,
 };
 
 export const getArtistById = (id: string) => {

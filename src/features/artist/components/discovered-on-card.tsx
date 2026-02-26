@@ -3,13 +3,13 @@ import { Image } from "@/components/image";
 import { EncoreIconPlay } from "@/components/encore/icons";
 import type { ImageSource } from "../model";
 
-interface FeaturingCardProps {
+interface DiscoveredOnCardProps {
   name: string;
   description: string;
   coverArtSources: ImageSource[];
 }
 
-export const FeaturingCard = ({ name, description, coverArtSources }: FeaturingCardProps) => {
+export const DiscoveredOnCard = ({ name, description, coverArtSources }: DiscoveredOnCardProps) => {
   return (
     <div className="group px-2 py-1.5 rounded-md hover:bg-background-elevated-highlight transition-colors">
       <div className="flex flex-col">

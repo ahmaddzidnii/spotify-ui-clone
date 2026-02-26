@@ -20,7 +20,7 @@ export const ArtistPick = () => {
 
       {isPosterStyle ? (
         /* --- TIPE A: POSTER BESAR --- */
-        <div className="relative group overflow-hidden rounded-xl aspect-[1.1/1] max-w-[343px] cursor-pointer">
+        <div className="relative group overflow-hidden rounded-xl aspect-[1.1/1] max-w-85.75 cursor-pointer">
           <Image
             alt="Background"
             src={pinnedItem.backgroundImageUrl || ""}
@@ -70,7 +70,7 @@ export const ArtistPick = () => {
       ) : (
         /* --- TIPE B: HORIZONTAL LIST */
         <div className="flex">
-          <div className="relative size-22 aspect-square overflow-hidden rounded-xl me-4 flex-shrink-0">
+          <div className="relative size-22 aspect-square overflow-hidden rounded-xl me-4 shrink-0">
             <Image
               alt="Track Image"
               src={pinnedItem.thumbnailUrl}
@@ -79,7 +79,7 @@ export const ArtistPick = () => {
           </div>
           <div className="flex flex-col justify-center">
             <div className="flex items-center gap-2 mb-1.5 text-sm">
-              <div className="size-6 aspect-square overflow-hidden rounded-full flex-shrink-0">
+              <div className="size-6 aspect-square overflow-hidden rounded-full shrink-0">
                 <Image
                   alt="Artist"
                   src={avatarUrl}

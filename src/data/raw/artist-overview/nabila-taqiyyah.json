@@ -1,0 +1,4586 @@
+{
+  "data": {
+    "artistUnion": {
+      "__typename": "Artist",
+      "discography": {
+        "albums": {
+          "items": [
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "© 2025 Universal Music Indonesia",
+                          "type": "C"
+                        },
+                        {
+                          "text": "℗ 2025 Universal Music Indonesia",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e022cc7eb853887837e0a4b726e",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048512cc7eb853887837e0a4b726e",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2732cc7eb853887837e0a4b726e",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 6,
+                      "month": 3,
+                      "precision": "DAY",
+                      "year": 2025
+                    },
+                    "id": "5UIos6Mz9ip3sRWI9lyZph",
+                    "label": "PT. Universal Music Indonesia",
+                    "name": "Kekal Yang Sementara",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "d_Oy9x_2RYGeyE2Qwrgi0Q",
+                      "shareUrl": "https://open.spotify.com/album/5UIos6Mz9ip3sRWI9lyZph?si=d_Oy9x_2RYGeyE2Qwrgi0Q"
+                    },
+                    "tracks": {
+                      "totalCount": 8
+                    },
+                    "type": "ALBUM",
+                    "uri": "spotify:album:5UIos6Mz9ip3sRWI9lyZph"
+                  }
+                ]
+              }
+            }
+          ],
+          "totalCount": 1
+        },
+        "compilations": {
+          "items": [],
+          "totalCount": 0
+        },
+        "latest": {
+          "copyright": {
+            "items": [
+              {
+                "text": "© 2026 Universal Music Indonesia",
+                "type": "C"
+              },
+              {
+                "text": "℗ 2026 Universal Music Indonesia",
+                "type": "P"
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02e8113579b0e73a531bd2b5e8",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851e8113579b0e73a531bd2b5e8",
+                "width": 64
+              },
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273e8113579b0e73a531bd2b5e8",
+                "width": 640
+              }
+            ]
+          },
+          "date": {
+            "day": 15,
+            "month": 1,
+            "precision": "DAY",
+            "year": 2026
+          },
+          "id": "3lxXnNeKdTgQrGiuZtIo5s",
+          "label": "PT. Universal Music Indonesia",
+          "name": "Cegil",
+          "playability": {
+            "playable": true,
+            "reason": "PLAYABLE"
+          },
+          "sharingInfo": {
+            "shareId": "1DRnRym_SdGBhpNtDFRZvw",
+            "shareUrl": "https://open.spotify.com/album/3lxXnNeKdTgQrGiuZtIo5s?si=1DRnRym_SdGBhpNtDFRZvw"
+          },
+          "tracks": {
+            "totalCount": 1
+          },
+          "type": "SINGLE",
+          "uri": "spotify:album:3lxXnNeKdTgQrGiuZtIo5s"
+        },
+        "popularReleasesAlbums": {
+          "items": [
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "© 2025 Universal Music Indonesia",
+                    "type": "C"
+                  },
+                  {
+                    "text": "℗ 2025 Universal Music Indonesia",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e022cc7eb853887837e0a4b726e",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d000048512cc7eb853887837e0a4b726e",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2732cc7eb853887837e0a4b726e",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 6,
+                "month": 3,
+                "precision": "DAY",
+                "year": 2025
+              },
+              "id": "5UIos6Mz9ip3sRWI9lyZph",
+              "label": "PT. Universal Music Indonesia",
+              "name": "Kekal Yang Sementara",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "1ylEaa2qQCOFqTob57CeRg",
+                "shareUrl": "https://open.spotify.com/album/5UIos6Mz9ip3sRWI9lyZph?si=1ylEaa2qQCOFqTob57CeRg"
+              },
+              "tracks": {
+                "totalCount": 8
+              },
+              "type": "ALBUM",
+              "uri": "spotify:album:5UIos6Mz9ip3sRWI9lyZph"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "© 2025 Universal Music Indonesia",
+                    "type": "C"
+                  },
+                  {
+                    "text": "℗ 2025 Universal Music Indonesia",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02e767793661e86eb9aff6753e",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851e767793661e86eb9aff6753e",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273e767793661e86eb9aff6753e",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 9,
+                "month": 10,
+                "precision": "DAY",
+                "year": 2025
+              },
+              "id": "3LAMMg0LKfDuIePDLgnTBH",
+              "label": "PT. Universal Music Indonesia",
+              "name": "Bayangan Cinta Yang Lalu",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "LBB8C6_ISd-0JBAPDArXHw",
+                "shareUrl": "https://open.spotify.com/album/3LAMMg0LKfDuIePDLgnTBH?si=LBB8C6_ISd-0JBAPDArXHw"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:3LAMMg0LKfDuIePDLgnTBH"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "© 2023 Universal Music Indonesia",
+                    "type": "C"
+                  },
+                  {
+                    "text": "℗ 2023 Universal Music Indonesia",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02b7044a4b1d903117ab7594b1",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851b7044a4b1d903117ab7594b1",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273b7044a4b1d903117ab7594b1",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 23,
+                "month": 11,
+                "precision": "DAY",
+                "year": 2023
+              },
+              "id": "3ngxVN1TATHxEYzefJPTQO",
+              "label": "PT. Universal Music Indonesia",
+              "name": "Ku Ingin Pisah",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "VQNAOJ9UTESJj_tr6NrlkQ",
+                "shareUrl": "https://open.spotify.com/album/3ngxVN1TATHxEYzefJPTQO?si=VQNAOJ9UTESJj_tr6NrlkQ"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:3ngxVN1TATHxEYzefJPTQO"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "© 2024 Universal Music Indonesia",
+                    "type": "C"
+                  },
+                  {
+                    "text": "℗ 2024 Universal Music Indonesia",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02fcba416f97352e9ada9393b6",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851fcba416f97352e9ada9393b6",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273fcba416f97352e9ada9393b6",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 2,
+                "month": 5,
+                "precision": "DAY",
+                "year": 2024
+              },
+              "id": "7nYVMupxePZbCAczopKbWr",
+              "label": "PT. Universal Music Indonesia",
+              "name": "Hanya Lolongan",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "RuVMe7oMT96mbLu53hMOuA",
+                "shareUrl": "https://open.spotify.com/album/7nYVMupxePZbCAczopKbWr?si=RuVMe7oMT96mbLu53hMOuA"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:7nYVMupxePZbCAczopKbWr"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "© 2026 Universal Music Indonesia",
+                    "type": "C"
+                  },
+                  {
+                    "text": "℗ 2026 Universal Music Indonesia",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02e8113579b0e73a531bd2b5e8",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851e8113579b0e73a531bd2b5e8",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273e8113579b0e73a531bd2b5e8",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 15,
+                "month": 1,
+                "precision": "DAY",
+                "year": 2026
+              },
+              "id": "3lxXnNeKdTgQrGiuZtIo5s",
+              "label": "PT. Universal Music Indonesia",
+              "name": "Cegil",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "Yapx9_CoRW-zPtzPe_BXzA",
+                "shareUrl": "https://open.spotify.com/album/3lxXnNeKdTgQrGiuZtIo5s?si=Yapx9_CoRW-zPtzPe_BXzA"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:3lxXnNeKdTgQrGiuZtIo5s"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "© 2025 RFAS Music / Universal Music Indonesia",
+                    "type": "C"
+                  },
+                  {
+                    "text": "℗ 2025 RFAS Music / Universal Music Indonesia",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02c5b4a9d8fdc63b9562a4d280",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851c5b4a9d8fdc63b9562a4d280",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273c5b4a9d8fdc63b9562a4d280",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 30,
+                "month": 1,
+                "precision": "DAY",
+                "year": 2025
+              },
+              "id": "3wcIIqXWuSAe0ULRsjpMpv",
+              "label": "RFAS Music / Universal Music Indonesia",
+              "name": "Tak Satu Cerita",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "iJumioYcQTqRC9iNT8kIqg",
+                "shareUrl": "https://open.spotify.com/album/3wcIIqXWuSAe0ULRsjpMpv?si=iJumioYcQTqRC9iNT8kIqg"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:3wcIIqXWuSAe0ULRsjpMpv"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "© 2024 Universal Music Indonesia",
+                    "type": "C"
+                  },
+                  {
+                    "text": "℗ 2024 Universal Music Indonesia",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02f35dc4794692100c3dbf2bd1",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851f35dc4794692100c3dbf2bd1",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273f35dc4794692100c3dbf2bd1",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 17,
+                "month": 10,
+                "precision": "DAY",
+                "year": 2024
+              },
+              "id": "2IpdxbEmOcllJBByXu3AAB",
+              "label": "PT. Universal Music Indonesia",
+              "name": "Terpatah Terluka",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "-Yw4HW3-SUKjW6t6Urg7kA",
+                "shareUrl": "https://open.spotify.com/album/2IpdxbEmOcllJBByXu3AAB?si=-Yw4HW3-SUKjW6t6Urg7kA"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:2IpdxbEmOcllJBByXu3AAB"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "© 2024 Universal Music Sdn Bhd & Universal Music Indonesia",
+                    "type": "C"
+                  },
+                  {
+                    "text": "℗ 2024 Universal Music Sdn Bhd & Universal Music Indonesia",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02b9d13715e13fa4a78335b96d",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851b9d13715e13fa4a78335b96d",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273b9d13715e13fa4a78335b96d",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 27,
+                "month": 6,
+                "precision": "DAY",
+                "year": 2024
+              },
+              "id": "039LNwYmsa5hoQPDFbFbcc",
+              "label": "Universal Music Sdn Bhd & Universal Music Indonesia",
+              "name": "Belum Mulai",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "ZvdxvxAoTNqZdr464Bp8gg",
+                "shareUrl": "https://open.spotify.com/album/039LNwYmsa5hoQPDFbFbcc?si=ZvdxvxAoTNqZdr464Bp8gg"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:039LNwYmsa5hoQPDFbFbcc"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "© 2023 Universal Music Indonesia",
+                    "type": "C"
+                  },
+                  {
+                    "text": "℗ 2023 Universal Music Indonesia",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02967144632ba895a5246565dc",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851967144632ba895a5246565dc",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273967144632ba895a5246565dc",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 19,
+                "month": 5,
+                "precision": "DAY",
+                "year": 2023
+              },
+              "id": "6ZttUG5J6ohmAPaudE74Au",
+              "label": "PT. Universal Music Indonesia",
+              "name": "Menghargai Kata Rindu",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "d7s06owsSPG62c1BXsiL4Q",
+                "shareUrl": "https://open.spotify.com/album/6ZttUG5J6ohmAPaudE74Au?si=d7s06owsSPG62c1BXsiL4Q"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:6ZttUG5J6ohmAPaudE74Au"
+            },
+            {
+              "copyright": {
+                "items": [
+                  {
+                    "text": "2022 NBTwin Records",
+                    "type": "C"
+                  },
+                  {
+                    "text": "2022 NBTwin Records",
+                    "type": "P"
+                  }
+                ]
+              },
+              "coverArt": {
+                "sources": [
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67616d00001e02c75e57cae556137794551abe",
+                    "width": 300
+                  },
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab67616d00004851c75e57cae556137794551abe",
+                    "width": 64
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273c75e57cae556137794551abe",
+                    "width": 640
+                  }
+                ]
+              },
+              "date": {
+                "day": 9,
+                "month": 9,
+                "precision": "DAY",
+                "year": 2022
+              },
+              "id": "1yUpoKb32fCYfxXWsCvmTS",
+              "label": "NBTwin Record",
+              "name": "Tak Dianggap",
+              "playability": {
+                "playable": true,
+                "reason": "PLAYABLE"
+              },
+              "sharingInfo": {
+                "shareId": "uKRWG5eUR3K6ATvc5VulzA",
+                "shareUrl": "https://open.spotify.com/album/1yUpoKb32fCYfxXWsCvmTS?si=uKRWG5eUR3K6ATvc5VulzA"
+              },
+              "tracks": {
+                "totalCount": 1
+              },
+              "type": "SINGLE",
+              "uri": "spotify:album:1yUpoKb32fCYfxXWsCvmTS"
+            }
+          ],
+          "totalCount": 13
+        },
+        "singles": {
+          "items": [
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "© 2026 Universal Music Indonesia",
+                          "type": "C"
+                        },
+                        {
+                          "text": "℗ 2026 Universal Music Indonesia",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02e8113579b0e73a531bd2b5e8",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851e8113579b0e73a531bd2b5e8",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273e8113579b0e73a531bd2b5e8",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 15,
+                      "month": 1,
+                      "precision": "DAY",
+                      "year": 2026
+                    },
+                    "id": "3lxXnNeKdTgQrGiuZtIo5s",
+                    "label": "PT. Universal Music Indonesia",
+                    "name": "Cegil",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "fQJ5T44rQIqL3LgDvOecag",
+                      "shareUrl": "https://open.spotify.com/album/3lxXnNeKdTgQrGiuZtIo5s?si=fQJ5T44rQIqL3LgDvOecag"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:3lxXnNeKdTgQrGiuZtIo5s"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "© 2025 Universal Music Indonesia",
+                          "type": "C"
+                        },
+                        {
+                          "text": "℗ 2025 Universal Music Indonesia",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02e767793661e86eb9aff6753e",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851e767793661e86eb9aff6753e",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273e767793661e86eb9aff6753e",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 9,
+                      "month": 10,
+                      "precision": "DAY",
+                      "year": 2025
+                    },
+                    "id": "3LAMMg0LKfDuIePDLgnTBH",
+                    "label": "PT. Universal Music Indonesia",
+                    "name": "Bayangan Cinta Yang Lalu",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "4kc8b-kXT_O5KhlRlUfNZw",
+                      "shareUrl": "https://open.spotify.com/album/3LAMMg0LKfDuIePDLgnTBH?si=4kc8b-kXT_O5KhlRlUfNZw"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:3LAMMg0LKfDuIePDLgnTBH"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "© 2025 RFAS Music / Universal Music Indonesia",
+                          "type": "C"
+                        },
+                        {
+                          "text": "℗ 2025 RFAS Music / Universal Music Indonesia",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02c5b4a9d8fdc63b9562a4d280",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851c5b4a9d8fdc63b9562a4d280",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273c5b4a9d8fdc63b9562a4d280",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 30,
+                      "month": 1,
+                      "precision": "DAY",
+                      "year": 2025
+                    },
+                    "id": "3wcIIqXWuSAe0ULRsjpMpv",
+                    "label": "RFAS Music / Universal Music Indonesia",
+                    "name": "Tak Satu Cerita",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "0HHksshzQ82id8kJiBNVUA",
+                      "shareUrl": "https://open.spotify.com/album/3wcIIqXWuSAe0ULRsjpMpv?si=0HHksshzQ82id8kJiBNVUA"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:3wcIIqXWuSAe0ULRsjpMpv"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "© 2024 Universal Music Indonesia",
+                          "type": "C"
+                        },
+                        {
+                          "text": "℗ 2024 Universal Music Indonesia",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02f35dc4794692100c3dbf2bd1",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851f35dc4794692100c3dbf2bd1",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273f35dc4794692100c3dbf2bd1",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 17,
+                      "month": 10,
+                      "precision": "DAY",
+                      "year": 2024
+                    },
+                    "id": "2IpdxbEmOcllJBByXu3AAB",
+                    "label": "PT. Universal Music Indonesia",
+                    "name": "Terpatah Terluka",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "cdMToR14Q0KtWGKR7AHSAQ",
+                      "shareUrl": "https://open.spotify.com/album/2IpdxbEmOcllJBByXu3AAB?si=cdMToR14Q0KtWGKR7AHSAQ"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:2IpdxbEmOcllJBByXu3AAB"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "© 2024 Universal Music Sdn Bhd & Universal Music Indonesia",
+                          "type": "C"
+                        },
+                        {
+                          "text": "℗ 2024 Universal Music Sdn Bhd & Universal Music Indonesia",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02b9d13715e13fa4a78335b96d",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851b9d13715e13fa4a78335b96d",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273b9d13715e13fa4a78335b96d",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 27,
+                      "month": 6,
+                      "precision": "DAY",
+                      "year": 2024
+                    },
+                    "id": "039LNwYmsa5hoQPDFbFbcc",
+                    "label": "Universal Music Sdn Bhd & Universal Music Indonesia",
+                    "name": "Belum Mulai",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "HPxwlQAqTui7e3Iy_hSPcg",
+                      "shareUrl": "https://open.spotify.com/album/039LNwYmsa5hoQPDFbFbcc?si=HPxwlQAqTui7e3Iy_hSPcg"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:039LNwYmsa5hoQPDFbFbcc"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "© 2024 Universal Music Indonesia",
+                          "type": "C"
+                        },
+                        {
+                          "text": "℗ 2024 Universal Music Indonesia",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02fcba416f97352e9ada9393b6",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851fcba416f97352e9ada9393b6",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273fcba416f97352e9ada9393b6",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 2,
+                      "month": 5,
+                      "precision": "DAY",
+                      "year": 2024
+                    },
+                    "id": "7nYVMupxePZbCAczopKbWr",
+                    "label": "PT. Universal Music Indonesia",
+                    "name": "Hanya Lolongan",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "8H8bPOGHSNGPKzWjzcPTxQ",
+                      "shareUrl": "https://open.spotify.com/album/7nYVMupxePZbCAczopKbWr?si=8H8bPOGHSNGPKzWjzcPTxQ"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:7nYVMupxePZbCAczopKbWr"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "© 2023 Universal Music Indonesia",
+                          "type": "C"
+                        },
+                        {
+                          "text": "℗ 2023 Universal Music Indonesia",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02b7044a4b1d903117ab7594b1",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851b7044a4b1d903117ab7594b1",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273b7044a4b1d903117ab7594b1",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 23,
+                      "month": 11,
+                      "precision": "DAY",
+                      "year": 2023
+                    },
+                    "id": "3ngxVN1TATHxEYzefJPTQO",
+                    "label": "PT. Universal Music Indonesia",
+                    "name": "Ku Ingin Pisah",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "o9OKglT6QWmxIr9Ablom7A",
+                      "shareUrl": "https://open.spotify.com/album/3ngxVN1TATHxEYzefJPTQO?si=o9OKglT6QWmxIr9Ablom7A"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:3ngxVN1TATHxEYzefJPTQO"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2022 Ryan Project",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2022 Ryan Project",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e0239060e6692b1aea87268a64f",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d0000485139060e6692b1aea87268a64f",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b27339060e6692b1aea87268a64f",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 25,
+                      "month": 8,
+                      "precision": "DAY",
+                      "year": 2023
+                    },
+                    "id": "5cos3QE6o9i1kQbyjgVvoe",
+                    "label": "Indie",
+                    "name": "Aku Cinta Kamu",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "dCooWW8ASlaIt4w7bVlFKg",
+                      "shareUrl": "https://open.spotify.com/album/5cos3QE6o9i1kQbyjgVvoe?si=dCooWW8ASlaIt4w7bVlFKg"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:5cos3QE6o9i1kQbyjgVvoe"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "© 2023 Universal Music Indonesia",
+                          "type": "C"
+                        },
+                        {
+                          "text": "℗ 2023 Universal Music Indonesia",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02967144632ba895a5246565dc",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851967144632ba895a5246565dc",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273967144632ba895a5246565dc",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 19,
+                      "month": 5,
+                      "precision": "DAY",
+                      "year": 2023
+                    },
+                    "id": "6ZttUG5J6ohmAPaudE74Au",
+                    "label": "PT. Universal Music Indonesia",
+                    "name": "Menghargai Kata Rindu",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "zSXzHl52RcaoUU_eOldWpg",
+                      "shareUrl": "https://open.spotify.com/album/6ZttUG5J6ohmAPaudE74Au?si=zSXzHl52RcaoUU_eOldWpg"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:6ZttUG5J6ohmAPaudE74Au"
+                  }
+                ]
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "copyright": {
+                      "items": [
+                        {
+                          "text": "2023 RH MUSIC",
+                          "type": "C"
+                        },
+                        {
+                          "text": "2023 RH MUSIC",
+                          "type": "P"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e029941c5b9c55d5d726db9e559",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048519941c5b9c55d5d726db9e559",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2739941c5b9c55d5d726db9e559",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "day": 10,
+                      "month": 2,
+                      "precision": "DAY",
+                      "year": 2023
+                    },
+                    "id": "2dnyIQjQ86LM1bpfCQeLjz",
+                    "label": "Nabila Taqiyyah",
+                    "name": "Bila Nanti",
+                    "playability": {
+                      "playable": true,
+                      "reason": "PLAYABLE"
+                    },
+                    "sharingInfo": {
+                      "shareId": "RAL8sXOATDK0aO597sCyHg",
+                      "shareUrl": "https://open.spotify.com/album/2dnyIQjQ86LM1bpfCQeLjz?si=RAL8sXOATDK0aO597sCyHg"
+                    },
+                    "tracks": {
+                      "totalCount": 1
+                    },
+                    "type": "SINGLE",
+                    "uri": "spotify:album:2dnyIQjQ86LM1bpfCQeLjz"
+                  }
+                ]
+              }
+            }
+          ],
+          "totalCount": 12
+        },
+        "topTracks": {
+          "items": [
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e022cc7eb853887837e0a4b726e"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d000048512cc7eb853887837e0a4b726e"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2732cc7eb853887837e0a4b726e"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:5UIos6Mz9ip3sRWI9lyZph"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Nabila Taqiyyah"
+                      },
+                      "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 1
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 235335
+                },
+                "id": "5xgZB5HODUVEanizzlOjEo",
+                "name": "Ku Ingin Pisah",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "154735422",
+                "uri": "spotify:track:5xgZB5HODUVEanizzlOjEo"
+              },
+              "uid": "542bc3ec89c0b97e5254"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e022cc7eb853887837e0a4b726e"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d000048512cc7eb853887837e0a4b726e"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2732cc7eb853887837e0a4b726e"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:5UIos6Mz9ip3sRWI9lyZph"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Nabila Taqiyyah"
+                      },
+                      "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 1
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 214395
+                },
+                "id": "2vicIBzpgi5eJNF0T7nrbo",
+                "name": "Terpatah Terluka",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "57703453",
+                "uri": "spotify:track:2vicIBzpgi5eJNF0T7nrbo"
+              },
+              "uid": "59a3114e47cf0861e8de"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02e767793661e86eb9aff6753e"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851e767793661e86eb9aff6753e"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273e767793661e86eb9aff6753e"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:3LAMMg0LKfDuIePDLgnTBH"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "KIM"
+                      },
+                      "uri": "spotify:artist:1ltPgn4r3rgK3NcpJZScIp"
+                    },
+                    {
+                      "profile": {
+                        "name": "Nabila Taqiyyah"
+                      },
+                      "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 1
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 224012
+                },
+                "id": "7k5KS786ibuDQIU4YKRnQ7",
+                "name": "Bayangan Cinta Yang Lalu",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "8054279",
+                "uri": "spotify:track:7k5KS786ibuDQIU4YKRnQ7"
+              },
+              "uid": "c26733ba0cb792cda645"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02fcba416f97352e9ada9393b6"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851fcba416f97352e9ada9393b6"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273fcba416f97352e9ada9393b6"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:7nYVMupxePZbCAczopKbWr"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Nabila Taqiyyah"
+                      },
+                      "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 1
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 229448
+                },
+                "id": "3gedUqUJEgNoDqDaQZwTUo",
+                "name": "Hanya Lolongan",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "36214274",
+                "uri": "spotify:track:3gedUqUJEgNoDqDaQZwTUo"
+              },
+              "uid": "100eb8770562756d8e3a"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e022cc7eb853887837e0a4b726e"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d000048512cc7eb853887837e0a4b726e"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2732cc7eb853887837e0a4b726e"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:5UIos6Mz9ip3sRWI9lyZph"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Nabila Taqiyyah"
+                      },
+                      "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 1
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 256959
+                },
+                "id": "2jK5xdblU0nlbBFO9Bjgq4",
+                "name": "Berjalan Tanpamu",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "15920201",
+                "uri": "spotify:track:2jK5xdblU0nlbBFO9Bjgq4"
+              },
+              "uid": "4f0a0b20f1459bfed66f"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02e8113579b0e73a531bd2b5e8"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851e8113579b0e73a531bd2b5e8"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273e8113579b0e73a531bd2b5e8"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:3lxXnNeKdTgQrGiuZtIo5s"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Nabila Taqiyyah"
+                      },
+                      "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 1
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 176169
+                },
+                "id": "1hfSoyfUsiIYQrB9LJrRN1",
+                "name": "Cegil",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "757613",
+                "uri": "spotify:track:1hfSoyfUsiIYQrB9LJrRN1"
+              },
+              "uid": "adb134d136b6c6fe16d9"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02c5b4a9d8fdc63b9562a4d280"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851c5b4a9d8fdc63b9562a4d280"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273c5b4a9d8fdc63b9562a4d280"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:3wcIIqXWuSAe0ULRsjpMpv"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Rizwan Fadilah"
+                      },
+                      "uri": "spotify:artist:6usptTdSkyzOX8rWIE4Y12"
+                    },
+                    {
+                      "profile": {
+                        "name": "Nabila Taqiyyah"
+                      },
+                      "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 1
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 226220
+                },
+                "id": "2Jp7oaFGIyaSV30pFoALV5",
+                "name": "Tak Satu Cerita",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "25320375",
+                "uri": "spotify:track:2Jp7oaFGIyaSV30pFoALV5"
+              },
+              "uid": "5c8d5db38fa86d53eb25"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02b9d13715e13fa4a78335b96d"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851b9d13715e13fa4a78335b96d"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273b9d13715e13fa4a78335b96d"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:039LNwYmsa5hoQPDFbFbcc"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Insomniacks"
+                      },
+                      "uri": "spotify:artist:3uSnvyMAFJTm7XkZJFo0xP"
+                    },
+                    {
+                      "profile": {
+                        "name": "Nabila Taqiyyah"
+                      },
+                      "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 1
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 214585
+                },
+                "id": "5MFi8dcCIGTiuUIC2loVQc",
+                "name": "Belum Mulai",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "12723514",
+                "uri": "spotify:track:5MFi8dcCIGTiuUIC2loVQc"
+              },
+              "uid": "460726c1a77c6678c813"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e022cc7eb853887837e0a4b726e"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d000048512cc7eb853887837e0a4b726e"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2732cc7eb853887837e0a4b726e"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:5UIos6Mz9ip3sRWI9lyZph"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Nabila Taqiyyah"
+                      },
+                      "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 182000
+                },
+                "id": "2tUXevWuvHUElBZ5AQalgE",
+                "name": "Salah Sangka",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "1821600",
+                "uri": "spotify:track:2tUXevWuvHUElBZ5AQalgE"
+              },
+              "uid": "ec53dbec0eaf181abb93"
+            },
+            {
+              "track": {
+                "albumOfTrack": {
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e022cc7eb853887837e0a4b726e"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d000048512cc7eb853887837e0a4b726e"
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2732cc7eb853887837e0a4b726e"
+                      }
+                    ]
+                  },
+                  "uri": "spotify:album:5UIos6Mz9ip3sRWI9lyZph"
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "profile": {
+                        "name": "Nabila Taqiyyah"
+                      },
+                      "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                    }
+                  ]
+                },
+                "associationsV3": {
+                  "videoAssociations": {
+                    "totalCount": 0
+                  }
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "discNumber": 1,
+                "duration": {
+                  "totalMilliseconds": 257599
+                },
+                "id": "2BsJwuWybl0IAytagoBNGq",
+                "name": "Menikmati Kebohongan",
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "playcount": "2265376",
+                "uri": "spotify:track:2BsJwuWybl0IAytagoBNGq"
+              },
+              "uid": "27ca1fb152bd08e61b34"
+            }
+          ]
+        }
+      },
+      "goods": {
+        "concerts": {
+          "items": [],
+          "totalCount": 0
+        },
+        "merch": {
+          "items": []
+        }
+      },
+      "headerImage": {
+        "data": {
+          "__typename": "ImageV2",
+          "sources": [
+            {
+              "maxHeight": 640,
+              "maxWidth": 1494,
+              "url": "https://image-cdn-ak.spotifycdn.com/image/ab67618600000194633304d430dc5d7907529b30"
+            },
+            {
+              "maxHeight": 1080,
+              "maxWidth": 1920,
+              "url": "https://i2o.scdn.co/image/ab67618600001667633304d430dc5d7907529b30"
+            },
+            {
+              "maxHeight": 1080,
+              "maxWidth": 1920,
+              "url": "https://i2o.scdn.co/image/ab67618600001667633304d430dc5d7907529b30"
+            },
+            {
+              "maxHeight": 641,
+              "maxWidth": 1495,
+              "url": "https://image-cdn-ak.spotifycdn.com/image/ab67618600009d80633304d430dc5d7907529b30"
+            },
+            {
+              "maxHeight": 1140,
+              "maxWidth": 2660,
+              "url": "https://image-cdn-ak.spotifycdn.com/image/ab6761860000eab1633304d430dc5d7907529b30"
+            }
+          ]
+        }
+      },
+      "id": "0sLoVTeBT6akDY7ecDxKYe",
+      "preRelease": null,
+      "profile": {
+        "biography": {
+          "text": "Nabila Taqiyyah is a rising star from Aceh whose beautiful voice and emotive songwriting have captivated millions across Indonesia. Known for her delicate yet powerful vocal tone and wide vocal range, Nabila has quickly built a loyal fanbase, Thenablovers, drawn to the sincerity and depth she brings to every performance. Born in 2004, Nabila began turning heads with early hits like the heartbreak anthem “Ku Ingin Pisah” and the emotionally charged “Terluka,” establishing herself as a distinctive voice in Indonesia’s new generation of pop ballad artists. In 2025, she released her highly anticipated debut album, Kekal Yang Sementara, a soul-baring collection of songs that explores themes of loss, resilience, and fleeting love. The album’s standout single, “Berjalan Tanpamu,” became an instant hit, further cementing her reputation as a storyteller with sensitivity and strength. With her songwriting debut, “Hanya Lolongan,” already proving her lyrical depth, Nabila Taqiyyah is not just a singer — she’s a voice for those learning to heal.",
+          "type": "AUTOBIOGRAPHY"
+        },
+        "externalLinks": {
+          "items": []
+        },
+        "name": "Nabila Taqiyyah",
+        "pinnedItem": {
+          "backgroundImageV2": null,
+          "comment": "",
+          "itemV2": {
+            "__typename": "PlaylistResponseWrapper",
+            "data": {
+              "__typename": "Playlist",
+              "images": {
+                "items": [
+                  {
+                    "sources": [
+                      {
+                        "height": null,
+                        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c68d07285855b6771ff2a936d",
+                        "width": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              "name": "Nabila Taqiyyah – Cegil",
+              "uri": "spotify:playlist:1PC2uUvxASEihAj0ClYgYF"
+            }
+          },
+          "subtitle": "Playlist",
+          "thumbnailImage": {
+            "data": {
+              "sources": [
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac68d07285855b6771ff2a936d"
+                },
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c68d07285855b6771ff2a936d"
+                },
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000dec568d07285855b6771ff2a936d"
+                }
+              ]
+            }
+          },
+          "title": "Nabila Taqiyyah – Cegil",
+          "type": "PLAYLIST",
+          "uri": "spotify:playlist:1PC2uUvxASEihAj0ClYgYF"
+        },
+        "playlistsV2": {
+          "items": [
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Kumpulan lagu-lagu dari idola kita semua. Save playlistnya biar terus update dengan karya terbaik mereka! Cover: Fajar Noor",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8498db9e7b02b2234dd54d480b",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "idolAKU",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "uDiscover Indonesia"
+                  }
+                },
+                "uri": "spotify:playlist:4ZI2HLba51EaYEFCxBkYaG"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Dengarkan lagu-lagu hits pilihan Indonesia Terbaik disini! Cover: Fajar Noor",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a64cd8168ca9ef7a3ce9a453",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "Indonesia Terbaik",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "uDiscover Indonesia"
+                  }
+                },
+                "uri": "spotify:playlist:0YwsIE2snT3jzhdojbvibe"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c68d07285855b6771ff2a936d",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "Nabila Taqiyyah – Cegil",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "uDiscover Indonesia"
+                  }
+                },
+                "uri": "spotify:playlist:1PC2uUvxASEihAj0ClYgYF"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "otw nangis di pojokkan. Cover: Yovie Widianto, Dinda Ghania",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b138c9ce8e4d346fe42e7cdd",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "Galau Era",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "uDiscover Indonesia"
+                  }
+                },
+                "uri": "spotify:playlist:6SUvpFSknSUq85isLWaoBs"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Kumpulan lagu galau segala situasi.... Lagu mana yang relate sama kamu hari ini?",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84d0442bd74db13b813c8bb21b",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "nangis bgt.",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "uDiscover Indonesia"
+                  }
+                },
+                "uri": "spotify:playlist:1S3hTlXmnVMTb4tMYMZzA8"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Lagu-lagu yang lagi trending dimana-mana! Save playlistnya biar terus update dengan trend terbaru! Cover: Lyodra",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72ca9e340cd7af106a039ddea2f",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "Lagu Viral Trending ",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "uDiscover Indonesia"
+                  }
+                },
+                "uri": "spotify:playlist:5nIgRjJEDmJ2fkGZp9wWpq"
+              }
+            }
+          ],
+          "totalCount": 6
+        },
+        "verified": true
+      },
+      "relatedContent": {
+        "appearsOn": {
+          "items": [
+            {
+              "releases": {
+                "items": [
+                  {
+                    "artists": {
+                      "items": [
+                        {
+                          "profile": {
+                            "name": "Insomniacks"
+                          },
+                          "uri": "spotify:artist:3uSnvyMAFJTm7XkZJFo0xP"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02d833ae8e44e473ab1178e778",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851d833ae8e44e473ab1178e778",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273d833ae8e44e473ab1178e778",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "year": 2024
+                    },
+                    "id": "1SliEzHuM0J3s3ZwNmDT6G",
+                    "name": "TEMAN EP",
+                    "sharingInfo": {
+                      "shareId": "5RaRPv28SJa87bC0ptddBg",
+                      "shareUrl": "https://open.spotify.com/album/1SliEzHuM0J3s3ZwNmDT6G?si=5RaRPv28SJa87bC0ptddBg"
+                    },
+                    "type": "EP",
+                    "uri": "spotify:album:1SliEzHuM0J3s3ZwNmDT6G"
+                  }
+                ],
+                "totalCount": 1
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "artists": {
+                      "items": [
+                        {
+                          "profile": {
+                            "name": "Various Artists"
+                          },
+                          "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e0210e12c4c1dfa5cf97657f411",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d0000485110e12c4c1dfa5cf97657f411",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b27310e12c4c1dfa5cf97657f411",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "year": 2023
+                    },
+                    "id": "5vUKukZ5QLYyPRBcw5xEdE",
+                    "name": "waktu indonesia menangis",
+                    "sharingInfo": {
+                      "shareId": "tQYzvG1wR_2xWGnjHkXxhw",
+                      "shareUrl": "https://open.spotify.com/album/5vUKukZ5QLYyPRBcw5xEdE?si=tQYzvG1wR_2xWGnjHkXxhw"
+                    },
+                    "type": "COMPILATION",
+                    "uri": "spotify:album:5vUKukZ5QLYyPRBcw5xEdE"
+                  }
+                ],
+                "totalCount": 1
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "artists": {
+                      "items": [
+                        {
+                          "profile": {
+                            "name": "Various Artists"
+                          },
+                          "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02bc28f7e9322f06fdff855d87",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851bc28f7e9322f06fdff855d87",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273bc28f7e9322f06fdff855d87",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "year": 2023
+                    },
+                    "id": "3tgWejGxtN24OABqUa2HbM",
+                    "name": "nangis sampe pagi",
+                    "sharingInfo": {
+                      "shareId": "1x4alUaITS2QOhY1gh9I-w",
+                      "shareUrl": "https://open.spotify.com/album/3tgWejGxtN24OABqUa2HbM?si=1x4alUaITS2QOhY1gh9I-w"
+                    },
+                    "type": "COMPILATION",
+                    "uri": "spotify:album:3tgWejGxtN24OABqUa2HbM"
+                  }
+                ],
+                "totalCount": 1
+              }
+            },
+            {
+              "releases": {
+                "items": [
+                  {
+                    "artists": {
+                      "items": [
+                        {
+                          "profile": {
+                            "name": "Various Artists"
+                          },
+                          "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+                        }
+                      ]
+                    },
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e021eeb2b2922c78726b4ee0d04",
+                          "width": 300
+                        },
+                        {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048511eeb2b2922c78726b4ee0d04",
+                          "width": 64
+                        },
+                        {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2731eeb2b2922c78726b4ee0d04",
+                          "width": 640
+                        }
+                      ]
+                    },
+                    "date": {
+                      "year": 2025
+                    },
+                    "id": "6ePv6lSAjI5D2CvkXvKtsT",
+                    "name": "Koleksi Karaoke 2025",
+                    "sharingInfo": {
+                      "shareId": "uE-u09_CS1GLlq6GqYU6dA",
+                      "shareUrl": "https://open.spotify.com/album/6ePv6lSAjI5D2CvkXvKtsT?si=uE-u09_CS1GLlq6GqYU6dA"
+                    },
+                    "type": "COMPILATION",
+                    "uri": "spotify:album:6ePv6lSAjI5D2CvkXvKtsT"
+                  }
+                ],
+                "totalCount": 1
+              }
+            }
+          ],
+          "totalCount": 4
+        },
+        "discoveredOnV2": {
+          "items": [
+            {
+              "data": {
+                "__typename": "GenericError"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "LAGU POP HITS INDONESIA TERUPDATE| COVER: IDGITAF",
+                "id": "68CsCvj1yJdzGv8Fprl7k5",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8418a92d4aefda166310706c10",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "LAGU POP INDONESIA HITS 2026 TRENDING",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "SPOTIFY CHART"
+                  }
+                },
+                "uri": "spotify:playlist:68CsCvj1yJdzGv8Fprl7k5"
+              }
+            },
+            {
+              "data": {
+                "__typename": "GenericError"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "GALAU BANGEETTTT\uD83D\uDE2D\uD83D\uDE2D\uD83D\uDE2D",
+                "id": "5utpX9SwaRscHyQ3vKjSeM",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c5343e2afc52eea06ee8636bc",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "LAGU GALAU BRUTAL 2026 TERBARU - LAGU GALAU VIRAL TIKTOK  2026 BIKIN NANGIS",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "SPOTIFY CHART"
+                  }
+                },
+                "uri": "spotify:playlist:5utpX9SwaRscHyQ3vKjSeM"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Kumpulan lagu Indonesia rilisan 2025 yang dinikmati masyarakat Indonesia sepanjang tahun berdasarkan pilihan editor. Cover: Rony Parulian",
+                "id": "37i9dQZF1DXbfZXE0YeP2Y",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f00000002626b7ae386924cbfe8cd23c6",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Puncak Klasemen Favorites of 2025",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DXbfZXE0YeP2Y"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Deretan musik Indonesia terpopuler saat ini.  Cover: Batas Senja",
+                "id": "37i9dQZF1DWZxM58TRkuqg",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f0000000221feff5bf74f1d5ffb8f1da8",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Puncak Klasemen",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DWZxM58TRkuqg"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Video musik lagu-lagu Indonesia hanya untuk pengguna premium. Cover: Adikara",
+                "id": "37i9dQZF1DX7GFJ6vkCaiW",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f0000000222cbd3e6369fffbc51f7932c",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Video Musik Indonesia ",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DX7GFJ6vkCaiW"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "It&#x27;s okay, Kita juga perlu nangis kok\uD83E\uDEC2",
+                "id": "2NsSlxgPDNvOo39tNPtjMV",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8418a3a4a695427415fe4feabc",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Bolehkah sekali saja ku menangis?",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Sall"
+                  }
+                },
+                "uri": "spotify:playlist:2NsSlxgPDNvOo39tNPtjMV"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "1RCohfbeTAGOjGDb8cn4uo",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f8132ee57a0d742efc53c089",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "SadVibes\uD83E\uDD40",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Yunus28"
+                  }
+                },
+                "uri": "spotify:playlist:1RCohfbeTAGOjGDb8cn4uo"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Kumpulan Lagu akustik untuk bersantai, Lagu Akustik Santai Indonesia, Lagu Akustik Cafe Santai, Lagu Akustik Hits Indonesia singodimejomanagement@gmail.com",
+                "id": "292W0wyPIZ8KYpHHMZZXsU",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a22a0d3ebec508bcb240d1dc",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "LAGU AKUSTIK SANTAI FULL ALBUM 2026 - AKUSTIK CAFE SANTAI TERBARU 2026",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "SPOTIFY CHART"
+                  }
+                },
+                "uri": "spotify:playlist:292W0wyPIZ8KYpHHMZZXsU"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Kumpulan Lagu Akustik untuk penghantar tidur",
+                "id": "0kUx21t2ih7CXKcBSiKUUu",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8428d83fa847f76fbea04fa4e5",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "LAGU AKUSTIK PENGHANTAR TIDUR FULL ALBUM 2026",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "SPOTIFY CHART"
+                  }
+                },
+                "uri": "spotify:playlist:0kUx21t2ih7CXKcBSiKUUu"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Dengarkan lagu-lagu hits pilihan Indonesia Terbaik disini! Cover: Fajar Noor",
+                "id": "0YwsIE2snT3jzhdojbvibe",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a64cd8168ca9ef7a3ce9a453",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Indonesia Terbaik",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "uDiscover Indonesia"
+                  }
+                },
+                "uri": "spotify:playlist:0YwsIE2snT3jzhdojbvibe"
+              }
+            },
+            {
+              "data": {
+                "__typename": "GenericError"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Racikan akustik dalam secangkir kopi. ",
+                "id": "37i9dQZF1DWTDjtvOmdzrF",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f000000025354c0bc061f733a8f404f1c",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Kopikustik",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DWTDjtvOmdzrF"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "This is Nabila Taqiyyah. The essential tracks, all in one playlist.",
+                "id": "37i9dQZF1DZ06evO0cPzdI",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/thisisv3/0sLoVTeBT6akDY7ecDxKYe/en",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "This Is Nabila Taqiyyah",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DZ06evO0cPzdI"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "0fKqxPQTxzf6h2XzV3yLJT",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da848ebe44a2e478c6758c2b9709",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "CEGIL (NON PREM) 1",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Thenabstreams.ofc"
+                  }
+                },
+                "uri": "spotify:playlist:0fKqxPQTxzf6h2XzV3yLJT"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "5CCdAbhjC6VI7SpobkXWZk",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b65e8f8144b6522954e7b678",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "BAYALU,KISAH,TERKA,AKSARA",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Thenabstreams.ofc"
+                  }
+                },
+                "uri": "spotify:playlist:5CCdAbhjC6VI7SpobkXWZk"
+              }
+            },
+            {
+              "data": {
+                "__typename": "GenericError"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "3u9FRWEFY3kHukAdPb5uqR",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84755af04008efe1d7f6d29317",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "CEGIL (NON PREM) 3",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Thenabstreams.ofc"
+                  }
+                },
+                "uri": "spotify:playlist:3u9FRWEFY3kHukAdPb5uqR"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "",
+                "id": "15n0afL7L2fuukvhy5q0WM",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cc233846fc36f64aaa0fcf2d2",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "BAYALU X ALBUM (1)",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Thenabstreams.ofc"
+                  }
+                },
+                "uri": "spotify:playlist:15n0afL7L2fuukvhy5q0WM"
+              }
+            }
+          ],
+          "totalCount": 100
+        },
+        "featuringV2": {
+          "items": [
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "This is Nabila Taqiyyah. The essential tracks, all in one playlist.",
+                "id": "37i9dQZF1DZ06evO0cPzdI",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/thisisv3/0sLoVTeBT6akDY7ecDxKYe/en",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "This Is Nabila Taqiyyah",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DZ06evO0cPzdI"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "With Anggis Devaki, Rizwan Fadilah, Ziva Magnolya and more",
+                "id": "37i9dQZF1E4xzqvQUmZeWe",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0sLoVTeBT6akDY7ecDxKYe/en",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Nabila Taqiyyah Radio",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1E4xzqvQUmZeWe"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Deretan musik Indonesia terpopuler saat ini.  Cover: Batas Senja",
+                "id": "37i9dQZF1DWZxM58TRkuqg",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f0000000221feff5bf74f1d5ffb8f1da8",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Puncak Klasemen",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DWZxM58TRkuqg"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Video musik lagu-lagu Indonesia hanya untuk pengguna premium. Cover: Adikara",
+                "id": "37i9dQZF1DX7GFJ6vkCaiW",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f0000000222cbd3e6369fffbc51f7932c",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Video Musik Indonesia ",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DX7GFJ6vkCaiW"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Kumpulan lagu Indonesia rilisan 2025 yang dinikmati masyarakat Indonesia sepanjang tahun berdasarkan pilihan editor. Cover: Rony Parulian",
+                "id": "37i9dQZF1DXbfZXE0YeP2Y",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f00000002626b7ae386924cbfe8cd23c6",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Puncak Klasemen Favorites of 2025",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DXbfZXE0YeP2Y"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Lagu-lagu terkini yang sedang beranjak menjadi hit. Cover:  Difki Khalif, Prinsa Mandagie",
+                "id": "37i9dQZF1DX7sD2LU79ZzQ",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f000000020e1345dae4dc580ae7e5bf8b",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Naik Daun",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DX7sD2LU79ZzQ"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Untuk semua yang sedang kamu hadapi dan telah kamu lalui \uD83E\uDD17",
+                "id": "37i9dQZF1DXat64iiQuzjo",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f00000002a9fda5758c8b2ae44eddaaf8",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Peluk Diri ",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DXat64iiQuzjo"
+              }
+            },
+            {
+              "data": {
+                "__typename": "Playlist",
+                "description": "Menemani akhir pekanmu dengan lagu-lagu terbaru. Cover: Maulana Ardiansyah",
+                "id": "37i9dQZF1DWTcLP9S6ATGK",
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "height": null,
+                          "url": "https://i.scdn.co/image/ab67706f00000002adc4604b737f9e36f21dc5f8",
+                          "width": null
+                        }
+                      ]
+                    }
+                  ],
+                  "totalCount": 1
+                },
+                "name": "Musik Akhir Pekan",
+                "ownerV2": {
+                  "data": {
+                    "__typename": "User",
+                    "name": "Spotify"
+                  }
+                },
+                "uri": "spotify:playlist:37i9dQZF1DWTcLP9S6ATGK"
+              }
+            }
+          ],
+          "totalCount": 8
+        },
+        "relatedArtists": {
+          "items": [
+            {
+              "id": "2wZWkw5jo8P4NVonVanxYd",
+              "profile": {
+                "name": "Ziva Magnolya"
+              },
+              "uri": "spotify:artist:2wZWkw5jo8P4NVonVanxYd",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb5d26ae066df9306985e7e327",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f1785d26ae066df9306985e7e327",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab676161000051745d26ae066df9306985e7e327",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "1y46m0kIaKwnodL0ElvQIs",
+              "profile": {
+                "name": "Salma Salsabil"
+              },
+              "uri": "spotify:artist:1y46m0kIaKwnodL0ElvQIs",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebf748ae5997a184b215877d3d",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178f748ae5997a184b215877d3d",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174f748ae5997a184b215877d3d",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "1ZT1OfVAO3kpOEHVejBxV8",
+              "profile": {
+                "name": "Meiska"
+              },
+              "uri": "spotify:artist:1ZT1OfVAO3kpOEHVejBxV8",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebc5827f82e8721609cc83d399",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178c5827f82e8721609cc83d399",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174c5827f82e8721609cc83d399",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "6Pu9A4Pe31OK06u1GL8q4c",
+              "profile": {
+                "name": "Betrand Putra Onsu"
+              },
+              "uri": "spotify:artist:6Pu9A4Pe31OK06u1GL8q4c",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb8e2a8220ce26d8961924823c",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f1788e2a8220ce26d8961924823c",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab676161000051748e2a8220ce26d8961924823c",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "6usptTdSkyzOX8rWIE4Y12",
+              "profile": {
+                "name": "Rizwan Fadilah"
+              },
+              "uri": "spotify:artist:6usptTdSkyzOX8rWIE4Y12",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb647c1d666779c0c44e6af6f8",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178647c1d666779c0c44e6af6f8",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174647c1d666779c0c44e6af6f8",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "7j5PGC0BF48rRtcmgbVvOT",
+              "profile": {
+                "name": "Arsy Widianto"
+              },
+              "uri": "spotify:artist:7j5PGC0BF48rRtcmgbVvOT",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebcfbb23382ea9a0dfbd371077",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178cfbb23382ea9a0dfbd371077",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174cfbb23382ea9a0dfbd371077",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "0GxxkBLH2uLa4b3URWudGb",
+              "profile": {
+                "name": "Brisia Jodie"
+              },
+              "uri": "spotify:artist:0GxxkBLH2uLa4b3URWudGb",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb9d9e95cf7ec92d4865a95515",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f1789d9e95cf7ec92d4865a95515",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab676161000051749d9e95cf7ec92d4865a95515",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "53tuXn4uXfDqZYhAFMxZdt",
+              "profile": {
+                "name": "Nyoman Paul"
+              },
+              "uri": "spotify:artist:53tuXn4uXfDqZYhAFMxZdt",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb43afa2b44bcff72021c71cd8",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f17843afa2b44bcff72021c71cd8",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab6761610000517443afa2b44bcff72021c71cd8",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "13y29W8mEcA2gKqUr1SPLJ",
+              "profile": {
+                "name": "Rony Parulian"
+              },
+              "uri": "spotify:artist:13y29W8mEcA2gKqUr1SPLJ",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb6120e795b4df2d105f8e00da",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f1786120e795b4df2d105f8e00da",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab676161000051746120e795b4df2d105f8e00da",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "6Sv2jkzH9sWQjwghW5ArMG",
+              "profile": {
+                "name": "Lyodra"
+              },
+              "uri": "spotify:artist:6Sv2jkzH9sWQjwghW5ArMG",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebd382004b4ee59e1145505c74",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178d382004b4ee59e1145505c74",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174d382004b4ee59e1145505c74",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "3Fw8q9sZ1t7diLxoQFS8hW",
+              "profile": {
+                "name": "Hanin Dhiya"
+              },
+              "uri": "spotify:artist:3Fw8q9sZ1t7diLxoQFS8hW",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb5d79d394e189b6aec363ee6f",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f1785d79d394e189b6aec363ee6f",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab676161000051745d79d394e189b6aec363ee6f",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "0kPb52ySN2k9P6wEZPTUzm",
+              "profile": {
+                "name": "Tiara Andini"
+              },
+              "uri": "spotify:artist:0kPb52ySN2k9P6wEZPTUzm",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb12d698404d2d020c4212df6b",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f17812d698404d2d020c4212df6b",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab6761610000517412d698404d2d020c4212df6b",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "6FTLayBxjkQeanFdUusk1I",
+              "profile": {
+                "name": "Fabio Asher"
+              },
+              "uri": "spotify:artist:6FTLayBxjkQeanFdUusk1I",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebd35dd1517ea43f784a23eb36",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178d35dd1517ea43f784a23eb36",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174d35dd1517ea43f784a23eb36",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "2yK0XmEXeIJMXxW0rD3N8f",
+              "profile": {
+                "name": "Shabrina Leanor"
+              },
+              "uri": "spotify:artist:2yK0XmEXeIJMXxW0rD3N8f",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebe9dfae2dad6511d5cc1f095b",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178e9dfae2dad6511d5cc1f095b",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174e9dfae2dad6511d5cc1f095b",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "3qL7BzwJOXq3EzAio36aLX",
+              "profile": {
+                "name": "Ghea Indrawari"
+              },
+              "uri": "spotify:artist:3qL7BzwJOXq3EzAio36aLX",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb299912b504767b61b115792e",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178299912b504767b61b115792e",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174299912b504767b61b115792e",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "3wOsYKZM0zcKNasi3I7fP4",
+              "profile": {
+                "name": "Mahalini"
+              },
+              "uri": "spotify:artist:3wOsYKZM0zcKNasi3I7fP4",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebd3564043a332daaa882853d6",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178d3564043a332daaa882853d6",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174d3564043a332daaa882853d6",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "0LivMD6P6pi2yfZf1rIAat",
+              "profile": {
+                "name": "Dygta"
+              },
+              "uri": "spotify:artist:0LivMD6P6pi2yfZf1rIAat",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb1ddc1dac3677a983f67b313c",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f1781ddc1dac3677a983f67b313c",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab676161000051741ddc1dac3677a983f67b313c",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "6RoZip1Hn7ahR6MjzBKKLK",
+              "profile": {
+                "name": "Mawar de Jongh"
+              },
+              "uri": "spotify:artist:6RoZip1Hn7ahR6MjzBKKLK",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb075943044f6d9c953eb0c70b",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178075943044f6d9c953eb0c70b",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174075943044f6d9c953eb0c70b",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "2CnDUzCYPBjERuVMFQm8zX",
+              "profile": {
+                "name": "Kamasean"
+              },
+              "uri": "spotify:artist:2CnDUzCYPBjERuVMFQm8zX",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5ebd5602a0efc3a8a97b3b946c0",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f178d5602a0efc3a8a97b3b946c0",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab67616100005174d5602a0efc3a8a97b3b946c0",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "4yRVdMqPrguKBFwZYpmke0",
+              "profile": {
+                "name": "Andi Rianto"
+              },
+              "uri": "spotify:artist:4yRVdMqPrguKBFwZYpmke0",
+              "visuals": {
+                "avatarImage": {
+                  "sources": [
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab6761610000e5eb0ed8228cbff5eeb561591f22",
+                      "width": 640
+                    },
+                    {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ab6761610000f1780ed8228cbff5eeb561591f22",
+                      "width": 160
+                    },
+                    {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ab676161000051740ed8228cbff5eeb561591f22",
+                      "width": 320
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "totalCount": 40
+        }
+      },
+      "relatedMusicVideos": {
+        "__typename": "MusicVideosPage",
+        "items": [
+          {
+            "_uri": "spotify:track:0upDb2Avy5oGqSLsNge6tm",
+            "data": {
+              "__typename": "Track",
+              "albumOfTrack": {
+                "coverArt": {
+                  "sources": [
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b7829f6d96b17baa8e3be3d00b",
+                      "width": 1280
+                    },
+                    {
+                      "height": 360,
+                      "url": "https://i.scdn.co/image/ab6742d3000052b7829f6d96b17baa8e3be3d00b",
+                      "width": 640
+                    },
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b7829f6d96b17baa8e3be3d00b",
+                      "width": 1280
+                    }
+                  ]
+                },
+                "uri": "spotify:album:0iZkan3XZllsTitIIIeNnu"
+              },
+              "artists": {
+                "items": [
+                  {
+                    "profile": {
+                      "name": "Nabila Taqiyyah"
+                    },
+                    "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                  }
+                ]
+              },
+              "associationsV3": {
+                "audioAssociations": {
+                  "items": [
+                    {
+                      "trackAudio": {
+                        "_uri": "spotify:track:1hfSoyfUsiIYQrB9LJrRN1"
+                      }
+                    }
+                  ]
+                }
+              },
+              "contentRating": {
+                "label": "NONE"
+              },
+              "name": "Cegil",
+              "uri": "spotify:track:0upDb2Avy5oGqSLsNge6tm"
+            }
+          },
+          {
+            "_uri": "spotify:track:6sYVFCyC8mw4jCO2gy508M",
+            "data": {
+              "__typename": "Track",
+              "albumOfTrack": {
+                "coverArt": {
+                  "sources": [
+                    {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e02ef30323ecca749bb3e961189",
+                      "width": 300
+                    },
+                    {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d00004851ef30323ecca749bb3e961189",
+                      "width": 64
+                    },
+                    {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b273ef30323ecca749bb3e961189",
+                      "width": 640
+                    }
+                  ]
+                },
+                "uri": "spotify:album:0QuK6wmDOsSUmxD7tEdWU7"
+              },
+              "artists": {
+                "items": [
+                  {
+                    "profile": {
+                      "name": "KIM"
+                    },
+                    "uri": "spotify:artist:1ltPgn4r3rgK3NcpJZScIp"
+                  },
+                  {
+                    "profile": {
+                      "name": "Nabila Taqiyyah"
+                    },
+                    "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                  }
+                ]
+              },
+              "associationsV3": {
+                "audioAssociations": {
+                  "items": [
+                    {
+                      "trackAudio": {
+                        "_uri": "spotify:track:7k5KS786ibuDQIU4YKRnQ7"
+                      }
+                    }
+                  ]
+                }
+              },
+              "contentRating": {
+                "label": "NONE"
+              },
+              "name": "Bayangan Cinta Yang Lalu",
+              "uri": "spotify:track:6sYVFCyC8mw4jCO2gy508M"
+            }
+          },
+          {
+            "_uri": "spotify:track:7rd9GEiLOPQuHwSkLVZYbh",
+            "data": {
+              "__typename": "Track",
+              "albumOfTrack": {
+                "coverArt": {
+                  "sources": [
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b77c3507f6fcd65dd793dd0536",
+                      "width": 1280
+                    },
+                    {
+                      "height": 360,
+                      "url": "https://i.scdn.co/image/ab6742d3000052b77c3507f6fcd65dd793dd0536",
+                      "width": 640
+                    },
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b77c3507f6fcd65dd793dd0536",
+                      "width": 1280
+                    }
+                  ]
+                },
+                "uri": "spotify:album:7GmVCbUNqGDW3zawVM52Zw"
+              },
+              "artists": {
+                "items": [
+                  {
+                    "profile": {
+                      "name": "Nabila Taqiyyah"
+                    },
+                    "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                  }
+                ]
+              },
+              "associationsV3": {
+                "audioAssociations": {
+                  "items": [
+                    {
+                      "trackAudio": {
+                        "_uri": "spotify:track:2jK5xdblU0nlbBFO9Bjgq4"
+                      }
+                    }
+                  ]
+                }
+              },
+              "contentRating": {
+                "label": "NONE"
+              },
+              "name": "Berjalan Tanpamu",
+              "uri": "spotify:track:7rd9GEiLOPQuHwSkLVZYbh"
+            }
+          },
+          {
+            "_uri": "spotify:track:7pnEcpxAw9ifqck0KCIHFn",
+            "data": {
+              "__typename": "Track",
+              "albumOfTrack": {
+                "coverArt": {
+                  "sources": [
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b72478197a931664de87bb41e7",
+                      "width": 1280
+                    },
+                    {
+                      "height": 360,
+                      "url": "https://i.scdn.co/image/ab6742d3000052b72478197a931664de87bb41e7",
+                      "width": 640
+                    },
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b72478197a931664de87bb41e7",
+                      "width": 1280
+                    }
+                  ]
+                },
+                "uri": "spotify:album:5HFU6tt92rjWwv8FaUNHzi"
+              },
+              "artists": {
+                "items": [
+                  {
+                    "profile": {
+                      "name": "Nabila Taqiyyah"
+                    },
+                    "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                  }
+                ]
+              },
+              "associationsV3": {
+                "audioAssociations": {
+                  "items": [
+                    {
+                      "trackAudio": {
+                        "_uri": "spotify:track:5PZj5xHp2quaDlLq7V2RMM"
+                      }
+                    }
+                  ]
+                }
+              },
+              "contentRating": {
+                "label": "NONE"
+              },
+              "name": "Pengagum Rahasia",
+              "uri": "spotify:track:7pnEcpxAw9ifqck0KCIHFn"
+            }
+          },
+          {
+            "_uri": "spotify:track:2fBsY1wWio02tdjIMXpNyy",
+            "data": {
+              "__typename": "Track",
+              "albumOfTrack": {
+                "coverArt": {
+                  "sources": [
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b7de2cc8ab33b4449490ede518",
+                      "width": 1280
+                    },
+                    {
+                      "height": 360,
+                      "url": "https://i.scdn.co/image/ab6742d3000052b7de2cc8ab33b4449490ede518",
+                      "width": 640
+                    },
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b7de2cc8ab33b4449490ede518",
+                      "width": 1280
+                    }
+                  ]
+                },
+                "uri": "spotify:album:0NX1Sftmtv1t1xTyK8jfy0"
+              },
+              "artists": {
+                "items": [
+                  {
+                    "profile": {
+                      "name": "Rizwan Fadilah"
+                    },
+                    "uri": "spotify:artist:6usptTdSkyzOX8rWIE4Y12"
+                  },
+                  {
+                    "profile": {
+                      "name": "Nabila Taqiyyah"
+                    },
+                    "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                  }
+                ]
+              },
+              "associationsV3": {
+                "audioAssociations": {
+                  "items": [
+                    {
+                      "trackAudio": {
+                        "_uri": "spotify:track:2Jp7oaFGIyaSV30pFoALV5"
+                      }
+                    }
+                  ]
+                }
+              },
+              "contentRating": {
+                "label": "NONE"
+              },
+              "name": "Tak Satu Cerita",
+              "uri": "spotify:track:2fBsY1wWio02tdjIMXpNyy"
+            }
+          },
+          {
+            "_uri": "spotify:track:3S0a1ZTvoIeikZIUkZ7KGC",
+            "data": {
+              "__typename": "Track",
+              "albumOfTrack": {
+                "coverArt": {
+                  "sources": [
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b71bd4a2a61a4560eac0c02355",
+                      "width": 1280
+                    },
+                    {
+                      "height": 360,
+                      "url": "https://i.scdn.co/image/ab6742d3000052b71bd4a2a61a4560eac0c02355",
+                      "width": 640
+                    },
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b71bd4a2a61a4560eac0c02355",
+                      "width": 1280
+                    }
+                  ]
+                },
+                "uri": "spotify:album:4qBt1vlHaAasL24I2QxDiO"
+              },
+              "artists": {
+                "items": [
+                  {
+                    "profile": {
+                      "name": "Nabila Taqiyyah"
+                    },
+                    "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                  }
+                ]
+              },
+              "associationsV3": {
+                "audioAssociations": {
+                  "items": [
+                    {
+                      "trackAudio": {
+                        "_uri": "spotify:track:2vicIBzpgi5eJNF0T7nrbo"
+                      }
+                    }
+                  ]
+                }
+              },
+              "contentRating": {
+                "label": "NONE"
+              },
+              "name": "Terpatah Terluka",
+              "uri": "spotify:track:3S0a1ZTvoIeikZIUkZ7KGC"
+            }
+          },
+          {
+            "_uri": "spotify:track:2zq04DgOxItr80lPNXX8Se",
+            "data": {
+              "__typename": "Track",
+              "albumOfTrack": {
+                "coverArt": {
+                  "sources": [
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b7753f03ed711f8939a46c1701",
+                      "width": 1280
+                    },
+                    {
+                      "height": 360,
+                      "url": "https://i.scdn.co/image/ab6742d3000052b7753f03ed711f8939a46c1701",
+                      "width": 640
+                    },
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b7753f03ed711f8939a46c1701",
+                      "width": 1280
+                    }
+                  ]
+                },
+                "uri": "spotify:album:7GiqM45ilB0PaQvCtNtMjR"
+              },
+              "artists": {
+                "items": [
+                  {
+                    "profile": {
+                      "name": "Insomniacks"
+                    },
+                    "uri": "spotify:artist:3uSnvyMAFJTm7XkZJFo0xP"
+                  },
+                  {
+                    "profile": {
+                      "name": "Nabila Taqiyyah"
+                    },
+                    "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                  }
+                ]
+              },
+              "associationsV3": {
+                "audioAssociations": {
+                  "items": [
+                    {
+                      "trackAudio": {
+                        "_uri": "spotify:track:5MFi8dcCIGTiuUIC2loVQc"
+                      }
+                    }
+                  ]
+                }
+              },
+              "contentRating": {
+                "label": "NONE"
+              },
+              "name": "Belum Mulai",
+              "uri": "spotify:track:2zq04DgOxItr80lPNXX8Se"
+            }
+          },
+          {
+            "_uri": "spotify:track:28Cr4gldZqYvgWU8ZlGHLv",
+            "data": {
+              "__typename": "Track",
+              "albumOfTrack": {
+                "coverArt": {
+                  "sources": [
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b79d72b9c05c3180cd498b9aea",
+                      "width": 1280
+                    },
+                    {
+                      "height": 360,
+                      "url": "https://i.scdn.co/image/ab6742d3000052b79d72b9c05c3180cd498b9aea",
+                      "width": 640
+                    },
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b79d72b9c05c3180cd498b9aea",
+                      "width": 1280
+                    }
+                  ]
+                },
+                "uri": "spotify:album:79Tmf80IsWLmZ7gubUPaUe"
+              },
+              "artists": {
+                "items": [
+                  {
+                    "profile": {
+                      "name": "Nabila Taqiyyah"
+                    },
+                    "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                  }
+                ]
+              },
+              "associationsV3": {
+                "audioAssociations": {
+                  "items": [
+                    {
+                      "trackAudio": {
+                        "_uri": "spotify:track:3gedUqUJEgNoDqDaQZwTUo"
+                      }
+                    }
+                  ]
+                }
+              },
+              "contentRating": {
+                "label": "NONE"
+              },
+              "name": "Hanya Lolongan",
+              "uri": "spotify:track:28Cr4gldZqYvgWU8ZlGHLv"
+            }
+          },
+          {
+            "_uri": "spotify:track:5HbjCENSlYXZXgf7ZyoOfP",
+            "data": {
+              "__typename": "Track",
+              "albumOfTrack": {
+                "coverArt": {
+                  "sources": [
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b73c17ca35509c0cc0cd3caf07",
+                      "width": 1280
+                    },
+                    {
+                      "height": 360,
+                      "url": "https://i.scdn.co/image/ab6742d3000052b73c17ca35509c0cc0cd3caf07",
+                      "width": 640
+                    },
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b73c17ca35509c0cc0cd3caf07",
+                      "width": 1280
+                    }
+                  ]
+                },
+                "uri": "spotify:album:2yl3jiPpFpWsD0mDGjuqP4"
+              },
+              "artists": {
+                "items": [
+                  {
+                    "profile": {
+                      "name": "Nabila Taqiyyah"
+                    },
+                    "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                  }
+                ]
+              },
+              "associationsV3": {
+                "audioAssociations": {
+                  "items": [
+                    {
+                      "trackAudio": {
+                        "_uri": "spotify:track:5xgZB5HODUVEanizzlOjEo"
+                      }
+                    }
+                  ]
+                }
+              },
+              "contentRating": {
+                "label": "NONE"
+              },
+              "name": "Ku Ingin Pisah",
+              "uri": "spotify:track:5HbjCENSlYXZXgf7ZyoOfP"
+            }
+          }
+        ],
+        "pagingInfo": {
+          "nextOffset": null
+        },
+        "totalCount": 9
+      },
+      "saved": false,
+      "sharingInfo": {
+        "shareId": "A9Zb19nqQOeSOWgq20echw",
+        "shareUrl": "https://open.spotify.com/artist/0sLoVTeBT6akDY7ecDxKYe?si=A9Zb19nqQOeSOWgq20echw"
+      },
+      "stats": {
+        "followers": 280251,
+        "monthlyListeners": 2355926,
+        "topCities": {
+          "items": [
+            {
+              "city": "Jakarta",
+              "country": "ID",
+              "numberOfListeners": 507635,
+              "region": "JK"
+            },
+            {
+              "city": "Bandung",
+              "country": "ID",
+              "numberOfListeners": 205966,
+              "region": "JB"
+            },
+            {
+              "city": "Surabaya",
+              "country": "ID",
+              "numberOfListeners": 143090,
+              "region": "JI"
+            },
+            {
+              "city": "Makassar",
+              "country": "ID",
+              "numberOfListeners": 136384,
+              "region": "SN"
+            },
+            {
+              "city": "Medan",
+              "country": "ID",
+              "numberOfListeners": 126877,
+              "region": "SU"
+            }
+          ]
+        },
+        "worldRank": 0
+      },
+      "unmappedMusicVideos": {
+        "__typename": "MusicVideosPage",
+        "items": [
+          {
+            "_uri": "spotify:track:3EhadGTaZknGO2N81Sayv3",
+            "data": {
+              "__typename": "Track",
+              "albumOfTrack": {
+                "coverArt": {
+                  "sources": [
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b71588748d207cafa2a25d993f",
+                      "width": 1280
+                    },
+                    {
+                      "height": 360,
+                      "url": "https://i.scdn.co/image/ab6742d3000052b71588748d207cafa2a25d993f",
+                      "width": 640
+                    },
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b71588748d207cafa2a25d993f",
+                      "width": 1280
+                    }
+                  ]
+                },
+                "uri": "spotify:album:0v1IQhSG3wtwytnb2mmZOf"
+              },
+              "artists": {
+                "items": [
+                  {
+                    "profile": {
+                      "name": "Nabila Taqiyyah"
+                    },
+                    "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                  }
+                ]
+              },
+              "associationsV3": {
+                "audioAssociations": {
+                  "items": []
+                }
+              },
+              "contentRating": {
+                "label": "NONE"
+              },
+              "name": "Berjalan Tanpamu - Acoustic Session",
+              "uri": "spotify:track:3EhadGTaZknGO2N81Sayv3"
+            }
+          },
+          {
+            "_uri": "spotify:track:2WjgpqzoZ0GcFus4FmXnD2",
+            "data": {
+              "__typename": "Track",
+              "albumOfTrack": {
+                "coverArt": {
+                  "sources": [
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b7c490cda2178a5395991646b5",
+                      "width": 1280
+                    },
+                    {
+                      "height": 360,
+                      "url": "https://i.scdn.co/image/ab6742d3000052b7c490cda2178a5395991646b5",
+                      "width": 640
+                    },
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b7c490cda2178a5395991646b5",
+                      "width": 1280
+                    }
+                  ]
+                },
+                "uri": "spotify:album:2xTdTxlEA56wDRSrIeSl7B"
+              },
+              "artists": {
+                "items": [
+                  {
+                    "profile": {
+                      "name": "Nabila Taqiyyah"
+                    },
+                    "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                  }
+                ]
+              },
+              "associationsV3": {
+                "audioAssociations": {
+                  "items": []
+                }
+              },
+              "contentRating": {
+                "label": "NONE"
+              },
+              "name": "Menikmati Kebohongan - Acoustic Session",
+              "uri": "spotify:track:2WjgpqzoZ0GcFus4FmXnD2"
+            }
+          },
+          {
+            "_uri": "spotify:track:794k2HKjypvSVgbhVEgetf",
+            "data": {
+              "__typename": "Track",
+              "albumOfTrack": {
+                "coverArt": {
+                  "sources": [
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b7a2be70fe992236401e9e3a23",
+                      "width": 1280
+                    },
+                    {
+                      "height": 360,
+                      "url": "https://i.scdn.co/image/ab6742d3000052b7a2be70fe992236401e9e3a23",
+                      "width": 640
+                    },
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b7a2be70fe992236401e9e3a23",
+                      "width": 1280
+                    }
+                  ]
+                },
+                "uri": "spotify:album:1N9UhAWvBcGpWTHZExSmeO"
+              },
+              "artists": {
+                "items": [
+                  {
+                    "profile": {
+                      "name": "Nabila Taqiyyah"
+                    },
+                    "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                  }
+                ]
+              },
+              "associationsV3": {
+                "audioAssociations": {
+                  "items": []
+                }
+              },
+              "contentRating": {
+                "label": "NONE"
+              },
+              "name": "Terpatah Terluka - Acoustic Session",
+              "uri": "spotify:track:794k2HKjypvSVgbhVEgetf"
+            }
+          },
+          {
+            "_uri": "spotify:track:7MaMTlO45FPXAYKGgnuJUt",
+            "data": {
+              "__typename": "Track",
+              "albumOfTrack": {
+                "coverArt": {
+                  "sources": [
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b78bb124c5ce1fa65cdb87bd02",
+                      "width": 1280
+                    },
+                    {
+                      "height": 360,
+                      "url": "https://i.scdn.co/image/ab6742d3000052b78bb124c5ce1fa65cdb87bd02",
+                      "width": 640
+                    },
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b78bb124c5ce1fa65cdb87bd02",
+                      "width": 1280
+                    }
+                  ]
+                },
+                "uri": "spotify:album:3VtYA9Fxqar8w1t6zUFVAA"
+              },
+              "artists": {
+                "items": [
+                  {
+                    "profile": {
+                      "name": "Nabila Taqiyyah"
+                    },
+                    "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                  }
+                ]
+              },
+              "associationsV3": {
+                "audioAssociations": {
+                  "items": []
+                }
+              },
+              "contentRating": {
+                "label": "NONE"
+              },
+              "name": "Ku Ingin Pisah - Acoustic Session",
+              "uri": "spotify:track:7MaMTlO45FPXAYKGgnuJUt"
+            }
+          },
+          {
+            "_uri": "spotify:track:2FMWw9Hc5s8H3ZHfVAFdKb",
+            "data": {
+              "__typename": "Track",
+              "albumOfTrack": {
+                "coverArt": {
+                  "sources": [
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b76a8623951823bcf872d90a6f",
+                      "width": 1280
+                    },
+                    {
+                      "height": 360,
+                      "url": "https://i.scdn.co/image/ab6742d3000052b76a8623951823bcf872d90a6f",
+                      "width": 640
+                    },
+                    {
+                      "height": 720,
+                      "url": "https://i.scdn.co/image/ab6742d3000053b76a8623951823bcf872d90a6f",
+                      "width": 1280
+                    }
+                  ]
+                },
+                "uri": "spotify:album:0LzgZQnXWTQMmRIBIL5P58"
+              },
+              "artists": {
+                "items": [
+                  {
+                    "profile": {
+                      "name": "Nabila Taqiyyah"
+                    },
+                    "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe"
+                  }
+                ]
+              },
+              "associationsV3": {
+                "audioAssociations": {
+                  "items": []
+                }
+              },
+              "contentRating": {
+                "label": "NONE"
+              },
+              "name": "Ku Ingin Pisah - Live Session",
+              "uri": "spotify:track:2FMWw9Hc5s8H3ZHfVAFdKb"
+            }
+          }
+        ],
+        "pagingInfo": {
+          "nextOffset": null
+        },
+        "totalCount": 5
+      },
+      "uri": "spotify:artist:0sLoVTeBT6akDY7ecDxKYe",
+      "visualIdentity": {
+        "wideFullBleedImage": {
+          "__typename": "VisualIdentityImage",
+          "extractedColorSet": {
+            "encoreBaseSetTextColor": {
+              "alpha": 255,
+              "blue": 183,
+              "green": 193,
+              "red": 166
+            },
+            "highContrast": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 80,
+                "green": 88,
+                "red": 64
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 48,
+                "green": 55,
+                "red": 32
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 202,
+                "green": 211,
+                "red": 184
+              }
+            },
+            "higherContrast": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 50,
+                "green": 58,
+                "red": 35
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 83,
+                "green": 91,
+                "red": 67
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 96,
+                "green": 215,
+                "red": 30
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 202,
+                "green": 211,
+                "red": 184
+              }
+            },
+            "minContrast": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 88,
+                "green": 96,
+                "red": 72
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 57,
+                "green": 65,
+                "red": 42
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              }
+            }
+          }
+        }
+      },
+      "visuals": {
+        "avatarImage": {
+          "extractedColors": {
+            "colorRaw": {
+              "hex": "#A81800"
+            }
+          },
+          "sources": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6761610000e5ebbc2332dd0cb39a845d1a89ee",
+              "width": 640
+            },
+            {
+              "height": 160,
+              "url": "https://i.scdn.co/image/ab6761610000f178bc2332dd0cb39a845d1a89ee",
+              "width": 160
+            },
+            {
+              "height": 320,
+              "url": "https://i.scdn.co/image/ab67616100005174bc2332dd0cb39a845d1a89ee",
+              "width": 320
+            }
+          ]
+        },
+        "gallery": {
+          "items": [
+            {
+              "sources": [
+                {
+                  "height": 640,
+                  "url": "https://i.scdn.co/image/ab6761670000ecd49b4cf9aa6d557be79a4fe60e",
+                  "width": 640
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "watchFeedEntrypoint": {
+        "entrypointUri": "spotify:watch-feed:artist:0sLoVTeBT6akDY7ecDxKYe?itemId=c3BvdGlmeTp0cmFjazoydmljSUJ6cGdpNWVKTkYwVDducmJv",
+        "thumbnailImage": {
+          "data": {
+            "__typename": "ImageV2",
+            "imageId": "https://i.scdn.co/image/ab67ba6900002ea63c2b1307c2f6d78733b54a63",
+            "imageIdType": "IMAGE_URL",
+            "sources": [
+              {
+                "imageFormat": "WEBP",
+                "maxHeight": 512,
+                "maxWidth": 288,
+                "url": "https://image-cdn-fa.spotifycdn.com/image/ab67ba6900001d963c2b1307c2f6d78733b54a63"
+              },
+              {
+                "imageFormat": "WEBP",
+                "maxHeight": 1920,
+                "maxWidth": 1080,
+                "url": "https://image-cdn-fa.spotifycdn.com/image/ab67ba6900002b603c2b1307c2f6d78733b54a63"
+              },
+              {
+                "imageFormat": "WEBP",
+                "maxHeight": 256,
+                "maxWidth": 144,
+                "url": "https://image-cdn-fa.spotifycdn.com/image/ab67ba690000db9e3c2b1307c2f6d78733b54a63"
+              }
+            ]
+          }
+        },
+        "video": {
+          "endTime": 0,
+          "fileId": "https://canvaz.scdn.co/upload/licensor/7JGwF0zhX9oItt9901OvB5/video/f9387e5c2964494993ceb567f394568f.cnvs.mp4",
+          "startTime": 0,
+          "videoType": "URL"
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import { createContext, useContext } from "react";
-import type { ArtistModel } from "../model/artist.model";
+import type { ArtistModel } from "../model";
 
 // ============================================
 // CONTEXT
@@ -149,6 +149,10 @@ export function useArtistSharingInfo() {
  */
 export function useIsArtistSaved() {
   return useArtistContext().isSaved;
+}
+
+export function useArtistDiscoveredOn() {
+  return useArtistContext().relatedContent.discoveredOnPlaylists;
 }
 
 /**

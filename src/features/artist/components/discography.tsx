@@ -51,37 +51,58 @@ export const ArtistDiscography = () => {
 
   const albumsToDisplay = getDisplayData();
 
+  const hasData = (tab: (typeof TabEnum)[keyof typeof TabEnum]) => {
+    switch (tab) {
+      case TabEnum.PopularReleases:
+        return discography.popularReleases.length > 0;
+      case TabEnum.Albums:
+        return discography.albums.length > 0;
+      case TabEnum.SinglesAndEPs:
+        return discography.singlesAndEPs.length > 0;
+      default:
+        return false;
+    }
+  };
+
   return (
     <div className="mt-8">
       <h2 className="font-semibold text-2xl mb-4">Discography</h2>
       <div className="flex my-4">
-        <Chip
-          variant={activeTab === TabEnum.PopularReleases ? "active" : "inactive"}
-          className="mr-4"
-          onClick={() => {
-            setActiveTab(TabEnum.PopularReleases);
-          }}
-        >
-          Popular Releases
-        </Chip>
-        <Chip
-          variant={activeTab === TabEnum.Albums ? "active" : "inactive"}
-          className="mr-4"
-          onClick={() => {
-            setActiveTab(TabEnum.Albums);
-          }}
-        >
-          Albums
-        </Chip>
-        <Chip
-          variant={activeTab === TabEnum.SinglesAndEPs ? "active" : "inactive"}
-          className="mr-4"
-          onClick={() => {
-            setActiveTab(TabEnum.SinglesAndEPs);
-          }}
-        >
-          Singles and EPs
-        </Chip>
+        {hasData(TabEnum.PopularReleases) && (
+          <Chip
+            variant={activeTab === TabEnum.PopularReleases ? "active" : "inactive"}
+            className="mr-4"
+            onClick={() => {
+              setActiveTab(TabEnum.PopularReleases);
+            }}
+          >
+            Popular Releases
+          </Chip>
+        )}
+
+        {hasData(TabEnum.Albums) && (
+          <Chip
+            variant={activeTab === TabEnum.Albums ? "active" : "inactive"}
+            className="mr-4"
+            onClick={() => {
+              setActiveTab(TabEnum.Albums);
+            }}
+          >
+            Albums
+          </Chip>
+        )}
+
+        {hasData(TabEnum.SinglesAndEPs) && (
+          <Chip
+            variant={activeTab === TabEnum.SinglesAndEPs ? "active" : "inactive"}
+            className="mr-4"
+            onClick={() => {
+              setActiveTab(TabEnum.SinglesAndEPs);
+            }}
+          >
+            Singles and EPs
+          </Chip>
+        )}
       </div>
       <div>
         <div

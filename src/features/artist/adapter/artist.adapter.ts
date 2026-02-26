@@ -27,7 +27,8 @@ import type {
   MusicVideo,
   Discography,
   RelatedArtist,
-} from "../model/artist.model";
+} from "../model";
+import { formatNumber } from "@/features/shared/formaters/format-number";
 
 // ============================================
 // TYPE GUARDS
@@ -87,7 +88,7 @@ const PlaylistAdapter = {
       uri: d.uri,
       path: transformSpotifyUriToUrl(d.uri),
       name: d.name,
-      description: d.description || "",
+      description: d.description || `By ${d.ownerV2?.data?.name || "Unknown"}`,
       coverUrl: ImageAdapter.getFirstUrl(sources),
       coverSources: ImageAdapter.mapSources(sources),
       owner: { name: d.ownerV2?.data?.name || "" },
@@ -402,6 +403,7 @@ export function mapArtistApiToModel(api: ArtistAPIContract): ArtistModel {
     stats: {
       followers: artist.stats?.followers ?? 0,
       monthlyListeners: artist.stats?.monthlyListeners ?? 0,
+      formatedMonthlyListeners: formatNumber(artist.stats?.monthlyListeners ?? 0),
       worldRank: artist.stats?.worldRank ?? 0,
       topCities: (artist.stats?.topCities?.items || []).map((city) => ({
         city: city.city,
@@ -435,6 +437,11 @@ export function mapArtistApiToModel(api: ArtistAPIContract): ArtistModel {
     relatedContent: extractRelatedContent(artist.relatedContent),
     hasMusicVideo: (artist.relatedMusicVideos?.totalCount || 0) > 0,
     musicVideos: extractMusicVideos(artist.relatedMusicVideos),
+    watchFeedEntrypoint: {
+      uri: artist.watchFeedEntrypoint?.entrypointUri[0] || "",
+      path: transformSpotifyUriToUrl(artist.watchFeedEntrypoint?.entrypointUri[0] || ""),
+      thumbnailImage: artist.watchFeedEntrypoint?.thumbnailImage?.data?.imageId ?? "",
+    },
   };
 }
 

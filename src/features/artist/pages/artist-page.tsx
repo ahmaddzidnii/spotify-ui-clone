@@ -4,7 +4,6 @@ import { useParams } from "react-router";
 import { useScrollTrigger } from "@/hooks/use-scroll-trigger";
 
 import { rgbToHex } from "@/features/shared/formaters/format-color";
-import { formatNumber } from "@/features/shared/formaters/format-number";
 
 import { Button } from "@/components/ui/button";
 import { ScrollArea, type ScrollAreaRef } from "@/components/scroll-area";
@@ -19,12 +18,12 @@ import { ArtistFeaturing } from "../components/featuring";
 import { mapArtistApiToModel } from "../adapter/artist.adapter";
 import { getArtistById } from "../data/artist.store";
 import { ArtistProvider } from "../context/artist-page-context";
+import { ArtistDiscoveredOn } from "../components/artist-discovered-on";
 
 export const ArtistPage = () => {
   const { id } = useParams();
   const uri = `spotify:artist:${id}`;
 
-  // Get raw API data and map to model
   const rawArtistData = getArtistById(uri);
 
   if (!rawArtistData) {
@@ -148,7 +147,7 @@ export const ArtistPage = () => {
             >
               {artistModel.profile.name}
             </p>
-            <p className="mt-2">{formatNumber(artistModel.stats.monthlyListeners)} monthly listeners</p>
+            <p className="mt-2">{artistModel.stats.formatedMonthlyListeners} monthly listeners</p>
           </div>
         </div>
         <div className="pb-24 mt-4 bg-background-base relative z-0">
@@ -159,7 +158,7 @@ export const ArtistPage = () => {
                 background: `linear-gradient(to bottom, var(--background-base-70), transparent)`,
               } as React.CSSProperties
             }
-            className="-z-1  absolute top-0 left-0 w-full h-[173px]"
+            className="-z-1  absolute top-0 left-0 w-full h-43.25"
           />
           <div className="flex flex-col -mt-1 p-6">
             <div
@@ -177,17 +176,17 @@ export const ArtistPage = () => {
               </button>
 
               {/* TODO: Add watchFeedEntrypoint to model */}
-              {/* <div className="ml-6">
+              <div className="ml-6">
                 <div
                   role="button"
-                  className="w-[38px] h-[48px] rounded-xl border-2 border-text-subdued flex items-center justify-center overflow-hidden"
+                  className="w-9.5 h-12 rounded-xl border-2 border-text-subdued flex items-center justify-center overflow-hidden"
                 >
                   <img
-                    src={artist.watchFeedEntrypoint.thumbnailImage.data.imageId}
-                    alt={``}
+                    src={artistModel.watchFeedEntrypoint.thumbnailImage}
+                    alt={"Watch Feed"}
                   />
                 </div>
-              </div> */}
+              </div>
 
               <div className="ml-6">
                 <Button variant="tertiary">
@@ -208,6 +207,11 @@ export const ArtistPage = () => {
             <ArtistPick />
             <ArtistDiscography />
             <ArtistFeaturing />
+            {/* <ArtistAbout /> */}
+            <ArtistDiscoveredOn />
+            {/* <ArtistPlaylist /> */}
+            {/* <RelatedArtist /> */}
+            {/* <AppearsOn />  */}
           </div>
         </div>
         <Footer />
