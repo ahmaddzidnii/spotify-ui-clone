@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { useNavigate } from "react-router";
 import { ScrollArea, type ScrollAreaRef } from "@/components/scroll-area";
 import { Image } from "@/components/image";
+import { PlayButton } from "@/components/ui/play-button";
 import { useScrollTrigger } from "@/hooks/use-scroll-trigger";
 import { useThemeStore } from "@/stores/use-theme-store";
 import { useExtractColor } from "@/hooks/use-extract-color";
@@ -86,15 +87,13 @@ export const HomePage = () => {
                       </div>
                       <span className="line-clamp-2  ms-2">{r.title}</span>
                     </div>
-                    <button className="flex items-center justify-center bg-[#1ed760] p-2 rounded-full w-8 h-8 absolute right-2 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity">
-                      <svg
-                        role="img"
-                        viewBox="0 0 16 16"
-                        className="w-4 h-4 fill-background-base"
-                      >
-                        <path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288z"></path>
-                      </svg>
-                    </button>
+                    <PlayButton
+                      size="xs"
+                      iconSize="xs"
+                      variant="hover"
+                      positioning="absolute"
+                      className="right-2 top-1/2 -translate-y-1/2"
+                    />
                   </div>
                 );
               })}
@@ -119,15 +118,12 @@ export const HomePage = () => {
                         alt="Playlist cover"
                         className="object-cover w-full h-full absolute top-0 left-0"
                       />
-                      <button className="flex items-center justify-center bg-[#1ed760] p-2 rounded-full w-12 h-12 absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                        <svg
-                          role="img"
-                          viewBox="0 0 16 16"
-                          className="w-6 h-6 fill-background-base"
-                        >
-                          <path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288z"></path>
-                        </svg>
-                      </button>
+                      <PlayButton
+                        size="sm"
+                        variant="hover"
+                        positioning="absolute"
+                        className="bottom-2 right-2"
+                      />
                     </div>
                     <span className="font-medium text-sm line-clamp-2 group-hover:underline">New Music Friday Indonesia {index + 1}</span>
                     <span className="text-text-subdued text-xs line-clamp-1">Various Artists</span>

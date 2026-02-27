@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
+import { PlayButton } from "@/components/ui/play-button";
 import { EncoreIconShuffle, EncoreIconDownload, EncoreIconPersonPlus, EncoreIconMoreOptions } from "@/components/encore/icons";
 import { usePlaylistWatchFeedEntrypoint } from "../context/playlist-page-context";
 
@@ -14,15 +15,7 @@ export const PlaylistActionBar: React.FC<PlaylistActionBarProps> = ({ playButton
       className="flex items-center"
       ref={playButtonRef}
     >
-      <button className="flex items-center justify-center bg-[#1ed760] p-2 rounded-full size-14">
-        <svg
-          role="img"
-          viewBox="0 0 16 16"
-          className="w-6 h-6 fill-background-base"
-        >
-          <path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288z"></path>
-        </svg>
-      </button>
+      <PlayButton size="md" />
 
       <div className="ml-6">
         <div

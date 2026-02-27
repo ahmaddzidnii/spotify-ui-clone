@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 import { Image } from "@/components/image";
 import { buildSrcSet } from "@/features/shared/utils/builder";
-import { EncoreIconPlay } from "@/components/encore/icons";
+import { PlayButton } from "@/components/ui/play-button";
 import { transformAlbumType } from "../../shared/utils/transformers";
 
 interface DiscographyCardProps {
@@ -28,9 +28,12 @@ export const DiscographyCard = ({ name, coverArtSources, releaseYear, type }: Di
               className="absolute top-0 left-0 object-cover object-center w-full h-full"
             />
           </Link>
-          <button className="flex items-center justify-center bg-[#1ed760] p-2 rounded-full size-12 absolute right-2 bottom-2 opacity-0 group-hover:opacity-100 transition-opacity z-1">
-            <EncoreIconPlay className="fill-background-base size-6" />
-          </button>
+          <PlayButton
+            size="sm"
+            variant="hover"
+            positioning="absolute"
+            className="right-2 bottom-2 z-1"
+          />
         </div>
         <div className="mt-2">
           <Link

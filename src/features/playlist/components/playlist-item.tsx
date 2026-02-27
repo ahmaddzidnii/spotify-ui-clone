@@ -1,8 +1,8 @@
 import type { libraryResponse } from "@/data/library-response";
 import { Image } from "@/components/image";
 import { Tooltip } from "@/components/ui/tooltip";
+import { PlayButton } from "@/components/ui/play-button";
 import { useSidebarCollapsed } from "@/stores/use-sidebar-store";
-import { EncoreIconPlay } from "@/components/encore/icons";
 import { Link, useNavigate } from "react-router";
 import { transformSpotifyUriToUrl } from "@/features/shared/parsers/parse-uri";
 import { EncoreIconPin } from "@/components/encore/icons/encore-icon-pin";
@@ -47,33 +47,33 @@ export const PlaylistItem = ({ playlist }: PlaylistItemProps) => {
           className="object-cover w-full h-full absolute top-0 left-0"
         />
 
-        {/* Play button - desktop */}
-        <button
-          onClick={(e) => {
-            e.stopPropagation(); // Mencegah klik tembus ke div utama
-            // Tambahkan logika fungsi play di sini nantinya
-          }}
-          className="flex items-center justify-center bg-[#1ed760] p-2 rounded-full w-12 h-12 absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity @max-[421px]/left-sidebar:hidden hover:scale-105 hover:bg-green-400"
-        >
-          <EncoreIconPlay className="size-6 fill-background-base" />
-        </button>
+        {/* Play button - hanya muncul saat sidebar tidak collapsed */}
+        {!isCollapsed && (
+          <>
+            {/* Play button - desktop (sidebar width >= 421px) */}
+            <PlayButton
+              size="sm"
+              variant="hover"
+              positioning="absolute"
+              onClick={(e) => {
+                e.stopPropagation();
+              }}
+              className="bottom-2 right-2 @max-[421px]/left-sidebar:hidden"
+            />
 
-        {/* Play button - mobile */}
-        <button
-          onClick={(e) => {
-            e.stopPropagation(); // Mencegah klik tembus ke div utama
-            // Tambahkan logika fungsi play di sini nantinya
-          }}
-          className="flex items-center justify-center p-2 rounded-full bg-[#1ed760] size-8 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity @min-[421px]/left-sidebar:hidden"
-        >
-          <svg
-            role="img"
-            viewBox="0 0 16 16"
-            className="size-6 fill-background-base"
-          >
-            <path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288z"></path>
-          </svg>
-        </button>
+            {/* Play button - mobile (sidebar width < 421px) */}
+            <PlayButton
+              size="xs"
+              iconSize="xs"
+              variant="hover"
+              positioning="absolute"
+              onClick={(e) => {
+                e.stopPropagation();
+              }}
+              className="top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 @min-[421px]/left-sidebar:hidden"
+            />
+          </>
+        )}
       </div>
 
       <div className="flex flex-col ms-4 @min-[421px]/left-sidebar:ms-0 @max-[280px]/left-sidebar:hidden">

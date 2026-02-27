@@ -6,6 +6,7 @@ import { useScrollTrigger } from "@/hooks/use-scroll-trigger";
 import { rgbToHex } from "@/features/shared/formaters/format-color";
 
 import { Button } from "@/components/ui/button";
+import { PlayButton } from "@/components/ui/play-button";
 import { ScrollArea, type ScrollAreaRef } from "@/components/scroll-area";
 import { EncoreIconMoreOptions, EncoreIconShuffle } from "@/components/encore/icons";
 
@@ -93,15 +94,7 @@ export const ArtistPage = () => {
           }}
           className="flex items-center gap-2"
         >
-          <button className="flex items-center justify-center bg-[#1ed760] p-2 rounded-full w-12 h-12">
-            <svg
-              role="img"
-              viewBox="0 0 16 16"
-              className="w-6 h-6 fill-background-base"
-            >
-              <path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288z"></path>
-            </svg>
-          </button>
+          <PlayButton size="sm" />
           <span className="font-semibold text-3xl">{artistModel.profile.name}</span>
         </div>
       </header>
@@ -165,15 +158,7 @@ export const ArtistPage = () => {
               className="flex items-center"
               ref={playButtonBottomRef}
             >
-              <button className="flex items-center justify-center bg-[#1ed760] p-2 rounded-full size-14">
-                <svg
-                  role="img"
-                  viewBox="0 0 16 16"
-                  className="w-6 h-6 fill-background-base"
-                >
-                  <path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288z"></path>
-                </svg>
-              </button>
+              <PlayButton size="md" />
 
               <div className="ml-6">
                 <div
