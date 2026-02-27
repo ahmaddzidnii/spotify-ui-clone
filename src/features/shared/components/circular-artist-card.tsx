@@ -49,13 +49,13 @@ export const CircularArtistCard = ({ name, role, imageSources, href = "#", class
   return (
     <div className={`group px-2 py-1.5 rounded-md hover:bg-background-elevated-highlight transition-colors ${className}`}>
       <div className="flex flex-col">
-        <div className="w-full aspect-square overflow-hidden rounded-full relative">
+        <div className="w-full aspect-square overflow-hidden relative">
           <Link to={href}>
             <Image
               src={imageUrl}
               sizes="(min-width: 768px) 180px, 120px"
               alt={name}
-              className="absolute top-0 left-0 object-cover object-center w-full h-full"
+              className="absolute top-0 left-0 object-cover object-center w-full h-full  rounded-full"
             />
           </Link>
           <PlayButton
