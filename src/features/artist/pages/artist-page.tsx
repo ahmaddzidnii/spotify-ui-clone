@@ -110,7 +110,7 @@ export const ArtistPage = () => {
           <div className="sticky top-0 z-50 h-0 w-full overflow-visible"></div>
           <div
             style={{
-              backgroundImage: `url(${artistModel.headerImage.images[0]?.url || ""})`,
+              backgroundImage: `url(${artistModel.headerImage.images[4]?.url || ""})`,
               backgroundPosition: "50% 15%",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
@@ -122,18 +122,18 @@ export const ArtistPage = () => {
             style={{
               background: "linear-gradient(#0000 0%, #00000080 100%), var(--background-noise)",
             }}
-            className="absolute top-0 left-0 h-full w-full z-0"
+            className="absolute top-0 left-0 h-[40dvh] w-full z-0"
           />
           <div
             style={{
               backgroundColor: `rgba(${colorSet.higherContrast.backgroundBase.red}, ${colorSet.higherContrast.backgroundBase.green}, ${colorSet.higherContrast.backgroundBase.blue}, calc(var(--scroll, 0) * 2.3))`,
             }}
-            className="absolute top-0 left-0 h-full w-full z-0"
+            className="absolute top-0 left-0 h-[40dvh] w-full z-0"
           />
         </div>
       </div>
       <ScrollArea
-        className="flex-1"
+        className="flex-1 -mt-3"
         ref={scrollRef}
         onScrollCapture={handleScroll}
       >
@@ -175,7 +175,6 @@ export const ArtistPage = () => {
                 </svg>
               </button>
 
-              {/* TODO: Add watchFeedEntrypoint to model */}
               <div className="ml-6">
                 <div
                   role="button"
@@ -203,8 +202,10 @@ export const ArtistPage = () => {
                 </Button>
               </div>
             </div>
-            <TopTrackList />
-            <ArtistPick />
+            <div className="grid grid-cols-1 gap-4 @min-[1280px]/main-view:grid-cols-2">
+              <TopTrackList />
+              <ArtistPick />
+            </div>
             <ArtistDiscography />
             <ArtistFeaturing />
             {/* <ArtistAbout /> */}
