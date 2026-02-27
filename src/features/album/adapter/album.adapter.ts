@@ -116,12 +116,13 @@ const ArtistAdapter = {
   },
 
   mapArtistRef(artist: ArtistRef) {
+    // ArtistRef tidak memiliki field visuals, jadi tidak ada avatar data
     return {
       id: artist.uri.split(":").pop() || "",
       uri: artist.uri,
       path: transformSpotifyUriToUrl(artist.uri),
       name: artist.profile?.name || "",
-      avatarUrl: "",
+      avatarUrl: "", // ArtistRef tidak punya visuals/avatar
       avatarSources: [],
       sharingInfo: {
         shareUrl: "",
@@ -234,7 +235,7 @@ export function mapAlbumApiToModel(api: AlbumAPIContract): AlbumModel {
       shareUrl: album.sharingInfo?.shareUrl || "",
     },
 
-    artists: ArtistAdapter.mapManyRefs(album.artists?.items || []),
+    artists: ArtistAdapter.mapMany(album.artists?.items || []),
 
     coverArt: {
       url: ImageAdapter.getBestQuality(coverSources, 640),

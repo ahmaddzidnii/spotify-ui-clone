@@ -1,14 +1,15 @@
 import { useSidebarFullStore } from "@/stores/use-sidebar-full-store";
 import { useSidebarActions, useSidebarStore } from "@/stores/use-sidebar-store";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { useLocation } from "react-router";
 import { useMediaQuery } from "usehooks-ts";
 
 export const LayoutProvider = ({ children }: { children: React.ReactNode }) => {
   const location = useLocation();
   const isSmallScreen = useMediaQuery("(max-width: 1280px)");
+  const isFirstRender = useRef(true);
+  const prevLocationRef = useRef(location.pathname);
 
-  const activeFull = useSidebarFullStore((state) => state.activeFull);
   const closeAnyFullScreen = useSidebarFullStore((state) => state.closeAnyFull);
 
   const { collapse, expand } = useSidebarActions();
@@ -43,13 +44,26 @@ export const LayoutProvider = ({ children }: { children: React.ReactNode }) => {
   }, [isSmallScreen, expand]);
 
   useEffect(() => {
-    // check apakah initial render dan path adalah path yang full screen, jika iya maka jangan close full screen
-
-    console.log("Navigasi ", location);
-    if (activeFull) {
-      closeAnyFullScreen();
+    // Skip pada initial render (hard reload)
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      prevLocationRef.current = location.pathname;
+      return;
     }
-  }, [location]);
+
+    // Hanya close full screen jika pathname benar-benar berubah (navigasi)
+    if (prevLocationRef.current !== location.pathname) {
+      console.log("Navigasi dari", prevLocationRef.current, "ke", location.pathname);
+
+      // Cek apakah ada full screen yang aktif saat navigasi
+      const currentActiveFull = useSidebarFullStore.getState().activeFull;
+      if (currentActiveFull) {
+        closeAnyFullScreen();
+      }
+
+      prevLocationRef.current = location.pathname;
+    }
+  }, [location.pathname, closeAnyFullScreen]);
 
   return <>{children}</>;
 };

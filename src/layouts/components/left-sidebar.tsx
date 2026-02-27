@@ -3,7 +3,7 @@ import { ScrollArea } from "@/components/scroll-area";
 import { type CSSProperties } from "react";
 import { cn } from "@/utils/cn";
 import { Button } from "@/components/ui/button";
-import { useSidebarWidth, useSidebarActions } from "@/stores/use-sidebar-store";
+import { useSidebarWidth, useSidebarActions, useSidebarCollapsed } from "@/stores/use-sidebar-store";
 import { PlaylistItem } from "@/features/playlist/components/playlist-item";
 import { Tooltip } from "@/components/ui/tooltip";
 import { useSidebarFullStore } from "@/stores/use-sidebar-full-store";
@@ -13,6 +13,8 @@ import { libraryResponse } from "@/data/library-response";
 export const LeftSidebar = () => {
   const activeFull = useSidebarFullStore((state) => state.activeFull);
   const toggleLeftFull = useSidebarFullStore((state) => state.toggleLeftFull);
+
+  const isCollapsed = useSidebarCollapsed("left");
 
   const isFull = activeFull === "left";
 
@@ -117,7 +119,12 @@ export const LeftSidebar = () => {
           </div>
 
           <ScrollArea className="flex-1">
-            <div className="flex flex-col gap-2 px-2 py-4 @max-[280px]/left-sidebar:items-center @min-[421px]/left-sidebar:grid @min-[421px]/left-sidebar:grid-cols-2 @min-[500px]/left-sidebar:grid-cols-3 @min-[600px]/left-sidebar:grid-cols-4 @min-[900px]/left-sidebar:grid-cols-6">
+            <div
+              className={cn(
+                "flex flex-col px-2 py-4 @max-[280px]/left-sidebar:items-center @min-[421px]/left-sidebar:grid @min-[421px]/left-sidebar:grid-cols-2 @min-[500px]/left-sidebar:grid-cols-3 @min-[600px]/left-sidebar:grid-cols-4 @min-[900px]/left-sidebar:grid-cols-6",
+                isCollapsed ? "gap-4" : "gap-2",
+              )}
+            >
               {libraryResponse.data.me.libraryV3.items.map((playlist) => (
                 <PlaylistItem
                   key={playlist.item.data.uri}

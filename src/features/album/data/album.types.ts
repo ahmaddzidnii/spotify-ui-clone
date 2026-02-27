@@ -92,7 +92,7 @@ export interface Track {
 }
 
 export interface ArtistList {
-  items: ArtistRef[];
+  items: Artist[];
 }
 
 export interface ArtistRef {
