@@ -1,6 +1,6 @@
 import { cn } from "@/utils/cn";
 import { useEffect, useRef, useState } from "react";
-import { DiscographyCard } from "./discography-card";
+import { AlbumCard } from "@/features/shared/components/album-card";
 import { useAppearsOnReleases } from "../context/artist-page-context";
 
 export const AppearsOn = () => {
@@ -49,12 +49,12 @@ export const AppearsOn = () => {
           className={cn("mt-4", `nrVisibleCards-${visibleCount}`)}
         >
           {appearsOn.map((album) => (
-            <DiscographyCard
+            <AlbumCard
               key={album.id}
               name={album.name}
               coverArtSources={album.coverArt.sources}
               releaseYear={album.releaseDate.year}
-              type={album.type}
+              albumType={album.type}
             />
           ))}
         </div>

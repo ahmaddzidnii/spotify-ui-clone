@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { cn } from "@/utils/cn";
 import { useArtistlaylists } from "../context/artist-page-context";
 
-import { FeaturingCard } from "./featuring-card";
+import { MediaCard } from "@/features/shared/components/media-card";
 
 export const ArtistPlaylist = () => {
   const artistPlaylists = useArtistlaylists();
@@ -51,11 +51,11 @@ export const ArtistPlaylist = () => {
           className={cn("mt-4", `nrVisibleCards-${visibleCount}`)}
         >
           {artistPlaylists.map((playlist) => (
-            <FeaturingCard
+            <MediaCard
               key={playlist.id}
-              name={playlist.name}
-              description={playlist.description}
-              coverArtSources={playlist.coverSources}
+              title={playlist.name}
+              subtitle={playlist.description}
+              imageSources={playlist.coverSources}
             />
           ))}
         </div>

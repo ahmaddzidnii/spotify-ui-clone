@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { cn } from "@/utils/cn";
 import { useRelatedArtists } from "../context/artist-page-context";
 
-import { ArtistCard } from "./artist-card";
+import { CircularArtistCard } from "@/features/shared/components/circular-artist-card";
 
 export const RelatedArtist = () => {
   const relatedArtists = useRelatedArtists();
@@ -51,11 +51,11 @@ export const RelatedArtist = () => {
           className={cn("mt-4", `nrVisibleCards-${visibleCount}`)}
         >
           {relatedArtists.map((artist) => (
-            <ArtistCard
+            <CircularArtistCard
               key={artist.id}
               name={artist.name}
-              description="Artist"
-              coverArtSources={artist.avatarSources}
+              role="Artist"
+              imageSources={artist.avatarSources}
             />
           ))}
         </div>

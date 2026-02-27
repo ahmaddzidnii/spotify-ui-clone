@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { cn } from "@/utils/cn";
 import { useArtistDiscoveredOn } from "../context/artist-page-context";
 
-import { DiscoveredOnCard } from "./discovered-on-card";
+import { MediaCard } from "@/features/shared/components/media-card";
 
 export const ArtistDiscoveredOn = () => {
   const discoveredOn = useArtistDiscoveredOn();
@@ -51,11 +51,11 @@ export const ArtistDiscoveredOn = () => {
           className={cn("mt-4", `nrVisibleCards-${visibleCount}`)}
         >
           {discoveredOn.map((playlist) => (
-            <DiscoveredOnCard
+            <MediaCard
               key={playlist.id}
-              name={playlist.name}
-              description={playlist.description}
-              coverArtSources={playlist.coverSources}
+              title={playlist.name}
+              subtitle={playlist.description}
+              imageSources={playlist.coverSources}
             />
           ))}
         </div>

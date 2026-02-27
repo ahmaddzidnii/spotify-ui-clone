@@ -1,7 +1,7 @@
 import { Chip } from "@/components/ui/chip";
 import { cn } from "@/utils/cn";
 import { useEffect, useRef, useState } from "react";
-import { DiscographyCard } from "./discography-card";
+import { AlbumCard } from "@/features/shared/components/album-card";
 import { useArtistDiscography } from "../context/artist-page-context";
 
 const TabEnum = {
@@ -120,12 +120,12 @@ export const ArtistDiscography = () => {
           className={cn("mt-4", `nrVisibleCards-${visibleCount}`)}
         >
           {albumsToDisplay.map((album) => (
-            <DiscographyCard
+            <AlbumCard
               key={album.id}
               name={album.name}
               coverArtSources={album.coverArt.sources}
               releaseYear={album.releaseDate.year}
-              type={album.type}
+              albumType={album.type}
             />
           ))}
         </div>
