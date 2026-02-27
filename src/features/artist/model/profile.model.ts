@@ -1,4 +1,5 @@
 import type { ImageSource, ColorRGBA } from "./shared.types";
+import type { Playlist } from "./social.model";
 
 /**
  * Artist profile & identity related models
@@ -19,6 +20,7 @@ export interface ArtistProfile {
     sources: ImageSource[];
     extractedHex: string;
   };
+  playlists: Playlist[];
 }
 
 export interface ArtistStats {

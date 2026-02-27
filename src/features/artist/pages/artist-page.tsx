@@ -20,6 +20,9 @@ import { mapArtistApiToModel } from "../adapter/artist.adapter";
 import { getArtistById } from "../data/artist.store";
 import { ArtistProvider } from "../context/artist-page-context";
 import { ArtistDiscoveredOn } from "../components/artist-discovered-on";
+import { ArtistPlaylist } from "../components/artist-playlist";
+import { AppearsOn } from "../components/appears-on";
+import { RelatedArtist } from "../components/related-artist";
 
 export const ArtistPage = () => {
   const { id } = useParams();
@@ -195,9 +198,9 @@ export const ArtistPage = () => {
             <ArtistFeaturing />
             {/* <ArtistAbout /> */}
             <ArtistDiscoveredOn />
-            {/* <ArtistPlaylist /> */}
-            {/* <RelatedArtist /> */}
-            {/* <AppearsOn />  */}
+            <ArtistPlaylist />
+            <RelatedArtist />
+            <AppearsOn />
           </div>
         </div>
         <Footer />

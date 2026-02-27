@@ -382,6 +382,8 @@ export function mapArtistApiToModel(api: ArtistAPIContract): ArtistModel {
     throw new Error("Artist data is null");
   }
 
+  const playlists = PlaylistAdapter.mapMany(artist.profile.playlistsV2?.items);
+
   const avatarSources = artist.visuals?.avatarImage?.sources || [];
   const dominantColor = artist.visuals?.avatarImage?.extractedColors?.colorRaw?.hex || "#282828";
 
@@ -398,6 +400,7 @@ export function mapArtistApiToModel(api: ArtistAPIContract): ArtistModel {
         sources: ImageAdapter.mapSources(avatarSources),
         extractedHex: dominantColor,
       },
+      playlists,
     },
 
     stats: {

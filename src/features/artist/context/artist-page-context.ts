@@ -113,6 +113,10 @@ export function useArtistFeaturingPlaylists() {
   return useArtistContext().relatedContent.featuringPlaylists;
 }
 
+export function useArtistlaylists() {
+  return useArtistContext().profile.playlists;
+}
+
 /**
  * Get related artists only
  */
