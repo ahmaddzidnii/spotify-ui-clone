@@ -1,48 +1,75 @@
 import { useRef, useCallback, useEffect, type ReactNode } from "react";
-
-import "@/styles/shelf-carousel.css";
+import { EncoreIconChevronLeft } from "@/components/encore/icons/encore-icon-chevron-left";
 import { cn } from "@/utils/cn";
-import { EncoreIconChevronLeft } from "@/components/encore/icons";
+import "@/styles/shelf-carousel.css";
 
 interface CarouselProps {
-  title: string;
-  showAll?: boolean;
-  onShowAll?: () => void;
+  /**
+   * Custom header content (title, actions, etc.)
+   */
+  header?: ReactNode;
+  /**
+   * Children elements (carousel items)
+   */
   children: ReactNode;
+  /**
+   * Additional CSS class
+   */
   className?: string;
 }
 
-export const Carousel = ({ title, showAll = false, onShowAll, children, className = "" }: CarouselProps) => {
+/**
+ * Carousel component with horizontal scrolling and navigation buttons.
+ *
+ * Features:
+ * - Flexible header content
+ * - Previous/Next buttons with boundary detection
+ * - Edge fade gradients based on scroll position
+ * - Smooth scroll behavior
+ * - Responsive to container width
+ */
+export const Carousel = ({ header, children, className = "" }: CarouselProps) => {
   const scrollerRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const prevBtnRef = useRef<HTMLButtonElement>(null);
   const nextBtnRef = useRef<HTMLButtonElement>(null);
 
+  /**
+   * Update button states and edge fade based on scroll position
+   */
   const updateScrollState = useCallback(() => {
-    const el = scrollerRef.current;
+    const scroller = scrollerRef.current;
     const container = containerRef.current;
-    if (!el || !container) return;
+    const prevBtn = prevBtnRef.current;
+    const nextBtn = nextBtnRef.current;
 
-    const { scrollLeft, scrollWidth, clientWidth } = el;
-    const canPrev = scrollLeft > 0;
-    const canNext = scrollLeft + clientWidth < scrollWidth - 1;
+    if (!scroller || !container) return;
 
-    container.style.setProperty("--fade-prev", canPrev ? "1" : "0");
-    container.style.setProperty("--fade-next", canNext ? "1" : "0");
+    const { scrollLeft, scrollWidth, clientWidth } = scroller;
 
-    if (prevBtnRef.current) {
-      prevBtnRef.current.style.opacity = canPrev ? "" : "0";
-      prevBtnRef.current.style.pointerEvents = canPrev ? "" : "none";
+    // Check if we can scroll in each direction
+    const canScrollPrev = scrollLeft > 1; // Small threshold for rounding
+    const canScrollNext = scrollLeft + clientWidth < scrollWidth - 1;
+
+    // Update CSS variables for edge gradients
+    container.style.setProperty("--fade-prev", canScrollPrev ? "1" : "0");
+    container.style.setProperty("--fade-next", canScrollNext ? "1" : "0");
+
+    // Update button visibility and interaction
+    if (prevBtn) {
+      prevBtn.style.opacity = canScrollPrev ? "" : "0";
+      prevBtn.style.pointerEvents = canScrollPrev ? "" : "none";
     }
-    if (nextBtnRef.current) {
-      nextBtnRef.current.style.opacity = canNext ? "" : "0";
-      nextBtnRef.current.style.pointerEvents = canNext ? "" : "none";
+    if (nextBtn) {
+      nextBtn.style.opacity = canScrollNext ? "" : "0";
+      nextBtn.style.pointerEvents = canScrollNext ? "" : "none";
     }
   }, []);
 
+  // Initial state check on mount and children change
   useEffect(() => {
     updateScrollState();
-  }, [updateScrollState]);
+  }, [updateScrollState, children]);
 
   const handlePrevClick = () => {
     if (!scrollerRef.current) return;
@@ -61,22 +88,15 @@ export const Carousel = ({ title, showAll = false, onShowAll, children, classNam
       className={cn("carousel-shelf", className)}
       data-shelf="carousel"
     >
-      <div className="flex justify-between items-baseline mb-6">
-        <h2 className="text-2xl font-semibold hover:underline cursor-pointer">{title}</h2>
-        {showAll && (
-          <button
-            onClick={onShowAll}
-            className="text-sm font-semibold text-text-subdued hover:underline cursor-pointer"
-          >
-            Show all
-          </button>
-        )}
-      </div>
+      {/* Header */}
+      {header && <div className="mb-2">{header}</div>}
 
+      {/* Carousel Container */}
       <div
         ref={containerRef}
         className="carousel-container relative group/carousel"
       >
+        {/* Scrollable Area */}
         <div
           ref={scrollerRef}
           className="carousel-scroller"
@@ -87,13 +107,13 @@ export const Carousel = ({ title, showAll = false, onShowAll, children, classNam
           <div className="carousel-grid">{children}</div>
         </div>
 
+        {/* Navigation Buttons */}
         <div className="carousel-nav">
           <button
             ref={prevBtnRef}
             onClick={handlePrevClick}
             aria-label="Previous"
             className="carousel-button carousel-button-prev"
-            style={{ opacity: 0, pointerEvents: "none" }} // initial state sebelum mount
             data-testid="carousel-previous-button"
           >
             <EncoreIconChevronLeft size={16} />

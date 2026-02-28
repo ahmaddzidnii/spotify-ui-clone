@@ -10,6 +10,7 @@ import { RECENTS } from "@/data/recents";
 import { NEW_MUSIC_FRIDAY } from "@/data/new-music-friday";
 import { getDateName } from "@/utils/get-day-name";
 import { Carousel, MediaCard } from "@/features/shared/components";
+import { Footer } from "@/layouts/components/footer";
 
 export const HomePage = () => {
   const scrollRef = useRef<ScrollAreaRef | null>(null);
@@ -101,22 +102,18 @@ export const HomePage = () => {
               })}
             </div>
           </section>
-          {/* <section
-            style={
-              {
-                "--carousel-shelf-element-width": "calc(var(--content-max-width) / var(--regular-shelf-max-count))",
-                "--carousel-shelf-min-items": 1.5,
-                "--shelf-collapsable-min-width": "calc(var(--carousel-shelf-element-width) * var(--carousel-shelf-min-items, 1))",
-                "--shelf-carousel-margin-start-mul": -1,
-                "--shelf-carousel-margin-end-mul": -1,
-              } as React.CSSProperties
-            }
-            className="shelf flex flex-col relative"
-          > */}
           <Carousel
-            title={`It's New Music ${getDateName(new Date())}`}
-            showAll={true}
-            onShowAll={() => console.log("Show all clicked")}
+            header={
+              <div className="flex justify-between items-baseline">
+                <h2 className="text-2xl font-semibold hover:underline cursor-pointer">It's New Music {getDateName(new Date())}</h2>
+                {/* <button
+                  onClick={() => console.log("Show all clicked")}
+                  className="text-sm font-semibold text-text-subdued hover:underline cursor-pointer"
+                >
+                  Show all
+                </button> */}
+              </div>
+            }
             className="shelf"
           >
             {NEW_MUSIC_FRIDAY.map((playlist) => (
@@ -130,8 +127,124 @@ export const HomePage = () => {
               />
             ))}
           </Carousel>
-          {/* </section> */}
+          <Carousel
+            header={
+              <div className="flex justify-between items-baseline flex-col">
+                <span className="text-xs text-text-subdued">Made for</span>
+                <span className="text-2xl font-semibold hover:underline cursor-pointer">ahmaddzidnii</span>
+              </div>
+            }
+            className="shelf"
+          >
+            {NEW_MUSIC_FRIDAY.map((playlist) => (
+              <MediaCard
+                key={playlist.id}
+                title={""}
+                subtitle={playlist.description}
+                imageSources={[{ url: playlist.imageUrl }]}
+                href={"#"}
+                imageShape="square"
+              />
+            ))}
+          </Carousel>
+          <Carousel
+            header={
+              <div className="flex justify-between items-baseline">
+                <h2 className="text-2xl font-semibold hover:underline cursor-pointer">Jump back in</h2>
+              </div>
+            }
+            className="shelf"
+          >
+            {NEW_MUSIC_FRIDAY.map((playlist) => (
+              <MediaCard
+                key={playlist.id}
+                title={""}
+                subtitle={playlist.description}
+                imageSources={[{ url: playlist.imageUrl }]}
+                href={"#"}
+                imageShape="square"
+              />
+            ))}
+          </Carousel>
+          <Carousel
+            header={
+              <div className="flex justify-between items-baseline">
+                <h2 className="text-2xl font-semibold hover:underline cursor-pointer">Recently played</h2>
+              </div>
+            }
+            className="shelf"
+          >
+            {NEW_MUSIC_FRIDAY.map((playlist) => (
+              <MediaCard
+                key={playlist.id}
+                title={""}
+                subtitle={playlist.description}
+                imageSources={[{ url: playlist.imageUrl }]}
+                href={"#"}
+                imageShape="square"
+              />
+            ))}
+          </Carousel>
+          <Carousel
+            header={
+              <div className="flex justify-between items-baseline">
+                <h2 className="text-2xl font-semibold hover:underline cursor-pointer">Your top mixed</h2>
+              </div>
+            }
+            className="shelf"
+          >
+            {NEW_MUSIC_FRIDAY.map((playlist) => (
+              <MediaCard
+                key={playlist.id}
+                title={""}
+                subtitle={playlist.description}
+                imageSources={[{ url: playlist.imageUrl }]}
+                href={"#"}
+                imageShape="square"
+              />
+            ))}
+          </Carousel>
+          <Carousel
+            header={
+              <div className="flex justify-between items-baseline flex-col">
+                <span className="text-xs text-text-subdued">Non-stop music based on your favorite songs and artists.</span>
+                <span className="text-2xl font-semibold hover:underline cursor-pointer">Recommended Stations</span>
+              </div>
+            }
+            className="shelf"
+          >
+            {NEW_MUSIC_FRIDAY.map((playlist) => (
+              <MediaCard
+                key={playlist.id}
+                title={""}
+                subtitle={playlist.description}
+                imageSources={[{ url: playlist.imageUrl }]}
+                href={"#"}
+                imageShape="square"
+              />
+            ))}
+          </Carousel>
+          <Carousel
+            header={
+              <div className="flex justify-between items-baseline">
+                <h2 className="text-2xl font-semibold hover:underline cursor-pointer">Your favourite artists</h2>
+              </div>
+            }
+            className="shelf"
+          >
+            {NEW_MUSIC_FRIDAY.map((playlist) => (
+              <MediaCard
+                key={playlist.id}
+                title={""}
+                subtitle={playlist.description}
+                imageSources={[{ url: playlist.imageUrl }]}
+                href={"#"}
+                imageShape="square"
+              />
+            ))}
+          </Carousel>
         </div>
+        <Footer />
       </ScrollArea>
     </div>
   );

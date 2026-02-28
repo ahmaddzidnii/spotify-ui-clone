@@ -58,7 +58,6 @@
 }
 
 .carousel-scroller {
-  scroll-timeline: --carousel-scroller inline;
   white-space: nowrap;
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -159,65 +158,10 @@
   left: 0;
   opacity: var(--fade-prev, 0);
   background: linear-gradient(90deg, var(--background-elevated-base) 0%, transparent 100%);
-  transition: opacity 0.15s ease-out;
 }
 
 .carousel-container::after {
   right: 0;
   opacity: var(--fade-next, 1);
   background: linear-gradient(-90deg, var(--background-elevated-base) 0%, transparent 100%);
-  transition: opacity 0.15s ease-out;
-}
-
-/* Scroll-driven animations untuk edge fade */
-/* @supports (animation-timeline: --carousel-scroller) {
-  .carousel-container::before {
-    animation-name: carouselEdgeFadeIn;
-    animation-fill-mode: both;
-    animation-timeline: --carousel-scroller;
-    animation-range: var(--scrollAnimationRangeStart, 10px) var(--scrollAnimationRangeEnd, 60px);
-  }
-
-  .carousel-container::after {
-    animation-name: carouselEdgeFadeOut;
-    animation-fill-mode: both;
-    animation-timeline: --carousel-scroller;
-    animation-range: calc(100% - var(--scrollAnimationRangeEnd, 60px)) calc(100% - var(--scrollAnimationRangeStart, 10px));
-  }
-} */
-
-@keyframes carouselEdgeFadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes carouselEdgeFadeOut {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes carouselButtonFadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes carouselButtonFadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
 }
