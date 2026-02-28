@@ -6,6 +6,7 @@
   --panel-gap: 8px;
   --left-sidebar-width: 420px;
   --right-sidebar-width: 420px;
+  --content-max-width: 1955px;
 
   --above-everything-grid-area-z-index: 10;
   --below-search-dropdown-z-index: 9;
@@ -143,6 +144,8 @@ body {
 }
 
 .main-view {
+  container-name: main-view;
+  container-type: inline-size;
   grid-area: main-view;
   background-color: var(--background-elevated-base);
   border-radius: 8px;

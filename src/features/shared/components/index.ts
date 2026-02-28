@@ -12,3 +12,5 @@ export type { AlbumCardProps } from "./album-card";
 
 export { CircularArtistCard } from "./circular-artist-card";
 export type { CircularArtistCardProps } from "./circular-artist-card";
+
+export { Carousel } from "./carousel";

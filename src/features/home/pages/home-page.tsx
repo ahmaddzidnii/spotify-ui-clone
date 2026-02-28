@@ -7,7 +7,9 @@ import { useScrollTrigger } from "@/hooks/use-scroll-trigger";
 import { useThemeStore } from "@/stores/use-theme-store";
 import { useExtractColor } from "@/hooks/use-extract-color";
 import { RECENTS } from "@/data/recents";
+import { NEW_MUSIC_FRIDAY } from "@/data/new-music-friday";
 import { getDateName } from "@/utils/get-day-name";
+import { Carousel, MediaCard } from "@/features/shared/components";
 
 export const HomePage = () => {
   const scrollRef = useRef<ScrollAreaRef | null>(null);
@@ -28,7 +30,7 @@ export const HomePage = () => {
   };
 
   return (
-    <div className="h-full flex flex-col relative overflow-hidden">
+    <div className="h-full flex flex-col relative overflow-hidden home-content">
       <div
         className="w-full h-64  mt-0 absolute top-0 left-0 pointer-events-none transition-colors duration-300 ease-in-out z-0"
         style={{
@@ -45,7 +47,7 @@ export const HomePage = () => {
             backgroundColor: isScrolled ? dominantColorDark : "transparent",
             backgroundImage: isScrolled ? "var(--background-noise)" : "none",
           }}
-          className="px-10 h-16 z-20 flex items-center sticky top-0 gap-2 mb-2 transition-colors duration-200 ease-in-out relative"
+          className="px-10 h-16 z-20 flex items-center sticky top-0 gap-2 mb-2 transition-colors duration-200 ease-in-out"
         >
           <button
             aria-label="Create"
@@ -99,39 +101,36 @@ export const HomePage = () => {
               })}
             </div>
           </section>
-          <section>
-            <div className="flex justify-between">
-              <h2 className="text-2xl hover:underline font-semibold mb-4">It's New Music {getDateName(new Date())}</h2>
-              <span className="text-base font-medium text-text-subdued hover:underline">Show all</span>
-            </div>
-            <div className="grid grid-cols-4 gap-4">
-              {[...Array(8)].map((_, index) => {
-                const imageSrc = `https://newjams-images.scdn.co/image/ab67647800003f8a/dt/v3/release-radar/ab6761610000e5eb9adad46022570f8b8b3209a9/en`;
-                return (
-                  <div
-                    key={index}
-                    className="flex flex-col cursor-pointer group"
-                  >
-                    <div className="relative w-full rounded-md overflow-hidden pb-[100%] mb-2 group">
-                      <Image
-                        src={imageSrc}
-                        alt="Playlist cover"
-                        className="object-cover w-full h-full absolute top-0 left-0"
-                      />
-                      <PlayButton
-                        size="sm"
-                        variant="hover"
-                        positioning="absolute"
-                        className="bottom-2 right-2"
-                      />
-                    </div>
-                    <span className="font-medium text-sm line-clamp-2 group-hover:underline">New Music Friday Indonesia {index + 1}</span>
-                    <span className="text-text-subdued text-xs line-clamp-1">Various Artists</span>
-                  </div>
-                );
-              })}
-            </div>
-          </section>
+          {/* <section
+            style={
+              {
+                "--carousel-shelf-element-width": "calc(var(--content-max-width) / var(--regular-shelf-max-count))",
+                "--carousel-shelf-min-items": 1.5,
+                "--shelf-collapsable-min-width": "calc(var(--carousel-shelf-element-width) * var(--carousel-shelf-min-items, 1))",
+                "--shelf-carousel-margin-start-mul": -1,
+                "--shelf-carousel-margin-end-mul": -1,
+              } as React.CSSProperties
+            }
+            className="shelf flex flex-col relative"
+          > */}
+          <Carousel
+            title={`It's New Music ${getDateName(new Date())}`}
+            showAll={true}
+            onShowAll={() => console.log("Show all clicked")}
+            className="shelf"
+          >
+            {NEW_MUSIC_FRIDAY.map((playlist) => (
+              <MediaCard
+                key={playlist.id}
+                title={""}
+                subtitle={playlist.description}
+                imageSources={[{ url: playlist.imageUrl }]}
+                href={"#"}
+                imageShape="square"
+              />
+            ))}
+          </Carousel>
+          {/* </section> */}
         </div>
       </ScrollArea>
     </div>

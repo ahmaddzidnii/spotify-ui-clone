@@ -1,0 +1,223 @@
+.home-content {
+  container-name: home;
+  container-type: inline-size;
+  --home-full-width: 100cqi;
+}
+
+.main-view .shelf {
+  --regular-shelf-max-count: 9;
+
+  --shelf-fixed-height: calc(((var(--content-max-width) - 40px) / var(--regular-shelf-max-count) * 1.25) - 24px);
+
+  --low-density-shelf-max-count: calc(var(--regular-shelf-max-count) * 0.384);
+  --high-density-shelf-max-count: calc(var(--regular-shelf-max-count) * 1.333);
+  --music-videos-shelf-max-count: calc(var(--regular-shelf-max-count) * 0.6);
+
+  --shelf-fixed-width: min(calc((2.5 * var(--content-max-width) / var(--regular-shelf-max-count)) - var(--shelf-gap-horizontal)), 100%);
+
+  --shelf-fixed-min-width: var(--shelf-fixed-width);
+  --shelf-fixed-max-width: var(--shelf-fixed-width);
+  --shelf-fixed-min-height: var(--shelf-fixed-height);
+  --shelf-fixed-max-height: var(--shelf-fixed-height);
+}
+
+@container home (width < 2304px) {
+  .main-view .shelf {
+    --regular-shelf-max-count: 10;
+  }
+}
+
+@container home (width < 1024px) {
+  .main-view .shelf {
+    --regular-shelf-max-count: 11;
+    --shelf-gap-vertical: 16px;
+  }
+}
+
+.carousel-shelf {
+  --carousel-shelf-min-items: 1.5;
+  --carousel-shelf-element-width: calc(var(--content-max-width) / var(--regular-shelf-max-count));
+  --shelf-carousel-margin-start-mul: -1;
+  --shelf-carousel-margin-end-mul: -1;
+  --shelf-collapsable-min-width: calc(var(--carousel-shelf-element-width) * var(--carousel-shelf-min-items, 1));
+  flex-direction: column;
+  flex: 0 auto;
+  min-width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.carousel-container {
+  --encore-cards-margin: 0px;
+  --margin: calc(40px + var(--encore-cards-margin) + max(0px, (var(--home-full-width, 100%) - var(--content-max-width)) * 0.5));
+  --margin-start: calc(var(--encore-cards-margin) + (var(--shelf-carousel-margin-start-mul, 0) * var(--margin)));
+  --margin-end: calc(var(--encore-cards-margin) + (var(--shelf-carousel-margin-end-mul, 0) * var(--margin)));
+  margin-inline: var(--margin-start) var(--margin-end);
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-scroller {
+  scroll-timeline: --carousel-scroller inline;
+  white-space: nowrap;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overscroll-behavior-x: contain;
+  will-change: transform;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: inline mandatory;
+  scroll-padding: 0 var(--margin, 0px);
+}
+
+.carousel-scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-grid {
+  grid-auto-flow: column;
+  grid-template-rows: repeat(var(--carousel-shelf-row-count, 1), auto);
+  padding-inline-start: calc(-1 * (var(--margin-start) - var(--encore-cards-margin)));
+  padding-inline-end: calc(-1 * (var(--margin-end) - var(--encore-cards-margin)));
+  display: grid;
+  gap: 1rem;
+}
+
+.carousel-grid > * {
+  width: var(--carousel-shelf-element-width);
+  text-wrap: pretty;
+  overflow: hidden;
+  scroll-snap-align: start;
+}
+
+.carousel-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.carousel-button {
+  pointer-events: auto;
+  width: 32px;
+  height: 32px;
+  background-color: var(--background-base);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: transform 0.1s;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  border: none;
+  color: var(--text-base);
+}
+
+.carousel-button:hover {
+  transform: scale(1.06);
+}
+
+.carousel-button-prev {
+  margin-left: 16px;
+}
+
+.carousel-button-next {
+  margin-right: 16px;
+}
+
+/* Show buttons on hover */
+.carousel-container:hover .carousel-button {
+  opacity: 1;
+}
+
+/* Base styles untuk pseudo-elements */
+.carousel-container::before,
+.carousel-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 120px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+  transition: opacity 0.15s ease-out;
+}
+
+.carousel-container::before {
+  left: 0;
+  opacity: var(--fade-prev, 0);
+  background: linear-gradient(90deg, var(--background-elevated-base) 0%, transparent 100%);
+  transition: opacity 0.15s ease-out;
+}
+
+.carousel-container::after {
+  right: 0;
+  opacity: var(--fade-next, 1);
+  background: linear-gradient(-90deg, var(--background-elevated-base) 0%, transparent 100%);
+  transition: opacity 0.15s ease-out;
+}
+
+/* Scroll-driven animations untuk edge fade */
+/* @supports (animation-timeline: --carousel-scroller) {
+  .carousel-container::before {
+    animation-name: carouselEdgeFadeIn;
+    animation-fill-mode: both;
+    animation-timeline: --carousel-scroller;
+    animation-range: var(--scrollAnimationRangeStart, 10px) var(--scrollAnimationRangeEnd, 60px);
+  }
+
+  .carousel-container::after {
+    animation-name: carouselEdgeFadeOut;
+    animation-fill-mode: both;
+    animation-timeline: --carousel-scroller;
+    animation-range: calc(100% - var(--scrollAnimationRangeEnd, 60px)) calc(100% - var(--scrollAnimationRangeStart, 10px));
+  }
+} */
+
+@keyframes carouselEdgeFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes carouselEdgeFadeOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes carouselButtonFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes carouselButtonFadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
